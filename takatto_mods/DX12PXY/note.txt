@@ -1,0 +1,1 @@
+One time install, no need to reinstall if it already installed. Required takattoFS2 v1.0.0.1 to be working.

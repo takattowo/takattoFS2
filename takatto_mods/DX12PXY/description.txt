@@ -1,0 +1,1 @@
+Force the game to use DX12 api proxy, might improve overal FPS, reduce memory leak and crashes.

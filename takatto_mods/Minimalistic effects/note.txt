@@ -1,0 +1,2 @@
+Remember to enable "Effect" in option menu.
+4/15 Version: Restored effects for clothing and accessories.

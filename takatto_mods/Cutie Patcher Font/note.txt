@@ -1,0 +1,2 @@
+Only support English language at the moment~
+[2/26] Updated for Korean.
