@@ -1,1 +1,1 @@
-Only visible if the Graphic setting is either "Low" or "Medium".
+Only visible if the game graphic setting is either "Medium" or "Low".
