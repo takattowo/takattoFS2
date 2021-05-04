@@ -1,0 +1,1 @@
+Only visible if the Graphic setting is either "Low" or "Medium".
