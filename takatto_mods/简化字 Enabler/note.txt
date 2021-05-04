@@ -1,2 +1,0 @@
-4/21/2021 Version.
-You can update the translation files by using either this patch or "Language pack" patch.
