@@ -1,0 +1,1 @@
+Enable Simplified Chinese client for the Global/Steam version. This also include the only Chinese translation files.
