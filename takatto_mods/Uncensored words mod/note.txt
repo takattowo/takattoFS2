@@ -1,2 +1,3 @@
-Experimental. Not all worlds are uncensored.
+Experimental.
 [2/21] Fixed game crashes.
+[5/15] Fixed game crashes.
