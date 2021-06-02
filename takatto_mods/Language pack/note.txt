@@ -1,2 +1,2 @@
-5/20/2021 Version.
+6/2/2021 Version.
 Now included the takatto's global font + Microsoft Yahei font. Use voice tweak to enable this font.
