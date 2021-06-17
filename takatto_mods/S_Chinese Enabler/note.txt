@@ -1,2 +1,2 @@
-6/3/2021 Fei's Version.
+6/18/2021 Version.
 You can update translation files by using either this patch or "Language pack" patch.

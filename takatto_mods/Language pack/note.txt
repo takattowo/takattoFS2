@@ -1,2 +1,2 @@
-6/3/2021 Fei's Version.
+6/18/2021 Fei's Version.
 Now included the takatto's global font + Microsoft Yahei font. Use voice tweak to enable this font.
