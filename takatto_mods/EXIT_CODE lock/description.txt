@@ -1,0 +1,1 @@
+Permantly lock the EXIT_TYPE to prevent changes to "sclee.dat".
