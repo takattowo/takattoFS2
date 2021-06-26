@@ -1,1 +1,1 @@
-Optional patch, this includes translation files for another language other than their native version ones. Install if the game can not display the text properly.
+Optional patch, includes translation files for another language other than their native version ones.
