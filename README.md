@@ -1,1 +1,1 @@
-uwu
+Repo for my takatto stuffs.
