@@ -1,2 +1,2 @@
-6/18/2021 Version.
+7/1/2021 Shuhao version.
 You can update translation files by using either this patch or "Language pack" patch.

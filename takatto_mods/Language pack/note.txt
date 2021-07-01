@@ -1,2 +1,2 @@
-6/18/2021 Fei's Version.
+7/1/2021 Deacon version.
 Now included the takatto's global font + Microsoft Yahei font. Use voice tweak to enable this font.
