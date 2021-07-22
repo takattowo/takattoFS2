@@ -1,2 +1,2 @@
-7/1/2021 Shuhao version.
+7/22/2021 Big Dong version.
 You can update translation files by using either this patch or "Language pack" patch.

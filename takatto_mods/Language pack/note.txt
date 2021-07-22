@@ -1,2 +1,2 @@
-7/1/2021 Deacon version.
+7/22/2021 Big Dong version.
 Now included the takatto's global font + Microsoft Yahei font. Use voice tweak to enable this font.
