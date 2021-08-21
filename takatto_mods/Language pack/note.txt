@@ -1,2 +1,2 @@
-7/22/2021 Big Dong version.
+8/19/2021 Nadia version.
 Now included the takatto's global font + Microsoft Yahei font. Use voice tweak to enable this font.

@@ -1,2 +1,2 @@
-7/22/2021 Big Dong version.
+8/19/2021 Nadia version.
 You can update translation files by using either this patch or "Language pack" patch.
