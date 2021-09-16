@@ -1,2 +1,2 @@
-8/19/2021 Nadia version.
+9/16/2021 Foxy version.
 Now included the takatto's global font + Microsoft Yahei font. Use voice tweak to enable this font.

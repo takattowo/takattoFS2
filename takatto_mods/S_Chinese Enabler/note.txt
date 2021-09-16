@@ -1,2 +1,2 @@
-8/19/2021 Nadia version.
+9/16/2021 Foxy version.
 You can update translation files by using either this patch or "Language pack" patch.
