@@ -47,7 +47,7 @@
             "name":"[UI] No Newspaper",
             "version":"1",
             "isUI":true,
-            "description":"Tired of seeing the newspaper at the beginning of the month on every page? This will help.",
+            "description":"Tired of seeing the newspaper at the beginning of the month on every character? This will help.",
             "note":"Created by Hestia.",
             "createdAt":"08/02/2022"
          },
@@ -185,7 +185,7 @@
             "description":"Optional patch, includes translation files for another language other than their native version ones.",
             "note":"Added a brandnew font that supports pretty much all language, enable it using MC Voice tweak.",
             "createdAt":"05/03/2021",
-            "updatedAt":"13/07/2022"
+            "updatedAt":"24/08/2022"
          },
          {
             "id":"S_Chinese Enabler",
@@ -196,7 +196,7 @@
             "description":"Enable Simplified Chinese for the Global/Korean client. This also includes Chinese translation files fetched from Tiancity.",
             "note":"You can update translation files by using either this patch or Language pack, font included.",
             "createdAt":"21/04/2021",
-            "updatedAt":"13/07/2022"
+            "updatedAt":"24/08/2022"
          },
          {
             "id":"EXIT_CODE lock",
