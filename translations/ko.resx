@@ -315,6 +315,12 @@
   <data name="btn_update_it" xml:space="preserve">
     <value>업데이트!</value>
   </data>
+  <data name="cb_key_select" xml:space="preserve">
+    <value>버튼을 선택하십시오</value>
+  </data>
+  <data name="cb_key_selected" xml:space="preserve">
+    <value>선택한 버튼: {0}</value>
+  </data>
   <data name="cb_tweak_cam_basic" xml:space="preserve">
     <value>기본카메라 시점</value>
   </data>
@@ -356,6 +362,18 @@
   </data>
   <data name="cb_tweak_task_5" xml:space="preserve">
     <value>자동 클릭</value>
+  </data>
+  <data name="cb_tweak_task_6" xml:space="preserve">
+    <value>자동 클릭 및 단순 키보드 매크로</value>
+  </data>
+  <data name="cb_tweak_task_7" xml:space="preserve">
+    <value>단순 키보드 매크로</value>
+  </data>
+  <data name="cb_tweak_task_8" xml:space="preserve">
+    <value>마우스 매크로</value>
+  </data>
+  <data name="cb_tweak_task_9" xml:space="preserve">
+    <value>간단한 마우스 및 키보드 매크로</value>
   </data>
   <data name="chat_hikari_cheat_detected" xml:space="preserve">
     <value>{0} 는 부정 행위를 싫어합니다!</value>
@@ -414,6 +432,9 @@
   <data name="e" xml:space="preserve">
     <value>적용하다</value>
   </data>
+  <data name="extension_keyboard_macro" xml:space="preserve">
+    <value>키보드 매크로</value>
+  </data>
   <data name="game_cards" xml:space="preserve">
     <value>카드</value>
   </data>
@@ -468,7 +489,7 @@
     <comment>#no trans</comment>
   </data>
   <data name="lb_download_staring" xml:space="preserve">
-    <value>응시: {0}</value>
+    <value>주연: {0}</value>
   </data>
   <data name="lb_failed_to_connect" xml:space="preserve">
     <value>연결중</value>
@@ -524,6 +545,9 @@
   </data>
   <data name="lb_initializing" xml:space="preserve">
     <value>초기화...</value>
+  </data>
+  <data name="lb_initializing_mousem" xml:space="preserve">
+    <value>프로그램의 초점을 해제하고 마우스를 아무 데나 가져가서 조정하십시오.</value>
   </data>
   <data name="lb_installer_repair" xml:space="preserve">
     <value>경고! 이것은 프로그램과 관련된 모든 것을 제거하고 설정을 기본값으로 재설정하려고 시도합니다!
@@ -927,11 +951,16 @@
     <value>게임에 마우스를 가져가면 위치를 알 수 있습니다!</value>
   </data>
   <data name="lb_tweak_task_5_note" xml:space="preserve">
-<<<<<<< HEAD
     <value>이 기능을 남용하지 않는 것이 좋습니다.</value>
-=======
-    <value>이것을 AFK에 사용한다면, 온라인 플레이어가 많지 않은 시간에 해주세요.</value>
->>>>>>> 420a39b211badaf971d0a08f827e667124603ed6
+  </data>
+  <data name="lb_tweak_task_6_note" xml:space="preserve">
+    <value>키보드 매크로는 일반적이며 포커스가 있는 창으로 키를 보냅니다. 남용에 권장되지 않습니다.</value>
+  </data>
+  <data name="lb_tweak_task_8_note" xml:space="preserve">
+    <value>마우스 매크로는 마우스를 움직이고 원하는 좌표를 클릭합니다.</value>
+  </data>
+  <data name="lb_tweak_task_9_note" xml:space="preserve">
+    <value>먼저 다른 매크로에서 버튼을 설정해야 합니다.</value>
   </data>
   <data name="lb_tweak_task_cmd" xml:space="preserve">
     <value>명령줄</value>
@@ -1061,6 +1090,9 @@
   <data name="msgtitle_known_bug_but_lazy" xml:space="preserve">
     <value>알려진 버그이지만 수정이 게으르다~</value>
   </data>
+  <data name="msgtitle_not_authorized" xml:space="preserve">
+    <value>이 응용 프로그램에 액세스할 수 있는 권한이 없습니다!</value>
+  </data>
   <data name="msgtitle_no_bully" xml:space="preserve">
     <value>노 깡패~ (￣ω￣ )</value>
   </data>
@@ -1129,6 +1161,9 @@
   </data>
   <data name="msg_download_cancelled" xml:space="preserve">
     <value>다운로드가 취소 되었습니다~ OAO`</value>
+  </data>
+  <data name="msg_download_error" xml:space="preserve">
+    <value>서버에 연결할 수 없음. 인터넷 연결을 확인하거나 나중에 다시 시도하세요.</value>
   </data>
   <data name="msg_error" xml:space="preserve">
     <value>오류 발생. Kat-code: {0}</value>
@@ -1219,6 +1254,9 @@
   </data>
   <data name="msg_server_failure_custom" xml:space="preserve">
     <value>사용자 지정 서버가 올바르게 응답하지 않습니다. 저장소를 확인하십시오.</value>
+  </data>
+  <data name="msg_service_authorization_error" xml:space="preserve">
+    <value>제공한 자격 증명을 사용하여 이 기능을 활성화할 권한이 없습니다. 관리자에게 문의하거나 나중에 다시 시도하십시오.</value>
   </data>
   <data name="msg_song_has_added" xml:space="preserve">
     <value>"{0}" 이 주크박스에 추가되었습니다!</value>

@@ -315,6 +315,12 @@
   <data name="btn_update_it" xml:space="preserve">
     <value>Update it!</value>
   </data>
+  <data name="cb_key_select" xml:space="preserve">
+    <value>Select key</value>
+  </data>
+  <data name="cb_key_selected" xml:space="preserve">
+    <value>Selected key: {0}</value>
+  </data>
   <data name="cb_tweak_cam_basic" xml:space="preserve">
     <value>Basic camera view</value>
   </data>
@@ -356,6 +362,18 @@
   </data>
   <data name="cb_tweak_task_5" xml:space="preserve">
     <value>Auto click</value>
+  </data>
+  <data name="cb_tweak_task_6" xml:space="preserve">
+    <value>Auto click &amp; simple key macro</value>
+  </data>
+  <data name="cb_tweak_task_7" xml:space="preserve">
+    <value>Simple key macro</value>
+  </data>
+  <data name="cb_tweak_task_8" xml:space="preserve">
+    <value>Simple mouse macro</value>
+  </data>
+  <data name="cb_tweak_task_9" xml:space="preserve">
+    <value>Simple mouse &amp; key macro</value>
   </data>
   <data name="chat_hikari_cheat_detected" xml:space="preserve">
     <value>{0} hates cheating!</value>
@@ -411,6 +429,9 @@
   <data name="context_tweak_jukebox_move" xml:space="preserve">
     <value>Move selected song to top</value>
   </data>
+  <data name="extension_keyboard_macro" xml:space="preserve">
+    <value>Global keyboard macro</value>
+  </data>
   <data name="game_cards" xml:space="preserve">
     <value>Cards</value>
   </data>
@@ -465,7 +486,7 @@
     <comment>#no trans</comment>
   </data>
   <data name="lb_download_staring" xml:space="preserve">
-    <value>Staring: {0}</value>
+    <value>Starring: {0}</value>
   </data>
   <data name="lb_failed_to_connect" xml:space="preserve">
     <value>Failed to connect</value>
@@ -521,6 +542,9 @@
   </data>
   <data name="lb_initializing" xml:space="preserve">
     <value>Initializing...</value>
+  </data>
+  <data name="lb_initializing_mousem" xml:space="preserve">
+    <value>Unfocus the program and hover your mouse to get coordination.</value>
   </data>
   <data name="lb_installer_repair" xml:space="preserve">
     <value>Warning! This will attempt to uninstall everything related to takattoFS2 Patcher and reset its settings to default! 
@@ -923,11 +947,16 @@ If you found any bugs or idea, don't be hesitated to let me know~ have fun~ (⁄
     <value>Focus to the game to get your desired clicking position!</value>
   </data>
   <data name="lb_tweak_task_5_note" xml:space="preserve">
-<<<<<<< HEAD
     <value>It is not recommended to abuse this function.</value>
-=======
-    <value>If you use this to AFK, please do it at the time where there are the least players online!</value>
->>>>>>> 420a39b211badaf971d0a08f827e667124603ed6
+  </data>
+  <data name="lb_tweak_task_6_note" xml:space="preserve">
+    <value>Keyboard macro sends keys to any focused window. Not recommended for abuse.</value>
+  </data>
+  <data name="lb_tweak_task_8_note" xml:space="preserve">
+    <value>Mouse macro moves your mouse and clicks at the desired coordination.</value>
+  </data>
+  <data name="lb_tweak_task_9_note" xml:space="preserve">
+    <value>You have to setup the keys from other macros first.</value>
   </data>
   <data name="lb_tweak_task_cmd" xml:space="preserve">
     <value>Command line</value>
@@ -1057,6 +1086,9 @@ Please wait for a while before launching the game again!</value>
   <data name="msgtitle_known_bug_but_lazy" xml:space="preserve">
     <value>Known bug, but lazy to fix~</value>
   </data>
+  <data name="msgtitle_not_authorized" xml:space="preserve">
+    <value>You are not authorized to access this application!</value>
+  </data>
   <data name="msgtitle_no_bully" xml:space="preserve">
     <value>No bullies~ (￣ω￣ )</value>
   </data>
@@ -1126,6 +1158,9 @@ Please wait for a while before launching the game again!</value>
   <data name="msg_download_cancelled" xml:space="preserve">
     <value>Downloading has been cancelled~ OAO`</value>
   </data>
+  <data name="msg_download_error" xml:space="preserve">
+    <value>Unable to connect to the server. Please check your internet connection or try again later.</value>
+  </data>
   <data name="msg_error" xml:space="preserve">
     <value>An error has occurred. Kat-code: {0}</value>
   </data>
@@ -1139,10 +1174,10 @@ Please wait for a while before launching the game again!</value>
     <value>Could not create patcher folder. Perhaps you have antivirus software running? Please add the patcher to the whitelist or contact the developer for help.</value>
   </data>
   <data name="msg_field_invalid" xml:space="preserve">
-    <value>The value you entered is not valid!</value>
+    <value>The value you entered is not valid.</value>
   </data>
   <data name="msg_field_missing" xml:space="preserve">
-    <value>One or some fields are not filled!</value>
+    <value>One or some fields are not filled.</value>
   </data>
   <data name="msg_folder_invalid" xml:space="preserve">
     <value>The folder you selected is not valid~</value>
@@ -1215,6 +1250,9 @@ Please wait for a while before launching the game again!</value>
   </data>
   <data name="msg_server_failure_custom" xml:space="preserve">
     <value>The custom server is not responding correctly. Please check your repository.</value>
+  </data>
+  <data name="msg_service_authorization_error" xml:space="preserve">
+    <value>You do not have permission to enable this functionality using the credentials that you supplied. Please contact the administrator or try again later.</value>
   </data>
   <data name="msg_song_has_added" xml:space="preserve">
     <value>"{0}" added to Jukebox!</value>
