@@ -491,6 +491,9 @@
   <data name="lb_failed_to_connect" xml:space="preserve">
     <value>Failed to connect</value>
   </data>
+  <data name="lb_foreground_mode" xml:space="preserve">
+    <value>Foreground only</value>
+  </data>
   <data name="LB_game_folder_not_selected" xml:space="preserve">
     <value>Game folder not selected</value>
     <comment>#dont translate</comment>
@@ -1407,6 +1410,12 @@ If you found any bug or have any idea, kindly report it to me~ (O▽O)/
   <data name="tooltip_sweet_tutorial" xml:space="preserve">
     <value>Tutorial</value>
   </data>
+  <data name="tooltip_tweak_autotask_macrofocus" xml:space="preserve">
+    <value>If this mode is on, the global keyboard/mouse macros will only work when the game is focused</value>
+  </data>
+  <data name="tooltip_tweak_autotask_repeat" xml:space="preserve">
+    <value>Loop the macro until a manual attempt to close it</value>
+  </data>
   <data name="tooltip_tweak_cam_absolutely" xml:space="preserve">
     <value>Set all values to constants</value>
   </data>
@@ -1477,7 +1486,7 @@ If you found any bug or have any idea, kindly report it to me~ (O▽O)/
     <value>Automatically switch game language depends on game language setting</value>
   </data>
   <data name="tooltip_tweak_misc_afk_interval" xml:space="preserve">
-    <value>Send focus to the game to reset its AFK timer. Keep in mind it could cause focus loss when you chat, so only enable it when needed!</value>
+    <value>Send focus to the game to reset its AFK timer</value>
   </data>
   <data name="tooltip_tweak_misc_afk_interval_hint" xml:space="preserve">
     <value>Timer interval for anti AFK tweak</value>

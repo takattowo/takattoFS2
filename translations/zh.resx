@@ -307,7 +307,7 @@
     <value>明白了!</value>
   </data>
   <data name="btn_tweak_timedtask" xml:space="preserve">
-    <value>自动关闭遊戏设定</value>
+    <value>定时任务</value>
   </data>
   <data name="btn_tweak_update" xml:space="preserve">
     <value>更新 {0}</value>
@@ -490,6 +490,9 @@
   </data>
   <data name="lb_failed_to_connect" xml:space="preserve">
     <value>连线失败</value>
+  </data>
+  <data name="lb_foreground_mode" xml:space="preserve">
+    <value>仅限前台</value>
   </data>
   <data name="LB_game_folder_not_selected" xml:space="preserve">
     <value>遊戏资料夹未选取</value>
@@ -1390,10 +1393,10 @@
     <value>更改当前甜美少女背景图（测试用）</value>
   </data>
   <data name="tooltip_sweet_image_background_layout" xml:space="preserve">
-    <value>更改背景图像（用於测试） - Mode：{0}</value>
+    <value>更改背景图像（用於测试） - MODE：{0}</value>
   </data>
   <data name="tooltip_sweet_image_layout" xml:space="preserve">
-    <value>更改图像（用於测试） - Mode：{0}</value>
+    <value>更改图像（用於测试） - MODE：{0}</value>
   </data>
   <data name="tooltip_sweet_lock" xml:space="preserve">
     <value>锁定当前精灵少女切换</value>
@@ -1406,6 +1409,12 @@
   </data>
   <data name="tooltip_sweet_tutorial" xml:space="preserve">
     <value>教程</value>
+  </data>
+  <data name="tooltip_tweak_autotask_macrofocus" xml:space="preserve">
+    <value>如果此模式开启，全局键盘/鼠标宏将仅在游戏获得焦点时起作用</value>
+  </data>
+  <data name="tooltip_tweak_autotask_repeat" xml:space="preserve">
+    <value>循环宏直到手动尝试关闭它</value>
   </data>
   <data name="tooltip_tweak_cam_absolutely" xml:space="preserve">
     <value>将所有值设置为常量</value>
@@ -1477,7 +1486,7 @@
     <value>根据遊戏语言设置自动切换遊戏语言</value>
   </data>
   <data name="tooltip_tweak_misc_afk_interval" xml:space="preserve">
-    <value>将动作发送到遊戏以重置其 AFK 计时器，请记住，它可能会在您聊天时导致焦点丢失，因此仅在需要时启用~</value>
+    <value>将动作发送到遊戏以重置其 AFK 计时器</value>
   </data>
   <data name="tooltip_tweak_misc_afk_interval_hint" xml:space="preserve">
     <value>反AFK调整的定时器间隔</value>

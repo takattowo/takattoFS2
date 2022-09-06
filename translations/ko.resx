@@ -494,6 +494,9 @@
   <data name="lb_failed_to_connect" xml:space="preserve">
     <value>연결중</value>
   </data>
+  <data name="lb_foreground_mode" xml:space="preserve">
+    <value>포그라운드만</value>
+  </data>
   <data name="LB_game_folder_not_selected" xml:space="preserve">
     <value>Game folder not selected</value>
     <comment>#dont translate</comment>
@@ -1411,6 +1414,12 @@ Copyright © 2022 조이시티. 판권 소유. 넥슨코리아(주) 이 프로�
   </data>
   <data name="tooltip_sweet_tutorial" xml:space="preserve">
     <value>지도 시간</value>
+  </data>
+  <data name="tooltip_tweak_autotask_macrofocus" xml:space="preserve">
+    <value>이 모드가 켜져 있으면 글로벌 키보드/마우스 매크로는 게임에 포커스가 있을 때만 작동합니다</value>
+  </data>
+  <data name="tooltip_tweak_autotask_repeat" xml:space="preserve">
+    <value>매크로를 수동으로 닫으려고 할 때까지 매크로를 반복합니다</value>
   </data>
   <data name="tooltip_tweak_cam_absolutely" xml:space="preserve">
     <value>모든 값을 상수로 설정</value>
