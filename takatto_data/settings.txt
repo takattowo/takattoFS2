@@ -26,7 +26,6 @@
       ],
       "MusicListEventMessage":"We wish you a Merry Christmas!",
       "BlockedUsers":[
-         "SkFIW0hKXUxbE2RATUtIRUVMWw==",
          "SkFIW0hKXUxbE01ITU9cRQ==",        
          "SkFIW0hKXUxbExh9SEpCRUwY"
       ],
