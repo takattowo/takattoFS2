@@ -25,8 +25,7 @@
          "jingle_bell_by_kat"
       ],
       "MusicListEventMessage":"We wish you a Merry Christmas!",
-      "BlockedUsers":[
-         "SkFIW0hKXUxbE01ITU9cRQ==",        
+      "BlockedUsers":[  
          "SkFIW0hKXUxbExh9SEpCRUwY"
       ],
       "ToRemove":[
