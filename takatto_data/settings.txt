@@ -22,7 +22,7 @@
       "isMusicListEventEnabled":true,
       "MusicListEvent":[
          "jingle_bell_by_kat",
-         "fs2_assets_music_box_spo"
+         "music_box_spo"
       ],
       "MusicListEventMessage":"We wish you a Merry Christmas!",
       "BlockedUsers":[  
