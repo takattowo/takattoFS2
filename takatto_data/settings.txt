@@ -41,7 +41,7 @@
       "ExtensionSignature":"katto_kawaii_deso"
    },
    "SweetSettings":{
-      "isServerSideEnabled":false,
+      "isServerSideEnabled":true,
       "isForceRedownload":false,
       "isHikariAlwaysMain":true,
       "isUsingServerBaseLoveChance":true,
