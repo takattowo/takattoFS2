@@ -80,7 +80,7 @@
          "background":"bg_owo_b",
          "stateLayout":3,
          "backgroundLayout":1,
-         "dominantColor":"#F7F4FA",
+         "dominantColor":"#F7EDF5",
          "eventMessage":"Bonka!"
       },
       "Nako":{
