@@ -22,7 +22,7 @@
       "isMusicListEventEnabled":true,
       "MusicListEvent":[
          "jingle_bell_by_kat",
-         "music_box_spo"
+         "jingle_bell_by_kat"
       ],
       "MusicListEventMessage":"We wish you a Merry Christmas!",
       "BlockedUsers":[  
@@ -41,7 +41,7 @@
       "ExtensionSignature":"katto_kawaii_deso"
    },
    "SweetSettings":{
-      "isServerSideEnabled":true,
+      "isServerSideEnabled":false,
       "isForceRedownload":false,
       "isHikariAlwaysMain":true,
       "isUsingServerBaseLoveChance":true,
