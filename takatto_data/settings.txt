@@ -66,7 +66,7 @@
          "background":"bg_owo_r",
          "stateLayout":3,
          "backgroundLayout":1,
-         "dominantColor":"#FFFFFF",
+         "dominantColor":"#F7EDF5",
          "eventMessage":"Baka!",
 
       },
@@ -80,7 +80,7 @@
          "background":"bg_owo_b",
          "stateLayout":3,
          "backgroundLayout":1,
-         "dominantColor":"#F7EDF5",
+         "dominantColor":"#FFFFF",
          "eventMessage":"Bonka!"
       },
       "Nako":{
