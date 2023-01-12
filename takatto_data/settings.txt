@@ -19,7 +19,7 @@
          "play_wondrous",
          "play_takatto_os_mad41"
       ],
-      "isMusicListEventEnabled":true,
+      "isMusicListEventEnabled":false,
       "MusicListEvent":[
          "jingle_bell_by_kat",
          "jingle_bell_by_kat"
@@ -41,7 +41,7 @@
       "ExtensionSignature":"katto_kawaii_deso"
    },
    "SweetSettings":{
-      "isServerSideEnabled":true,
+      "isServerSideEnabled":false,
       "isForceRedownload":false,
       "isHikariAlwaysMain":true,
       "isUsingServerBaseLoveChance":true,
