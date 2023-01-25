@@ -2,9 +2,9 @@
    "UniversalSettings":{
       "LoadBGCount":7,
       "CatPrefix":"katat",
-      "isNewsAutoOpen":false,
+      "isNewsAutoOpen":true,
       "NewsUri":"https://takattowo.github.io/takattoFS2/fs2/index_news",
-      "AutoNewsUri":"https://takattowo.github.io/takattoFS2/fs2/a5",
+      "AutoNewsUri":"https://takattowo.github.io/takattoFS2/fs2/news1",
       "DisplaySiteRootUri":"https://takattowo.github.io/takattoFS2",
       "PatchRootUri":"https://raw.githubusercontent.com/takattowo/takattoFS2/main/fs2/index_fs2_patch_list.json",
       "AssetRootUri":"https://raw.githubusercontent.com/takattowo/takattoFS2/main/fs2/assets",
