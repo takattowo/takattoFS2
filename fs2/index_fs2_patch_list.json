@@ -43,15 +43,6 @@
             "isHavingPicture":true
          },
          {
-            "id":"No Newspaper",
-            "name":"[UI] No Newspaper",
-            "version":"1",
-            "isUI":true,
-            "description":"Tired of seeing the newspaper at the beginning of the month on every character? This will help.",
-            "note":"Created by Hestia.",
-            "createdAt":"08/02/2022"
-         },
-         {
             "id":"Simple Background",
             "name":"[UI] Simple Background",
             "version":"1",
@@ -68,15 +59,6 @@
             "description":"Allow you to manual open the Billy's dice shop instead of having to roll for it!",
             "note":"To open the Billy's shop anytime, open the Billy's Dice event and press 9 on keyboard.",
             "createdAt":"13/01/2022"
-         },
-         {
-            "id":"Crew Helper",
-            "name":"[UI] Crew Helper",
-            "version":"1.0",
-            "isUI":true,
-            "description":"Automatically do the daily crew attend and remove delay for clicking crew love-letter.",
-            "note":"The auto attend may not work correctly on EU and Asia due to the server being a hasmter.",
-            "createdAt":"20/03/2022"
          },
          {
             "id":"Street Block Helper",
