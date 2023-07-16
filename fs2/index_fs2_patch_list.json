@@ -35,10 +35,11 @@
          },
          {
             "id":"Summner Camp Helper",
-            "name":"[UI] Summer Camp Helper",
+            "name":"[UI] S.Camp Helper",
             "version":"1.0",
             "isUI":true,
-            "description":"Help you to do minigame effortlessly, 3 minutes saved every day.",
+            "description":"Help you to do minigames effortlessly, 3 minutes saved every day.",
+            "note":"You are welcome.",
             "createdAt":"16/07/2023",    
             "isHavingPicture":false
          },      
