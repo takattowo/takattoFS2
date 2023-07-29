@@ -30,8 +30,18 @@
             "createdAt":"06/06/2021",
          },
          {
+            "id":"Mute Cheering Noise",
+            "name":"[OB] Mute Cheers",
+            "version":"1.0",
+            "type":"ob",
+            "description":"Mute the cheering noise everytime someone scores.",
+            "note":"You are welcome.",
+            "createdAt":"30/07/2023",    
+            "isHavingPicture":false
+         },  
+         {
             "id":"Summner Camp Helper",
-            "name":"[UI] S.Camp Helper",
+            "name":"[UI] S.Camp helper",
             "version":"1.0",
             "type":"ui",
             "description":"Help you to do minigames effortlessly, 3 minutes saved every day.",
@@ -41,7 +51,7 @@
          },      
          {
             "id":"Cleanner Court",
-            "name":"[UI] Cleanner Court",
+            "name":"[UI] Cleanner court",
             "version":"1.0",
             "type":"ui",
             "description":"Remove the ugly crew logo on court.",
@@ -50,7 +60,7 @@
          },
          {
             "id":"Simple Background",
-            "name":"[UI] Simple Background",
+            "name":"[UI] Simple background",
             "version":"1",
             "type":"ui",
             "description":"Replace the animated background with a simple single 4K image. It helps reduce CPU usage.",
@@ -59,7 +69,7 @@
          },
          {
             "id":"Open Dice Shop",
-            "name":"[UI] Open Dice Shop",
+            "name":"[UI] Open dice shop",
             "version":"1.1",
             "type":"ui",
             "description":"Allow you to manual open the Billy's dice shop instead of having to roll for it!",
@@ -68,7 +78,7 @@
          },
          {
             "id":"Street Block Helper",
-            "name":"[UI] Street Block Helper",
+            "name":"[UI] Street block helper",
             "version":"1.1",
             "type":"ui",
             "description":"Allow you to quick buy 300 by just clicking the buy button and draw up 100 street block puzzles at a time!",
@@ -77,7 +87,7 @@
          },  
          {
             "id":"Shooting Chance",
-            "name":"[UI] Shooting Chance",
+            "name":"[UI] Shooting chance",
             "version":"1.0",
             "type":"ui",
             "description":"Display the real probability of your shot in plain text, the number is fetched directly from server.",
@@ -87,7 +97,7 @@
          },
          {
             "id":"Auto Login",
-            "name":"[UI] Auto Login",
+            "name":"[UI] Auto login",
             "version":"1.0",
             "type":"ui",
             "description":"Automatically log you in as soon as the game finishes loading~",
@@ -96,7 +106,7 @@
          }, 
          {
             "id":"Brighter Game",
-            "name":"[UI] Brighter Game",
+            "name":"[UI] Brighter game",
             "version":"1.0",
             "type":"ui",
             "description":"Brighten the game by removing the weird shadow overlay.",
@@ -104,7 +114,7 @@
          },  
          {
             "id":"Resolution Unlocker",
-            "name":"[UI] Resolution Unlocker",
+            "name":"[UI] Resolution unlocker",
             "version":"1.0",
             "type":"ui",
             "description":"Allow you to change resolution from Option menu while having graphic setting set to low.",
@@ -113,7 +123,7 @@
          },
          {
             "id":"Cutie Font",
-            "name":"[FONT] Better Font",
+            "name":"[FONT] Better font",
             "version":"1.0",
             "type":"std",
             "description":"This will change in-game font into the font that looks much much better, it supports almost every language! Except Thailand~ xd",
@@ -124,7 +134,7 @@
          },       
          {
             "id":"Custom Shadow",
-            "name":"[STD] Custom Shadow",
+            "name":"[STD] Custom shadow",
             "version":"1.0",
             "type":"std",
             "description":"Change the shadow to anything you wanted. Only works in medium or low graphic.",
@@ -162,7 +172,7 @@
          },
          {
             "id":"Nudity Project",
-            "name":"[STD] Nudity Project",
+            "name":"[STD] Nudity project",
             "version":"1.0",
             "type":"std",
             "description":"Makes everyone nude. Not good for human eyes. Hair will be shipped in the next version. Greatly improve FPS and loading speed.",
@@ -173,7 +183,7 @@
          },      
          {
             "id":"Custom Simple Court",
-            "name":"[STD] Custom Court 01",
+            "name":"[STD] Custom court 01",
             "version":"1.0",
             "type":"std",
             "description":"This is basically a blue training court but editable! Occupy the slot 01 on Custom Court.",
@@ -182,7 +192,7 @@
          },
          {
             "id":"[TEST] katto's Shader",
-            "name":"[TEST] katto's Shader",
+            "name":"[TEST] katto's shader",
             "version":null,
             "description":"Self-made patch to help my self to navigate whenever i forgot my glasses.",
             "note":"I don't care if you like it or not but feel free to use~",
