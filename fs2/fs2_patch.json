@@ -1,0 +1,195 @@
+{
+      "Patches":[
+         {
+            "id":"Miku Balls",
+            "name":"Miku Balls",
+            "version":null,
+            "description":"Change the balls to Miku balls designed by @megurine~",
+            "note":"Upscaled to 2k, for the weebs.",
+            "createdAt":"05/05/2021",
+            "updatedAt":"05/05/2021"
+         },
+         {
+            "id":"Football Balls",
+            "name":"Football Balls",
+            "version":null,
+            "description":"Change the balls to football balls or soccer in degenerated.",
+            "note":"Hey, it doesn't mean that you can kick the ball!",
+            "createdAt":"05/03/2021",
+            "updatedAt":"05/03/2021",
+            "isHavingPicture":true
+         },
+         {
+            "id":"Jukebox Collection 1",
+            "name":"Jukebox Collection",
+            "type":"ad",
+            "description":"A collection of 50+ songs for Jukebox, personally selected by me~ :3",
+            "note":"This will overwrite your current Jukebox music list.",
+            "isDownloadableViaDirectUri":true,
+            "directUri":"https://www.dl.dropboxusercontent.com/s/ebvhjrccfcko4ef/fs2_50_song_collection_by_katto.zip",
+            "createdAt":"06/06/2021",
+         },
+         {
+            "id":"Summner Camp Helper",
+            "name":"[UI] S.Camp Helper",
+            "version":"1.0",
+            "type":"ui",
+            "description":"Help you to do minigames effortlessly, 3 minutes saved every day.",
+            "note":"You are welcome.",
+            "createdAt":"16/07/2023",    
+            "isHavingPicture":false
+         },      
+         {
+            "id":"Cleanner Court",
+            "name":"[UI] Cleanner Court",
+            "version":"1.0",
+            "type":"ui",
+            "description":"Remove the ugly crew logo on court.",
+            "createdAt":"02/05/2022",    
+            "isHavingPicture":true
+         },
+         {
+            "id":"Simple Background",
+            "name":"[UI] Simple Background",
+            "version":"1",
+            "type":"ui",
+            "description":"Replace the animated background with a simple single 4K image. It helps reduce CPU usage.",
+            "createdAt":"08/13/2022",    
+            "isHavingPicture":true
+         },
+         {
+            "id":"Open Dice Shop",
+            "name":"[UI] Open Dice Shop",
+            "version":"1.1",
+            "type":"ui",
+            "description":"Allow you to manual open the Billy's dice shop instead of having to roll for it!",
+            "note":"To open the Billy's shop anytime, open the Billy's Dice event and press 9 on keyboard.",
+            "createdAt":"13/01/2022"
+         },
+         {
+            "id":"Street Block Helper",
+            "name":"[UI] Street Block Helper",
+            "version":"1.1",
+            "type":"ui",
+            "description":"Allow you to quick buy 300 by just clicking the buy button and draw up 100 street block puzzles at a time!",
+            "note":"I know right!\n[1.1] Unable to drag fixed!",
+            "createdAt":"04/03/2022"
+         },  
+         {
+            "id":"Shooting Chance",
+            "name":"[UI] Shooting Chance",
+            "version":"1.0",
+            "type":"ui",
+            "description":"Display the real probability of your shot in plain text, the number is fetched directly from server.",
+            "note":"Don't trust the circle.",
+            "createdAt":"27/02/2022",
+            "isHavingPicture":true
+         },
+         {
+            "id":"Auto Login",
+            "name":"[UI] Auto Login",
+            "version":"1.0",
+            "type":"ui",
+            "description":"Automatically log you in as soon as the game finishes loading~",
+            "note":"Only supports Global client.",
+            "createdAt":"13/01/2022"
+         }, 
+         {
+            "id":"Brighter Game",
+            "name":"[UI] Brighter Game",
+            "version":"1.0",
+            "type":"ui",
+            "description":"Brighten the game by removing the weird shadow overlay.",
+            "createdAt":"13/01/2022"
+         },  
+         {
+            "id":"Resolution Unlocker",
+            "name":"[UI] Resolution Unlocker",
+            "version":"1.0",
+            "type":"ui",
+            "description":"Allow you to change resolution from Option menu while having graphic setting set to low.",
+            "createdAt":"13/01/2022",          
+            "isHavingPicture":true
+         },
+         {
+            "id":"Cutie Font",
+            "name":"[FONT] Better Font",
+            "version":"1.0",
+            "type":"std",
+            "description":"This will change in-game font into the font that looks much much better, it supports almost every language! Except Thailand~ xd",
+            "note":"You can toggle this font via Misc menu~.\n[13/07] Compatible fixes.",
+            "createdAt":"24/01/2022",
+            "updatedAt":"13/07/2022",
+            "isHavingPicture":true
+         },       
+         {
+            "id":"Custom Shadow",
+            "name":"[STD] Custom Shadow",
+            "version":"1.0",
+            "type":"std",
+            "description":"Change the shadow to anything you wanted. Only works in medium or low graphic.",
+            "note":"To change shadow, go to Shader/Shadow folder and edit or replace the pc_shadow.png.",
+            "createdAt":"05/04/2022"
+         },
+         {
+            "id":"Uncensored words mod",
+            "name":"[STD] Uncensored words",
+            "version":"1.3",
+            "type":"std",
+            "description":"Now you can say nice balls without worries of being censored~",
+            "note":"Fully working~\n[2/21] Fixed game crashes.\n[5/15] Fixed game crashes.\n[31/12] Standalone support!",
+            "createdAt":"20/02/2021",
+            "updatedAt":"15/05/2021"
+         },
+         {
+            "id":"DX12PXY",
+            "name":"[STD] DX12PXY 2.0",
+            "version":"2.0",
+            "type":"std",
+            "description":"Force the game to use DX12 api proxy, might improve overal FPS, reduce memory leak and crashes.",
+            "note":"Many improvements and stability fixes! Full credits to @megai2~ If you encounter bug, please report to me.",
+            "createdAt":"21/02/2021",
+            "updatedAt":"05/11/2021"
+         },
+         {
+            "id":"EXIT_CODE lock",
+            "name":"[STD] EXIT_CODE lock",
+            "version":"1.0",
+            "type":"std",
+            "description":"Permanently lock the EXIT_TYPE to prevent changes to sclee.dat",
+            "note":"No infomation provided.",
+            "createdAt":"12/09/2021"
+         },
+         {
+            "id":"Nudity Project",
+            "name":"[STD] Nudity Project",
+            "version":"1.0",
+            "type":"std",
+            "description":"Makes everyone nude. Not good for human eyes. Hair will be shipped in the next version. Greatly improve FPS and loading speed.",
+            "note":"I have warned you~ To revert back just uninstall.",
+            "createdAt":"17/07/2021",
+            "updatedAt":"17/07/2021",
+            "isHavingPicture":true
+         },      
+         {
+            "id":"Custom Simple Court",
+            "name":"[STD] Custom Court 01",
+            "version":"1.0",
+            "type":"std",
+            "description":"This is basically a blue training court but editable! Occupy the slot 01 on Custom Court.",
+            "note":"Read the readme.txt from Data/takatto_tweak_dlc1/custom/data/stage100_training/tutorial for tutorial.",
+            "createdAt":"15/04/2022"
+         },
+         {
+            "id":"[TEST] katto's Shader",
+            "name":"[TEST] katto's Shader",
+            "version":null,
+            "description":"Self-made patch to help my self to navigate whenever i forgot my glasses.",
+            "note":"I don't care if you like it or not but feel free to use~",
+            "isHavingPicture":true
+         }
+      ],
+      "ServerUri":"http://raw.githubusercontent.com/takattowo/takattoFS2/main/takatto_mods_test/{id}/{id}.zip",
+      "ServerName":"furretFS2",
+      "GithubId":"takattowo",
+}
