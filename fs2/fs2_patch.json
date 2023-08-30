@@ -31,14 +31,14 @@
          },
          {
             "id":"Mute Cheering Noise",
-            "name":"[OB] Mute Cheers",
+            "name":"[BM] Mute Cheers",
             "version":"1.0",
             "type":"ob",
             "description":"Mute the cheering noise everytime someone scores.",
             "note":"You are welcome.",
             "createdAt":"30/07/2023",    
             "isHavingPicture":false
-         },  
+         },    
          {
             "id":"Summner Camp Helper",
             "name":"[UI] S.Camp helper",
@@ -199,7 +199,7 @@
             "isHavingPicture":true
          }
       ],
-      "ServerUri":"http://raw.githubusercontent.com/takattowo/takattoFS2/main/takatto_mods_test/{id}/{id}.zip",
+      "ServerUri":"http://raw.githubusercontent.com/takattowo/takattoFS2/main/takatto_mods/{id}/{id}.zip",
       "ServerName":"furretFS2",
       "GithubId":"takattowo",
 }
