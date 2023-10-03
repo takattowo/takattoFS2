@@ -1,8 +1,8 @@
 {
       "Patches":[
          {
-            "id":"ActionSound Lib",
-            "name":"ActionSound Lib",
+            "id":"ActionSound Library",
+            "name":"ActionSound Library",
             "type":"ad",
             "description":"Action sound library like crowd noise, block noises, collision noise,...",
             "note":"To edit the sound, go to SOUND/TAKATTO_ACTION_SOUND folder. To uninstall, just delete the folder.",
