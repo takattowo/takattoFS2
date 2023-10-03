@@ -1,16 +1,6 @@
 {
       "Patches":[
          {
-            "id":"Jukebox Collection 1",
-            "name":"Jukebox Collection",
-            "type":"ad",
-            "description":"A collection of 50+ songs for Jukebox, personally selected by me~ :3",
-            "note":"This will overwrite your current Jukebox music list.",
-            "isDownloadableViaDirectUri":true,
-            "directUri":"https://www.dl.dropboxusercontent.com/s/ebvhjrccfcko4ef/fs2_50_song_collection_by_katto.zip",
-            "createdAt":"06/06/2021",
-         },   
-         {
             "id":"Summner Camp Helper",
             "name":"[UI] S.Camp helper",
             "version":"1.0",
@@ -40,7 +30,7 @@
          },
          {
             "id":"Street Block Helper",
-            "name":"[UI] Street block helper",
+            "name":"[UI] Block helper",
             "version":"1.1",
             "type":"ui",
             "description":"Allow you to quick buy 300 by just clicking the buy button and draw up 100 street block puzzles at a time!",
@@ -67,7 +57,7 @@
          },  
          {
             "id":"Resolution Unlocker",
-            "name":"[UI] Resolution unlocker",
+            "name":"[UI] Res. unlocker",
             "version":"1.0",
             "type":"ui",
             "description":"Allow you to change resolution from Option menu while having graphic setting set to low.",
@@ -87,13 +77,23 @@
          },      
          {
             "id":"Custom Simple Court",
-            "name":"[STD] Custom court 01",
+            "name":"[AD] Custom court 01",
             "version":"1.0",
             "type":"ad",
             "description":"This is basically a blue training court but editable! Occupy the slot 01 on Custom Court.",
             "note":"Read the readme.txt from Data/takatto_tweak_dlc1/custom/data/stage100_training/tutorial for tutorial.",
             "createdAt":"15/04/2022"
          },
+         {
+            "id":"Jukebox Collection 1",
+            "name":"[AD] Song Collections",
+            "type":"ad",
+            "description":"A collection of 50+ songs for Jukebox, personally selected by me!",
+            "note":"This will overwrite your current Jukebox music list.",
+            "isDownloadableViaDirectUri":true,
+            "directUri":"https://www.dl.dropboxusercontent.com/s/ebvhjrccfcko4ef/fs2_50_song_collection_by_katto.zip",
+            "createdAt":"06/06/2021",
+         }
       ],
       "ServerUri":"http://raw.githubusercontent.com/takattowo/takattoFS2/main/takatto_mods/{id}/{id}.zip",
       "ServerName":"furretFS2",
