@@ -1,24 +1,13 @@
 {
       "Patches":[
          {
-            "id":"Miku Balls",
-            "name":"Miku Balls",
-            "version":null,
-            "description":"Change the balls to Miku balls designed by @megurine~",
-            "note":"Upscaled to 2k, for the weebs.",
-            "createdAt":"05/05/2021",
-            "updatedAt":"05/05/2021"
-         },
-         {
-            "id":"Football Balls",
-            "name":"Football Balls",
-            "version":null,
-            "description":"Change the balls to football balls or soccer in degenerated.",
-            "note":"Hey, it doesn't mean that you can kick the ball!",
-            "createdAt":"05/03/2021",
-            "updatedAt":"05/03/2021",
-            "isHavingPicture":true
-         },
+            "id":"ActionSound Lib",
+            "name":"ActionSound Lib",
+            "type":"ad",
+            "description":"Action sound library like crowd noise, block noises, collision noise,...",
+            "note":"To edit the sound, go to SOUND/TAKATTO_ACTION_SOUND folder. To uninstall, just delete the folder.",
+            "createdAt":"10/03/2023",
+         },   
          {
             "id":"Jukebox Collection 1",
             "name":"Jukebox Collection",
@@ -28,17 +17,7 @@
             "isDownloadableViaDirectUri":true,
             "directUri":"https://www.dl.dropboxusercontent.com/s/ebvhjrccfcko4ef/fs2_50_song_collection_by_katto.zip",
             "createdAt":"06/06/2021",
-         },
-         {
-            "id":"Mute Cheering Noise",
-            "name":"[BM] Mute Cheers",
-            "version":"1.0",
-            "type":"ob",
-            "description":"Mute the cheering noise everytime someone scores.",
-            "note":"You are welcome.",
-            "createdAt":"30/07/2023",    
-            "isHavingPicture":false
-         },    
+         },   
          {
             "id":"Summner Camp Helper",
             "name":"[UI] S.Camp helper",
@@ -84,16 +63,6 @@
             "description":"Allow you to quick buy 300 by just clicking the buy button and draw up 100 street block puzzles at a time!",
             "note":"I know right!\n[1.1] Unable to drag fixed!",
             "createdAt":"04/03/2022"
-         },  
-         {
-            "id":"Shooting Chance",
-            "name":"[UI] Shooting chance",
-            "version":"1.0",
-            "type":"ui",
-            "description":"Display the real probability of your shot in plain text, the number is fetched directly from server.",
-            "note":"Don't trust the circle.",
-            "createdAt":"27/02/2022",
-            "isHavingPicture":true
          },
          {
             "id":"Auto Login",
@@ -120,37 +89,7 @@
             "description":"Allow you to change resolution from Option menu while having graphic setting set to low.",
             "createdAt":"13/01/2022",          
             "isHavingPicture":true
-         },
-         {
-            "id":"Cutie Font",
-            "name":"[FONT] Better font",
-            "version":"1.0",
-            "type":"std",
-            "description":"This will change in-game font into the font that looks much much better, it supports almost every language! Except Thailand~ xd",
-            "note":"You can toggle this font via Misc menu~.\n[13/07] Compatible fixes.",
-            "createdAt":"24/01/2022",
-            "updatedAt":"13/07/2022",
-            "isHavingPicture":true
-         },       
-         {
-            "id":"Custom Shadow",
-            "name":"[STD] Custom shadow",
-            "version":"1.0",
-            "type":"std",
-            "description":"Change the shadow to anything you wanted. Only works in medium or low graphic.",
-            "note":"To change shadow, go to Shader/Shadow folder and edit or replace the pc_shadow.png.",
-            "createdAt":"05/04/2022"
-         },
-         {
-            "id":"Uncensored words mod",
-            "name":"[STD] Uncensored words",
-            "version":"1.3",
-            "type":"std",
-            "description":"Now you can say nice balls without worries of being censored~",
-            "note":"Fully working~\n[2/21] Fixed game crashes.\n[5/15] Fixed game crashes.\n[31/12] Standalone support!",
-            "createdAt":"20/02/2021",
-            "updatedAt":"15/05/2021"
-         },
+         },   
          {
             "id":"DX12PXY",
             "name":"[STD] DX12PXY 2.0",
@@ -165,7 +104,7 @@
             "id":"EXIT_CODE lock",
             "name":"[STD] EXIT_CODE lock",
             "version":"1.0",
-            "type":"std",
+            "type":"ad",
             "description":"Permanently lock the EXIT_TYPE to prevent changes to sclee.dat",
             "note":"No infomation provided.",
             "createdAt":"12/09/2021"
@@ -185,21 +124,13 @@
             "id":"Custom Simple Court",
             "name":"[STD] Custom court 01",
             "version":"1.0",
-            "type":"std",
+            "type":"ad",
             "description":"This is basically a blue training court but editable! Occupy the slot 01 on Custom Court.",
             "note":"Read the readme.txt from Data/takatto_tweak_dlc1/custom/data/stage100_training/tutorial for tutorial.",
             "createdAt":"15/04/2022"
          },
-         {
-            "id":"[TEST] katto's Shader",
-            "name":"[TEST] katto's shader",
-            "version":null,
-            "description":"Self-made patch to help my self to navigate whenever i forgot my glasses.",
-            "note":"I don't care if you like it or not but feel free to use~",
-            "isHavingPicture":true
-         }
       ],
-      "ServerUri":"http://raw.githubusercontent.com/takattowo/takattoFS2/main/takatto_mods/{id}/{id}.dat",
+      "ServerUri":"http://raw.githubusercontent.com/takattowo/takattoFS2/main/takatto_mods/{id}/{id}.zip",
       "ServerName":"furretFS2",
       "GithubId":"takattowo",
 }
