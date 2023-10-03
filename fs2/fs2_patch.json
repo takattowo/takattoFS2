@@ -11,15 +11,6 @@
             "isHavingPicture":false
          },      
          {
-            "id":"Cleanner Court",
-            "name":"[UI] Cleanner court",
-            "version":"1.0",
-            "type":"ui",
-            "description":"Remove the ugly crew logo on court.",
-            "createdAt":"02/05/2022",    
-            "isHavingPicture":true
-         },
-         {
             "id":"Open Dice Shop",
             "name":"[UI] Open dice shop",
             "version":"1.1",
