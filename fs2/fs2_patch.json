@@ -45,7 +45,8 @@
             "type":"ui",
             "description":"Allow you to quick buy 300 by just clicking the buy button and draw up 100 street block puzzles at a time!",
             "note":"I know right!\n[1.1] Unable to drag fixed!",
-            "createdAt":"04/03/2022"
+            "createdAt":"04/03/2022",
+            "isHavingPicture":true
          },
          {
             "id":"Auto Login",
