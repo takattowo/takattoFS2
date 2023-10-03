@@ -1,24 +1,5 @@
 {
-      "Patches":[
-         {
-            "id":"Summner Camp Helper",
-            "name":"[UI] S.Camp helper",
-            "version":"1.0",
-            "type":"ui",
-            "description":"Help you to do minigames effortlessly, 3 minutes saved every day.",
-            "note":"You are welcome.",
-            "createdAt":"16/07/2023",    
-            "isHavingPicture":false
-         },      
-         {
-            "id":"Open Dice Shop",
-            "name":"[UI] Open dice shop",
-            "version":"1.1",
-            "type":"ui",
-            "description":"Allow you to manual open the Billy's dice shop instead of having to roll for it!",
-            "note":"To open the Billy's shop anytime, open the Billy's Dice event and press 9 on keyboard.",
-            "createdAt":"13/01/2022"
-         },
+      "Patches":[  
          {
             "id":"Street Block Helper",
             "name":"[UI] Block helper",
