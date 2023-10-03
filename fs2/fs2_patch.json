@@ -96,6 +96,7 @@
          }
       ],
       "ServerUri":"http://raw.githubusercontent.com/takattowo/takattoFS2/main/takatto_mods/{id}/{id}.zip",
+      "PatchExtension":"zip",
       "ServerName":"furretFS2",
       "GithubId":"takattowo",
 }
