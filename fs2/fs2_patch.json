@@ -1,6 +1,15 @@
 {
       "Patches":[  
          {
+            "id":"Open Dice Shop",
+            "name":"[UI] Open dice shop",
+            "version":"1.1",
+            "type":"ui",
+            "description":"Allow you to manual open the Billy's dice shop instead of having to roll for it!",
+            "note":"To open the Billy's shop anytime, open the Billy's Dice event and press 9 on keyboard.",
+            "createdAt":"13/01/2022"
+         },  
+         {
             "id":"Street Block Helper",
             "name":"[UI] Block helper",
             "version":"1.1",
