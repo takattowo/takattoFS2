@@ -38,15 +38,6 @@
             "isHavingPicture":true
          },
          {
-            "id":"Simple Background",
-            "name":"[UI] Simple background",
-            "version":"1",
-            "type":"ui",
-            "description":"Replace the animated background with a simple single 4K image. It helps reduce CPU usage.",
-            "createdAt":"08/13/2022",    
-            "isHavingPicture":true
-         },
-         {
             "id":"Open Dice Shop",
             "name":"[UI] Open dice shop",
             "version":"1.1",
@@ -89,25 +80,6 @@
             "description":"Allow you to change resolution from Option menu while having graphic setting set to low.",
             "createdAt":"13/01/2022",          
             "isHavingPicture":true
-         },   
-         {
-            "id":"DX12PXY",
-            "name":"[STD] DX12PXY 2.0",
-            "version":"2.0",
-            "type":"std",
-            "description":"Force the game to use DX12 api proxy, might improve overal FPS, reduce memory leak and crashes.",
-            "note":"Many improvements and stability fixes! Full credits to @megai2~ If you encounter bug, please report to me.",
-            "createdAt":"21/02/2021",
-            "updatedAt":"05/11/2021"
-         },
-         {
-            "id":"EXIT_CODE lock",
-            "name":"[STD] EXIT_CODE lock",
-            "version":"1.0",
-            "type":"ad",
-            "description":"Permanently lock the EXIT_TYPE to prevent changes to sclee.dat",
-            "note":"No infomation provided.",
-            "createdAt":"12/09/2021"
          },
          {
             "id":"Nudity Project",
