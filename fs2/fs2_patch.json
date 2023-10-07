@@ -1,6 +1,15 @@
 {
       "Patches":[  
          {
+            "id":"Training Reset",
+            "name":"[UI] Training Reset",
+            "version":"1.0",
+            "type":"ui",
+            "description":"Allow you to change attribute freely without having to use a resetter.",
+            "note":"Click on the minus and add buttons, even if they appear to be disabled.",
+            "createdAt":"10/07/2023"
+         },  
+         {
             "id":"Open Dice Shop",
             "name":"[UI] Open dice shop",
             "version":"1.1",
