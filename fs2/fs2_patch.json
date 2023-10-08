@@ -7,7 +7,7 @@
             "description":"Sound library for action and environmental sounds, including footsteps, collisions, etc.",
             "note":"You can modify the sounds in the Sound/TAKATTO_ACTION_SOUND folder.",
             "createdAt":"10/08/2023",
-         }
+         },
          {
             "id":"Training Reset",
             "name":"[UI] Training Reset",
