@@ -2,7 +2,7 @@
       "Patches":[  
          {
             "id":"ActionSound Library",
-            "name":"[AD] ActionSound Library",
+            "name":"[AD] Sound Library",
             "type":"ad",
             "description":"Sound library for action and environmental sounds, such as footsteps, collisions, etc.",
             "note":"You can modify the sounds in the Sound/TAKATTO_ACTION_SOUND folder.",
