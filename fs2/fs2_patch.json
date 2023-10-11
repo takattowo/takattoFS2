@@ -1,6 +1,14 @@
 {
       "Patches":[  
          {
+            "id":"Giftbox Fix",
+            "name":"[UI] Giftbox Fix",
+            "version":"1.0",
+            "type":"ui",
+            "description":"Have you ever had to close the game due to a processing error that made the game unclickable when opening the gift box? Then this is your life saver.",
+            "createdAt":"10/10/2023"
+         },  
+         {
             "id":"Training Reset",
             "name":"[UI] Training Reset",
             "version":"1.0",
