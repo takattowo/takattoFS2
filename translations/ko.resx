@@ -297,6 +297,9 @@
   <data name="btn_tweak_task_start" xml:space="preserve">
     <value>작업 시작</value>
   </data>
+  <data name="btn_tweak_textmacro" xml:space="preserve">
+    <value>텍스트 매크로</value>
+  </data>
   <data name="btn_tweak_texture" xml:space="preserve">
     <value>커스텀 UI 텍스쳐</value>
   </data>
@@ -977,6 +980,24 @@
   <data name="lb_tweak_task_interval_hint2" xml:space="preserve">
     <value>타이머 간격(밀리초)</value>
   </data>
+  <data name="lb_tweak_textmacro_by" xml:space="preserve">
+    <value>으로</value>
+  </data>
+  <data name="lb_tweak_textmacro_empty" xml:space="preserve">
+    <value>데이터가 없습니다. 셀을 클릭하여 데이터를 추가하세요~</value>
+  </data>
+  <data name="lb_tweak_textmacro_help" xml:space="preserve">
+    <value>게임 내 텍스트 매크로 시스템</value>
+  </data>
+  <data name="lb_tweak_textmacro_hint" xml:space="preserve">
+    <value>텍스트 매크로 데이터</value>
+  </data>
+  <data name="lb_tweak_textmacro_note" xml:space="preserve">
+    <value>자동 저장, 데이터가 누락되면 행이 삭제됩니다!</value>
+  </data>
+  <data name="lb_tweak_textmacro_replace" xml:space="preserve">
+    <value>대체</value>
+  </data>
   <data name="lb_tweak_texture_developing" xml:space="preserve">
     <value>이 기능은 개발 중입니다</value>
   </data>
@@ -1171,6 +1192,9 @@
   <data name="msg_error" xml:space="preserve">
     <value>오류 발생. Kat-code: {0}</value>
   </data>
+  <data name="msg_error_maximumchar" xml:space="preserve">
+    <value>이 필드는 최대 {0} 글자만 허용됩니다~</value>
+  </data>
   <data name="msg_failed_to_fetch" xml:space="preserve">
     <value>필요한 파일/정보를 찾을 수 없습니다.</value>
   </data>
@@ -1280,7 +1304,7 @@
     <value>서버에 연결할 수 없습니다. 오프라인 상태입니다~</value>
   </data>
   <data name="notify_tray_tip" xml:space="preserve">
-    <value>takattoFS2는 서비스에서 실행 중입니다~ o(≧▽≦)o</value>
+    <value>furretFS_build308는 서비스에서 실행 중입니다~ o(≧▽≦)o</value>
   </data>
   <data name="tab1" xml:space="preserve">
     <value>환영</value>
@@ -1517,13 +1541,13 @@ Copyright © 2022 조이시티. 판권 소유. 넥슨코리아(주) 이 프로�
   <data name="txt_license" xml:space="preserve">
     <value>계속하기 전에 이것을 읽으십시오.
 
-takattoFS2 Patcher는 해킹 도구가 아닙니다. 나는 사람들이 해킹이나 치트를 사용하는 것을 권장하지 않으며 이 프로그램은 그것과 아무 관련이 없습니다.
+furretFS_build308 Patcher는 해킹 도구가 아닙니다. 나는 사람들이 해킹이나 치트를 사용하는 것을 권장하지 않으며 이 프로그램은 그것과 아무 관련이 없습니다.
 
-takattoFS2 Patcher는 Joycity가 그것을 사용하는 사용자에 대해 조치를 취한다는 증거는 없지만 클라이언트를 수정하여 Joycity의 서비스 약관을 위반합니다. 귀하의 계정은 단순히 takattoFS2 Patcher만 사용하는 위험이 없습니다. 그러나 서비스를 남용하거나 서비스 약관을 더욱 위반하는 패치를 사용하면 계정이 해지될 수 있습니다. 내 공식 저장소의 모든 패치와 조정은 안전합니다.
+furretFS_build308 Patcher는 Joycity가 그것을 사용하는 사용자에 대해 조치를 취한다는 증거는 없지만 클라이언트를 수정하여 Joycity의 서비스 약관을 위반합니다. 귀하의 계정은 단순히 furretFS_build308 Patcher만 사용하는 위험이 없습니다. 그러나 서비스를 남용하거나 서비스 약관을 더욱 위반하는 패치를 사용하면 계정이 해지될 수 있습니다. 내 공식 저장소의 모든 패치와 조정은 안전합니다.
 
-takattoFS2 Patcher는 Joycity가 모르는 것이 아닙니다. 사실, 그들은 그 존재를 인정했고 내가 게임의 일부를 작업할 수 있도록 허용했습니다.
+furretFS_build308 Patcher는 Joycity가 모르는 것이 아닙니다. 사실, 그들은 그 존재를 인정했고 내가 게임의 일부를 작업할 수 있도록 허용했습니다.
 
-takattoFS2 Patcher는 귀하의 개인 데이터를 수집하지 않으며 이 프로그램은 그렇게 할 수 없습니다. 메인 서버인 Github 외부에는 연결이 없으므로 안심하셔도 됩니다!
+furretFS_build308 Patcher는 귀하의 개인 데이터를 수집하지 않으며 이 프로그램은 그렇게 할 수 없습니다. 메인 서버인 Github 외부에는 연결이 없으므로 안심하셔도 됩니다!
 
 즐거운 게임 ^w^ - 고양이 애호가~</value>
   </data>

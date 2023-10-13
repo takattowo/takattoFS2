@@ -297,6 +297,9 @@
   <data name="btn_tweak_task_start" xml:space="preserve">
     <value>Start task</value>
   </data>
+  <data name="btn_tweak_textmacro" xml:space="preserve">
+    <value>Text Macro</value>
+  </data>
   <data name="btn_tweak_texture" xml:space="preserve">
     <value>Custom Texture</value>
   </data>
@@ -550,7 +553,7 @@
     <value>Unfocus the program and hover your mouse to get coordination.</value>
   </data>
   <data name="lb_installer_repair" xml:space="preserve">
-    <value>Warning! This will attempt to uninstall everything related to takattoFS2 Patcher and reset its settings to default! 
+    <value>Warning! This will attempt to uninstall everything related to furretFS_build308 Patcher and reset its settings to default! 
 
 This will help resolve any un-fixable problems that prevent the patcher from working properly.</value>
   </data>
@@ -570,7 +573,7 @@ This will help resolve any un-fixable problems that prevent the patcher from wor
     <value>Starting repairing process~</value>
   </data>
   <data name="lb_installer_welcome" xml:space="preserve">
-    <value>Welcome to the takattoFS2 Pacther~ 
+    <value>Welcome to the furretFS_build308 Pacther~ 
 
 I am really happy  that you will try this cutie program! This is a patcher for the game FreeStyle 2. And um, it patches thing!
 
@@ -973,6 +976,24 @@ If you found any bugs or idea, don't be hesitated to let me know~ have fun~ (⁄
   <data name="lb_tweak_task_interval_hint2" xml:space="preserve">
     <value>Timer interval (milisecond)</value>
   </data>
+  <data name="lb_tweak_textmacro_by" xml:space="preserve">
+    <value>By</value>
+  </data>
+  <data name="lb_tweak_textmacro_empty" xml:space="preserve">
+    <value>There is no data, click on a cell to add one~</value>
+  </data>
+  <data name="lb_tweak_textmacro_help" xml:space="preserve">
+    <value>In-game text macro system</value>
+  </data>
+  <data name="lb_tweak_textmacro_hint" xml:space="preserve">
+    <value>Text Macro data</value>
+  </data>
+  <data name="lb_tweak_textmacro_note" xml:space="preserve">
+    <value>Auto-save, the row will be deleted if it has missing data~</value>
+  </data>
+  <data name="lb_tweak_textmacro_replace" xml:space="preserve">
+    <value>Replace</value>
+  </data>
   <data name="lb_tweak_texture_developing" xml:space="preserve">
     <value>This function is being developed</value>
   </data>
@@ -1167,6 +1188,9 @@ Please wait for a while before launching the game again!</value>
   <data name="msg_error" xml:space="preserve">
     <value>An error has occurred. Kat-code: {0}</value>
   </data>
+  <data name="msg_error_maximumchar" xml:space="preserve">
+    <value>The field only allows a maximum number of {0} characters~</value>
+  </data>
   <data name="msg_failed_to_fetch" xml:space="preserve">
     <value>Could not find required file/information.</value>
   </data>
@@ -1276,7 +1300,7 @@ Please wait for a while before launching the game again!</value>
     <value>Could not connect to the server, you are offline~</value>
   </data>
   <data name="notify_tray_tip" xml:space="preserve">
-    <value>takattoFS2 Patcher is running at your service~ o(≧▽≦)o</value>
+    <value>furretFS_build308 Patcher is running at your service~ o(≧▽≦)o</value>
   </data>
   <data name="tab1" xml:space="preserve">
     <value>Welcome</value>
@@ -1378,7 +1402,7 @@ If you found any bug or have any idea, kindly report it to me~ (O▽O)/
     <value>Reset settings to default</value>
   </data>
   <data name="tooltip_resize_tip" xml:space="preserve">
-    <value>Resize the game to your liking! Keep in mind that there will be a weird shadow in-game. can be removed by using an extension~</value>
+    <value>Resize the game to your liking! Keep in mind that there will be a weird shadow in-game. Can be removed by using an extension~</value>
   </data>
   <data name="tooltip_sample" xml:space="preserve">
     <value>Sample</value>
@@ -1512,13 +1536,13 @@ If you found any bug or have any idea, kindly report it to me~ (O▽O)/
   <data name="txt_license" xml:space="preserve">
     <value>Before you continue, please read this.
 
-takattoFS2 Patcher is not a hack tool. I do not encourage people to use hacks or cheats, and this program has nothing to do with it.
+furretFS_build308 Patcher is not a hack tool. I do not encourage people to use hacks or cheats, and this program has nothing to do with it.
 
-takattoFS2 Patcher violates Joycity's terms of service by modifying the client, although there is no evidence that Joycity takes actions against users who use it. Your account is not at risk for simply using takattoFS2 Patcher alone. Abusing the service or using patches which further violate the Terms of Service can get your account terminated, however. All patches and tweaks from my official repository are safe.
+furretFS_build308 Patcher violates Joycity's terms of service by modifying the client, although there is no evidence that Joycity takes actions against users who use it. Your account is not at risk for simply using furretFS_build308 Patcher alone. Abusing the service or using patches which further violate the Terms of Service can get your account terminated, however. All patches and tweaks from my official repository are safe.
 
-takattoFS2 Patcher is not something Joycity don't know about. In fact, they acknowledged its existence and allowed me to work on some parts of the game.
+furretFS_build308 Patcher is not something Joycity don't know about. In fact, they acknowledged its existence and allowed me to work on some parts of the game.
 
-takattoFS2 Patcher does not collect your personal data and this program has no ability to do so. There is no connection outside the main server, which is Github, so you can rest assured!
+furretFS_build308 Patcher does not collect your personal data and this program has no ability to do so. There is no connection outside the main server, which is Github, so you can rest assured!
 
 That's it! Happy gaming (^w^) - a cat lover~</value>
   </data>
