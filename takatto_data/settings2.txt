@@ -21,8 +21,8 @@
       ],
       "isMusicListEventEnabled":false,
       "MusicListEvent":[
-         "jingle_bell_by_kat",
-         "jingle_bell_by_kat"
+         "kattobg77",
+         "kattobg77"
       ],
       "MusicListEventMessage":"We wish you a Merry Christmas!",
       "BlockedUsers":[  
@@ -41,7 +41,7 @@
       "ExtensionSignature":"katto_kawaii_deso"
    },
    "SweetSettings":{
-      "isServerSideEnabled":false,
+      "isServerSideEnabled":true,
       "isForceRedownload":false,
       "isHikariAlwaysMain":true,
       "isUsingServerBaseLoveChance":true,
@@ -58,14 +58,14 @@
       "messageDataUri":"https://raw.githubusercontent.com/takattowo/takattoFS2/main/takatto_data/msgStrArgs_{0}.dat",
       "Hikari":{
          "isEnabled":true,
-         "altName":"Santari",
+         "altName":"Luna",
          "baseLoveChance":4,
-         "normalState":"hikarisanta",
-         "happiState":"hikarisanta_happi",
-         "angeriiiiiState":"hikarisanta_angeri",
-         "background":"bg_owo_r",
-         "stateLayout":3,
-         "backgroundLayout":1,
+         "normalState":"luna1",
+         "happiState":"luna3",
+         "angeriiiiiState":"luna2",
+         "background":"kat_hw_bg",
+         "stateLayout":2,
+         "backgroundLayout":3,
          "dominantColor":"#F7EDF5",
          "eventMessage":"Baka!",
 
