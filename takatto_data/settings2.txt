@@ -19,7 +19,7 @@
          "play_wondrous",
          "play_takatto_os_mad41"
       ],
-      "isMusicListEventEnabled":false,
+      "isMusicListEventEnabled":true,
       "MusicListEvent":[
          "kattobg77",
          "kattobg77"
@@ -66,7 +66,7 @@
          "background":"kat_hw_bg",
          "stateLayout":2,
          "backgroundLayout":3,
-         "dominantColor":"#F7EDF5",
+         "dominantColor":"#FFFFFF",
          "eventMessage":"Baka!",
 
       },
