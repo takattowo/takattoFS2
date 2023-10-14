@@ -24,7 +24,7 @@
          "kattobg77",
          "kattobg77"
       ],
-      "MusicListEventMessage":"We wish you a Merry Christmas!",
+      "MusicListEventMessage":"Hehe spooky!",
       "BlockedUsers":[  
          "SkFIW0hKXUxbExh9SEpCRUwYA"
       ],
