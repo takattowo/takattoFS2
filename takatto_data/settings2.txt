@@ -72,13 +72,13 @@
       },
       "Yuzuki":{
          "isEnabled":true,
-         "altName":"Santaki",
+         "altName":"Alice",
          "baseLoveChance":3,
-         "normalState":"yuzukisanta",
-         "happiState":"yuzukisanta_happi",
-         "angeriiiiiState":"yuzukisanta_angeri",
+         "normalState":"alice",
+         "happiState":"alice_happi",
+         "angeriiiiiState":"alice_angeri",
          "background":"bg_owo_b",
-         "stateLayout":3,
+         "stateLayout":2,
          "backgroundLayout":1,
          "dominantColor":"#FFFFF",
          "eventMessage":"Bonka!"
