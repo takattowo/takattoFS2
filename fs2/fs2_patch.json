@@ -5,7 +5,7 @@
             "name":"[UI] Giftbox Fix",
             "version":"1.0",
             "type":"ui",
-            "description":"Have you ever had to close the game due to a processing error that made the game unclickable when opening the gift box? Then this is your life saver.",
+            "description":"Have you ever had to close the game due to a processing error that made the game unclickable when opening the giftbox? Then this is your life saver.",
             "createdAt":"10/10/2023"
          },  
          {
@@ -82,6 +82,14 @@
             "description":"This is basically a blue training court but editable! Occupy the slot 01 on Custom Court.",
             "note":"Read the readme.txt from Data/takatto_tweak_dlc1/custom/data/stage100_training/tutorial for tutorial.",
             "createdAt":"15/04/2022"
+         },
+         {
+            "id":"ActionSound Library",
+            "name":"[AD] Sound Library",
+            "type":"ad",
+            "description":"Sound library for action and environmental sounds, such as footsteps, collisions, etc. I have modified a few of them for better aesthetics",
+            "note":"You can modify the sounds in the Sound/TAKATTO_ACTION_SOUND folder.",
+            "createdAt":"16/10/2023"
          },
          {
             "id":"Jukebox Collection 1",
