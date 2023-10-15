@@ -87,7 +87,7 @@
             "id":"ActionSound Library",
             "name":"[AD] Sound Library",
             "type":"ad",
-            "description":"Sound library for action and environmental sounds, such as footsteps, collisions, etc. I have modified a few of them for better aesthetics",
+            "description":"Sound library for action and environmental sounds, such as footsteps, collisions, etc. I have modified a few of them for better aesthetics!",
             "note":"You can modify the sounds in the Sound/TAKATTO_ACTION_SOUND folder.",
             "createdAt":"16/10/2023"
          },
