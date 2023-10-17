@@ -2,7 +2,7 @@
       "Patches":[  
          {
             "id":"No Crew Logo",
-            "name":"[UI] No Crew Logo",
+            "name":"[UI] Cleaner court",
             "version":"1.0",
             "type":"ui",
             "description":"Remove the ugly crew emblem on the court. For real and healthy.",
@@ -11,7 +11,7 @@
          },  
          {
             "id":"Giftbox Fix",
-            "name":"[UI] Giftbox Fix",
+            "name":"[UI] Giftbox fix",
             "version":"1.0",
             "type":"ui",
             "description":"Have you ever had to close the game due to a processing error that made the game unclickable when opening the giftbox? Then this is your life saver.",
@@ -19,7 +19,7 @@
          },  
          {
             "id":"Training Reset",
-            "name":"[UI] Training Reset",
+            "name":"[UI] Training reset",
             "version":"1.0",
             "type":"ui",
             "description":"Allow you to change attribute freely without having to use a resetter.",
@@ -94,7 +94,7 @@
          },
          {
             "id":"ActionSound Library",
-            "name":"[AD] Sound Library",
+            "name":"[AD] Sound library",
             "type":"ad",
             "description":"Sound library for action and environmental sounds, such as footsteps, collisions, etc. I have modified a few of them for better aesthetics!",
             "note":"You can modify the sounds in the Sound/TAKATTO_ACTION_SOUND folder.",
@@ -102,7 +102,7 @@
          },
          {
             "id":"Jukebox Collection 1",
-            "name":"[AD] Song Collections",
+            "name":"[AD] Song collections",
             "type":"ad",
             "description":"A collection of 50+ songs for Jukebox, personally selected by me!",
             "note":"This will overwrite your current Jukebox music list.",
