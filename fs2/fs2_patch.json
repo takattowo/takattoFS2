@@ -1,6 +1,15 @@
 {
       "Patches":[  
          {
+            "id":"No Crew Logo",
+            "name":"[UI] No Crew Logo",
+            "version":"1.0",
+            "type":"ui",
+            "description":"Remove the ugly crew emblem on the court. For real and healthy.",
+            "createdAt":"17/10/2023",     
+            "isHavingPicture":true
+         },  
+         {
             "id":"Giftbox Fix",
             "name":"[UI] Giftbox Fix",
             "version":"1.0",
