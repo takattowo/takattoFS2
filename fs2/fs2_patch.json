@@ -1,6 +1,15 @@
 {
       "Patches":[  
          {
+            "id":"Mark simplifier",
+            "name":"[UI] Mark simplifier",
+            "version":"1.0",
+            "type":"ui",
+            "description":"Remove special marks under characters' feet and remove the green circle mark from yourself but keep it on your teammates.",
+            "createdAt":"17/10/2023",     
+            "isHavingPicture":true
+         },   
+         {
             "id":"No Crew Logo",
             "name":"[UI] Cleaner court",
             "version":"1.0",
