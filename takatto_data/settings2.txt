@@ -19,7 +19,7 @@
          "play_wondrous",
          "play_takatto_os_mad41"
       ],
-      "isMusicListEventEnabled":true,
+      "isMusicListEventEnabled":false,
       "MusicListEvent":[
          "kattobg77",
          "kattobg77"
