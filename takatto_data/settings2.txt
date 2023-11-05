@@ -2,7 +2,7 @@
    "UniversalSettings":{
       "LoadBGCount":7,
       "CatPrefix":"katat",
-      "isNewsAutoOpen":false,
+      "isNewsAutoOpen":true,
       "NewsUri":"https://takattowo.github.io/takattoFS2/fs2/index_news",
       "AutoNewsUri":"https://takattowo.github.io/takattoFS2/fs2/news1",
       "DisplaySiteRootUri":"https://takattowo.github.io/takattoFS2",
