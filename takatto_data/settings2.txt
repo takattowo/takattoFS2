@@ -64,7 +64,7 @@
          "happiState":"luna3",
          "angeriiiiiState":"luna2",
          "background":"kat_hw_bg",
-         "stateLayout":2,
+         "stateLayout":4,
          "backgroundLayout":3,
          "dominantColor":"#FFFFFF",
          "eventMessage":"Baka!",
@@ -78,7 +78,7 @@
          "happiState":"alice_happi",
          "angeriiiiiState":"alice_angeri",
          "background":"bg_owo_b",
-         "stateLayout":2,
+         "stateLayout":4,
          "backgroundLayout":1,
          "dominantColor":"#FFFFF",
          "eventMessage":"Bonka!"
