@@ -4,7 +4,7 @@
       "CatPrefix":"katat",
       "isNewsAutoOpen":true,
       "NewsUri":"https://takattowo.github.io/takattoFS2/fs2/index_news",
-      "AutoNewsUri":"https://takattowo.github.io/takattoFS2/fs2/news1",
+      "AutoNewsUri":"https://takattowo.github.io/takattoFS2/fs2/index_news",
       "DisplaySiteRootUri":"https://takattowo.github.io/takattoFS2",
       "PatchRootUri":"https://raw.githubusercontent.com/takattowo/takattoFS2/main/fs2/fs2_patch.json",
       "AssetRootUri":"https://raw.githubusercontent.com/takattowo/takattoFS2/main/fs2/assets",
