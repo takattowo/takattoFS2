@@ -1,6 +1,15 @@
 {
       "Patches":[  
          {
+            "id":"Summner Camp Helper",
+            "name":"[UI] S. Camp Helper",
+            "version":"1.0",
+            "type":"ui",
+            "description":"Helps you finish 2023 Winter Season Camp tasks quickly.",               
+            "note":"3 mins saved a day, you are welcome.",
+            "createdAt":"3/10/2023"
+         },        
+         {
             "id":"Mark simplifier",
             "name":"[UI] Mark simplifier",
             "version":"1.0",
