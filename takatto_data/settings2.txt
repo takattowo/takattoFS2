@@ -2,7 +2,7 @@
    "UniversalSettings":{
       "LoadBGCount":7,
       "CatPrefix":"katat",
-      "isNewsAutoOpen":true,
+      "isNewsAutoOpen":false,
       "NewsUri":"https://takattowo.github.io/takattoFS2/fs2/index_news",
       "AutoNewsUri":"https://takattowo.github.io/takattoFS2/fs2/index_news",
       "DisplaySiteRootUri":"https://takattowo.github.io/takattoFS2",
@@ -30,6 +30,9 @@
       ],
       "ToRemove":[
          "Data/takatto_tweak_dlc5/cn/04.dlc5"
+      ],
+      "Mysterimo":[  
+         "4C4C4544-0038-4810-8043-B9C04F4E3432"
       ],
       "ToChange":[
          {
