@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{109129D3-5739-4CF9-B614-4288EB9CC350}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KWEFH45912A</RootNamespace>
+    <AssemblyName>KWEFH45912A</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+    <DebugSymbols>true</DebugSymbols>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>zNBBkdl.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BetterFolderBrowser">
+      <HintPath>..\BetterFolderBrowser-master\BetterFolderBrowser\bin\Release\BetterFolderBrowser.dll</HintPath>
+    </Reference>
+    <Reference Include="InputManager">
+      <HintPath>.\InputManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.IO.Compression, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TabControl, Version=2.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\TabControl-master\TabControl\bin\Release\New folder\TabControl.dll</HintPath>
+    </Reference>
+    <Reference Include="TagLibSharp, Version=2.2.0.0, Culture=neutral, PublicKeyToken=db62eba44689b5b0, processorArchitecture=MSIL">
+      <HintPath>..\packages\TagLibSharp.2.2.0\lib\net45\TagLibSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\DropShadow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\Models\NobodyLoveYou.cs" />
+    <Compile Include="Controls\Models\Patch\Patch.cs" />
+    <Compile Include="Controls\Models\Patch\Patch_UI.cs" />
+    <Compile Include="Controls\Models\StringTheory.cs" />
+    <Compile Include="Controls\Models\TaskTimer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Models\TweaksItIs.cs" />
+    <Compile Include="Forms\PauseFormTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PauseFormTest.Designer.cs">
+      <DependentUpon>PauseFormTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConnectingForm_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ConnectingForm_New.Designer.cs">
+      <DependentUpon>ConnectingForm_New.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\InstalledPatchesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\InstalledPatchesForm.Designer.cs">
+      <DependentUpon>InstalledPatchesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\MacroTextForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\MacroTextForm.Designer.cs">
+      <DependentUpon>MacroTextForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TestForm14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TestForm14.Designer.cs">
+      <DependentUpon>TestForm14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\Camera Forms\Parameter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\Camera Forms\Parameter.Designer.cs">
+      <DependentUpon>Parameter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\Camera Forms\AdvancedScript.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\Camera Forms\AdvancedScript.Designer.cs">
+      <DependentUpon>AdvancedScript.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\CameraForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\CameraForm.Designer.cs">
+      <DependentUpon>CameraForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\AutoTaskForm_CoordinationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\AutoTaskForm_CoordinationForm.Designer.cs">
+      <DependentUpon>AutoTaskForm_CoordinationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\CustomInterfaceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\CustomInterfaceForm.Designer.cs">
+      <DependentUpon>CustomInterfaceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\MapTweakForm_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\MapTweakForm_New.Designer.cs">
+      <DependentUpon>MapTweakForm_New.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\Arguments.cs" />
+    <Compile Include="Controls\KeyboardMacro.cs" />
+    <Compile Include="Helpers\CameraHelper.cs" />
+    <Compile Include="Helpers\GlobalVariables\EnvSound.cs" />
+    <Compile Include="Helpers\GlobalVariables\AssemblyAccessor.cs" />
+    <Compile Include="Helpers\GlobalVariables\Camera.cs" />
+    <Compile Include="Helpers\GlobalVariables\ActionSound.cs" />
+    <Compile Include="Helpers\GlobalVariables\CameraScript.cs" />
+    <Compile Include="Helpers\GlobalVariables\CustomSettingsProvider.cs" />
+    <Compile Include="Helpers\GlobalVariables\ProcessExtension.cs" />
+    <Compile Include="Helpers\GlobalVariables\Strings.cs" />
+    <Compile Include="Helpers\GlobalVariables\Urls.cs" />
+    <Compile Include="Helpers\GlobalVariables\UserSettings.cs" />
+    <Compile Include="Helpers\GlobalHotkey.cs" />
+    <Compile Include="Helpers\MsgBoxs.cs" />
+    <Compile Include="Helpers\Methods.cs" />
+    <Compile Include="Controls\UserControls\DrawingControl.cs" />
+    <Compile Include="Controls\UserControls\RoundCornerControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\UserControls\RoundedPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\UserControls\RoundedPicturebox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\UserControls\TextBoxPwEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\ExtensionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\ExtensionsForm.Designer.cs">
+      <DependentUpon>ExtensionsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\CharVoiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\CharVoiceForm.Designer.cs">
+      <DependentUpon>CharVoiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\MCVoiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\MCVoiceForm.Designer.cs">
+      <DependentUpon>MCVoiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\AutoTaskForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\AutoTaskForm.Designer.cs">
+      <DependentUpon>AutoTaskForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BrowserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BrowserForm.Designer.cs">
+      <DependentUpon>BrowserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ColorEnum.cs" />
+    <Compile Include="Helpers\KATEncryptor.cs" />
+    <Compile Include="Controls\Models\Patches.cs" />
+    <Compile Include="Controls\Models\Service.cs" />
+    <Compile Include="Controls\Models\Cutie.cs" />
+    <Compile Include="Helpers\GlobalVariables\SweetSettings.cs" />
+    <Compile Include="Helpers\GlobalVariables\UniversalSettings.cs" />
+    <Compile Include="Controls\UserControls\ComboBoxEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\UserControls\FormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\UserControls\GlassyPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\UserControls\GroupBoxEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\UserControls\ListBoxEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Helpers\NativeMethods.cs" />
+    <Compile Include="Controls\UserControls\PanelEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\UserControls\PanelExEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\UserControls\ProgessBarEX.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\UserControls\TextBoxEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\UserControls\TextBoxRadius.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Help.Designer.cs">
+      <DependentUpon>Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ImportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ImportForm.Designer.cs">
+      <DependentUpon>ImportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\MemoryFonts.cs" />
+    <Compile Include="Controls\UserControls\MessageBoxEx.cs" />
+    <Compile Include="Helpers\StringLoader.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\ResizeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\ResizeForm.Designer.cs">
+      <DependentUpon>ResizeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\MiscForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\MiscForm.Designer.cs">
+      <DependentUpon>MiscForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingsForm.Designer.cs">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SimpleDialogFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SimpleDialogFrom.Designer.cs">
+      <DependentUpon>SimpleDialogFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\CustomJukeboxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\CustomJukeboxForm.Designer.cs">
+      <DependentUpon>CustomJukeboxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\CustomTextureForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub Forms\CustomTextureForm.Designer.cs">
+      <DependentUpon>CustomTextureForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ProcessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ProcessForm.Designer.cs">
+      <DependentUpon>ProcessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DownloadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DownloadForm.Designer.cs">
+      <DependentUpon>DownloadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Help_CourtTakatto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Help_CourtTakatto.Designer.cs">
+      <DependentUpon>Help_CourtTakatto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LanguageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LanguageForm.Designer.cs">
+      <DependentUpon>LanguageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InstallerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InstallerForm.Designer.cs">
+      <DependentUpon>InstallerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Helpers\GlobalVariables\PatcherSettings.cs" />
+    <Compile Include="Helpers\Logger.cs" />
+    <Compile Include="Helpers\WebBrowserExtensions.cs" />
+    <Compile Include="Resources\en.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ko.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ko.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\zh.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>zh.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <EmbeddedResource Include="Controls\DropShadow.resx">
+      <DependentUpon>DropShadow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PauseFormTest.resx">
+      <DependentUpon>PauseFormTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub Forms\InstalledPatchesForm.resx">
+      <DependentUpon>InstalledPatchesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub Forms\MacroTextForm.resx">
+      <DependentUpon>MacroTextForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TestForm14.resx">
+      <DependentUpon>TestForm14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub Forms\Camera Forms\Parameter.resx">
+      <DependentUpon>Parameter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub Forms\Camera Forms\AdvancedScript.resx">
+      <DependentUpon>AdvancedScript.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub Forms\CameraForm.resx">
+      <DependentUpon>CameraForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub Forms\AutoTaskForm_CoordinationForm.resx">
+      <DependentUpon>AutoTaskForm_CoordinationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub Forms\CustomInterfaceForm.resx">
+      <DependentUpon>CustomInterfaceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub Forms\ExtensionsForm.resx">
+      <DependentUpon>ExtensionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub Forms\CharVoiceForm.resx">
+      <DependentUpon>CharVoiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub Forms\MapTweakForm_New.resx">
+      <DependentUpon>MapTweakForm_New.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub Forms\MCVoiceForm.resx">
+      <DependentUpon>MCVoiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub Forms\AutoTaskForm.resx">
+      <DependentUpon>AutoTaskForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BrowserForm.resx">
+      <DependentUpon>BrowserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConnectingForm_New.resx">
+      <DependentUpon>ConnectingForm_New.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub Forms\CustomJukeboxForm.resx">
+      <DependentUpon>CustomJukeboxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Help.resx">
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub Forms\CustomTextureForm.resx">
+      <DependentUpon>CustomTextureForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ImportForm.resx">
+      <DependentUpon>ImportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub Forms\ResizeForm.resx">
+      <DependentUpon>ResizeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub Forms\MiscForm.resx">
+      <DependentUpon>MiscForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingsForm.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProcessForm.resx">
+      <DependentUpon>ProcessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Help_CourtTakatto.resx">
+      <DependentUpon>Help_CourtTakatto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DownloadForm.resx">
+      <DependentUpon>DownloadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LanguageForm.resx">
+      <DependentUpon>LanguageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InstallerForm.resx">
+      <DependentUpon>InstallerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SimpleDialogFrom.resx">
+      <DependentUpon>SimpleDialogFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ko.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ko.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\zh.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>zh.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Controls\Models\Patch\patchInfo.txt" />
+    <Content Include="zNBBkdl.ico" />
+    <None Include="Resources\icons8-_-48.png" />
+    <None Include="Resources\icons8-_-48%252520%281%29.png" />
+    <None Include="Resources\icons8-questions-48.png" />
+    <None Include="Resources\icons8-available-updates-48.png" />
+    <None Include="Resources\icons8-copy-to-clipboard-48.png" />
+    <None Include="Resources\icons8-transfer-48.png" />
+    <None Include="Resources\icons8-source-code-48.png" />
+    <None Include="Helpers\cam_cript.txt" />
+    <Content Include="1723d6b1-5b00-4da4-bb9d-ccf9f1dc7f73.ico" />
+    <Content Include="cat.ico" />
+    <Content Include="hmm.ico" />
+    <Content Include="nako.ico" />
+    <None Include="Resources\appicon60.png" />
+    <None Include="Resources\katsleep.gif" />
+    <None Include="Resources\katKawaii.gif" />
+    <None Include="Resources\DirectoryRights.exe" />
+    <None Include="Resources\icons8-inbox-35.png" />
+    <None Include="Resources\icons8-cat-profile-35.png" />
+    <None Include="Resources\icons8-repeat-35-b.png" />
+    <None Include="Resources\icons8-repeat-35-r.png" />
+    <None Include="Resources\kat_runningaround.gif" />
+    <None Include="Resources\loadin gif.gif" />
+    <None Include="Resources\icons8-pause-25.png" />
+    <None Include="Resources\icons8-play-25.png" />
+    <None Include="Resources\catuwu.gif" />
+    <None Include="Resources\catdancing.gif" />
+    <None Include="Resources\icons8-musical-notes-35%252520%281%29.png" />
+    <None Include="Resources\icons8-musical-notes-35 %282%29.png" />
+    <None Include="Resources\icons8-reset-35.png" />
+    <None Include="Resources\icons8-delete-35.png" />
+    <None Include="Resources\icons8-add-35.png" />
+    <None Include="Resources\icons8-add-disa-35.png" />
+    <None Include="Resources\add-album-disable-35.png" />
+    <None Include="Resources\add-album-35.png" />
+    <None Include="Resources\Image1.bmp" />
+    <None Include="Resources\errorcat.gif" />
+    <None Include="Resources\icons8-yellow-circle-35.png" />
+    <None Include="Resources\icons8-red-circle-35.png" />
+    <None Include="Resources\icons8-green-circle-35.png" />
+    <None Include="Resources\icons8-folder-change-35.png" />
+    <None Include="Resources\icons8-folder-35.png" />
+    <None Include="Resources\icons8-heart-share-35.png" />
+    <None Include="Resources\icons8-heart-plus-35.png" />
+    <None Include="Resources\icons8-more-25 %281%29.png" />
+    <None Include="Resources\icons8-voice-35.png" />
+    <None Include="Resources\icons8-mute-35.png" />
+    <None Include="Resources\katto%27s loading template.png" />
+    <None Include="Resources\cur_1.png" />
+    <None Include="Resources\back_wc1_happi.png" />
+    <None Include="Resources\back_wc1_angery.png" />
+    <None Include="Resources\back_wc_transparent_darker.png" />
+    <None Include="Resources\back_wc2_happi.png" />
+    <None Include="Resources\back_wc2_angery.png" />
+    <None Include="Resources\206_PJP_icon.ico" />
+    <None Include="Resources\task-icon.png" />
+    <None Include="Resources\heart_golden.png" />
+    <None Include="Resources\baloon3.png" />
+    <None Include="Resources\up_arrow_icon.png" />
+    <None Include="Resources\update_available_icon.png" />
+    <None Include="Resources\close_icon.png" />
+    <None Include="Resources\news-icon.png" />
+    <None Include="Resources\back_wc_transparent.png" />
+    <None Include="Resources\loved.gif" />
+    <None Include="Resources\nako_hi.wav" />
+    <None Include="Resources\meow2.wav" />
+    <None Include="Resources\shizuku.wav" />
+    <None Include="Resources\baloon2.png" />
+    <None Include="Resources\back_wc3.png" />
+    <None Include="Resources\empty.png" />
+    <None Include="Resources\loveloved.gif" />
+    <None Include="Resources\loveangry.gif" />
+    <None Include="Resources\hi_ACT_GREET_01.wav" />
+    <None Include="Resources\lovelettercount.png" />
+    <None Include="Resources\heart.png" />
+    <None Include="Resources\baloon1.png" />
+    <None Include="Resources\Ambit-Regular-ttf.ttf" />
+    <None Include="Resources\nako3.png" />
+    <None Include="Resources\settingres_icon.png" />
+    <None Include="Resources\smolviocat.png" />
+    <None Include="Resources\ico\demo_icon.png" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\next_icon.png" />
+    <None Include="Resources\font_taka.ttf" />
+    <None Include="Resources\3dotsfluent_icon.png" />
+    <None Include="Resources\nyannyan~.wav" />
+    <None Include="Resources\UI_GG_COMPLETE.wav" />
+    <None Include="Resources\back_closing.png" />
+    <None Include="Resources\back_wc2.png" />
+    <None Include="Resources\back_wc1.png" />
+    <None Include="Resources\patchesrefresh_icon.png" />
+    <None Include="Resources\lock_2.png" />
+    <None Include="Resources\setting_icon.png" />
+    <None Include="Resources\katto_b.png" />
+    <None Include="Resources\katto.png" />
+    <None Include="Resources\waitin.gif" />
+    <None Include="Resources\loadin.gif" />
+    <None Include="Resources\1.png" />
+    <None Include="Resources\2.jpg" />
+    <None Include="Resources\back_patch3.png" />
+    <None Include="Resources\voiceTweakHelp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MediaPlayer">
+      <Guid>{22D6F304-B0F6-11D0-94AB-0080C74C7E95}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

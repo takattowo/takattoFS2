@@ -1,0 +1,63 @@
+<title></title>
+<version>1.0</version>
+<author>takatto</author>
+<date>9/1/2023</date>
+<info>im a furry</info>
+
+//useful for sensitive patch that is not made for public or simply to prevent user from reading its content
+<encryption>
+	<key></key>
+</encription>
+
+//visit github.com/LittleBigBug/QuickBMS to learn about it
+//no need to include script.txt file, the patcher will include it by default, so leave it as "script.txt" for script
+<quickbms_script></quickbms_script>
+
+//unload is to prevent the file from loading into the game
+//example: <PAKName>sound02.pak</PAKName>
+<unloadPAK>
+	<name></name>
+	<name></name>
+</unloadPAK>
+
+//same as unload, but it only unloads content(s) of a file instead of the whole file
+//experimental and slow since it uses legacy method
+//example (recommended to only use file name instead of full path): <name>sound02.pak</name> <unloadFile>ACT_DUNKIN_02.mp3</unloadFile>
+<unloadFile>
+	<fileToUnload>
+		<name></name>
+		<unloadFile></unloadFile> 
+	</fileToUnload>
+	<fileToUnload>
+		<name></name>
+		<unloadFile></unloadFile> 
+	</fileToUnload>	
+</unloadFile>
+
+//replace file with another file
+//example (you must have sound02.pak in patch folder): <name>sound02.pak</name>
+<replacePAK>
+	<name></name>
+</replacePAK>
+
+//same as replace, but it only replaces content(s) of a file instead of the whole file
+//must include the whole path, must have Sound\Env_SOUND\ACT_DUNKIN_02.mp3 in patch folder
+//experimental and slow since it uses legacy method
+//example: <fileName>sound02.pak</fileName> <replaceFile>Sound\Env_SOUND\ACT_DUNKIN_02.mp3</replaceFile>
+<replaceFile>
+	<fileToReplace>
+		<name></name>
+		<replaceFile></replaceFile>
+	</fileToReplace>
+</replaceFile>
+
+//same as replaceFile, but it allows you to change path
+//may not work correctly, the game can load new file from new path but it may not use that new file as game reads using the path from a config file
+//example: <fileName>sound02.pak</fileName> <replaceFile>Sound\Env_SOUND\ACT_DUNKIN_02.mp3</replaceFile> <changePathTo>Test\MY_SOUND\Name2.mp3</changePathTo>
+<replaceFile2>
+	<fileToReplace>
+		<name></name>
+		<replaceFile></replaceFile>
+		<changePathTo></changePathTo>
+	</fileToReplace>
+</replaceFile2>

@@ -1,0 +1,1227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btn_apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="btn_back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="btn_cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btn_click_to_reset" xml:space="preserve">
+    <value>Click here to refresh</value>
+  </data>
+  <data name="btn_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btn_config" xml:space="preserve">
+    <value>Config</value>
+  </data>
+  <data name="btn_confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="btn_exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="btn_hide" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="btn_import" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="btn_language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="btn_launch" xml:space="preserve">
+    <value>Launch</value>
+  </data>
+  <data name="btn_news_skip" xml:space="preserve">
+    <value>Don't show me this again</value>
+  </data>
+  <data name="btn_patch_it" xml:space="preserve">
+    <value>Patch it!</value>
+  </data>
+  <data name="btn_resize" xml:space="preserve">
+    <value>Resize</value>
+  </data>
+  <data name="btn_select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="btn_send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="btn_service_custompatch" xml:space="preserve">
+    <value>Custom Patch</value>
+  </data>
+  <data name="btn_setting_clean_up" xml:space="preserve">
+    <value>Clean up</value>
+  </data>
+  <data name="btn_setting_see_log" xml:space="preserve">
+    <value>View logs</value>
+  </data>
+  <data name="btn_show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="btn_tweak_applied" xml:space="preserve">
+    <value>Tweak applied</value>
+  </data>
+  <data name="btn_tweak_charactervoice" xml:space="preserve">
+    <value>Character Voice</value>
+  </data>
+  <data name="btn_tweak_charvoice_install" xml:space="preserve">
+    <value>Install Character Voice DLC</value>
+  </data>
+  <data name="btn_tweak_court" xml:space="preserve">
+    <value>Custom Court</value>
+  </data>
+  <data name="btn_tweak_extension" xml:space="preserve">
+    <value>Extensions</value>
+  </data>
+  <data name="btn_tweak_extension_launch" xml:space="preserve">
+    <value>Launch extension</value>
+  </data>
+  <data name="btn_tweak_jukebox" xml:space="preserve">
+    <value>Custom Jukebox</value>
+  </data>
+  <data name="btn_tweak_jukebox_install" xml:space="preserve">
+    <value>Install Jukebox DLC</value>
+  </data>
+  <data name="btn_tweak_map_choice_beach" xml:space="preserve">
+    <value>Beach map</value>
+  </data>
+  <data name="btn_tweak_map_choice_default_map" xml:space="preserve">
+    <value>Default map</value>
+  </data>
+  <data name="btn_tweak_map_choice_katto" xml:space="preserve">
+    <value>Katto map</value>
+  </data>
+  <data name="btn_tweak_map_choice_training" xml:space="preserve">
+    <value>Training map</value>
+  </data>
+  <data name="btn_tweak_map_choice_warehouse" xml:space="preserve">
+    <value>Warehouse map</value>
+  </data>
+  <data name="btn_tweak_mcvoice" xml:space="preserve">
+    <value>MC Voice</value>
+  </data>
+  <data name="btn_tweak_mcvoice_choice_vietnamese" xml:space="preserve">
+    <value>Vietnamese</value>
+  </data>
+  <data name="btn_tweak_mcvoice_focust_assist" xml:space="preserve">
+    <value>Focus Assist</value>
+  </data>
+  <data name="btn_tweak_mcvoice_font" xml:space="preserve">
+    <value>Enable custom font</value>
+  </data>
+  <data name="btn_tweak_mcvoice_install" xml:space="preserve">
+    <value>Install MC Voice DLC</value>
+  </data>
+  <data name="btn_tweak_mcvoice_smart_language" xml:space="preserve">
+    <value>Enable smart language</value>
+  </data>
+  <data name="btn_tweak_misc" xml:space="preserve">
+    <value>Miscellaneous</value>
+  </data>
+  <data name="btn_tweak_misc_log_clean" xml:space="preserve">
+    <value>Auto clean game logs</value>
+  </data>
+  <data name="btn_tweak_mist_afk_prevention" xml:space="preserve">
+    <value>Prevent AFK kicking</value>
+  </data>
+  <data name="btn_tweak_mist_shortcut_enable" xml:space="preserve">
+    <value>Allow key shortcuts</value>
+  </data>
+  <data name="btn_tweak_task_cancel_running_task" xml:space="preserve">
+    <value>Cancel running task [F4]</value>
+  </data>
+  <data name="btn_tweak_task_start" xml:space="preserve">
+    <value>Start task</value>
+  </data>
+  <data name="btn_tweak_texture" xml:space="preserve">
+    <value>Custom Texture</value>
+  </data>
+  <data name="btn_tweak_texture_nako_copy" xml:space="preserve">
+    <value>Copy code</value>
+  </data>
+  <data name="btn_tweak_texture_nako_ok" xml:space="preserve">
+    <value>Got it!</value>
+  </data>
+  <data name="btn_tweak_timedtask" xml:space="preserve">
+    <value>Timed Task</value>
+  </data>
+  <data name="btn_tweak_update" xml:space="preserve">
+    <value>Update {0}</value>
+  </data>
+  <data name="cb_tweak_task_1" xml:space="preserve">
+    <value>Close game</value>
+  </data>
+  <data name="cb_tweak_task_2" xml:space="preserve">
+    <value>Close game &amp; shutdown</value>
+  </data>
+  <data name="cb_tweak_task_3" xml:space="preserve">
+    <value>Close game &amp; run command</value>
+  </data>
+  <data name="cb_tweak_task_4" xml:space="preserve">
+    <value>Run command</value>
+  </data>
+  <data name="cb_tweak_task_5" xml:space="preserve">
+    <value>Auto click</value>
+  </data>
+  <data name="chat_hikari_cheat_detected" xml:space="preserve">
+    <value>{0} hates cheating!</value>
+  </data>
+  <data name="chat_hikari_corrupt_data_fixed" xml:space="preserve">
+    <value>{0} has fixed the corrupted data for chu!</value>
+  </data>
+  <data name="chat_nako_cheat_detected" xml:space="preserve">
+    <value>{0} is the one who must vaniquish this cheating evil!</value>
+  </data>
+  <data name="chat_nako_corrupt_data_fixed" xml:space="preserve">
+    <value>{0} has cleansed your corrupted soul!</value>
+  </data>
+  <data name="context_close_launcher" xml:space="preserve">
+    <value>Kill game launcher</value>
+  </data>
+  <data name="context_custom_repo" xml:space="preserve">
+    <value>Custom repository</value>
+  </data>
+  <data name="context_launch_launcher" xml:space="preserve">
+    <value>Launcher [Global/China]</value>
+  </data>
+  <data name="context_launch_steam" xml:space="preserve">
+    <value>Steam Launcher [Global]</value>
+  </data>
+  <data name="context_launch_web" xml:space="preserve">
+    <value>Web Launcher [Korea]</value>
+  </data>
+  <data name="context_open_game_foler" xml:space="preserve">
+    <value>Open Game folder</value>
+  </data>
+  <data name="context_open_patcher_foler" xml:space="preserve">
+    <value>Open Patcher folder</value>
+  </data>
+  <data name="context_song_current" xml:space="preserve">
+    <value>Current song: {0}</value>
+  </data>
+  <data name="context_song_load_random" xml:space="preserve">
+    <value>Load random music~♪</value>
+  </data>
+  <data name="context_tweak_jukebox_delete" xml:space="preserve">
+    <value>Delete selected song</value>
+  </data>
+  <data name="context_tweak_jukebox_move" xml:space="preserve">
+    <value>Move selected song to top</value>
+  </data>
+  <data name="game_cards" xml:space="preserve">
+    <value>Cards</value>
+  </data>
+  <data name="game_loading_screen" xml:space="preserve">
+    <value>Loading screen</value>
+  </data>
+  <data name="LB_404" xml:space="preserve">
+    <value>404 Error!</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="lb_about_version" xml:space="preserve">
+    <value>Stable release version {0}</value>
+  </data>
+  <data name="lb_connecting" xml:space="preserve">
+    <value>Connecting...</value>
+  </data>
+  <data name="lb_connecting_to_server" xml:space="preserve">
+    <value>Connecting to server...</value>
+  </data>
+  <data name="LB_did_you_have_fun" xml:space="preserve">
+    <value>Did you have fun?</value>
+    <comment>#no trans</comment>
+  </data>
+  <data name="LB_download_applying_downloaded" xml:space="preserve">
+    <value>Applying downloaded patch!</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="LB_download_cancelled" xml:space="preserve">
+    <value>Cancelled QwQ</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="LB_download_clean_up" xml:space="preserve">
+    <value>Cleanning up!</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="LB_download_extracting" xml:space="preserve">
+    <value>Extracting files...</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="LB_download_has_completed" xml:space="preserve">
+    <value>Ehe it's done!</value>
+    <comment>#no trans</comment>
+  </data>
+  <data name="LB_download_has_failed" xml:space="preserve">
+    <value>Process has failed~</value>
+    <comment>#no trans</comment>
+  </data>
+  <data name="lb_download_staring" xml:space="preserve">
+    <value>Staring: {0}</value>
+  </data>
+  <data name="lb_failed_to_connect" xml:space="preserve">
+    <value>Failed to connect</value>
+  </data>
+  <data name="LB_game_folder_not_selected" xml:space="preserve">
+    <value>Game folder not selected</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="lb_help_categories" xml:space="preserve">
+    <value>Patch|Tweak|Voice|Jukebox|Map|Crash|Tips</value>
+  </data>
+  <data name="lb_help_crashes" xml:space="preserve">
+    <value>1. If it disconnects you, please try to switch off tweak one by one to see which caused it.
+2. Try to turn off map tweaks.
+3. Check for updates on the DLCs and STD patches.
+4. Check the game language, if you are on Korean or Chinese client, please download [STD] Language patch.</value>
+  </data>
+  <data name="lb_help_jukebox" xml:space="preserve">
+    <value>Custom Jukebox is one of the tweaks, it changes the in-game traditional Jukebox (game music) into your fully customiable one. To use, install DLC3. Select the song you like and then add it, then you all set!</value>
+  </data>
+  <data name="lb_help_map" xml:space="preserve">
+    <value>Map tweaks is one of the tweaks, it changes the in-game traditional maps (or courts) into the one that program offers. To use, download the DLC next to each option. each option has some type of maps and you can only choose one. Map tweaks can also be toggled anytime (need to reload replays to apply changes).</value>
+  </data>
+  <data name="lb_help_patches" xml:space="preserve">
+    <value>Patches will apply the patches fetched from server to the game, they will be overwritten by official game patches every time you launch the game. Except [STD] aka Standalones. To use, just click on "Patch it" and wait for the game to start.  You can also apply multiple patches by holding Ctrl key and select the patches you want.</value>
+  </data>
+  <data name="lb_help_select" xml:space="preserve">
+    <value>Select a category.</value>
+  </data>
+  <data name="lb_help_tips" xml:space="preserve">
+    <value>1. Setup all tweaks before doing patches.
+2. You can hide the program by double clicking on cat icon in task bar.
+3. If there's bug please report to me.
+4. It's bad to commit suicide.</value>
+  </data>
+  <data name="lb_help_tweaks" xml:space="preserve">
+    <value>Unlike patches, tweaks don't need to redownload them everytime you launch the game, tweaks will automatically apply any downloaded DLCs into the game in a legit way to avoid overwriting from official game patches. To use, download the required DLCs and enable your desired tweaks.</value>
+  </data>
+  <data name="lb_help_voice_changer" xml:space="preserve">
+    <value>Voice changer is one of the tweaks, it changes the in-game traditional MC language into your desired one. To use, download DLC6 and choose your language. Note that the in-game language will be overwritten by the setting you made in "Game Language". Because of that you can also use it as a game translator (you will need [STD] Language pack).</value>
+  </data>
+  <data name="lb_import_empty_url" xml:space="preserve">
+    <value>Are you importing your mind~ (￣ω￣)</value>
+  </data>
+  <data name="lb_import_empty_url_error" xml:space="preserve">
+    <value>I said enter the right URL! (￣ω￣)</value>
+  </data>
+  <data name="lb_import_enter_url" xml:space="preserve">
+    <value>Please enter the right URL</value>
+  </data>
+  <data name="lb_initializing" xml:space="preserve">
+    <value>Initializing...</value>
+  </data>
+  <data name="lb_installer_repair" xml:space="preserve">
+    <value>Warning! This will attempt to uninstall everything related to takattoFS2 Patcher and reset it's settings to default! 
+
+This will help resolving any un-fixable problem that prevent the patcher from working properly~</value>
+  </data>
+  <data name="lb_installer_repair_step1" xml:space="preserve">
+    <value>Are you really sure?</value>
+  </data>
+  <data name="lb_installer_repair_step2" xml:space="preserve">
+    <value>Ehhh, are you sure again? ヾ(&gt;﹏&lt;)シ</value>
+  </data>
+  <data name="lb_installer_repair_step3" xml:space="preserve">
+    <value>Is there any problem!? ＼(º □ º l|l)/</value>
+  </data>
+  <data name="lb_installer_repair_step4" xml:space="preserve">
+    <value>Got chu, one moar! ヾ(.&gt;ω&lt;.)シ</value>
+  </data>
+  <data name="lb_installer_repair_step5" xml:space="preserve">
+    <value>Starting repairing process~</value>
+  </data>
+  <data name="lb_installer_welcome" xml:space="preserve">
+    <value>Welcome to the takattoFS2 Pacther~ 
+
+This is first-run notifier, for anyone that have used this patcher before, it will attempt to reset it's settings to default.
+
+If you have found any bugs or idea, don't be hesitated to report to me~ have fun~ (⁄ ⁄•⁄ω⁄•⁄ ⁄)</value>
+  </data>
+  <data name="lb_installer_welcome_step1" xml:space="preserve">
+    <value>Click on me sempai~ ｏ(＞＜；)ｏ</value>
+  </data>
+  <data name="lb_installer_welcome_step2" xml:space="preserve">
+    <value>Waaa ヾ(&gt;﹏&lt;)シ</value>
+  </data>
+  <data name="lb_installer_welcome_step3" xml:space="preserve">
+    <value>Anou... ヾ(. ＞＜)シ</value>
+  </data>
+  <data name="lb_installer_welcome_step4" xml:space="preserve">
+    <value>Ehee~ Once more! ヾ(.&gt;ω&lt;.)シ</value>
+  </data>
+  <data name="LB_item_applied" xml:space="preserve">
+    <value>{0} is applied!</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="LB_item_not_applied" xml:space="preserve">
+    <value>{0} is not applied</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="LB_item_not_installed" xml:space="preserve">
+    <value>{0} is not installed</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="lb_language_help" xml:space="preserve">
+    <value>Your game language is needed for some tweaks to work correctly~</value>
+  </data>
+  <data name="LB_language_hint" xml:space="preserve">
+    <value>Choose your game language</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="LB_nyan" xml:space="preserve">
+    <value>Nyannn</value>
+  </data>
+  <data name="lb_patch_connecting" xml:space="preserve">
+    <value>[Connecting...]</value>
+  </data>
+  <data name="lb_patch_desc" xml:space="preserve">
+    <value>[Patch description]</value>
+  </data>
+  <data name="lb_patch_error" xml:space="preserve">
+    <value>[Something wrong]</value>
+  </data>
+  <data name="lb_patch_error_api_failed" xml:space="preserve">
+    <value>[API request failed]</value>
+  </data>
+  <data name="lb_patch_error_ext_not_supported" xml:space="preserve">
+    <value>[EXT not supported]</value>
+  </data>
+  <data name="lb_patch_error_ext_not_supported_help" xml:space="preserve">
+    <value>Extensions can be installed right away</value>
+  </data>
+  <data name="lb_patch_error_not_found" xml:space="preserve">
+    <value>[Patch not found]</value>
+  </data>
+  <data name="lb_patch_error_not_found_help" xml:space="preserve">
+    <value>Something is wrong on the end server</value>
+  </data>
+  <data name="lb_patch_error_std_not_supported" xml:space="preserve">
+    <value>[STD not supported]</value>
+  </data>
+  <data name="lb_patch_error_std_not_supported_help" xml:space="preserve">
+    <value>Standalone patches can be installed right away</value>
+  </data>
+  <data name="lb_patch_error_wip_not_supported" xml:space="preserve">
+    <value>[WIP not supported]</value>
+  </data>
+  <data name="lb_patch_error_wip_not_supported_help" xml:space="preserve">
+    <value>Work in process patches are not available to use</value>
+  </data>
+  <data name="lb_patch_extension_installed" xml:space="preserve">
+    <value>Extension installed</value>
+  </data>
+  <data name="lb_patch_extension_installed_version" xml:space="preserve">
+    <value>Extension installed: {0}</value>
+  </data>
+  <data name="lb_patch_failed_to_fetch" xml:space="preserve">
+    <value>[Could not fetch infomation for selected patch]</value>
+  </data>
+  <data name="lb_patch_failed_to_load" xml:space="preserve">
+    <value>[Failed to load...]</value>
+  </data>
+  <data name="lb_patch_failed_to_load_note" xml:space="preserve">
+    <value>[The server is down]</value>
+  </data>
+  <data name="lb_patch_help" xml:space="preserve">
+    <value>Non-standalone patches will get overwritten</value>
+  </data>
+  <data name="lb_patch_info" xml:space="preserve">
+    <value>What does the fox say?</value>
+  </data>
+  <data name="lb_patch_info_version" xml:space="preserve">
+    <value>Version {0} - Last updated on {1}</value>
+  </data>
+  <data name="lb_patch_installed" xml:space="preserve">
+    <value>Patch installed</value>
+  </data>
+  <data name="lb_patch_installed_version" xml:space="preserve">
+    <value>Patch installed: {0}</value>
+  </data>
+  <data name="lb_patch_list" xml:space="preserve">
+    <value>Patch List</value>
+  </data>
+  <data name="lb_patch_multi_mode" xml:space="preserve">
+    <value>[Multi patch mode]</value>
+  </data>
+  <data name="lb_patch_multi_mode_help" xml:space="preserve">
+    <value>Hover your mouse to select multi patches at once</value>
+  </data>
+  <data name="lb_patch_multi_mode_note" xml:space="preserve">
+    <value>[Select 2 items]</value>
+  </data>
+  <data name="lb_patch_multi_mode_status" xml:space="preserve">
+    <value>[Multi patches selected]</value>
+  </data>
+  <data name="lb_patch_note" xml:space="preserve">
+    <value>[Patch note]</value>
+  </data>
+  <data name="lb_patch_not_installed" xml:space="preserve">
+    <value>Not installed</value>
+  </data>
+  <data name="lb_patch_sessionly_applied" xml:space="preserve">
+    <value>Sessionly applied</value>
+  </data>
+  <data name="lb_patch_status" xml:space="preserve">
+    <value>[Patch status]</value>
+  </data>
+  <data name="lb_pin_on_top" xml:space="preserve">
+    <value>Pin on top</value>
+  </data>
+  <data name="lb_remember_password" xml:space="preserve">
+    <value>Remember password</value>
+  </data>
+  <data name="lb_repeat" xml:space="preserve">
+    <value>Repeat</value>
+  </data>
+  <data name="lb_repo" xml:space="preserve">
+    <value>Repo: {0}</value>
+  </data>
+  <data name="lb_reset" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="lb_resize_crash" xml:space="preserve">
+    <value>Crash potential!</value>
+  </data>
+  <data name="LB_select_a_tweak" xml:space="preserve">
+    <value>Select a tweak!</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="lb_service_help" xml:space="preserve">
+    <value>君を決してあきらめないよ</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="lb_service_help2" xml:space="preserve">
+    <value>昨日は歴史、明日は謎ですが</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="lb_service_help3" xml:space="preserve">
+    <value>ひとつ ふたつ みっつ よっつ</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="lb_service_info" xml:space="preserve">
+    <value>An advanced version of tweak~</value>
+  </data>
+  <data name="lb_service_list" xml:space="preserve">
+    <value>Service List</value>
+  </data>
+  <data name="lb_setting_auto_play_music" xml:space="preserve">
+    <value>Auto play music</value>
+  </data>
+  <data name="lb_setting_auto_play_music_help" xml:space="preserve">
+    <value>Play cutie music at launch.</value>
+  </data>
+  <data name="lb_setting_enable_logging" xml:space="preserve">
+    <value>Enable logging</value>
+  </data>
+  <data name="lb_setting_enable_logging_help" xml:space="preserve">
+    <value>Save program events.</value>
+  </data>
+  <data name="lb_setting_language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="lb_setting_language_help" xml:space="preserve">
+    <value>Program language.</value>
+  </data>
+  <data name="lb_setting_menu_position" xml:space="preserve">
+    <value>Menu position</value>
+  </data>
+  <data name="lb_setting_menu_position_help" xml:space="preserve">
+    <value>Tab control position.</value>
+  </data>
+  <data name="LB_something_wrong" xml:space="preserve">
+    <value>Something's wrong!</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="lb_status" xml:space="preserve">
+    <value>Status: {0}</value>
+  </data>
+  <data name="lb_status_empty" xml:space="preserve">
+    <value>- - -</value>
+  </data>
+  <data name="LB_task_finished" xml:space="preserve">
+    <value>Task completed!</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="LB_task_running" xml:space="preserve">
+    <value>A task is running!</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="LB_tweaks_applied" xml:space="preserve">
+    <value>Tweaks applied!</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="lb_tweak_charvoice_help" xml:space="preserve">
+    <value>Customize the character voice</value>
+  </data>
+  <data name="lb_tweak_charvoice_hint" xml:space="preserve">
+    <value>Character Voice language</value>
+  </data>
+  <data name="lb_tweak_charvoice_hint2" xml:space="preserve">
+    <value>Some characters are muted~</value>
+  </data>
+  <data name="lb_tweak_charvoice_version" xml:space="preserve">
+    <value>DLC Version: {0}</value>
+  </data>
+  <data name="lb_tweak_charvoice_version_newer" xml:space="preserve">
+    <value>A new version detected!</value>
+  </data>
+  <data name="lb_tweak_choice_china" xml:space="preserve">
+    <value>Chinese_中国人</value>
+  </data>
+  <data name="lb_tweak_choice_custom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="lb_tweak_choice_default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="lb_tweak_choice_english" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="lb_tweak_choice_korea" xml:space="preserve">
+    <value>Korean_한국어</value>
+  </data>
+  <data name="lb_tweak_court_help" xml:space="preserve">
+    <value>Customize the in-game map in real time</value>
+  </data>
+  <data name="lb_tweak_court_help_load_replay" xml:space="preserve">
+    <value>Load replays to see changes~</value>
+  </data>
+  <data name="lb_tweak_custompatch_help" xml:space="preserve">
+    <value>Automatically apply custom patches and stuffs</value>
+  </data>
+  <data name="lb_tweak_customtexture_help" xml:space="preserve">
+    <value>Customize the in-game texture</value>
+  </data>
+  <data name="lb_tweak_extension_help" xml:space="preserve">
+    <value>A collection of installed extensions</value>
+  </data>
+  <data name="lb_tweak_extension_hint" xml:space="preserve">
+    <value>Installed extension(s)</value>
+  </data>
+  <data name="lb_tweak_extension_none" xml:space="preserve">
+    <value>No extension installed</value>
+  </data>
+  <data name="lb_tweak_help" xml:space="preserve">
+    <value>Give cat gifts, cat gives gifts</value>
+  </data>
+  <data name="lb_tweak_info" xml:space="preserve">
+    <value>A free style for FreeStyle 2, shall we?</value>
+  </data>
+  <data name="lb_tweak_jukebox_artist" xml:space="preserve">
+    <value>Artist</value>
+  </data>
+  <data name="lb_tweak_jukebox_corrupted" xml:space="preserve">
+    <value>The Jukebox dataset is corrupted!</value>
+  </data>
+  <data name="lb_tweak_jukebox_help" xml:space="preserve">
+    <value>Customize the in-game music</value>
+  </data>
+  <data name="lb_tweak_jukebox_path" xml:space="preserve">
+    <value>[Song path]</value>
+  </data>
+  <data name="lb_tweak_jukebox_soundname" xml:space="preserve">
+    <value>Sound name</value>
+  </data>
+  <data name="lb_tweak_list" xml:space="preserve">
+    <value>Tweak List</value>
+  </data>
+  <data name="lb_tweak_mcvoice_help" xml:space="preserve">
+    <value>Customize the MC voice</value>
+  </data>
+  <data name="lb_tweak_misc_afk_interval_hint" xml:space="preserve">
+    <value>Interval (second)</value>
+  </data>
+  <data name="lb_tweak_misc_help" xml:space="preserve">
+    <value>A few settings that you love</value>
+  </data>
+  <data name="lb_tweak_task_5" xml:space="preserve">
+    <value>Start the game to get coordination~</value>
+  </data>
+  <data name="lb_tweak_task_5_hint" xml:space="preserve">
+    <value>Alt+Tab to return to patcher~</value>
+  </data>
+  <data name="lb_tweak_task_5_hint2" xml:space="preserve">
+    <value>Focus to the game to get your desired clicking position!</value>
+  </data>
+  <data name="lb_tweak_task_cmd" xml:space="preserve">
+    <value>Command line</value>
+  </data>
+  <data name="lb_tweak_task_help" xml:space="preserve">
+    <value>Make an auto task for various purposes</value>
+  </data>
+  <data name="lb_tweak_task_interval_hint" xml:space="preserve">
+    <value>Timer interval (second)</value>
+  </data>
+  <data name="lb_tweak_texture_developing" xml:space="preserve">
+    <value>This function is being developed</value>
+  </data>
+  <data name="lb_tweak_texture_loading" xml:space="preserve">
+    <value>Loading image</value>
+  </data>
+  <data name="lb_tweak_texture_nako_unlock" xml:space="preserve">
+    <value>Ehem! This tweak requires an extension to be working, but since you gave me a lot of love, you are qualified to earn such thing! Please copy the code and send to me~</value>
+  </data>
+  <data name="lb_tweak_thankie" xml:space="preserve">
+    <value>Thankie for your love~ (´,,•ω•,,)♡</value>
+  </data>
+  <data name="lb_tweak_ui_help" xml:space="preserve">
+    <value>Customize the game user interface</value>
+  </data>
+  <data name="LB_wait_for_game" xml:space="preserve">
+    <value>Waiting for game</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="lb_wait_hint" xml:space="preserve">
+    <value>Have you applied the tweaks?</value>
+  </data>
+  <data name="lb_wait_restoring_data" xml:space="preserve">
+    <value>Revivifying the game data.
+Please wait for a while before launching the game again!</value>
+  </data>
+  <data name="msgdiag_close_patcher" xml:space="preserve">
+    <value>Are you sure you wanna close the patcher?</value>
+  </data>
+  <data name="msgdiag_force_game_web_launcher" xml:space="preserve">
+    <value>The current game client isn't supported by web launcher, process anyway?</value>
+  </data>
+  <data name="msgdiag_game_folder_not_found" xml:space="preserve">
+    <value>Anou... You have not selected the game location, do you want to do so?</value>
+  </data>
+  <data name="msgdiag_logging_disabled" xml:space="preserve">
+    <value>Logging is disabled, do you want to enable? This will store some program events, useful to inspect the error if exist~</value>
+  </data>
+  <data name="msgdiag_patch_obselete" xml:space="preserve">
+    <value>This patch is obsolete or marked as unstable, use it anyway?</value>
+  </data>
+  <data name="msgdiag_reinstall_or_update" xml:space="preserve">
+    <value>Do you want to reinstall/update this?</value>
+  </data>
+  <data name="msgdiag_task_is_running" xml:space="preserve">
+    <value>A task is running, do you want to stop?</value>
+  </data>
+  <data name="msgdiag_tweak_character_voice_update" xml:space="preserve">
+    <value>Do you want to update Character voice DLC?</value>
+  </data>
+  <data name="msgdiag_tweak_court_type_switch" xml:space="preserve">
+    <value>Do you want to switch to this court?</value>
+  </data>
+  <data name="msgdiag_tweak_extension_remove" xml:space="preserve">
+    <value>Do you want to remove "{0}" from Extension?</value>
+  </data>
+  <data name="msgdiag_tweak_jukebox_reinstall" xml:space="preserve">
+    <value>Eh, reinstall will delete all changes you made to the Jukebox, are chu sure?</value>
+  </data>
+  <data name="msgdiag_tweak_jukebox_remove_song" xml:space="preserve">
+    <value>Do you want to remove "{0}" from Jukebox?</value>
+  </data>
+  <data name="msgdiag_uninstall" xml:space="preserve">
+    <value>Do you want to uninstall this?</value>
+  </data>
+  <data name="msgdiag_uninstall_item" xml:space="preserve">
+    <value>Do you want to uninstall "{0}"?</value>
+  </data>
+  <data name="msgtitle_a_bug" xml:space="preserve">
+    <value>Probably a bug? QwQ</value>
+  </data>
+  <data name="msgtitle_check_again" xml:space="preserve">
+    <value>Uhm, can you check again?</value>
+  </data>
+  <data name="msgtitle_contact_me" xml:space="preserve">
+    <value>Please contact me for more information~</value>
+  </data>
+  <data name="msgtitle_error" xml:space="preserve">
+    <value>Something is wrong?</value>
+  </data>
+  <data name="msgtitle_ewk" xml:space="preserve">
+    <value>Eeeeehhhk!</value>
+  </data>
+  <data name="msgtitle_future_improve" xml:space="preserve">
+    <value>I'll improve this soon~ (￣▽￣)</value>
+  </data>
+  <data name="msgtitle_game_folder_not_found" xml:space="preserve">
+    <value>Game directory not found~ QwO</value>
+  </data>
+  <data name="msgtitle_it_works" xml:space="preserve">
+    <value>Yay it works! (〜￣▽￣)〜</value>
+  </data>
+  <data name="msgtitle_known_bug_but_lazy" xml:space="preserve">
+    <value>Known bug, but lazy to fix~</value>
+  </data>
+  <data name="msgtitle_no_bully" xml:space="preserve">
+    <value>No bullies~ (￣ω￣ )</value>
+  </data>
+  <data name="msgtitle_no_connection" xml:space="preserve">
+    <value>No internet connection! (￣ω￣)</value>
+  </data>
+  <data name="msgtitle_no_need_to_do" xml:space="preserve">
+    <value>You don't need to do it again~</value>
+  </data>
+  <data name="msgtitle_null_value" xml:space="preserve">
+    <value>Can' handle null! OAO</value>
+  </data>
+  <data name="msgtitle_oh_no" xml:space="preserve">
+    <value>Oh noooo~</value>
+  </data>
+  <data name="msgtitle_processing_done" xml:space="preserve">
+    <value>Processing done! °˖✧◝(⁰▽⁰)◜✧˖°</value>
+  </data>
+  <data name="msgtitle_question" xml:space="preserve">
+    <value>Yes no question~</value>
+  </data>
+  <data name="msgtitle_quote_21" xml:space="preserve">
+    <value>Ugh, coding is hard~ ( ノ_&lt;。)</value>
+  </data>
+  <data name="msgtitle_quote_31" xml:space="preserve">
+    <value>Yup! Lonely is bad~</value>
+  </data>
+  <data name="msgtitle_quote_51" xml:space="preserve">
+    <value>Too fast is better than too slow~</value>
+  </data>
+  <data name="msgtitle_random1" xml:space="preserve">
+    <value>ヘ(￣ω￣ヘ)</value>
+  </data>
+  <data name="msgtitle_random2" xml:space="preserve">
+    <value>☆ｏ(＞＜；)○</value>
+  </data>
+  <data name="msgtitle_random3" xml:space="preserve">
+    <value>(≧w≦)~</value>
+  </data>
+  <data name="msgtitle_random4" xml:space="preserve">
+    <value>(￣w￣*)`</value>
+  </data>
+  <data name="msgtitle_rawk" xml:space="preserve">
+    <value>Rwaaawk~ ヾ(￣v￣; )</value>
+  </data>
+  <data name="msgtitle_select_game_folder" xml:space="preserve">
+    <value>Select your lovely FS2 folder~ (^ ω ^ *)</value>
+  </data>
+  <data name="msgtitle_select_jukebox_song" xml:space="preserve">
+    <value>Select a mp3 song~</value>
+  </data>
+  <data name="msgtitle_try_again" xml:space="preserve">
+    <value>Try again! `(￣ω ￣)</value>
+  </data>
+  <data name="msgtitle_tweak_jukebox_reinstall" xml:space="preserve">
+    <value>Reinstall Jukebox?</value>
+  </data>
+  <data name="msgtitle_um" xml:space="preserve">
+    <value>Ummm...?</value>
+  </data>
+  <data name="msg_close_game_first" xml:space="preserve">
+    <value>You need to close the game to perform this action~</value>
+  </data>
+  <data name="msg_download_cancelled" xml:space="preserve">
+    <value>Downloading has been cancelled~ OAO`</value>
+  </data>
+  <data name="msg_error" xml:space="preserve">
+    <value>An error has occurred. Kat-code: {0}</value>
+  </data>
+  <data name="msg_failed_to_fetch" xml:space="preserve">
+    <value>Could not find required file/information.</value>
+  </data>
+  <data name="msg_failed_to_uninstall_patch" xml:space="preserve">
+    <value>"{0}" could not be uninstalled. Ether it was by design or you are using older version of it.</value>
+  </data>
+  <data name="msg_fail_to_create_path" xml:space="preserve">
+    <value>Could not create patcher folder, maybe you are having antivirus on? Please add the patcher to whitelist or contact developer for help~</value>
+  </data>
+  <data name="msg_field_invalid" xml:space="preserve">
+    <value>The value you entered is not valid!</value>
+  </data>
+  <data name="msg_field_missing" xml:space="preserve">
+    <value>One or some fields are not filled!</value>
+  </data>
+  <data name="msg_folder_invalid" xml:space="preserve">
+    <value>The folder you selected is not valid~</value>
+  </data>
+  <data name="msg_game_need_to_close" xml:space="preserve">
+    <value>Please close any running instance of FreeStyle2 first~</value>
+  </data>
+  <data name="msg_has_cleanned_up" xml:space="preserve">
+    <value>The temporary folder have been cleaned up, saved {0}MB~</value>
+  </data>
+  <data name="msg_has_cleanned_up_but_nothing_cleanned" xml:space="preserve">
+    <value>Nothing is needed to clean!</value>
+  </data>
+  <data name="msg_has_installed" xml:space="preserve">
+    <value>"{0}" installed successfully!</value>
+  </data>
+  <data name="msg_has_uninstalled" xml:space="preserve">
+    <value>"{0}" has been uninstalled~</value>
+  </data>
+  <data name="msg_incorrect_parametter" xml:space="preserve">
+    <value>An unknow error occurred. Kat-code: Incorrect parameter.</value>
+  </data>
+  <data name="msg_invalid_afk_interval" xml:space="preserve">
+    <value>Anou... the interval must be in between 10~55.</value>
+  </data>
+  <data name="msg_item_required" xml:space="preserve">
+    <value>You need "{0}" for this tweak to work~</value>
+  </data>
+  <data name="msg_maximum_item_reached" xml:space="preserve">
+    <value>Anou... You can only select up to {0} items!</value>
+  </data>
+  <data name="msg_no_item_selected" xml:space="preserve">
+    <value>You haven't selected any item~</value>
+  </data>
+  <data name="msg_no_sound_lib" xml:space="preserve">
+    <value>Could not load media player library!</value>
+  </data>
+  <data name="msg_no_sound_sample" xml:space="preserve">
+    <value>Could not find sample sound~</value>
+  </data>
+  <data name="msg_patcher_has_new_version" xml:space="preserve">
+    <value>There is newer version available! Please download it on website~</value>
+  </data>
+  <data name="msg_patch_wip" xml:space="preserve">
+    <value>This patch is still in development!</value>
+  </data>
+  <data name="msg_path_has_applied" xml:space="preserve">
+    <value>"{0}" has already applied in this game session!</value>
+  </data>
+  <data name="msg_please_restart_program_language" xml:space="preserve">
+    <value>You have changed the program language, to make it fully translated, please consider restarting program!~</value>
+  </data>
+  <data name="msg_program_disabled" xml:space="preserve">
+    <value>Program is disabled!</value>
+  </data>
+  <data name="msg_song_has_added" xml:space="preserve">
+    <value>"{0}" added to Jukebox!</value>
+  </data>
+  <data name="msg_song_has_deleted" xml:space="preserve">
+    <value>"{0}" has been removed from Jukebox~</value>
+  </data>
+  <data name="msg_two_fields_needed" xml:space="preserve">
+    <value>Need to have atleast two fields to do so! (￣w￣*)</value>
+  </data>
+  <data name="msg_user_offline" xml:space="preserve">
+    <value>Could not connect to the server, you are offline~</value>
+  </data>
+  <data name="notify_tray_tip" xml:space="preserve">
+    <value>takattoFS2 Patcher is running at your service~ o(≧▽≦)o</value>
+  </data>
+  <data name="tab1" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="tab2" xml:space="preserve">
+    <value>Patch</value>
+  </data>
+  <data name="tab3" xml:space="preserve">
+    <value>Tweak</value>
+  </data>
+  <data name="tab4" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="tab5" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="text_about" xml:space="preserve">
+    <value>This cutie program comes with ABSOLUTELY NO WARRANTY. Safe and sound but beware around~
+
+This is free software and you are welcome to redistribute it but under certain conditions. 
+
+This offers an ability to customize the game and therefore gives you a better game experience than it was. Made by FS2-er for FS2-er.
+
+This will not affect people who are playing nor facing you during gameplay.
+
+The program and everything it's self is single handy hand crafted by me. But i know one day people will start to do the same!
+
+------------------------------------------
+If you found any bug or have any idea, kindly report it to me~ (O▽O)/
+
+Program is made in English, however if you want, you can contact me and we will work on translation.
+
+[Insert text here to trigger certain actions]</value>
+    <comment>#about</comment>
+  </data>
+  <data name="text_height" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="text_tweak_extension_hint" xml:space="preserve">
+    <value>Credentials (optional)</value>
+  </data>
+  <data name="text_width" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="tooltip_button_cat_seal" xml:space="preserve">
+    <value>Cat approved seal</value>
+  </data>
+  <data name="tooltip_button_demo" xml:space="preserve">
+    <value>How is it look like?</value>
+  </data>
+  <data name="tooltip_button_discord" xml:space="preserve">
+    <value>Check out Discord!</value>
+  </data>
+  <data name="tooltip_button_game_resizer" xml:space="preserve">
+    <value>Game resizer, can open while game is running</value>
+  </data>
+  <data name="tooltip_button_help" xml:space="preserve">
+    <value>Ask Nako!</value>
+  </data>
+  <data name="tooltip_button_language" xml:space="preserve">
+    <value>In-game language</value>
+  </data>
+  <data name="tooltip_button_repair" xml:space="preserve">
+    <value>Repair</value>
+  </data>
+  <data name="tooltip_button_select_folder" xml:space="preserve">
+    <value>Select game folder</value>
+  </data>
+  <data name="tooltip_button_setting" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="tooltip_button_translate" xml:space="preserve">
+    <value>Translate</value>
+  </data>
+  <data name="tooltip_button_uninstall" xml:space="preserve">
+    <value>Uninstall</value>
+  </data>
+  <data name="tooltip_close_game" xml:space="preserve">
+    <value>Close running game</value>
+  </data>
+  <data name="tooltip_disable" xml:space="preserve">
+    <value>Disable</value>
+  </data>
+  <data name="tooltip_launch_game" xml:space="preserve">
+    <value>Launch game</value>
+  </data>
+  <data name="tooltip_resize_tip" xml:space="preserve">
+    <value>Resize the game to what ever you wish! Keep in mind there will be a weird shadow in-game. Can be removed by using an extension~</value>
+  </data>
+  <data name="tooltip_sample" xml:space="preserve">
+    <value>Sample</value>
+  </data>
+  <data name="tooltip_sweet_donate" xml:space="preserve">
+    <value>Send me a coffe~</value>
+  </data>
+  <data name="tooltip_sweet_image" xml:space="preserve">
+    <value>Change current sweet girl image (for testing)</value>
+  </data>
+  <data name="tooltip_sweet_image_background" xml:space="preserve">
+    <value>Change current sweet girl background image (for testing)</value>
+  </data>
+  <data name="tooltip_sweet_image_background_layout" xml:space="preserve">
+    <value>Change background image layout (for testing) - Mode: {0}</value>
+  </data>
+  <data name="tooltip_sweet_image_layout" xml:space="preserve">
+    <value>Change image layout (for testing) - Mode: {0}</value>
+  </data>
+  <data name="tooltip_sweet_lock" xml:space="preserve">
+    <value>Lock current spirit girl from switching</value>
+  </data>
+  <data name="tooltip_sweet_music" xml:space="preserve">
+    <value>Music control</value>
+  </data>
+  <data name="tooltip_sweet_news" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="tooltip_sweet_tutorial" xml:space="preserve">
+    <value>Tutorial</value>
+  </data>
+  <data name="tooltip_tweak_charvoice_hint2" xml:space="preserve">
+    <value>Not all voice will be working because it is very hard to do so ;_ ;</value>
+  </data>
+  <data name="tooltip_tweak_extension_delete" xml:space="preserve">
+    <value>Delete selected extension</value>
+  </data>
+  <data name="tooltip_tweak_extension_hint" xml:space="preserve">
+    <value>Credentials required for advanced extensions</value>
+  </data>
+  <data name="tooltip_tweak_extension_select" xml:space="preserve">
+    <value>Select a PNG picture</value>
+  </data>
+  <data name="tooltip_tweak_jukebox_add" xml:space="preserve">
+    <value>Add a song to list</value>
+  </data>
+  <data name="tooltip_tweak_jukebox_delete" xml:space="preserve">
+    <value>Delete a song from list</value>
+  </data>
+  <data name="tooltip_tweak_jukebox_listen" xml:space="preserve">
+    <value>Play music from list (looping mode)</value>
+  </data>
+  <data name="tooltip_tweak_jukebox_reinstall" xml:space="preserve">
+    <value>Reinstall and restore settings to default</value>
+  </data>
+  <data name="tooltip_tweak_jukebox_select" xml:space="preserve">
+    <value>Select a song (mp3 only)</value>
+  </data>
+  <data name="tooltip_tweak_map_back" xml:space="preserve">
+    <value>Return back</value>
+  </data>
+  <data name="tooltip_tweak_map_choice_beach" xml:space="preserve">
+    <value>An old tournament court, very bright~</value>
+  </data>
+  <data name="tooltip_tweak_map_choice_custom" xml:space="preserve">
+    <value>Your custom installed map</value>
+  </data>
+  <data name="tooltip_tweak_map_choice_default_map" xml:space="preserve">
+    <value>Force always a specific map you like!</value>
+  </data>
+  <data name="tooltip_tweak_map_choice_katto" xml:space="preserve">
+    <value>A modified Bridge map, cutie!</value>
+  </data>
+  <data name="tooltip_tweak_map_choice_training" xml:space="preserve">
+    <value>Basic training map, very high optimized for FPS</value>
+  </data>
+  <data name="tooltip_tweak_map_choice_warehouse" xml:space="preserve">
+    <value>A long forgotten map, beautiful and eye friendly!</value>
+  </data>
+  <data name="tooltip_tweak_map_config" xml:space="preserve">
+    <value>Install or uninstall court(s)</value>
+  </data>
+  <data name="tooltip_tweak_map_hint" xml:space="preserve">
+    <value>Config map</value>
+  </data>
+  <data name="tooltip_tweak_mcvoice_font" xml:space="preserve">
+    <value>[STD] Language pack is required for this to work</value>
+  </data>
+  <data name="tooltip_tweak_mcvoice_smart_language" xml:space="preserve">
+    <value>Automatically switch game language depends on game language setting</value>
+  </data>
+  <data name="tooltip_tweak_misc_afk_interval" xml:space="preserve">
+    <value>Send focus to the game to reset it's AFK timer</value>
+  </data>
+  <data name="tooltip_tweak_misc_afk_interval_hint" xml:space="preserve">
+    <value>Timer interval for anti AFK tweak</value>
+  </data>
+  <data name="tooltip_tweak_misc_hint1" xml:space="preserve">
+    <value>Custom game resolution</value>
+  </data>
+  <data name="tooltip_tweak_misc_hint2" xml:space="preserve">
+    <value>Extras</value>
+  </data>
+  <data name="tooltip_tweak_misc_log_clean" xml:space="preserve">
+    <value>Clean logs made by game</value>
+  </data>
+  <data name="tooltip_tweak_misc_shortcut" xml:space="preserve">
+    <value>Allow the use of keyboard shortcuts</value>
+  </data>
+  <data name="tooltip_tweak_mvcoice_hint" xml:space="preserve">
+    <value>MC Voice language</value>
+  </data>
+  <data name="txt_enter_url" xml:space="preserve">
+    <value>Enter URL</value>
+  </data>
+</root>

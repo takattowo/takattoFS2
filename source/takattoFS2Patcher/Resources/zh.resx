@@ -1,0 +1,1549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addon" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="btn_apply" xml:space="preserve">
+    <value>未启动</value>
+  </data>
+  <data name="btn_back" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="btn_cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="btn_clear" xml:space="preserve">
+    <value>干净的</value>
+  </data>
+  <data name="btn_click_to_keep_game_minimized" xml:space="preserve">
+    <value>保持遊戏最小化</value>
+  </data>
+  <data name="btn_click_to_reset" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="btn_close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="btn_config" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="btn_confirm" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="btn_disable" xml:space="preserve">
+    <value>停用</value>
+  </data>
+  <data name="btn_enable" xml:space="preserve">
+    <value>启动</value>
+  </data>
+  <data name="btn_exit" xml:space="preserve">
+    <value>离开</value>
+  </data>
+  <data name="btn_hide" xml:space="preserve">
+    <value>隐藏</value>
+  </data>
+  <data name="btn_import" xml:space="preserve">
+    <value>输入</value>
+  </data>
+  <data name="btn_install" xml:space="preserve">
+    <value>安装</value>
+  </data>
+  <data name="btn_language" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="btn_launch" xml:space="preserve">
+    <value>启动</value>
+  </data>
+  <data name="btn_news_skip" xml:space="preserve">
+    <value>下次不要给我看这个对话</value>
+  </data>
+  <data name="btn_patch_it" xml:space="preserve">
+    <value>下载并安装！</value>
+  </data>
+  <data name="btn_reinstall" xml:space="preserve">
+    <value>重新安装</value>
+  </data>
+  <data name="btn_resize" xml:space="preserve">
+    <value>调整大小</value>
+  </data>
+  <data name="btn_save" xml:space="preserve">
+    <value>储存</value>
+  </data>
+  <data name="btn_saved" xml:space="preserve">
+    <value>已儲存</value>
+  </data>
+  <data name="btn_select" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="btn_send" xml:space="preserve">
+    <value>发送</value>
+  </data>
+  <data name="btn_service_custompatch" xml:space="preserve">
+    <value>Custom Patch</value>
+  </data>
+  <data name="btn_setting_clean_up" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="btn_setting_see_log" xml:space="preserve">
+    <value>查阅日誌</value>
+  </data>
+  <data name="btn_show" xml:space="preserve">
+    <value>呈现</value>
+  </data>
+  <data name="btn_tweak_applied" xml:space="preserve">
+    <value>启动</value>
+  </data>
+  <data name="btn_tweak_camera" xml:space="preserve">
+    <value>自定义相机设置</value>
+  </data>
+  <data name="btn_tweak_cam_script" xml:space="preserve">
+    <value>高级脚本</value>
+  </data>
+  <data name="btn_tweak_charactervoice" xml:space="preserve">
+    <value>角色声音</value>
+  </data>
+  <data name="btn_tweak_charvoice_install" xml:space="preserve">
+    <value>安装角色语音包</value>
+  </data>
+  <data name="btn_tweak_court" xml:space="preserve">
+    <value>自定义球场</value>
+  </data>
+  <data name="btn_tweak_custominterface" xml:space="preserve">
+    <value>遊戏UI辅助</value>
+  </data>
+  <data name="btn_tweak_enabled" xml:space="preserve">
+    <value>启用调整</value>
+  </data>
+  <data name="btn_tweak_extension" xml:space="preserve">
+    <value>扩展功能</value>
+  </data>
+  <data name="btn_tweak_extension_launch" xml:space="preserve">
+    <value>启动扩展功能</value>
+  </data>
+  <data name="btn_tweak_font" xml:space="preserve">
+    <value>自定义字型</value>
+  </data>
+  <data name="btn_tweak_jukebox" xml:space="preserve">
+    <value>自定义点唱机</value>
+  </data>
+  <data name="btn_tweak_jukebox_install" xml:space="preserve">
+    <value>安装点唱机 DLC</value>
+  </data>
+  <data name="btn_tweak_map_choice_beach" xml:space="preserve">
+    <value>沙滩球场</value>
+  </data>
+  <data name="btn_tweak_map_choice_default_map" xml:space="preserve">
+    <value>默认球场</value>
+  </data>
+  <data name="btn_tweak_map_choice_katto" xml:space="preserve">
+    <value>Katto球场</value>
+  </data>
+  <data name="btn_tweak_map_choice_training" xml:space="preserve">
+    <value>训练球场</value>
+  </data>
+  <data name="btn_tweak_map_choice_warehouse" xml:space="preserve">
+    <value>隐藏球场</value>
+  </data>
+  <data name="btn_tweak_mcvoice" xml:space="preserve">
+    <value>MC 音效包</value>
+  </data>
+  <data name="btn_tweak_mcvoice_choice_vietnamese" xml:space="preserve">
+    <value>越南</value>
+  </data>
+  <data name="btn_tweak_mcvoice_focust_assist" xml:space="preserve">
+    <value>专注音效</value>
+  </data>
+  <data name="btn_tweak_mcvoice_font" xml:space="preserve">
+    <value>启用自定义字体</value>
+  </data>
+  <data name="btn_tweak_mcvoice_install" xml:space="preserve">
+    <value>安装 MC 语音 DLC</value>
+  </data>
+  <data name="btn_tweak_mcvoice_smart_language" xml:space="preserve">
+    <value>启用智能语言</value>
+  </data>
+  <data name="btn_tweak_misc" xml:space="preserve">
+    <value>杂项</value>
+  </data>
+  <data name="btn_tweak_misc_log_clean" xml:space="preserve">
+    <value>自动清除遊戏日誌</value>
+  </data>
+  <data name="btn_tweak_mist_afk_prevention" xml:space="preserve">
+    <value>防止AFK</value>
+  </data>
+  <data name="btn_tweak_mist_shortcut_enable" xml:space="preserve">
+    <value>允许快捷键</value>
+  </data>
+  <data name="btn_tweak_task_cancel_running_task" xml:space="preserve">
+    <value>取消正在运行的任务 [F4]</value>
+  </data>
+  <data name="btn_tweak_task_start" xml:space="preserve">
+    <value>开始任务</value>
+  </data>
+  <data name="btn_tweak_textmacro" xml:space="preserve">
+    <value>文本宏</value>
+  </data>
+  <data name="btn_tweak_texture" xml:space="preserve">
+    <value>自定义贴图</value>
+  </data>
+  <data name="btn_tweak_texture_nako_copy" xml:space="preserve">
+    <value>複製代码</value>
+  </data>
+  <data name="btn_tweak_texture_nako_ok" xml:space="preserve">
+    <value>明白了!</value>
+  </data>
+  <data name="btn_tweak_timedtask" xml:space="preserve">
+    <value>定时任务</value>
+  </data>
+  <data name="btn_tweak_update" xml:space="preserve">
+    <value>更新 {0}</value>
+  </data>
+  <data name="btn_update_it" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="cb_key_select" xml:space="preserve">
+    <value>选择一个按钮</value>
+  </data>
+  <data name="cb_key_selected" xml:space="preserve">
+    <value>已选按钮：{0}</value>
+  </data>
+  <data name="cb_tweak_cam_basic" xml:space="preserve">
+    <value>默认镜头视角</value>
+  </data>
+  <data name="cb_tweak_cam_close" xml:space="preserve">
+    <value>特写视角</value>
+  </data>
+  <data name="cb_tweak_cam_default" xml:space="preserve">
+    <value>不要覆盖</value>
+  </data>
+  <data name="cb_tweak_cam_extra" xml:space="preserve">
+    <value>额外设置</value>
+  </data>
+  <data name="cb_tweak_cam_follow" xml:space="preserve">
+    <value>跟随视角</value>
+  </data>
+  <data name="cb_tweak_cam_high" xml:space="preserve">
+    <value>高聚焦视角</value>
+  </data>
+  <data name="cb_tweak_cam_select" xml:space="preserve">
+    <value>选择一个设置</value>
+  </data>
+  <data name="cb_tweak_cam_side" xml:space="preserve">
+    <value>边线视角</value>
+  </data>
+  <data name="cb_tweak_cam_sky" xml:space="preserve">
+    <value>空中聚焦视角</value>
+  </data>
+  <data name="cb_tweak_task_1" xml:space="preserve">
+    <value>关闭遊戏</value>
+  </data>
+  <data name="cb_tweak_task_2" xml:space="preserve">
+    <value>关闭遊戏并关机</value>
+  </data>
+  <data name="cb_tweak_task_3" xml:space="preserve">
+    <value>关闭遊戏并执行命令</value>
+  </data>
+  <data name="cb_tweak_task_4" xml:space="preserve">
+    <value>执行命令</value>
+  </data>
+  <data name="cb_tweak_task_5" xml:space="preserve">
+    <value>鼠标自动点击</value>
+  </data>
+  <data name="cb_tweak_task_6" xml:space="preserve">
+    <value>自动点击和简单的键盘宏</value>
+  </data>
+  <data name="cb_tweak_task_7" xml:space="preserve">
+    <value>简单的键盘宏</value>
+  </data>
+  <data name="cb_tweak_task_8" xml:space="preserve">
+    <value>鼠标宏</value>
+  </data>
+  <data name="cb_tweak_task_9" xml:space="preserve">
+    <value>简单的鼠标和键盘宏</value>
+  </data>
+  <data name="chat_hikari_cheat_detected" xml:space="preserve">
+    <value>{0} 讨厌作弊的人！</value>
+  </data>
+  <data name="chat_hikari_corrupt_data_fixed" xml:space="preserve">
+    <value>{0} 已为您修复损坏的数据！</value>
+  </data>
+  <data name="chat_nako_cheat_detected" xml:space="preserve">
+    <value>{0} 是必须战胜这个作弊的邪恶的人！</value>
+  </data>
+  <data name="chat_nako_corrupt_data_fixed" xml:space="preserve">
+    <value>{0} 已经净化了你腐化的灵魂！</value>
+  </data>
+  <data name="context_cam_reset_all" xml:space="preserve">
+    <value>重置所有相机设置</value>
+  </data>
+  <data name="context_cam_reset_this" xml:space="preserve">
+    <value>重置此相机设置</value>
+  </data>
+  <data name="context_close_launcher" xml:space="preserve">
+    <value>关闭遊戏启动器</value>
+  </data>
+  <data name="context_custom_repo" xml:space="preserve">
+    <value>自定义 repository</value>
+  </data>
+  <data name="context_filter_by" xml:space="preserve">
+    <value>筛选</value>
+  </data>
+  <data name="context_launch_launcher" xml:space="preserve">
+    <value>启动遊戏端 [Global/China]</value>
+  </data>
+  <data name="context_launch_steam" xml:space="preserve">
+    <value>启动遊戏-Steam [Global]</value>
+  </data>
+  <data name="context_launch_web" xml:space="preserve">
+    <value>启动遊戏-官网 [Korea]</value>
+  </data>
+  <data name="context_open_game_foler" xml:space="preserve">
+    <value>打开遊戏资料夹</value>
+  </data>
+  <data name="context_open_patcher_foler" xml:space="preserve">
+    <value>打开补丁资料夹</value>
+  </data>
+  <data name="context_song_current" xml:space="preserve">
+    <value>当前播放歌曲：{0}</value>
+  </data>
+  <data name="context_song_load_random" xml:space="preserve">
+    <value>读取随机音乐</value>
+  </data>
+  <data name="context_tweak_jukebox_delete" xml:space="preserve">
+    <value>删除选择曲目</value>
+  </data>
+  <data name="context_tweak_jukebox_move" xml:space="preserve">
+    <value>移动选择曲目</value>
+  </data>
+  <data name="extension_keyboard_macro" xml:space="preserve">
+    <value>键盘宏</value>
+  </data>
+  <data name="game_cards" xml:space="preserve">
+    <value>卡片</value>
+  </data>
+  <data name="game_loading_screen" xml:space="preserve">
+    <value>读取中</value>
+  </data>
+  <data name="LB_404" xml:space="preserve">
+    <value>404 Error!</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="lb_about_version" xml:space="preserve">
+    <value>稳定版 {0}</value>
+  </data>
+  <data name="lb_camera_advanced_script_warning" xml:space="preserve">
+    <value>警告： 如果您知道它是什么，请单击此文本继续。 否则，将其留空。 任何错误的脚本都可能阻止游戏加载。</value>
+  </data>
+  <data name="lb_camera_import_enter_json" xml:space="preserve">
+    <value>在此处插入您的值</value>
+  </data>
+  <data name="lb_connecting" xml:space="preserve">
+    <value>连线中。。。</value>
+  </data>
+  <data name="lb_connecting_to_server" xml:space="preserve">
+    <value>连线到伺服器中。。。</value>
+  </data>
+  <data name="LB_did_you_have_fun" xml:space="preserve">
+    <value>你玩的开心吗?</value>
+    <comment>#no trans</comment>
+  </data>
+  <data name="LB_download_applying_downloaded" xml:space="preserve">
+    <value>使用下载补丁</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="LB_download_cancelled" xml:space="preserve">
+    <value>下载已取消</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="LB_download_clean_up" xml:space="preserve">
+    <value>下载档案清除</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="LB_download_extracting" xml:space="preserve">
+    <value>下载解压缩...</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="LB_download_has_completed" xml:space="preserve">
+    <value>下载完成</value>
+    <comment>#no trans</comment>
+  </data>
+  <data name="LB_download_has_failed" xml:space="preserve">
+    <value>下载档案失败</value>
+    <comment>#no trans</comment>
+  </data>
+  <data name="lb_download_staring" xml:space="preserve">
+    <value>主演：{0}</value>
+  </data>
+  <data name="lb_failed_to_connect" xml:space="preserve">
+    <value>连线失败</value>
+  </data>
+  <data name="lb_foreground_mode" xml:space="preserve">
+    <value>仅限前台</value>
+  </data>
+  <data name="LB_game_folder_not_selected" xml:space="preserve">
+    <value>遊戏资料夹未选取</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="lb_game_resizer" xml:space="preserve">
+    <value>高级分辨率调整器</value>
+  </data>
+  <data name="lb_help_categories" xml:space="preserve">
+    <value>补丁|模组|语音|点唱机|地图|程式错误|提示</value>
+  </data>
+  <data name="lb_help_crashes" xml:space="preserve">
+    <value>1. 如果它断开连线，请尝试一一关闭所使用的模组，以查看导致断线的原因。
+2. 试著关闭地图模组.
+3. 查看DLC和STD补丁包更新. 
+4. 查看遊戏内语言, 如果你是韩国或是中文用户, 请下载 [STD] 语言补丁包.</value>
+  </data>
+  <data name="lb_help_jukebox" xml:space="preserve">
+    <value>自定义点唱机是模组功能的其中之一, 它可以更换内建点唱机的音乐 (遊戏音乐) 可以使用你想听的音乐, 安装 DLC3。 可以增加选择你喜欢的歌曲！！！</value>
+  </data>
+  <data name="lb_help_map" xml:space="preserve">
+    <value>更换球场是模组功能的其中之一,它可以更换遊戏内的传统球场，并可以选取你所想更换的球场, 下载 DLC 在每个选项旁边，然後选择您想要的球场。 地图调整也可以随时切换（需要重新加载才可应用更改), 你也可以在编辑内更改其他选项。</value>
+  </data>
+  <data name="lb_help_patches" xml:space="preserve">
+    <value>补丁包档案将从服务器获取并应用到遊戏中, 每次启动遊戏时，它们都会被官方遊戏补丁覆盖。 除了[STD] aka Standalones。 要使用时只需点击“Patch it”并等待遊戏开始。 您还可以通过按住 Ctrl 键并选择所需的补丁来应用多个补丁。</value>
+  </data>
+  <data name="lb_help_select" xml:space="preserve">
+    <value>选择一个类别。</value>
+  </data>
+  <data name="lb_help_tips" xml:space="preserve">
+    <value>1. 在做补丁之前设置所有的调整。
+2.您可以通过双击任务栏中的猫图标来隐藏程式。
+3.如果有bug请报告给我。
+4.自杀是不好的行为。</value>
+  </data>
+  <data name="lb_help_tweaks" xml:space="preserve">
+    <value>与补丁不同，调整不需要在每次启动遊戏时重新下载，调整会自动以合法方式将任何下载的 DLC 应用到遊戏中，以避免被官方遊戏补丁覆盖。 要使用，请下载所需的 DLC 并启用所需的调整。</value>
+  </data>
+  <data name="lb_help_voice_changer" xml:space="preserve">
+    <value>语音转换器是其中一项调整，它将游戏中的传统 MC 语言更改为您想要的语言。 要使用，请下载 DLC6 并选择您的语言。 请注意，遊戏中的语言将被您在“遊戏语言”中所做的设置覆盖。 因此，您还可以将其用作遊戏翻译器（您将需要 [STD] 语言包</value>
+  </data>
+  <data name="lb_import_empty_url" xml:space="preserve">
+    <value>你在输入你的想法吗~ (￣ω￣)</value>
+  </data>
+  <data name="lb_import_empty_url_error" xml:space="preserve">
+    <value>我说输入正确的网址! (￣ω￣)</value>
+  </data>
+  <data name="lb_import_enter_url" xml:space="preserve">
+    <value>请输入正确的网址</value>
+  </data>
+  <data name="lb_initializing" xml:space="preserve">
+    <value>初始化。。。</value>
+  </data>
+  <data name="lb_initializing_mousem" xml:space="preserve">
+    <value>取消程序焦点并将鼠标悬停在任何地方以获得协调。</value>
+  </data>
+  <data name="lb_installer_repair" xml:space="preserve">
+    <value>警告！ 这将尝试卸载与 takattoFS2 Patcher 相关的所有内容并将其设置重置为默认值！
+
+这将有助於解决任何阻止补丁程式正常工作的无法修复的问题~</value>
+  </data>
+  <data name="lb_installer_repair_step1" xml:space="preserve">
+    <value>你真的确定吗?</value>
+  </data>
+  <data name="lb_installer_repair_step2" xml:space="preserve">
+    <value>咦，又确定了?</value>
+  </data>
+  <data name="lb_installer_repair_step3" xml:space="preserve">
+    <value>有什麽问题吗!? ＼(A □ A l|l)/</value>
+  </data>
+  <data name="lb_installer_repair_step4" xml:space="preserve">
+    <value>抓到你了, 再来一次!</value>
+  </data>
+  <data name="lb_installer_repair_step5" xml:space="preserve">
+    <value>开始修复过程~</value>
+  </data>
+  <data name="lb_installer_welcome" xml:space="preserve">
+    <value>欢迎来到 takatto FS2 补丁~ 
+
+这是首次运行的通知程式，对於以前使用过此修补程式的任何人，它将尝试将其设置重置为默认值。
+
+如果您发现任何错误或想法，请不要犹豫向我报告?玩得开心~ (//ω//)</value>
+  </data>
+  <data name="lb_installer_welcome_step1" xml:space="preserve">
+    <value>点我一下~ ｏ(＞＜；)ｏ</value>
+  </data>
+  <data name="lb_installer_welcome_step2" xml:space="preserve">
+    <value>哇~</value>
+  </data>
+  <data name="lb_installer_welcome_step3" xml:space="preserve">
+    <value>内个。。。 o(. ＞＜)o</value>
+  </data>
+  <data name="lb_installer_welcome_step4" xml:space="preserve">
+    <value>咦~再一次！</value>
+  </data>
+  <data name="LB_item_applied" xml:space="preserve">
+    <value>{0} 执行中！</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="LB_item_disabled" xml:space="preserve">
+    <value>{0} 禁用中</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="LB_item_not_applied" xml:space="preserve">
+    <value>{0} 未执行</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="LB_item_not_installed" xml:space="preserve">
+    <value>{0} 未安装</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="lb_language_help" xml:space="preserve">
+    <value>一些调整需要您的遊戏语言才能正常工作~</value>
+  </data>
+  <data name="LB_language_hint" xml:space="preserve">
+    <value>选择你的遊戏语言</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="LB_nyan" xml:space="preserve">
+    <value>捏</value>
+  </data>
+  <data name="lb_patch_connecting" xml:space="preserve">
+    <value>[连线中。。。]</value>
+  </data>
+  <data name="lb_patch_desc" xml:space="preserve">
+    <value>[补丁说明]</value>
+  </data>
+  <data name="lb_patch_empty" xml:space="preserve">
+    <value>空白清单</value>
+  </data>
+  <data name="lb_patch_error" xml:space="preserve">
+    <value>[有什麽地方发生错误]</value>
+  </data>
+  <data name="lb_patch_error_add_not_supported" xml:space="preserve">
+    <value>[补丁错误添加不支援]</value>
+  </data>
+  <data name="lb_patch_error_add_not_supported_help" xml:space="preserve">
+    <value>AD补丁需要单独安装</value>
+  </data>
+  <data name="lb_patch_error_api_failed" xml:space="preserve">
+    <value>[API 请求失败]</value>
+  </data>
+  <data name="lb_patch_error_ext_not_supported" xml:space="preserve">
+    <value>[EXT 不支援]</value>
+  </data>
+  <data name="lb_patch_error_ext_not_supported_help" xml:space="preserve">
+    <value>可以立即安装扩展程式</value>
+  </data>
+  <data name="lb_patch_error_not_found" xml:space="preserve">
+    <value>[找不到补丁]</value>
+  </data>
+  <data name="lb_patch_error_not_found_help" xml:space="preserve">
+    <value>终端服务器出现问题</value>
+  </data>
+  <data name="lb_patch_error_std_not_supported" xml:space="preserve">
+    <value>[STD 不支援]</value>
+  </data>
+  <data name="lb_patch_error_std_not_supported_help" xml:space="preserve">
+    <value>可以立即安装独立补丁</value>
+  </data>
+  <data name="lb_patch_error_ui_not_supported" xml:space="preserve">
+    <value>[不支持用户介面]</value>
+  </data>
+  <data name="lb_patch_error_ui_not_supported_help" xml:space="preserve">
+    <value>可以立即安装 UI 补丁</value>
+  </data>
+  <data name="lb_patch_error_wip_not_supported" xml:space="preserve">
+    <value>[WIP 不支援]</value>
+  </data>
+  <data name="lb_patch_error_wip_not_supported_help" xml:space="preserve">
+    <value>无法使用在进程补丁</value>
+  </data>
+  <data name="lb_patch_extension_installed" xml:space="preserve">
+    <value>已安装插件</value>
+  </data>
+  <data name="lb_patch_extension_installed_version" xml:space="preserve">
+    <value>已安装插件：{0}</value>
+  </data>
+  <data name="lb_patch_extra" xml:space="preserve">
+    <value>额外\未知</value>
+  </data>
+  <data name="lb_patch_failed_to_fetch" xml:space="preserve">
+    <value>[无法获取所选补丁的信息]</value>
+  </data>
+  <data name="lb_patch_failed_to_load" xml:space="preserve">
+    <value>[加载失败。。。]</value>
+  </data>
+  <data name="lb_patch_failed_to_load_note" xml:space="preserve">
+    <value>[服务器已关闭]</value>
+  </data>
+  <data name="lb_patch_help" xml:space="preserve">
+    <value>请选取遊戏资料夹</value>
+  </data>
+  <data name="lb_patch_info" xml:space="preserve">
+    <value>狐狸说什麽？</value>
+  </data>
+  <data name="lb_patch_info_version" xml:space="preserve">
+    <value>版本 {0} - 最後更新时间 {1}</value>
+  </data>
+  <data name="lb_patch_installed" xml:space="preserve">
+    <value>已安装补丁</value>
+  </data>
+  <data name="lb_patch_installed_version" xml:space="preserve">
+    <value>已安装补丁： {0}</value>
+  </data>
+  <data name="lb_patch_list" xml:space="preserve">
+    <value>补丁清单</value>
+  </data>
+  <data name="lb_patch_multi_mode" xml:space="preserve">
+    <value>[多补丁模式]</value>
+  </data>
+  <data name="lb_patch_multi_mode_help" xml:space="preserve">
+    <value>一次选择多个补丁</value>
+  </data>
+  <data name="lb_patch_multi_mode_note" xml:space="preserve">
+    <value>[选择 2 项]</value>
+  </data>
+  <data name="lb_patch_multi_mode_status" xml:space="preserve">
+    <value>[选择多个补丁]</value>
+  </data>
+  <data name="lb_patch_note" xml:space="preserve">
+    <value>[补丁笔记]</value>
+  </data>
+  <data name="lb_patch_not_installed" xml:space="preserve">
+    <value>未安装</value>
+  </data>
+  <data name="lb_patch_no_information" xml:space="preserve">
+    <value>未提供信息。</value>
+  </data>
+  <data name="lb_patch_sessionly_applied" xml:space="preserve">
+    <value>会话应用</value>
+  </data>
+  <data name="lb_patch_status" xml:space="preserve">
+    <value>[补丁状态]</value>
+  </data>
+  <data name="lb_pin_on_top" xml:space="preserve">
+    <value>将程序固定在顶部</value>
+  </data>
+  <data name="lb_remember_password" xml:space="preserve">
+    <value>记住密码</value>
+  </data>
+  <data name="lb_repeat" xml:space="preserve">
+    <value>重複</value>
+  </data>
+  <data name="lb_repo" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="lb_reset" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="lb_resize_crash" xml:space="preserve">
+    <value>崩溃l！</value>
+  </data>
+  <data name="LB_select_a_tweak" xml:space="preserve">
+    <value>选择一个模组！</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="lb_service_help" xml:space="preserve">
+    <value>我永远不会放弃你</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="lb_service_help2" xml:space="preserve">
+    <value>昨天是历史，明天是个谜</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="lb_service_help3" xml:space="preserve">
+    <value>一、二、叁、四</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="lb_service_info" xml:space="preserve">
+    <value>尊荣服务</value>
+  </data>
+  <data name="lb_service_list" xml:space="preserve">
+    <value>服务清单</value>
+  </data>
+  <data name="lb_setting_auto_play_music" xml:space="preserve">
+    <value>自动播放音乐</value>
+  </data>
+  <data name="lb_setting_auto_play_music_help" xml:space="preserve">
+    <value>在启动时播放音乐。</value>
+  </data>
+  <data name="lb_setting_enable_logging" xml:space="preserve">
+    <value>启用日誌记录</value>
+  </data>
+  <data name="lb_setting_enable_logging_help" xml:space="preserve">
+    <value>保存程式活动。</value>
+  </data>
+  <data name="lb_setting_language" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="lb_setting_language_help" xml:space="preserve">
+    <value>程式语言。</value>
+  </data>
+  <data name="lb_setting_menu_position" xml:space="preserve">
+    <value>选单位置</value>
+  </data>
+  <data name="lb_setting_menu_position_help" xml:space="preserve">
+    <value>选项控制位置。</value>
+  </data>
+  <data name="LB_something_wrong" xml:space="preserve">
+    <value>出了点问题！</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="lb_status" xml:space="preserve">
+    <value>状态： {0}</value>
+  </data>
+  <data name="lb_status_empty" xml:space="preserve">
+    <value>- - -</value>
+  </data>
+  <data name="LB_task_finished" xml:space="preserve">
+    <value>任务完成!</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="LB_task_running" xml:space="preserve">
+    <value>一个任务正在运行！</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="LB_tweaks_applied" xml:space="preserve">
+    <value>模组执行</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="lb_tweak_camera_help" xml:space="preserve">
+    <value>自定义游戏内视角</value>
+  </data>
+  <data name="lb_tweak_cam_absolute_value" xml:space="preserve">
+    <value>使值恒定</value>
+  </data>
+  <data name="lb_tweak_cam_hint" xml:space="preserve">
+    <value>相机设置</value>
+  </data>
+  <data name="lb_tweak_cam_ignore_ball_tracking" xml:space="preserve">
+    <value>不要跟踪球</value>
+  </data>
+  <data name="lb_tweak_cam_look_velocity" xml:space="preserve">
+    <value>转速</value>
+  </data>
+  <data name="lb_tweak_cam_move_velocity" xml:space="preserve">
+    <value>移动速度</value>
+  </data>
+  <data name="lb_tweak_cam_override" xml:space="preserve">
+    <value>覆盖此相机以</value>
+  </data>
+  <data name="lb_tweak_cam_parameter" xml:space="preserve">
+    <value>自定义参数</value>
+  </data>
+  <data name="lb_tweak_cam_replay_fov" xml:space="preserve">
+    <value> 回放 FOV</value>
+  </data>
+  <data name="lb_tweak_cam_settings" xml:space="preserve">
+    <value>相机设置</value>
+  </data>
+  <data name="lb_tweak_charvoice_help" xml:space="preserve">
+    <value>自定义角色声音</value>
+  </data>
+  <data name="lb_tweak_charvoice_hint" xml:space="preserve">
+    <value>人物语音语言</value>
+  </data>
+  <data name="lb_tweak_charvoice_hint2" xml:space="preserve">
+    <value>某些角色的声音被静音。 在 83% 时，游戏可能会加载缓慢。</value>
+  </data>
+  <data name="lb_tweak_charvoice_version" xml:space="preserve">
+    <value>DLC Version：{0}</value>
+  </data>
+  <data name="lb_tweak_charvoice_version_newer" xml:space="preserve">
+    <value>检测到新版本！</value>
+  </data>
+  <data name="lb_tweak_choice_china" xml:space="preserve">
+    <value>中国</value>
+  </data>
+  <data name="lb_tweak_choice_custom" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="lb_tweak_choice_default" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="lb_tweak_choice_english" xml:space="preserve">
+    <value>英文</value>
+  </data>
+  <data name="lb_tweak_choice_korea" xml:space="preserve">
+    <value>韩国</value>
+  </data>
+  <data name="lb_tweak_court_help" xml:space="preserve">
+    <value>自定义遊戏内球场</value>
+  </data>
+  <data name="lb_tweak_court_help_load_replay" xml:space="preserve">
+    <value>读取回放以查看更改~</value>
+  </data>
+  <data name="lb_tweak_custominterface_help" xml:space="preserve">
+    <value>自定义遊戏的介面</value>
+  </data>
+  <data name="lb_tweak_custompatch_help" xml:space="preserve">
+    <value>自动应用自定义补丁和东西</value>
+  </data>
+  <data name="lb_tweak_customtexture_help" xml:space="preserve">
+    <value>自定义遊戏内图像</value>
+  </data>
+  <data name="lb_tweak_extension_help" xml:space="preserve">
+    <value>已安装扩展的集合</value>
+  </data>
+  <data name="lb_tweak_extension_hint" xml:space="preserve">
+    <value>已安装的扩展(S)</value>
+  </data>
+  <data name="lb_tweak_extension_none" xml:space="preserve">
+    <value>没有安装扩展</value>
+  </data>
+  <data name="lb_tweak_gotodownload_hint" xml:space="preserve">
+    <value>您可以从选项卡中找到附加组件{0}~</value>
+  </data>
+  <data name="lb_tweak_help" xml:space="preserve">
+    <value>送猫猫礼物，猫猫会回礼</value>
+  </data>
+  <data name="lb_tweak_info" xml:space="preserve">
+    <value>FreeStyle 2 的自由风格，好吗？</value>
+  </data>
+  <data name="lb_tweak_interface_hint" xml:space="preserve">
+    <value>已安装的附加组件</value>
+  </data>
+  <data name="lb_tweak_jukebox_artist" xml:space="preserve">
+    <value>演唱者</value>
+  </data>
+  <data name="lb_tweak_jukebox_corrupted" xml:space="preserve">
+    <value>Jukebox 资料库已损坏！</value>
+  </data>
+  <data name="lb_tweak_jukebox_help" xml:space="preserve">
+    <value>自定义遊戏内音乐</value>
+  </data>
+  <data name="lb_tweak_jukebox_path" xml:space="preserve">
+    <value>[歌曲路径]</value>
+  </data>
+  <data name="lb_tweak_jukebox_soundname" xml:space="preserve">
+    <value>声音名称</value>
+  </data>
+  <data name="lb_tweak_list" xml:space="preserve">
+    <value>调整列表</value>
+  </data>
+  <data name="lb_tweak_mcvoice_help" xml:space="preserve">
+    <value>自定义 MC 语音</value>
+  </data>
+  <data name="lb_tweak_misc_afk_interval_hint" xml:space="preserve">
+    <value>间隔（秒）</value>
+  </data>
+  <data name="lb_tweak_misc_help" xml:space="preserve">
+    <value>一些你喜欢的设置</value>
+  </data>
+  <data name="lb_tweak_patch_none" xml:space="preserve">
+    <value>未安装项目</value>
+  </data>
+  <data name="lb_tweak_task_5" xml:space="preserve">
+    <value>开始遊戏以获得运作~</value>
+  </data>
+  <data name="lb_tweak_task_5_hint" xml:space="preserve">
+    <value>Alt+Tab 返回补丁程序~</value>
+  </data>
+  <data name="lb_tweak_task_5_hint2" xml:space="preserve">
+    <value>专注於遊戏以获得您想要的点击位置!</value>
+  </data>
+  <data name="lb_tweak_task_5_note" xml:space="preserve">
+    <value>不建议滥用此功能。</value>
+  </data>
+  <data name="lb_tweak_task_6_note" xml:space="preserve">
+    <value>键盘宏是通用的，它将键发送到任何焦点窗口。 不建议滥用。</value>
+  </data>
+  <data name="lb_tweak_task_8_note" xml:space="preserve">
+    <value>鼠标宏移动鼠标并单击所需的坐标。</value>
+  </data>
+  <data name="lb_tweak_task_9_note" xml:space="preserve">
+    <value>您必须先从其他宏设置按钮。</value>
+  </data>
+  <data name="lb_tweak_task_cmd" xml:space="preserve">
+    <value>命令行</value>
+  </data>
+  <data name="lb_tweak_task_help" xml:space="preserve">
+    <value>为各种目的製作一个自动任务</value>
+  </data>
+  <data name="lb_tweak_task_interval_hint" xml:space="preserve">
+    <value>定时器间隔（秒）</value>
+  </data>
+  <data name="lb_tweak_task_interval_hint2" xml:space="preserve">
+    <value>定时器间隔（毫秒）</value>
+  </data>
+  <data name="lb_tweak_textmacro_by" xml:space="preserve">
+    <value>由</value>
+  </data>
+  <data name="lb_tweak_textmacro_empty" xml:space="preserve">
+    <value>没有数据，请点击单元格添加数据~</value>
+  </data>
+  <data name="lb_tweak_textmacro_help" xml:space="preserve">
+    <value>游戏内文本宏系统</value>
+  </data>
+  <data name="lb_tweak_textmacro_hint" xml:space="preserve">
+    <value>文本宏数据</value>
+  </data>
+  <data name="lb_tweak_textmacro_note" xml:space="preserve">
+    <value>自动保存，如果数据缺失则将删除该行~</value>
+  </data>
+  <data name="lb_tweak_textmacro_replace" xml:space="preserve">
+    <value>替換</value>
+  </data>
+  <data name="lb_tweak_texture_developing" xml:space="preserve">
+    <value>此功能正在开发中</value>
+  </data>
+  <data name="lb_tweak_texture_loading" xml:space="preserve">
+    <value>读取图像</value>
+  </data>
+  <data name="lb_tweak_texture_nako_unlock" xml:space="preserve">
+    <value>嗯！ 这个调整需要一个扩展才能工作，但既然你给了我很多爱，你就有资格获得这样的东西！ 请複制代码并发送给我~</value>
+  </data>
+  <data name="lb_tweak_thankie" xml:space="preserve">
+    <value>谢谢你的爱~ (,,oωo,,)</value>
+  </data>
+  <data name="lb_tweak_ui_help" xml:space="preserve">
+    <value>自定义遊戏用户界面</value>
+  </data>
+  <data name="LB_wait_for_game" xml:space="preserve">
+    <value>等待比赛</value>
+    <comment>#dont translate</comment>
+  </data>
+  <data name="lb_wait_hint" xml:space="preserve">
+    <value>您是否应用了模组?</value>
+  </data>
+  <data name="lb_wait_restoring_data" xml:space="preserve">
+    <value>恢复遊戏数据。
+请稍等片刻再启动遊戏！</value>
+  </data>
+  <data name="lb_warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="msgdiag_cam_tweak_all_reset" xml:space="preserve">
+    <value>您确定要将所有设置重置为默认值吗？</value>
+  </data>
+  <data name="msgdiag_cam_tweak_override_reset" xml:space="preserve">
+    <value>是否要将本相机的设置恢复为所选相机的设置？</value>
+  </data>
+  <data name="msgdiag_close_patcher" xml:space="preserve">
+    <value>你确定要关闭吗？</value>
+  </data>
+  <data name="msgdiag_force_game_web_launcher" xml:space="preserve">
+    <value>网路启动器不支持当前遊戏客户端，无论如何处理？</value>
+  </data>
+  <data name="msgdiag_game_folder_not_found" xml:space="preserve">
+    <value>内个。。。 你还没有选择遊戏地点，你想这样做吗？</value>
+  </data>
+  <data name="msgdiag_install_strage" xml:space="preserve">
+    <value>此补丁不属於任何类别，安装後无法撤消？</value>
+  </data>
+  <data name="msgdiag_logging_disabled" xml:space="preserve">
+    <value>日誌记录已禁用，您要启用吗？ 这将存储一些程序事件，如果存在，对检查错误很有用~</value>
+  </data>
+  <data name="msgdiag_patch_obselete" xml:space="preserve">
+    <value>此补丁已过时或标记为不稳定，请继续使用？</value>
+  </data>
+  <data name="msgdiag_reinstall_or_update" xml:space="preserve">
+    <value>你想重新安装/更新这个？</value>
+  </data>
+  <data name="msgdiag_task_is_running" xml:space="preserve">
+    <value>一个任务正在运行，你想停止吗？</value>
+  </data>
+  <data name="msgdiag_tutorial" xml:space="preserve">
+    <value>你想看一个简短的教程吗？</value>
+  </data>
+  <data name="msgdiag_tweak_character_voice_update" xml:space="preserve">
+    <value>是否要更新角色声音 DLC？</value>
+  </data>
+  <data name="msgdiag_tweak_court_type_switch" xml:space="preserve">
+    <value>你想切换到这个球场吗？</value>
+  </data>
+  <data name="msgdiag_tweak_extension_remove" xml:space="preserve">
+    <value>你想从扩展中删除吗？"{0}" </value>
+  </data>
+  <data name="msgdiag_tweak_jukebox_reinstall" xml:space="preserve">
+    <value>嗯，重新安装会删除你对点唱机所做的所有更改，你确定？</value>
+  </data>
+  <data name="msgdiag_tweak_jukebox_remove_song" xml:space="preserve">
+    <value>是否要删除 "{0}" 从点唱机？</value>
+  </data>
+  <data name="msgdiag_uninstall" xml:space="preserve">
+    <value>你想卸载这个吗？</value>
+  </data>
+  <data name="msgdiag_uninstall_item" xml:space="preserve">
+    <value>是否要卸载 "{0}"？</value>
+  </data>
+  <data name="msgdiag_unsaved_changes" xml:space="preserve">
+    <value>您有未保存的更改。 你想丢弃它们吗？</value>
+  </data>
+  <data name="msgtitle_a_bug" xml:space="preserve">
+    <value>应该是bug？QwQ</value>
+  </data>
+  <data name="msgtitle_changelog" xml:space="preserve">
+    <value>{0} 变更日志</value>
+  </data>
+  <data name="msgtitle_check_again" xml:space="preserve">
+    <value>嗯，你能再检查一下吗？</value>
+  </data>
+  <data name="msgtitle_contact_me" xml:space="preserve">
+    <value>请与我联繫以获取更多信息~</value>
+  </data>
+  <data name="msgtitle_error" xml:space="preserve">
+    <value>出了点问题？</value>
+  </data>
+  <data name="msgtitle_ewk" xml:space="preserve">
+    <value>呸呸呸？</value>
+  </data>
+  <data name="msgtitle_future_improve" xml:space="preserve">
+    <value>我会尽快改进~ (￣▽￣)</value>
+  </data>
+  <data name="msgtitle_game_folder_not_found" xml:space="preserve">
+    <value>找不到遊戏目录~ QwO</value>
+  </data>
+  <data name="msgtitle_it_works" xml:space="preserve">
+    <value>是的，它有效! (b￣▽￣)b</value>
+  </data>
+  <data name="msgtitle_known_bug_but_lazy" xml:space="preserve">
+    <value>已知错误，但懒得修复~</value>
+  </data>
+  <data name="msgtitle_not_authorized" xml:space="preserve">
+    <value>您无权访问此应用程序！</value>
+  </data>
+  <data name="msgtitle_no_bully" xml:space="preserve">
+    <value>没有霸凌~ (￣ω￣ )</value>
+  </data>
+  <data name="msgtitle_no_connection" xml:space="preserve">
+    <value>没有网络连接！ (￣ω￣)</value>
+  </data>
+  <data name="msgtitle_no_need_to_do" xml:space="preserve">
+    <value>你不需要再做一次~</value>
+  </data>
+  <data name="msgtitle_null_value" xml:space="preserve">
+    <value>不能处理 null！ OAO</value>
+  </data>
+  <data name="msgtitle_oh_no" xml:space="preserve">
+    <value>喔~~不！！~</value>
+  </data>
+  <data name="msgtitle_processing_done" xml:space="preserve">
+    <value>处理完成! °(O▽O)°</value>
+  </data>
+  <data name="msgtitle_question" xml:space="preserve">
+    <value>是的，没有问题~</value>
+  </data>
+  <data name="msgtitle_quote_21" xml:space="preserve">
+    <value>呃，编码好难~</value>
+  </data>
+  <data name="msgtitle_quote_31" xml:space="preserve">
+    <value>是的！ 孤独是不好的~</value>
+  </data>
+  <data name="msgtitle_quote_51" xml:space="preserve">
+    <value>太快总比太慢好~</value>
+  </data>
+  <data name="msgtitle_random1" xml:space="preserve">
+    <value>(￣ω￣ )</value>
+  </data>
+  <data name="msgtitle_random2" xml:space="preserve">
+    <value>☆ｏ(＞＜；)○</value>
+  </data>
+  <data name="msgtitle_random3" xml:space="preserve">
+    <value>(≧w≦)~</value>
+  </data>
+  <data name="msgtitle_random4" xml:space="preserve">
+    <value>(￣w￣*)`</value>
+  </data>
+  <data name="msgtitle_rawk" xml:space="preserve">
+    <value>归刚欸~ `(￣v￣; )</value>
+  </data>
+  <data name="msgtitle_select_game_folder" xml:space="preserve">
+    <value>选择你指定的 FS2 资料夹~ (^ ω ^ *)</value>
+  </data>
+  <data name="msgtitle_select_jukebox_song" xml:space="preserve">
+    <value>选择MP3歌曲~</value>
+  </data>
+  <data name="msgtitle_try_again" xml:space="preserve">
+    <value>再试一次吧！ `(￣ω ￣)</value>
+  </data>
+  <data name="msgtitle_tweak_jukebox_reinstall" xml:space="preserve">
+    <value>重新安装点唱机?</value>
+  </data>
+  <data name="msgtitle_um" xml:space="preserve">
+    <value>嗯。。。?</value>
+  </data>
+  <data name="msgtitle_want_to_continue" xml:space="preserve">
+    <value>确认继续</value>
+  </data>
+  <data name="msg_close_game_first" xml:space="preserve">
+    <value>您需要关闭遊戏才能执行此操作~</value>
+  </data>
+  <data name="msg_download_cancelled" xml:space="preserve">
+    <value>已取消下载~ OAO`</value>
+  </data>
+  <data name="msg_download_error" xml:space="preserve">
+    <value>无法连接到服务器。请检查您的互联网连接或稍后重试。</value>
+  </data>
+  <data name="msg_error" xml:space="preserve">
+    <value>发生了错误。 Kat-code： {0}</value>
+  </data>
+  <data name="msg_error_maximumchar" xml:space="preserve">
+    <value>这个字段只允许最多 {0} 个字符~</value>
+  </data>
+  <data name="msg_failed_to_fetch" xml:space="preserve">
+    <value>找不到所需的文件/信息。</value>
+  </data>
+  <data name="msg_failed_to_uninstall_patch" xml:space="preserve">
+    <value>"{0}" 无法卸载。 有可能是您使用的是旧版本。</value>
+  </data>
+  <data name="msg_fail_to_create_path" xml:space="preserve">
+    <value>无法创建补丁资料夹，也许您打开了防病毒软件？ 请将补丁程序添加到白名单或联繫开发人员寻求帮助~</value>
+  </data>
+  <data name="msg_field_invalid" xml:space="preserve">
+    <value>您输入的值无效!</value>
+  </data>
+  <data name="msg_field_missing" xml:space="preserve">
+    <value>一个或部分字段未填写!</value>
+  </data>
+  <data name="msg_folder_invalid" xml:space="preserve">
+    <value>您选择的资料夹无效~</value>
+  </data>
+  <data name="msg_game_need_to_close" xml:space="preserve">
+    <value>请先关闭任何正在运行的 FreeStyle2~</value>
+  </data>
+  <data name="msg_has_cleanned_up" xml:space="preserve">
+    <value>临时文件夹已清理，保存{0}MB~</value>
+  </data>
+  <data name="msg_has_cleanned_up_but_nothing_cleanned" xml:space="preserve">
+    <value>无任何档案需要清除!</value>
+  </data>
+  <data name="msg_has_coppied" xml:space="preserve">
+    <value>{0} 已复制到剪贴板。</value>
+  </data>
+  <data name="msg_has_imported" xml:space="preserve">
+    <value>所有设置均已成功导入!</value>
+  </data>
+  <data name="msg_has_installed" xml:space="preserve">
+    <value>"{0}" 安装成功!</value>
+  </data>
+  <data name="msg_has_uninstalled" xml:space="preserve">
+    <value>"{0}" 已卸载~</value>
+  </data>
+  <data name="msg_incorrect_parametter" xml:space="preserve">
+    <value>出现未知错误。 Kat-code：参数不正确。</value>
+  </data>
+  <data name="msg_invalid_afk_interval" xml:space="preserve">
+    <value>内个。。。 间隔必须介於两者之间 10~55。</value>
+  </data>
+  <data name="msg_item_required" xml:space="preserve">
+    <value>你需要"{0}" 这个调整才能工作~</value>
+  </data>
+  <data name="msg_maximum_item_reached" xml:space="preserve">
+    <value>内个。。。 您最多只能选择 {0} 项目!</value>
+  </data>
+  <data name="msg_no_item_selected" xml:space="preserve">
+    <value>您还没有选择任何项目~</value>
+  </data>
+  <data name="msg_no_sound_lib" xml:space="preserve">
+    <value>无法加载媒体播放器库！</value>
+  </data>
+  <data name="msg_no_sound_sample" xml:space="preserve">
+    <value>找不到样本声音~</value>
+  </data>
+  <data name="msg_patcher_has_new_version" xml:space="preserve">
+    <value>有更新的版本可用！ 请在官网下载~</value>
+  </data>
+  <data name="msg_patcher_has_new_version_og" xml:space="preserve">
+    <value>有更新的基础版本可用。 为了更好的稳定性，请从网站下载。</value>
+  </data>
+  <data name="msg_patching_too_slow" xml:space="preserve">
+    <value>似乎需要的时间比我预期的要长。 你在使用慢速硬盘吗？ 如果是，请稍等！</value>
+  </data>
+  <data name="msg_patch_wip" xml:space="preserve">
+    <value>此补丁仍在开发中！</value>
+  </data>
+  <data name="msg_path_has_applied" xml:space="preserve">
+    <value>"{0}" 已在此遊戏中申请！</value>
+  </data>
+  <data name="msg_please_restart_program_language" xml:space="preserve">
+    <value>您已更改程式语言，为使其完全翻译，请考虑重新启动程式！</value>
+  </data>
+  <data name="msg_program_disabled" xml:space="preserve">
+    <value>程式被禁用！</value>
+  </data>
+  <data name="msg_server_failure" xml:space="preserve">
+    <value>服务器没有响应任何请求。 使用本地数据启动离线模式。</value>
+  </data>
+  <data name="msg_server_failure_custom" xml:space="preserve">
+    <value>自定义服务器未正确响应。 请检查您的存储库。</value>
+  </data>
+  <data name="msg_service_authorization_error" xml:space="preserve">
+    <value>您无权使用您提供的凭据激活此功能。 请联系您的管理员或稍后重试。</value>
+  </data>
+  <data name="msg_song_has_added" xml:space="preserve">
+    <value>"{0}" 添加到自动点唱机！</value>
+  </data>
+  <data name="msg_song_has_deleted" xml:space="preserve">
+    <value>"{0}" 已从自动点唱机中删除~</value>
+  </data>
+  <data name="msg_tweak_custominterface_q" xml:space="preserve">
+    <value>此调整需要高速写入速度磁盘 (SSD) 才能流畅运行，否则遊戏可能会在运行时崩溃或无法应用，是否要启用？</value>
+  </data>
+  <data name="msg_two_fields_needed" xml:space="preserve">
+    <value>需要至少有两个字段才能这样做! (￣w￣*)</value>
+  </data>
+  <data name="msg_ui_conflict" xml:space="preserve">
+    <value>两个或多个附加组件有衝突的文件。</value>
+  </data>
+  <data name="msg_user_offline" xml:space="preserve">
+    <value>无法连接到服务器，您处於离线状态~</value>
+  </data>
+  <data name="notify_tray_tip" xml:space="preserve">
+    <value>takattoFS2 补丁程式 正在为您服务~ o(≧▽≦)o</value>
+  </data>
+  <data name="tab1" xml:space="preserve">
+    <value>欢迎</value>
+  </data>
+  <data name="tab2" xml:space="preserve">
+    <value>补丁</value>
+  </data>
+  <data name="tab3" xml:space="preserve">
+    <value>模组</value>
+  </data>
+  <data name="tab4" xml:space="preserve">
+    <value>服务</value>
+  </data>
+  <data name="tab5" xml:space="preserve">
+    <value>关於</value>
+  </data>
+  <data name="text_about" xml:space="preserve">
+    <value>这个程式没有绝对保證。 使用风险自负，安全无虞，但请注意周围。
+
+这是免费软件，欢迎您在特定条件下重新分发它。
+
+这是按原样提供的，没有任何明示或暗示的保證。 在任何情况下，作者或公司对因安装或使用所提供材料而对您或您的计算机造成的任何损害概不负责。 以及由於您使用或无法使用所述提供的材料和相关文档而可能发生的任何事情。 如果您的 FS2 提供商决定暂停您的 FS2 帐户，我们不承担任何责任。
+
+版权所有 © 2022 JOYCITY。 版权所有。 Nexon韩国公司 该计划与 JOYCITY Corporation 没有关联或关联。 使用 JOYCITY 内容时无意侵犯版权或商标。 其他商标均为其各自所有者的财产。
+
+------------------------------------------
+如果您发现任何错误或有任何想法，请向我报告~ (O▽O)/
+
+[想触发神秘选项请内洽]</value>
+    <comment>#about</comment>
+  </data>
+  <data name="text_executing" xml:space="preserve">
+    <value>执行命令。。。</value>
+  </data>
+  <data name="text_executing_failed" xml:space="preserve">
+    <value>无法执行命令。</value>
+  </data>
+  <data name="text_height" xml:space="preserve">
+    <value>高度</value>
+  </data>
+  <data name="text_tweak_extension_hint" xml:space="preserve">
+    <value>證书（可选）</value>
+  </data>
+  <data name="text_width" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="tooltip_button_cat_seal" xml:space="preserve">
+    <value>猫猫认可的印章</value>
+  </data>
+  <data name="tooltip_button_demo" xml:space="preserve">
+    <value>它看起来怎麽样</value>
+  </data>
+  <data name="tooltip_button_discord" xml:space="preserve">
+    <value>查看 Discord！</value>
+  </data>
+  <data name="tooltip_button_game_resizer" xml:space="preserve">
+    <value>遊戏调整器，可以在遊戏运行时打开</value>
+  </data>
+  <data name="tooltip_button_help" xml:space="preserve">
+    <value>问 娜可露露！</value>
+  </data>
+  <data name="tooltip_button_language" xml:space="preserve">
+    <value>遊戏语言</value>
+  </data>
+  <data name="tooltip_button_repair" xml:space="preserve">
+    <value>修理</value>
+  </data>
+  <data name="tooltip_button_select_folder" xml:space="preserve">
+    <value>选择遊戏资料夹</value>
+  </data>
+  <data name="tooltip_button_setting" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="tooltip_button_translate" xml:space="preserve">
+    <value>翻译</value>
+  </data>
+  <data name="tooltip_button_uninstall" xml:space="preserve">
+    <value>卸载</value>
+  </data>
+  <data name="tooltip_camera_advanced_script" xml:space="preserve">
+    <value>高级相机代码（实验性）</value>
+  </data>
+  <data name="tooltip_close_game" xml:space="preserve">
+    <value>关闭运行遊戏</value>
+  </data>
+  <data name="tooltip_disable" xml:space="preserve">
+    <value>停用</value>
+  </data>
+  <data name="tooltip_export_settings" xml:space="preserve">
+    <value>导出设置</value>
+  </data>
+  <data name="tooltip_import_settings" xml:space="preserve">
+    <value>导入设置</value>
+  </data>
+  <data name="tooltip_launch_game" xml:space="preserve">
+    <value>开始遊戏</value>
+  </data>
+  <data name="tooltip_reset_settings" xml:space="preserve">
+    <value>将设置重置为默认值</value>
+  </data>
+  <data name="tooltip_resize_tip" xml:space="preserve">
+    <value>将游戏大小调整为您想要的大小！ 请记住，遊戏中会有一个奇怪的阴影。 可以使用扩展程序删除~</value>
+  </data>
+  <data name="tooltip_sample" xml:space="preserve">
+    <value>样本</value>
+  </data>
+  <data name="tooltip_sweet_donate" xml:space="preserve">
+    <value>斗内我吧~</value>
+  </data>
+  <data name="tooltip_sweet_image" xml:space="preserve">
+    <value>更改当前甜美女孩形象（测试用）</value>
+  </data>
+  <data name="tooltip_sweet_image_background" xml:space="preserve">
+    <value>更改当前甜美少女背景图（测试用）</value>
+  </data>
+  <data name="tooltip_sweet_image_background_layout" xml:space="preserve">
+    <value>更改背景图像（用於测试） - MODE：{0}</value>
+  </data>
+  <data name="tooltip_sweet_image_layout" xml:space="preserve">
+    <value>更改图像（用於测试） - MODE：{0}</value>
+  </data>
+  <data name="tooltip_sweet_lock" xml:space="preserve">
+    <value>锁定当前精灵少女切换</value>
+  </data>
+  <data name="tooltip_sweet_music" xml:space="preserve">
+    <value>音乐控制</value>
+  </data>
+  <data name="tooltip_sweet_news" xml:space="preserve">
+    <value>新闻</value>
+  </data>
+  <data name="tooltip_sweet_tutorial" xml:space="preserve">
+    <value>教程</value>
+  </data>
+  <data name="tooltip_tweak_autotask_macrofocus" xml:space="preserve">
+    <value>如果此模式开启，全局键盘/鼠标宏将仅在游戏获得焦点时起作用</value>
+  </data>
+  <data name="tooltip_tweak_autotask_repeat" xml:space="preserve">
+    <value>循环宏直到手动尝试关闭它</value>
+  </data>
+  <data name="tooltip_tweak_cam_absolutely" xml:space="preserve">
+    <value>将所有值设置为常量</value>
+  </data>
+  <data name="tooltip_tweak_cam_ball_ignore" xml:space="preserve">
+    <value>忽略对球的跟踪，相机将不再根据球的位置上下移动</value>
+  </data>
+  <data name="tooltip_tweak_charvoice_hint2" xml:space="preserve">
+    <value>并非所有声音都会起作用，因为这样做非常困难 ;_ ;</value>
+  </data>
+  <data name="tooltip_tweak_delete" xml:space="preserve">
+    <value>删除所选项目</value>
+  </data>
+  <data name="tooltip_tweak_extension_hint" xml:space="preserve">
+    <value>高级扩展所需的證书</value>
+  </data>
+  <data name="tooltip_tweak_extension_select" xml:space="preserve">
+    <value>选择一张PNG图片</value>
+  </data>
+  <data name="tooltip_tweak_interface_hint" xml:space="preserve">
+    <value>命令（高级）</value>
+  </data>
+  <data name="tooltip_tweak_jukebox_add" xml:space="preserve">
+    <value>将歌曲添加到清单</value>
+  </data>
+  <data name="tooltip_tweak_jukebox_delete" xml:space="preserve">
+    <value>从清单中删除歌曲</value>
+  </data>
+  <data name="tooltip_tweak_jukebox_listen" xml:space="preserve">
+    <value>播放清单中的音乐 (循环模式)</value>
+  </data>
+  <data name="tooltip_tweak_jukebox_reinstall" xml:space="preserve">
+    <value>重新安装并将设置恢复为默认值</value>
+  </data>
+  <data name="tooltip_tweak_jukebox_select" xml:space="preserve">
+    <value>选择一首歌曲 (mp3 only)</value>
+  </data>
+  <data name="tooltip_tweak_map_back" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="tooltip_tweak_map_choice_beach" xml:space="preserve">
+    <value>一个古老的锦标赛球场，非常明亮~</value>
+  </data>
+  <data name="tooltip_tweak_map_choice_custom" xml:space="preserve">
+    <value>您的自定义安装球场</value>
+  </data>
+  <data name="tooltip_tweak_map_choice_default_map" xml:space="preserve">
+    <value>始终强制使用您喜欢的特定球场！</value>
+  </data>
+  <data name="tooltip_tweak_map_choice_katto" xml:space="preserve">
+    <value>修改後的 Bridge 地图，可爱！</value>
+  </data>
+  <data name="tooltip_tweak_map_choice_training" xml:space="preserve">
+    <value>基础训练球场，针对 FPS 进行了非常高的优化</value>
+  </data>
+  <data name="tooltip_tweak_map_choice_warehouse" xml:space="preserve">
+    <value>一张被遗忘已久的美好地图，让眼压降低疲劳的好选择!</value>
+  </data>
+  <data name="tooltip_tweak_map_config" xml:space="preserve">
+    <value>安装或卸载球场(s)</value>
+  </data>
+  <data name="tooltip_tweak_map_hint" xml:space="preserve">
+    <value>编辑球场</value>
+  </data>
+  <data name="tooltip_tweak_mcvoice_font" xml:space="preserve">
+    <value>[STD]此功能需要语言包</value>
+  </data>
+  <data name="tooltip_tweak_mcvoice_smart_language" xml:space="preserve">
+    <value>根据遊戏语言设置自动切换遊戏语言</value>
+  </data>
+  <data name="tooltip_tweak_misc_afk_interval" xml:space="preserve">
+    <value>将动作发送到遊戏以重置其 AFK 计时器</value>
+  </data>
+  <data name="tooltip_tweak_misc_afk_interval_hint" xml:space="preserve">
+    <value>反AFK调整的定时器间隔</value>
+  </data>
+  <data name="tooltip_tweak_misc_hint1" xml:space="preserve">
+    <value>自定义遊戏分辨率</value>
+  </data>
+  <data name="tooltip_tweak_misc_hint2" xml:space="preserve">
+    <value>附加功能</value>
+  </data>
+  <data name="tooltip_tweak_misc_log_clean" xml:space="preserve">
+    <value>遊戏製作的清洁日誌</value>
+  </data>
+  <data name="tooltip_tweak_misc_shortcut" xml:space="preserve">
+    <value>允许使用键盘快捷键</value>
+  </data>
+  <data name="tooltip_tweak_mvcoice_hint" xml:space="preserve">
+    <value>MC 语音包语种</value>
+  </data>
+  <data name="txt_enter_url" xml:space="preserve">
+    <value>输入网址</value>
+  </data>
+  <data name="txt_license" xml:space="preserve">
+    <value>在继续之前，请阅读此内容。
+
+takattoFS2 Patcher 不是破解工具。 我不鼓励人们使用黑客或作弊，这个程序与它无关。
+
+takattoFS2 Patcher 通过修改客户端违反了 Joycity 的服务条款，尽管没有证据表明 Joycity 对使用它的用户采取了行动。 您的帐户不会因为单独使用 takattoFS2 Patcher 而面临风险。 但是，滥用服务或使用进一步违反服务条款的补丁可能会导致您的帐户被终止。 我的官方存储库中的所有补丁和调整都是安全的。
+
+takattoFS2 Patcher 并不是 Joycity 所不知道的。 事实上，他们承认它的存在并允许我参与游戏的某些部分。
+
+takattoFS2 Patcher 不会收集您的个人数据，并且该程序没有能力这样做。 主服务器之外没有连接，也就是Github，所以你可以放心！
+
+快乐游戏 ^w^ - 一个爱猫的人~</value>
+  </data>
+</root>

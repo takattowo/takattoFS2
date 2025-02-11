@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BorderlessForm", "BorderlessForm.csproj", "{1DBA6E10-6A05-48F0-BED9-6F33E0D3E986}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0D1E5901-6696-4383-8D4D-074862D1AC8F}"
+	ProjectSection(SolutionItems) = preProject
+		DropShadowcs.cs = DropShadowcs.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DBA6E10-6A05-48F0-BED9-6F33E0D3E986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DBA6E10-6A05-48F0-BED9-6F33E0D3E986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DBA6E10-6A05-48F0-BED9-6F33E0D3E986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DBA6E10-6A05-48F0-BED9-6F33E0D3E986}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8365C821-B022-436C-9C6C-5A15CDACF54F}
+	EndGlobalSection
+EndGlobal
