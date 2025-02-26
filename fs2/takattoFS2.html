@@ -463,8 +463,31 @@
               });
             });
           </script>
+         <div id="howToUseContent" class="tab-content">
+        <div id="jp_server" class="tab-pane fade show active" role="tabpanel" aria-labelledby="jp_tab">
+          <ul id="howToUseJpTabs" class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active show" href="#tab1" data-toggle="tab" aria-controls="tab1" aria-selected="false">Download</a>
+            </li>
+            <li class="nav-item" style="display: none;">
+              <a class="nav-link" href="#tab2" data-toggle="tab" aria-controls="tab2" aria-selected="false">Virustotal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tab3" data-toggle="tab" aria-controls="tab3" aria-selected="false">Changelog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tab4" data-toggle="tab" aria-controls="tab4" aria-selected="false">Description</a>
+            </li>
+          </ul>
+          <script>
+            $(document).ready(function() {
+              $("#link_docwnload_unkniwn").click(function() {
+                alert("I have merged the repostories so the updater will not be working. To fix that, please head to patcher location and delete the old \"kat_updater.exe\" and download the installer again~");
+              });
+            });
+          </script>
           <div id="howToUseJpContent" class="tab-content firstw">
-            <div id="tab1" class="tab-pane fade" role="tabpanel" aria-labelledby="tab1">
+            <div id="tab1" class="tab-pane fade active show" role="tabpanel" aria-labelledby="tab1">
               <p style="padding: 0 2rem 0 2rem;"> There maybe warning at the first time running because the program has no digital signature. Please allow the program to run on your computer~ <a id="link_setup" class="card-link" target="_blank" href="https://cdn.discordapp.com/attachments/783631315688751106/827598162474434580/how_to_allow_program_to_run.png">
                   <b> [Click here for picture]</b>
                 </a>
@@ -493,7 +516,7 @@
                 <li seq="2.8.8.8">Better memory management.</li>
                 <br>
                 <button class="btn btn-primary collapsed" type="button" data-toggle="collapse" data-target="#collapseChangelog" aria-expanded="false" aria-controls="collapseChangelog">Show more</button>
-                <a id="link_setup" class="card-link" target="_blank" href="#" style="color: #855362 !important;font-weight: bold;"> &nbsp; [Project is half-dropped - Until I am free again] </a>
+                <a id="link_setup" class="card-link" target="_blank" href="#" style="color: rgb(133, 83, 98) !important; font-weight: bold; --darkreader-inline-color: var(--darkreader-text-855362, #8b857a);" data-darkreader-inline-color=""> &nbsp; [Project is half-dropped - Until I am free again] </a>
                 <div class="mt-1 collapse" id="collapseChangelog" style="">
                   <div id="accordionChangelog">
                     <li seq="2.8.8.6">Reworked Anti-AFK algorithm, added a new type of patch called <b>Extensions</b>. </li>
@@ -626,7 +649,7 @@
                 </div>
               </ol>
             </div>
-            <div id="tab4" class="tab-pane fade active show" role="tabpanel" aria-labelledby="tab4">
+            <div id="tab4" class="tab-pane fade" role="tabpanel" aria-labelledby="tab4">
               <p style="padding: 0 2rem 0 2rem;"> As an effort to bring the dying game back to life, <b>takattoFS2 Patcher</b> was created to improve the game experience by letting you configure the game into a passionate reality. Making it simple to download and apply stuffs to your FreeStyle 2 client, and it comes with a lot of QOL tweaks that single-handedly make the game better! </p>
               <p style="padding: 0 2rem 0 2rem;">This is not a hack tool! Yes, it's a casual patcher that patches stuff, aka mods.</p>
               <p style="padding: 0 2rem 0 2rem; display:none;">The program is EOL because I lost motivation. Don't worry, I will still try to maintain the patches and DLCS as long as possible.</p>
