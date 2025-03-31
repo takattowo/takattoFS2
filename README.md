@@ -40,11 +40,15 @@ Download the latest release from [this page](https://github.com/takattowo/takatt
 <!-- LICENSE -->
 ## License & Legal
 
-Distributed under the NO License. Search `NO LICENSE` for more information.
+Distributed under the `NO License`. Search `NO LICENSE` for more information.
 
-This program comes with ABSOLUTELY NO WARRANTY. Use at your own risk, safe and sound but beware around. This is provided as is without any express or implied warranty. In no event or circumstances will the authors or company be held liable for any damage to yourself or your computer that may arise from the installation or use of the materials provided. As well as for anything that may occur as a result of your use, or inability to use said provided materials and associated documentation. We accept no responsibilities in case your FS2 provider decides to suspend your FS2 account.
+This software is provided as is, without any express or implied warranties. Use of this program is entirely at your own risk. While we strive to ensure a safe experience, users should exercise caution.
 
-Copyright © 2025 JOYCITY. All Rights Reserved. Nexon Korea co., ltd. This program is not affiliated nor associated with JOYCITY Corporation. No copyright or trademark infringement is intended in using JOYCITY™ content. Other trademarks are the property of their respective owners.
+This is free software, and you are permitted to redistribute it under certain conditions. However, the authors and the company assume no liability for any damage that may result from the installation or use of this software and its associated materials. This includes, but is not limited to, any consequences arising from the use, misuse, or inability to use the provided materials or documentation.
+
+Additionally, we are not responsible for any actions taken by your FS2 provider, including but not limited to the suspension of your FS2 account.
+
+All rights reserved. This software is an independent project and is not affiliated with, endorsed by, or associated with the game developers, publishers, or any related entities. All trademarks and intellectual property related to the game remain the property of their respective owners.
 
 <!-- CONTRIBUTING -->
 ## Contributing
