@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://takattowo.github.io/takattoFS2/">
     <img src="https://raw.githubusercontent.com/takattowo/takattoFS2/main/fs2/assets/logo.png" alt="Logo" width="238" height="0">
-    <img src="https://github.com/user-attachments/assets/2ec591e8-e6a3-4ecb-a01f-a7aa1cbeb996" alt="Logo">
+    <img src="https://github.com/user-attachments/assets/8f4d5bcc-b416-4147-b81a-c62d43a028e1" alt="Logo">
   </a>
 
   <h3 align="center">takattoFS2 Patcher</h3>
