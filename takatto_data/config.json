@@ -8,9 +8,9 @@
   "QuickBMS": "https://github.com/LittleBigBug/QuickBMS/releases/download/0.12.0/quickbms_win.zip",
   "CameraHelp": "https://github.com/takattowo/takattoFS2/wiki/Camera-Tweak-Guide",
   "CameraScriptHelp": "https://github.com/takattowo/takattoFS2/wiki/Camera-Scripting-Guide",
-  "repoApiUrl": "https://api.github.com/repos/takattowo/takattoFS2-mods/contents/mods",
-  "repoUrl": "https://github.com/takattowo/takattoFS2-mods/",
-  "rawBaseUrl": "https://raw.githubusercontent.com/takattowo/takattoFS2-mods/main/mods/",
-  "versionApiUrl": "https://api.github.com/repos/takattowo/takattoFS2/releases/latest",
-  "koreanLogin": "https://www.joycity.com/user/integrateLogin?redirect=http%3A%2F%2Ffs2.joycity.com%2Fweb%2Fmain.do&SITE_CD=FS2"
+  "RepoApiUrl": "https://api.github.com/repos/takattowo/takattoFS2-mods/contents/mods",
+  "RepoUrl": "https://github.com/takattowo/takattoFS2-mods/",
+  "RawBaseUrl": "https://raw.githubusercontent.com/takattowo/takattoFS2-mods/main/mods/",
+  "VersionApiUrl": "https://api.github.com/repos/takattowo/takattoFS2/releases/latest",
+  "KoreanLogin": "https://www.joycity.com/user/integrateLogin?redirect=http%3A%2F%2Ffs2.joycity.com%2Fweb%2Fmain.do&SITE_CD=FS2"
 }
