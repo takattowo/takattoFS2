@@ -1,10 +1,14 @@
 {
-  "Perk1User": "ENC:5ITM4kjMzQDO5QzM4cDNzcjOyVGdjFmchh2YNzgzNzgyNzM0NDM3MjgzMjQ4Nzk4MDEyMw==",
+  "Perk1User": "ENC:ygGaj1mRqR2RWl3TqNmeOR0Y00keRVzTEFleNp2a00EVJVjOD5URWU56Z3pOemd5TnpNME5ETTNNamd6TWpRNE56azRNREV5TXc9PQ==",
   "Perk2User": "",
   "TheCatSecret": [
     {
-      "CatKey": "ENC:ulmbZw==",
-      "CatDo": "ENC:GI19WegwSZoVGaZvdW5kIG1lIQ=="
+      "CatKey": "ENC:sVnOD5URbWJadz09",
+      "CatDo": "ENC:TOox0QCVjYzU1Za1WOxIWbRdmOD5URJkYldVc0lHZHZiMlFnWjI5dlpDRT0="
+    },
+    {
+      "CatKey": "ENC:Wp2YtZFMhJjOD5URMmNWNWFHVm9aUT09",
+      "CatDo": "ENC:SBzYI1kNMlXOuFGWS9GZXlUdZJTO0x0MShWYyYEMkdUOzIWe5ATWXRHakhkU2JFbNlnOD5URSGFMMlZrYVhRdmJXRnBiaTkwWVd0aGRIUnZYMlJoZEdFdmRYTmxjbU52Ym1acFp5NXFjMjl1"
     }
   ]
 }
