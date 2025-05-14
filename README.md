@@ -6,7 +6,7 @@
     <img src="https://github.com/user-attachments/assets/8f4d5bcc-b416-4147-b81a-c62d43a028e1" alt="Logo">
   </a>
 
-  <h3 align="center">takattoFS2 Patcher</h3>
+  <h3 align="center">takattoFS2 Patcher (or FS2 Maiden)</h3>
 
   <p align="center">
     🏀 😺 A purr-fect patcher for the game Freestyle 2: Street Basketball!
