@@ -58,6 +58,6 @@ GitHub can be used to report a bug or to submit a feature request. To do so, go 
 Here is a  few thing you can contribute to the program:
 1. Translations
 2. Ideas
-3. Create and upload mods! Click [here](https://github.com/takattowo/takattoFS2-mods/) to go to the mods repo
+3. Create and upload mods! Click [here](https://github.com/takattowo/fs2maiden-mods/) to go to the mods repo
 4. Send me some coffee 🐈
 5. Be a cat lover
