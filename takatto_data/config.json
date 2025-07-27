@@ -13,6 +13,7 @@
   "ExtractorEngineUri": "https://github.com/LittleBigBug/QuickBMS/releases/download/0.12.0/quickbms_win.zip",
   "CameraHelp": "https://github.com/takattowo/takattoFS2/wiki/Camera-Tweak-Guide",
   "CameraScriptHelp": "https://github.com/takattowo/takattoFS2/wiki/Camera-Scripting-Guide",
+  "FeedbackUri": "https://github.com/takattowo/takattoFS2/issues",
   "RepoApiUrl": "https://api.github.com/repos/takattowo/fs2maiden-mods/contents/mods",
   "RepoUrl": "https://github.com/takattowo/fs2maiden-mods/",
   "RawBaseUrl": "https://raw.githubusercontent.com/takattowo/fs2maiden-mods/main/mods/",
