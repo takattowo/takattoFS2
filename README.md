@@ -26,6 +26,8 @@
 
 As an effort to bring the dying game back to life, **takattoFS2 Patcher** was created to improve the game experience by letting you configure the game into a passionate reality. Making it simple to download and apply stuffs to your FreeStyle 2 client, and it comes with a lot of QOL tweaks that single-handedly make the game better!
 
+State of the art human writing code, no AI related. Smh.
+
 🐈‍⬛ This is not a hack tool and does not support any behavior that breaks the actual gameplay mechanics.
 
 🐈‍⬛ Gives cat gift, cat gives gift!
