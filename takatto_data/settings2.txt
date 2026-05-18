@@ -10,7 +10,7 @@
       "AssetRootUri":"https://raw.githubusercontent.com/takattowo/takattoFS2/main/fs2/assets",
       "GameGuideUri":"https://youtu.be/WVc3bhNMqEA",
       "CameraGuideUri":"https://github.com/takattowo/takattoFS2/wiki/Camera-Tweak-Guide",
-      "DiscordUri":"https://discord.com/invite/yJmKf7PDzS",
+      "DiscordUri":"https://discord.gg/BcMmC3uMhg",
       "DonateUri":"https://www.buymeacoffee.com/taka0chan",
       "MusicList":[
          "play_odai02",
