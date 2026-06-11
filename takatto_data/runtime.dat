@@ -18,7 +18,7 @@
    "RawBaseUrl":"https://raw.githubusercontent.com/takattowo/fs2maiden-mods/main/mods/",
    "VersionApiUrl":"https://api.github.com/repos/takattowo/takattoFS2/releases/latest",
    "KoreanLogin":"https://fs2.joycity.com/web/main.do",
-   "XCLoaderBypassEnabled": true,
+   "XCLoaderBypassEnabled": false,
    "XCEmulatorClientEnabled": false,
    "ProxySeverUri":"socks-server-list.dat",
    "ProxyEnabled": true,
