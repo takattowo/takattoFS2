@@ -1,0 +1,2001 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ConnectingToServer" xml:space="preserve">
+    <value>正在連線到伺服器...</value>
+  </data>
+  <data name="Fetching" xml:space="preserve">
+    <value>正在擷取...</value>
+  </data>
+  <data name="YourAccessToTheProgramHas" xml:space="preserve">
+    <value>您對此程式的存取權限已受限制。若您認為這是錯誤，或想提出申訴，請聯絡管理員。</value>
+  </data>
+  <data name="Uhm" xml:space="preserve">
+    <value>嗯...</value>
+  </data>
+  <data name="Notice" xml:space="preserve">
+    <value>注意！</value>
+  </data>
+  <data name="RetrievingConfiguration" xml:space="preserve">
+    <value>正在擷取設定...</value>
+  </data>
+  <data name="RetrievingAppProfiles" xml:space="preserve">
+    <value>正在擷取應用程式設定檔...</value>
+  </data>
+  <data name="FailedToLoadSettings" xml:space="preserve">
+    <value>載入設定失敗。</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="ThisApplicationNeedsAdministrativePrivil" xml:space="preserve">
+    <value>此應用程式需要系統管理員權限才能存取 Windows Management Instrumentation (WMI) 以偵測遊戲程序。
+
+您要授予存取權限嗎？</value>
+  </data>
+  <data name="AdministrativePrivilegesRequired" xml:space="preserve">
+    <value>需要系統管理員權限</value>
+  </data>
+  <data name="TheProgramWillNotFunctionProperly" xml:space="preserve">
+    <value>程式將無法正常運作，但您仍可自由瀏覽此程式。</value>
+  </data>
+  <data name="KattoIsHidingAwayFromCurious" xml:space="preserve">
+    <value>Katto 正躲避好奇的目光！</value>
+  </data>
+  <data name="ThisUpdateIsEssentialTheProgram" xml:space="preserve">
+    <value>此更新為必要更新；在安裝完成前，程式將無法運作。</value>
+  </data>
+  <data name="TheExternalExtractorEngineDownloadURL" xml:space="preserve">
+    <value>未設定外部擷取引擎的下載 URL。請聯絡開發者。</value>
+  </data>
+  <data name="MicrosoftEdge" xml:space="preserve">
+    <value>Microsoft Edge</value>
+  </data>
+  <data name="ItIsVeryDangerousToClose" xml:space="preserve">
+    <value>在修補期間關閉程式非常危險，請稍候。</value>
+  </data>
+  <data name="ThisIsTheMainPageWhere" xml:space="preserve">
+    <value>這是主頁面，您可以在這裡查看最新消息並變更遊戲位置。</value>
+  </data>
+  <data name="ThisIsTheModHubYou" xml:space="preserve">
+    <value>這是模組中心，您可以在這裡管理模組，並從網路下載新的模組。</value>
+  </data>
+  <data name="ThisIsTheSoundHubWhere" xml:space="preserve">
+    <value>這是音效中心，您可以在這裡管理音效模組，例如主角語音、移動音效、NPC 等。</value>
+  </data>
+  <data name="ThisIsTheMapHubYou" xml:space="preserve">
+    <value>這是地圖中心，您可以強制遊戲使用您喜愛的單一地圖——不再隨機！</value>
+  </data>
+  <data name="ThisIsTheModHubWhere" xml:space="preserve">
+    <value>這是模組中心，您可以在這裡管理音效模組，例如主角語音、移動音效、NPC 等。</value>
+  </data>
+  <data name="Main" xml:space="preserve">
+    <value>主頁</value>
+  </data>
+  <data name="Pawtion" xml:space="preserve">
+    <value>Pawtion</value>
+  </data>
+  <data name="Proxy" xml:space="preserve">
+    <value>代理</value>
+  </data>
+  <data name="ModHub" xml:space="preserve">
+    <value>模組中心</value>
+  </data>
+  <data name="Sound" xml:space="preserve">
+    <value>音效</value>
+  </data>
+  <data name="Map" xml:space="preserve">
+    <value>地圖</value>
+  </data>
+  <data name="Misc" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="Toolbox" xml:space="preserve">
+    <value>工具箱</value>
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="ChangesWillApplyAfterRestartingThe" xml:space="preserve">
+    <value>重新啟動遊戲後將套用變更</value>
+  </data>
+  <data name="ApplicationLogInitialized" xml:space="preserve">
+    <value>應用程式記錄已初始化。
+- - - - - - - - - - - - - - - - - - - - - -
+</value>
+  </data>
+  <data name="ClickMe" xml:space="preserve">
+    <value>點我！</value>
+  </data>
+  <data name="Tasking" xml:space="preserve">
+    <value>處理中...</value>
+  </data>
+  <data name="DoingOtherStuffs" xml:space="preserve">
+    <value>正在處理其他事情...</value>
+  </data>
+  <data name="Done3" xml:space="preserve">
+    <value>完成！ :3</value>
+  </data>
+  <data name="ReleaseRecollection" xml:space="preserve">
+    <value>釋出回顧！</value>
+  </data>
+  <data name="Closing3" xml:space="preserve">
+    <value>正在關閉！ :3</value>
+  </data>
+  <data name="SafeModeEnabled" xml:space="preserve">
+    <value>已啟用安全模式！</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>載入中</value>
+  </data>
+  <data name="Pwatching" xml:space="preserve">
+    <value>修補中...
+
+</value>
+  </data>
+  <data name="MightTakeAWhile" xml:space="preserve">
+    <value>可能需要一些時間！</value>
+  </data>
+  <data name="SmolForm" xml:space="preserve">
+    <value>SmolForm</value>
+  </data>
+  <data name="HiThereLooksLikeItS" xml:space="preserve">
+    <value>嗨！看起來這是你第一次啟動這個可愛的小程式。開始吧！</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>下一步</value>
+  </data>
+  <data name="ToBeginPleaseSelectYourFreeStyle2" xml:space="preserve">
+    <value>首先，請選擇你的 FreeStyle2 遊戲位置。程式會在這裡尋找你的遊戲檔案。</value>
+  </data>
+  <data name="TakeMeThere" xml:space="preserve">
+    <value>帶我前往</value>
+  </data>
+  <data name="NowThatYouVeSelectedYour" xml:space="preserve">
+    <value>現在你已選擇遊戲位置，來看看這個程式能做些什麼吧！</value>
+  </data>
+  <data name="ThisIsTheMapHubYou_2" xml:space="preserve">
+    <value>這是地圖中心，你可以強制遊戲使用你喜愛的單一地圖。不再隨機！</value>
+  </data>
+  <data name="ThisIsTheMiscHubWhere" xml:space="preserve">
+    <value>這是雜項中心，你可以使用聊天巨集、鏡頭調整等實用功能！</value>
+  </data>
+  <data name="AndThatSItFeelFree" xml:space="preserve">
+    <value>就這樣！歡迎自由探索更多功能。這個程式非常容易使用。如果有問題，歡迎加入我們的 Discord 伺服器！</value>
+  </data>
+  <data name="OkieDokie" xml:space="preserve">
+    <value>好喔</value>
+  </data>
+  <data name="Skip" xml:space="preserve">
+    <value>略過</value>
+  </data>
+  <data name="HelloThere" xml:space="preserve">
+    <value>哈囉！</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="PleaseCloseTheGameFirstBefore" xml:space="preserve">
+    <value>變更遊戲資料夾前，請先關閉遊戲。</value>
+  </data>
+  <data name="PleaseWaitUntilThePatchingProcess" xml:space="preserve">
+    <value>請等待修補程序完成後再變更遊戲資料夾。</value>
+  </data>
+  <data name="InvalidGameFolderPleaseSelectThe" xml:space="preserve">
+    <value>無效的遊戲資料夾。請選擇正確的資料夾。</value>
+  </data>
+  <data name="DisclaimerLicense" xml:space="preserve">
+    <value>免責聲明與授權條款</value>
+  </data>
+  <data name="WhatSNew" xml:space="preserve">
+    <value>最新內容</value>
+  </data>
+  <data name="SupportMe" xml:space="preserve">
+    <value>支持我 ♡</value>
+  </data>
+  <data name="SelectGameFolder" xml:space="preserve">
+    <value> 選擇遊戲資料夾</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>瀏覽</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>開始</value>
+  </data>
+  <data name="Launcher" xml:space="preserve">
+    <value>啟動器</value>
+  </data>
+  <data name="SteamLauncher" xml:space="preserve">
+    <value>Steam 啟動器</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>[文字]</value>
+  </data>
+  <data name="Minimize" xml:space="preserve">
+    <value>最小化</value>
+  </data>
+  <data name="Kill" xml:space="preserve">
+    <value>結束</value>
+  </data>
+  <data name="ClickThisToSelectGameFolder" xml:space="preserve">
+    <value>點擊此處選擇遊戲資料夾！</value>
+  </data>
+  <data name="SelectASoundOption" xml:space="preserve">
+    <value>選擇音效選項</value>
+  </data>
+  <data name="Jukebox" xml:space="preserve">
+    <value>點唱機</value>
+  </data>
+  <data name="ActionSound" xml:space="preserve">
+    <value>動作音效</value>
+  </data>
+  <data name="MCVoice" xml:space="preserve">
+    <value>MC 語音</value>
+  </data>
+  <data name="EnvSound" xml:space="preserve">
+    <value>環境音效</value>
+  </data>
+  <data name="CharacterVoice" xml:space="preserve">
+    <value>角色語音</value>
+  </data>
+  <data name="UISound" xml:space="preserve">
+    <value>UI 音效</value>
+  </data>
+  <data name="Loading_2" xml:space="preserve">
+    <value>載入中...</value>
+  </data>
+  <data name="NoSongsToDisplay" xml:space="preserve">
+    <value>沒有可顯示的歌曲</value>
+  </data>
+  <data name="DoYouWantToUninstallThis" xml:space="preserve">
+    <value>您要解除安裝此修補程式嗎？</value>
+  </data>
+  <data name="JukeboxManager" xml:space="preserve">
+    <value>Jukebox 管理器</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>&lt; 返回 </value>
+  </data>
+  <data name="Uninstall" xml:space="preserve">
+    <value>解除安裝</value>
+  </data>
+  <data name="EnablePatch" xml:space="preserve">
+    <value>啟用修補程式</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="BringToTop" xml:space="preserve">
+    <value>移至頂端</value>
+  </data>
+  <data name="NothingToSeeHere" xml:space="preserve">
+    <value>這裡沒有任何內容</value>
+  </data>
+  <data name="PleaseSelectASoundNameNode" xml:space="preserve">
+    <value>請先選取一個音效名稱節點。</value>
+  </data>
+  <data name="PleaseSelectASoundNameNode_2" xml:space="preserve">
+    <value>請選取音效名稱節點，而不是音效路徑。</value>
+  </data>
+  <data name="AreYouSureYouWantTo" xml:space="preserve">
+    <value>您確定要刪除此音效及其所有相關路徑嗎？</value>
+  </data>
+  <data name="AreYouSureYouWantTo_2" xml:space="preserve">
+    <value>您確定要移除此音效路徑嗎？</value>
+  </data>
+  <data name="MCVoiceManager" xml:space="preserve">
+    <value>MC 語音管理器</value>
+  </data>
+  <data name="CrownTreeView1" xml:space="preserve">
+    <value>crownTreeView1</value>
+  </data>
+  <data name="OpenRaw" xml:space="preserve">
+    <value>開啟原始檔</value>
+  </data>
+  <data name="ActionSoundManager" xml:space="preserve">
+    <value>動作音效管理器</value>
+  </data>
+  <data name="PleaseSelectAnItemToDelete" xml:space="preserve">
+    <value>請選取要刪除的項目。</value>
+  </data>
+  <data name="EnvelopeSoundManager" xml:space="preserve">
+    <value>環境音效管理器</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="CharacterVoiceHasAMassiveList" xml:space="preserve">
+    <value>角色語音清單非常龐大。此程序可能需要一些時間，在完成前程式可能會暫時無回應。要繼續嗎？</value>
+  </data>
+  <data name="PleaseSelectACharacterNameNode" xml:space="preserve">
+    <value>請先選取一個角色名稱節點。</value>
+  </data>
+  <data name="PleaseSelectACharacterNameNode_2" xml:space="preserve">
+    <value>請選取角色名稱節點，而不是音效路徑。</value>
+  </data>
+  <data name="CharacterVoiceManager" xml:space="preserve">
+    <value>角色語音管理器</value>
+  </data>
+  <data name="ItSeemsLikeThereIsMore" xml:space="preserve">
+    <value>似乎有多個 MC 語音資源。您想使用哪一個？</value>
+  </data>
+  <data name="WhichOne" xml:space="preserve">
+    <value>要使用哪一個？</value>
+  </data>
+  <data name="ItSNotRecommendedToFetch" xml:space="preserve">
+    <value>不建議在遊戲執行時擷取地圖。</value>
+  </data>
+  <data name="FetchTheAvailableMapsThisWill" xml:space="preserve">
+    <value>要擷取可用地圖嗎？這將覆蓋您所做的任何變更。</value>
+  </data>
+  <data name="NoFilesFoundInTheGame" xml:space="preserve">
+    <value>在遊戲資料夾中找不到檔案（？）</value>
+  </data>
+  <data name="CourtManagerBeta" xml:space="preserve">
+    <value>法庭管理器（測試版）</value>
+  </data>
+  <data name="ChooseAMapYouWantTo" xml:space="preserve">
+    <value>選擇您要使用的地圖：</value>
+  </data>
+  <data name="Fetch" xml:space="preserve">
+    <value>擷取</value>
+  </data>
+  <data name="FolderDoesNotExist" xml:space="preserve">
+    <value>資料夾不存在。</value>
+  </data>
+  <data name="PleaseRunTheGameFirst" xml:space="preserve">
+    <value>請先執行遊戲！</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>套用</value>
+  </data>
+  <data name="Stagename" xml:space="preserve">
+    <value>[stagename]</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>編輯</value>
+  </data>
+  <data name="PleaseEnterAName" xml:space="preserve">
+    <value>請輸入名稱。</value>
+  </data>
+  <data name="NameContainsInvalidCharacters" xml:space="preserve">
+    <value>名稱包含無效字元。</value>
+  </data>
+  <data name="NameIsAReservedNameAnd" xml:space="preserve">
+    <value>名稱為保留名稱，無法使用。</value>
+  </data>
+  <data name="TheNameAlreadyExistsPleaseChoose" xml:space="preserve">
+    <value>名稱已存在。請選擇唯一名稱。</value>
+  </data>
+  <data name="PleaseSelectAValidModType" xml:space="preserve">
+    <value>請選擇有效的模組類型。</value>
+  </data>
+  <data name="InvalidDestinationPath" xml:space="preserve">
+    <value>目的地路徑無效！</value>
+  </data>
+  <data name="ForMoreModTypeAndInfomation" xml:space="preserve">
+    <value>如需更多模組類型與資訊，請按一下此處前往 Github repo。</value>
+  </data>
+  <data name="ModType" xml:space="preserve">
+    <value>模組類型：</value>
+  </data>
+  <data name="AuthorYourGithubUsername" xml:space="preserve">
+    <value>作者（您的 github 使用者名稱）：</value>
+  </data>
+  <data name="ModDescription" xml:space="preserve">
+    <value>模組描述：</value>
+  </data>
+  <data name="ModName" xml:space="preserve">
+    <value>模組名稱：</value>
+  </data>
+  <data name="SelectOne" xml:space="preserve">
+    <value>（請選擇一項）</value>
+  </data>
+  <data name="UI" xml:space="preserve">
+    <value>UI</value>
+  </data>
+  <data name="Patch" xml:space="preserve">
+    <value>修補程式</value>
+  </data>
+  <data name="Launch" xml:space="preserve">
+    <value>啟動</value>
+  </data>
+  <data name="Lua" xml:space="preserve">
+    <value>Lua</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>建立</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="CreateAMod" xml:space="preserve">
+    <value>建立模組</value>
+  </data>
+  <data name="Install" xml:space="preserve">
+    <value>安裝</value>
+  </data>
+  <data name="NotInstalled" xml:space="preserve">
+    <value>未安裝</value>
+  </data>
+  <data name="SelectAPatch" xml:space="preserve">
+    <value>選擇修補程式</value>
+  </data>
+  <data name="Connecting" xml:space="preserve">
+    <value>連線中...</value>
+  </data>
+  <data name="Connecting_2" xml:space="preserve">
+    <value> 連線中...</value>
+  </data>
+  <data name="ListFailedToLoad" xml:space="preserve">
+    <value> 清單載入失敗</value>
+  </data>
+  <data name="PleaseWaitForTheCurrentOperation" xml:space="preserve">
+    <value>請等待目前作業完成。</value>
+  </data>
+  <data name="PleaseCloseTheGameFirst" xml:space="preserve">
+    <value>請先關閉遊戲。</value>
+  </data>
+  <data name="ThisDownloadableContentCannotBeTracked" xml:space="preserve">
+    <value>此可下載內容無法追蹤，將直接放入您的遊戲資料夾。要繼續嗎？</value>
+  </data>
+  <data name="CommunityModLibrary" xml:space="preserve">
+    <value>社群模組庫</value>
+  </data>
+  <data name="AcrylicListView1" xml:space="preserve">
+    <value>acrylicListView1</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>重新整理</value>
+  </data>
+  <data name="InstalledMod" xml:space="preserve">
+    <value>已安裝的模組</value>
+  </data>
+  <data name="CreateANewMod" xml:space="preserve">
+    <value>建立新模組</value>
+  </data>
+  <data name="Fetching_2" xml:space="preserve">
+    <value> 擷取中...</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>開啟資料夾</value>
+  </data>
+  <data name="NoPatchInstalled" xml:space="preserve">
+    <value> 未安裝任何修補程式</value>
+  </data>
+  <data name="DoYouWantToUninstallThis_2" xml:space="preserve">
+    <value>您要解除安裝此模組嗎？</value>
+  </data>
+  <data name="ThisModTypeDoesNotSupport" xml:space="preserve">
+    <value>此模組類型不支援開啟資料夾。</value>
+  </data>
+  <data name="InstalledModsManager" xml:space="preserve">
+    <value>已安裝模組管理員</value>
+  </data>
+  <data name="FileVersionNull" xml:space="preserve">
+    <value>檔案版本：null</value>
+  </data>
+  <data name="CheckForUpdates" xml:space="preserve">
+    <value>檢查更新</value>
+  </data>
+  <data name="ContinuingYourSession" xml:space="preserve">
+    <value>正在繼續您的工作階段...</value>
+  </data>
+  <data name="EnterYourGithubToken" xml:space="preserve">
+    <value>輸入您的 Github Token</value>
+  </data>
+  <data name="PleaseEnterAGitHubToken" xml:space="preserve">
+    <value>請輸入 GitHub Token</value>
+  </data>
+  <data name="BeanMarkup" xml:space="preserve">
+    <value>Bean 標記</value>
+  </data>
+  <data name="ExtractPak" xml:space="preserve">
+    <value>解壓 .pak</value>
+  </data>
+  <data name="ImportPak" xml:space="preserve">
+    <value>匯入 .pak</value>
+  </data>
+  <data name="TokenIsValid" xml:space="preserve">
+    <value>Token 有效</value>
+  </data>
+  <data name="FileObfuscated" xml:space="preserve">
+    <value>檔案已混淆。</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>失敗</value>
+  </data>
+  <data name="GenerateUniqueID" xml:space="preserve">
+    <value>產生唯一 ID</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>確定</value>
+  </data>
+  <data name="MachineName" xml:space="preserve">
+    <value>電腦名稱：</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>使用者名稱：</value>
+  </data>
+  <data name="DeveloperToolsSomeRequireToken" xml:space="preserve">
+    <value>開發者工具（部分功能需要 Token）</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>提交</value>
+  </data>
+  <data name="Locked" xml:space="preserve">
+    <value>已鎖定</value>
+  </data>
+  <data name="DDSLoader" xml:space="preserve">
+    <value>DDS 載入器</value>
+  </data>
+  <data name="Splitter" xml:space="preserve">
+    <value>分割器</value>
+  </data>
+  <data name="Encrypt" xml:space="preserve">
+    <value>加密</value>
+  </data>
+  <data name="Decrypt" xml:space="preserve">
+    <value>解密</value>
+  </data>
+  <data name="HashChecker" xml:space="preserve">
+    <value>雜湊檢查器</value>
+  </data>
+  <data name="Translator" xml:space="preserve">
+    <value>翻譯器</value>
+  </data>
+  <data name="GetUID" xml:space="preserve">
+    <value>取得 UID</value>
+  </data>
+  <data name="MergeFiles" xml:space="preserve">
+    <value>合併檔案</value>
+  </data>
+  <data name="IfGameLauncherFailedToLoad" xml:space="preserve">
+    <value>如果遊戲啟動器因錯誤而無法載入，這可能有助於修復。</value>
+  </data>
+  <data name="ProcessDonePleaseTryLaunchingThe" xml:space="preserve">
+    <value>處理完成，請嘗試再次啟動啟動器。</value>
+  </data>
+  <data name="IfTheInGameViewHas" xml:space="preserve">
+    <value>如果遊戲畫面變成全黑，可能是相機設定錯誤所致。要重設相機設定嗎？</value>
+  </data>
+  <data name="CameraSettingsHaveBeenResetTo" xml:space="preserve">
+    <value>相機設定已重設為預設值。</value>
+  </data>
+  <data name="EnterYesToPreventTheGame" xml:space="preserve">
+    <value>輸入 "Yes" 以防止遊戲產生日誌，輸入 "No" 以還原。</value>
+  </data>
+  <data name="LockedTheGameFromGeneratingDangerous" xml:space="preserve">
+    <value>已阻止遊戲產生危險日誌。</value>
+  </data>
+  <data name="YouAlreadyBlockedTheGameFrom" xml:space="preserve">
+    <value>您已阻止遊戲產生日誌。</value>
+  </data>
+  <data name="ProcessingDone" xml:space="preserve">
+    <value>處理完成。</value>
+  </data>
+  <data name="UsefulTools" xml:space="preserve">
+    <value>實用工具</value>
+  </data>
+  <data name="MyNote" xml:space="preserve">
+    <value>我的筆記</value>
+  </data>
+  <data name="BlockGameLogs" xml:space="preserve">
+    <value>阻止遊戲日誌</value>
+  </data>
+  <data name="FixBlackGame" xml:space="preserve">
+    <value>修復遊戲黑畫面</value>
+  </data>
+  <data name="FlappyBirb" xml:space="preserve">
+    <value>Flappy birb</value>
+  </data>
+  <data name="FixLauncherError" xml:space="preserve">
+    <value>修復啟動器錯誤</value>
+  </data>
+  <data name="DeveloperTools" xml:space="preserve">
+    <value>開發者工具</value>
+  </data>
+  <data name="Shamiko" xml:space="preserve">
+    <value>Shamiko</value>
+  </data>
+  <data name="BeanIt" xml:space="preserve">
+    <value>Bean it</value>
+  </data>
+  <data name="ReverseBeanIt" xml:space="preserve">
+    <value>反向 bean it</value>
+  </data>
+  <data name="BeanPlayground" xml:space="preserve">
+    <value>Bean 遊樂場</value>
+  </data>
+  <data name="Katcrypt" xml:space="preserve">
+    <value>Katcrypt</value>
+  </data>
+  <data name="ReverseKatcrypt" xml:space="preserve">
+    <value>反向 Katcrypt</value>
+  </data>
+  <data name="KatcryptorTest1" xml:space="preserve">
+    <value>Katcryptor [Test 1]</value>
+  </data>
+  <data name="PleaseEnterValidValue" xml:space="preserve">
+    <value>請輸入有效的值。</value>
+  </data>
+  <data name="UnhandledError" xml:space="preserve">
+    <value>未處理的錯誤</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>測試</value>
+  </data>
+  <data name="NotWorkingYetDueTextboxBeing" xml:space="preserve">
+    <value>（尚未運作，因為 textbox 很爛）</value>
+  </data>
+  <data name="Button2" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="Button3" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="FailedToLoadTheDDSFile" xml:space="preserve">
+    <value>載入 DDS 檔案失敗。</value>
+  </data>
+  <data name="NoImageLoaded" xml:space="preserve">
+    <value>尚未載入圖片。</value>
+  </data>
+  <data name="ImageSavedAsDDSSuccessfully" xml:space="preserve">
+    <value>圖片已成功儲存為 DDS。</value>
+  </data>
+  <data name="ImageSavedAsPNGSuccessfully" xml:space="preserve">
+    <value>圖片已成功儲存為 PNG。</value>
+  </data>
+  <data name="DDSImageLoader" xml:space="preserve">
+    <value>DDS 圖片載入器</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="SaveAsPNG" xml:space="preserve">
+    <value>另存為 PNG</value>
+  </data>
+  <data name="AutoCopyToClipboard" xml:space="preserve">
+    <value>自動複製到剪貼簿</value>
+  </data>
+  <data name="SendToGame" xml:space="preserve">
+    <value>傳送到遊戲</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="TranslateTo" xml:space="preserve">
+    <value>翻譯為：</value>
+  </data>
+  <data name="AzureKey" xml:space="preserve">
+    <value>Azure_Key:</value>
+  </data>
+  <data name="AntiAFKOn" xml:space="preserve">
+    <value>Anti-AFK：開啟</value>
+  </data>
+  <data name="AntiAFKOff" xml:space="preserve">
+    <value>Anti-AFK：關閉</value>
+  </data>
+  <data name="Miscellaneous" xml:space="preserve">
+    <value>雜項</value>
+  </data>
+  <data name="GameSettings" xml:space="preserve">
+    <value>遊戲設定</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>攝影機</value>
+  </data>
+  <data name="Task" xml:space="preserve">
+    <value>任務</value>
+  </data>
+  <data name="AntiAFK" xml:space="preserve">
+    <value>Anti-AFK</value>
+  </data>
+  <data name="ChatMacro" xml:space="preserve">
+    <value>聊天巨集</value>
+  </data>
+  <data name="MaximumCharacterAllowed15" xml:space="preserve">
+    <value>允許的最大字元數：15。</value>
+  </data>
+  <data name="MaximumCharacterAllowed128" xml:space="preserve">
+    <value>允許的最大字元數：128。</value>
+  </data>
+  <data name="DoYouWantToResetChat" xml:space="preserve">
+    <value>您要將聊天巨集資料重設為預設值嗎？</value>
+  </data>
+  <data name="ReplaceWordsOrPhrasesWithCustom" xml:space="preserve">
+    <value>以自訂文字取代單字或片語：</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>啟用</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>停用</value>
+  </data>
+  <data name="Restore" xml:space="preserve">
+    <value>還原</value>
+  </data>
+  <data name="CameraSettingsHaveBeenCopiedTo" xml:space="preserve">
+    <value>攝影機設定已複製到您的剪貼簿。</value>
+  </data>
+  <data name="YouMustCopyAValidData" xml:space="preserve">
+    <value>您必須先將有效資料複製到剪貼簿！</value>
+  </data>
+  <data name="CameraSettingsHaveBeenSuccessfullyImport" xml:space="preserve">
+    <value>攝影機設定已成功匯入。</value>
+  </data>
+  <data name="DoYouWantToResetThe" xml:space="preserve">
+    <value>您要將設定重設為預設值嗎？</value>
+  </data>
+  <data name="CameraManager" xml:space="preserve">
+    <value>攝影機管理器</value>
+  </data>
+  <data name="SelectCameraType" xml:space="preserve">
+    <value>選擇攝影機類型：</value>
+  </data>
+  <data name="AbsolutelyValue" xml:space="preserve">
+    <value>絕對值</value>
+  </data>
+  <data name="IgnoreBall" xml:space="preserve">
+    <value>忽略球</value>
+  </data>
+  <data name="DoNotOverride" xml:space="preserve">
+    <value>不要覆寫</value>
+  </data>
+  <data name="BasicCameraView" xml:space="preserve">
+    <value>基本視角</value>
+  </data>
+  <data name="HighAngleView" xml:space="preserve">
+    <value>高角度視角</value>
+  </data>
+  <data name="FollowingView" xml:space="preserve">
+    <value>跟隨視角</value>
+  </data>
+  <data name="SideView" xml:space="preserve">
+    <value>側面視角</value>
+  </data>
+  <data name="SkyAngleView" xml:space="preserve">
+    <value>天空視角</value>
+  </data>
+  <data name="OverrideTo" xml:space="preserve">
+    <value>覆寫為</value>
+  </data>
+  <data name="LookZ" xml:space="preserve">
+    <value>LookZ</value>
+  </data>
+  <data name="LookY" xml:space="preserve">
+    <value>LookY</value>
+  </data>
+  <data name="LookX" xml:space="preserve">
+    <value>LookX</value>
+  </data>
+  <data name="FOV" xml:space="preserve">
+    <value>FOV</value>
+  </data>
+  <data name="AnAwesomeFeatureClickHereTo" xml:space="preserve">
+    <value>很棒的功能！點擊此處查看教學</value>
+  </data>
+  <data name="ResetValueToDefault" xml:space="preserve">
+    <value>將數值重設為預設值</value>
+  </data>
+  <data name="ImportSettings" xml:space="preserve">
+    <value>匯入設定</value>
+  </data>
+  <data name="ExportSettings" xml:space="preserve">
+    <value>匯出設定</value>
+  </data>
+  <data name="ReplayFOV" xml:space="preserve">
+    <value>重播 FOV</value>
+  </data>
+  <data name="LookVelocity" xml:space="preserve">
+    <value>視角速度</value>
+  </data>
+  <data name="MoveVelocity" xml:space="preserve">
+    <value>移動速度</value>
+  </data>
+  <data name="DONOTTYPEUnlessYouKnow" xml:space="preserve">
+    <value>除非您知道自己在做什麼，否則不要輸入！</value>
+  </data>
+  <data name="Label6" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="GeneralSettings" xml:space="preserve">
+    <value>一般設定</value>
+  </data>
+  <data name="Script" xml:space="preserve">
+    <value>指令碼</value>
+  </data>
+  <data name="CustomGameOptions" xml:space="preserve">
+    <value>自訂遊戲選項</value>
+  </data>
+  <data name="CustomResolutionWidthHeightSetTo" xml:space="preserve">
+    <value>自訂解析度（寬度、高度），設為 0 以停用：</value>
+  </data>
+  <data name="GraphicLevel" xml:space="preserve">
+    <value>圖形等級：</value>
+  </data>
+  <data name="WarningSettingItTooHighOr" xml:space="preserve">
+    <value>警告：設定過高或過低都可能造成問題。使用 Optimus 模式的電腦可能不受支援（遊戲啟動時一律設為 1024x768）。</value>
+  </data>
+  <data name="High" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="Medium" xml:space="preserve">
+    <value>中</value>
+  </data>
+  <data name="Low" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>預設</value>
+  </data>
+  <data name="TasksUnfinished" xml:space="preserve">
+    <value>任務（未完成）</value>
+  </data>
+  <data name="LaunchProgramEnterFullPathOne" xml:space="preserve">
+    <value>啟動程式（輸入完整路徑，每行一個）：</value>
+  </data>
+  <data name="ValidIPAddress" xml:space="preserve">
+    <value>有效的 IP 位址~</value>
+  </data>
+  <data name="InvalidIPAddress" xml:space="preserve">
+    <value>無效的 IP 位址~</value>
+  </data>
+  <data name="XCEmulatorSettings" xml:space="preserve">
+    <value>XCEmulator 設定</value>
+  </data>
+  <data name="ShowConsole" xml:space="preserve">
+    <value>顯示主控台：</value>
+  </data>
+  <data name="XCEmulatorIP" xml:space="preserve">
+    <value>XCEmulator IP：</value>
+  </data>
+  <data name="Tyu" xml:space="preserve">
+    <value>tyu</value>
+  </data>
+  <data name="Valid" xml:space="preserve">
+    <value>有效</value>
+  </data>
+  <data name="TestConnection" xml:space="preserve">
+    <value>測試連線</value>
+  </data>
+  <data name="SpoofProcess" xml:space="preserve">
+    <value>偽裝程序：</value>
+  </data>
+  <data name="SpoofTheGameProcessUsefulWhen" xml:space="preserve">
+    <value>偽裝遊戲程序。啟用自架主機時很有用。獨立運作。</value>
+  </data>
+  <data name="UseLocalIP" xml:space="preserve">
+    <value>使用本機 IP</value>
+  </data>
+  <data name="Host" xml:space="preserve">
+    <value>主機</value>
+  </data>
+  <data name="EnabledByRemoteServer" xml:space="preserve">
+    <value>由遠端伺服器啟用</value>
+  </data>
+  <data name="EnabledTemporarilyByClient" xml:space="preserve">
+    <value>由用戶端暫時啟用</value>
+  </data>
+  <data name="RestrictedByRemoteServer" xml:space="preserve">
+    <value>受遠端伺服器限制</value>
+  </data>
+  <data name="PleaseCloseTheGameBeforeImporting" xml:space="preserve">
+    <value>匯入設定前請先關閉遊戲。</value>
+  </data>
+  <data name="LanguageWillChangeTheNextTime" xml:space="preserve">
+    <value>下次重新啟動應用程式時將套用語言變更。</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="PatchingMethod" xml:space="preserve">
+    <value>修補方式：</value>
+  </data>
+  <data name="RedirectModeFastest" xml:space="preserve">
+    <value>重新導向模式（最快）</value>
+  </data>
+  <data name="ReplaceModeModerate" xml:space="preserve">
+    <value>取代模式（中等）</value>
+  </data>
+  <data name="RepackModeSlowest" xml:space="preserve">
+    <value>重新封裝模式（最慢）</value>
+  </data>
+  <data name="AlwaysOnTop" xml:space="preserve">
+    <value>永遠置頂：</value>
+  </data>
+  <data name="ReportABug" xml:space="preserve">
+    <value>回報錯誤</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>語言：</value>
+  </data>
+  <data name="BypassProtection" xml:space="preserve">
+    <value>繞過保護：</value>
+  </data>
+  <data name="EnableSupportForGameProcessAccess" xml:space="preserve">
+    <value>啟用對遊戲程序存取的支援。不適用於 Tiancity 用戶端。</value>
+  </data>
+  <data name="PartSimulatorSettings" xml:space="preserve">
+    <value>Part Simulator 設定</value>
+  </data>
+  <data name="PartStats" xml:space="preserve">
+    <value>零件屬性：</value>
+  </data>
+  <data name="NoActionsDefinedYet" xml:space="preserve">
+    <value>尚未定義任何動作。</value>
+  </data>
+  <data name="PweaseRunTheGameFirst" xml:space="preserve">
+    <value>請先執行遊戲唷~</value>
+  </data>
+  <data name="MyTextmyTextmyTextmyTextmyTextmyTextmyTe" xml:space="preserve">
+    <value>myTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyText</value>
+  </data>
+  <data name="NameRequired" xml:space="preserve">
+    <value>必須填寫名稱。</value>
+  </data>
+  <data name="ShareLinkRequired" xml:space="preserve">
+    <value>必須提供分享連結。</value>
+  </data>
+  <data name="FailedToParseShareLinkOnly" xml:space="preserve">
+    <value>無法解析分享連結。僅支援 ss://。</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>名稱：</value>
+  </data>
+  <data name="CountryCode2Letters" xml:space="preserve">
+    <value>國家代碼（2 個字母）：</value>
+  </data>
+  <data name="ShareLinkSsOrJSONOutbound" xml:space="preserve">
+    <value>分享連結（ss://）或 JSON outbound：</value>
+  </data>
+  <data name="SupportedShadowsocksSsURI" xml:space="preserve">
+    <value>支援：shadowsocks ss:// URI。</value>
+  </data>
+  <data name="AddCustomServer" xml:space="preserve">
+    <value>新增自訂伺服器</value>
+  </data>
+  <data name="NotInstalledClickInstallUpdate" xml:space="preserve">
+    <value>尚未安裝。請點擊「安裝／更新」。</value>
+  </data>
+  <data name="PickAServerToConnect" xml:space="preserve">
+    <value>選擇要連線的伺服器：</value>
+  </data>
+  <data name="ConnectedUnknownServer" xml:space="preserve">
+    <value>已連線（未知伺服器）。</value>
+  </data>
+  <data name="ProxyAppDownloadURLNotConfigured" xml:space="preserve">
+    <value>未設定 Proxy app 下載 URL。</value>
+  </data>
+  <data name="PleaseRunTheProgramAsAdministrator" xml:space="preserve">
+    <value>請以系統管理員身分執行程式以啟用此功能。</value>
+  </data>
+  <data name="SingBoxNotInstalledClickInstall" xml:space="preserve">
+    <value>sing-box 尚未安裝。請先點擊「安裝」。</value>
+  </data>
+  <data name="ServerListNotLoadedYetPlease" xml:space="preserve">
+    <value>伺服器清單尚未載入。請稍候。</value>
+  </data>
+  <data name="NoServerSelected" xml:space="preserve">
+    <value>未選擇伺服器。</value>
+  </data>
+  <data name="ProxyServerSettings" xml:space="preserve">
+    <value>代理伺服器設定</value>
+  </data>
+  <data name="InstallUpdate" xml:space="preserve">
+    <value>安裝／更新</value>
+  </data>
+  <data name="TunnelConnected" xml:space="preserve">
+    <value>通道已連線。</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>位址</value>
+  </data>
+  <data name="CharName" xml:space="preserve">
+    <value>角色名稱</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="NoCharacterDataLoadedClickFetch" xml:space="preserve">
+    <value>尚未載入角色資料。請先點擊「Fetch」。</value>
+  </data>
+  <data name="GameNotRunning" xml:space="preserve">
+    <value>遊戲未執行。</value>
+  </data>
+  <data name="Scanning" xml:space="preserve">
+    <value>掃描中...</value>
+  </data>
+  <data name="NoRowsSelected" xml:space="preserve">
+    <value>未選取任何資料列。</value>
+  </data>
+  <data name="NewValue" xml:space="preserve">
+    <value>新值：</value>
+  </data>
+  <data name="ThisWillFetchTheCurrentCharacter" xml:space="preserve">
+    <value>這將擷取目前的角色資料。每次有新角色時只需執行一次。是否繼續？</value>
+  </data>
+  <data name="ExtractingCharacterPak" xml:space="preserve">
+    <value>正在解壓縮 character.pak...</value>
+  </data>
+  <data name="ExtractionFailedOrExpectedFileMissing" xml:space="preserve">
+    <value>解壓縮失敗或找不到預期檔案。請檢查記錄。</value>
+  </data>
+  <data name="Parsing" xml:space="preserve">
+    <value>解析中...</value>
+  </data>
+  <data name="CharAnimationChanger" xml:space="preserve">
+    <value>角色動畫變更器</value>
+  </data>
+  <data name="Return_2" xml:space="preserve">
+    <value>&lt; 返回 </value>
+  </data>
+  <data name="Scan" xml:space="preserve">
+    <value>掃描</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>狀態：-</value>
+  </data>
+  <data name="RefreshValues" xml:space="preserve">
+    <value>重新整理數值</value>
+  </data>
+  <data name="ApplySelected" xml:space="preserve">
+    <value>套用所選項目</value>
+  </data>
+  <data name="ApplyAll" xml:space="preserve">
+    <value>全部套用</value>
+  </data>
+  <data name="RestoreOriginals" xml:space="preserve">
+    <value>還原原始值</value>
+  </data>
+  <data name="XigncodeBypass" xml:space="preserve">
+    <value>Xigncode bypass</value>
+  </data>
+  <data name="XCEmulator" xml:space="preserve">
+    <value>XCEmulator</value>
+  </data>
+  <data name="AnimChanger" xml:space="preserve">
+    <value>動畫變更器</value>
+  </data>
+  <data name="PartSimulator" xml:space="preserve">
+    <value>部件模擬器</value>
+  </data>
+  <data name="YourAvailablePerkS" xml:space="preserve">
+    <value>您可用的特權</value>
+  </data>
+  <data name="SafeMode" xml:space="preserve">
+    <value>安全模式</value>
+  </data>
+  <data name="AsInvoker" xml:space="preserve">
+    <value>asInvoker</value>
+  </data>
+  <data name="BuyMeACoffee" xml:space="preserve">
+    <value>請我喝杯咖啡</value>
+  </data>
+  <data name="Paypal" xml:space="preserve">
+    <value>Paypal</value>
+  </data>
+  <data name="ThankYouForYourConsideration" xml:space="preserve">
+    <value>感謝您的支持！</value>
+  </data>
+  <data name="KoFi" xml:space="preserve">
+    <value>❤ Ko-fi</value>
+  </data>
+  <data name="DownloadableContent" xml:space="preserve">
+    <value>可下載內容</value>
+  </data>
+  <data name="DoYouWantToPlayAgain" xml:space="preserve">
+    <value>您想再玩一次嗎？</value>
+  </data>
+  <data name="ErrorCheckingTheToken" xml:space="preserve">
+    <value>檢查權杖時發生錯誤</value>
+  </data>
+  <data name="ExtractionCompletedDoYouWantTo" xml:space="preserve">
+    <value>解壓縮完成。您要開啟資料夾嗎？</value>
+  </data>
+  <data name="FileHasBeenReimportedSuccessfully" xml:space="preserve">
+    <value>檔案已成功重新匯入。</value>
+  </data>
+  <data name="AdvancedScriptBodyScript" xml:space="preserve">
+    <value>進階腳本 [Body script]：</value>
+  </data>
+  <data name="ThisActionIsNotValidKindly" xml:space="preserve">
+    <value>此操作無效，請聯絡管理員尋求協助。</value>
+  </data>
+  <data name="CannotMove0TheDestinationFolder" xml:space="preserve">
+    <value>無法移動 {0}。目的資料夾與來源資料夾相同。</value>
+  </data>
+  <data name="CannotMove0TheDestinationFolder_2" xml:space="preserve">
+    <value>無法移動 {0}。目的資料夾是來源資料夾的子資料夾。</value>
+  </data>
+  <data name="DoYouWantToRemove0" xml:space="preserve">
+    <value>您要將 {0} 從點唱機中移除嗎？</value>
+  </data>
+  <data name="InstalledVersion0" xml:space="preserve">
+    <value>已安裝版本：{0}</value>
+  </data>
+  <data name="GameOverYourScore0" xml:space="preserve">
+    <value>遊戲結束！您的分數：{0}</value>
+  </data>
+  <data name="TokenIsInvalidCode0" xml:space="preserve">
+    <value>權杖無效，代碼：{0}</value>
+  </data>
+  <data name="N0Failed1" xml:space="preserve">
+    <value>{0} 失敗：{1}</value>
+  </data>
+  <data name="FileHash0DoYouWant" xml:space="preserve">
+    <value>檔案雜湊值：{0}。
+
+您要複製到剪貼簿嗎？</value>
+  </data>
+  <data name="YourUniqueIdentifier0DoYou" xml:space="preserve">
+    <value>您的唯一識別碼：{0}。
+
+您要複製到剪貼簿嗎？</value>
+  </data>
+  <data name="UnableToProcess0" xml:space="preserve">
+    <value>無法處理：{0}</value>
+  </data>
+  <data name="AdvancedScriptFor0" xml:space="preserve">
+    <value>[{0}] 的進階腳本：</value>
+  </data>
+  <data name="Connected01234" xml:space="preserve">
+    <value>已連線：[{0}] {1} - {2}{3} ({4})</value>
+  </data>
+  <data name="GameNotRunningData0" xml:space="preserve">
+    <value>遊戲未執行  |  資料：{0}</value>
+  </data>
+  <data name="Restored0Failed1" xml:space="preserve">
+    <value>已還原 {0}，失敗 {1}。</value>
+  </data>
+  <data name="UnknownValue0NotSaved" xml:space="preserve">
+    <value>未知值 '{0}'。未儲存。</value>
+  </data>
+  <data name="Wrote0Failed1" xml:space="preserve">
+    <value>已寫入 {0}，失敗 {1}。</value>
+  </data>
+  <data name="Fetched0CharacterEntries" xml:space="preserve">
+    <value>已擷取 {0} 筆角色項目。</value>
+  </data>
+  <data name="ClickToStartUseArrowsToMove" xml:space="preserve">
+    <value>點擊開始！
+使用 [←] 和 [→] 移動</value>
+  </data>
+  <data name="ClickToStartPressSpaceToFly" xml:space="preserve">
+    <value>點擊開始！
+按下 [space] 飛行</value>
+  </data>
+  <data name="HighScore0ClickToStartNewGame" xml:space="preserve">
+    <value>最高分：{0}
+點擊開始新遊戲！
+按下 [Esc] 返回</value>
+  </data>
+  <data name="ResultTooLongCouldNotOpenNotepad" xml:space="preserve">
+    <value>結果過長，無法開啟 Notepad：</value>
+  </data>
+  <data name="MergedSuccessfully" xml:space="preserve">
+    <value>合併成功：</value>
+  </data>
+  <data name="ErrorMergingFiles" xml:space="preserve">
+    <value>合併檔案時發生錯誤：</value>
+  </data>
+  <data name="ConvertedSuccessfullyKeyModifier" xml:space="preserve">
+    <value>轉換成功。修飾鍵為 {0}。</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>開</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>關</value>
+  </data>
+  <data name="DoYouWantToRestoreCameraSettings" xml:space="preserve">
+    <value>您要將此攝影機的設定還原為所選攝影機的設定嗎？</value>
+  </data>
+  <data name="StartFailed" xml:space="preserve">
+    <value>啟動失敗：</value>
+  </data>
+  <data name="ScanFailed" xml:space="preserve">
+    <value>掃描失敗：</value>
+  </data>
+  <data name="SetValueFor0Rows" xml:space="preserve">
+    <value>為 {0} 列設定值</value>
+  </data>
+  <data name="SetValue" xml:space="preserve">
+    <value>設定值</value>
+  </data>
+  <data name="FetchFailed" xml:space="preserve">
+    <value>擷取失敗： </value>
+  </data>
+  <data name="FS2Maiden" xml:space="preserve">
+    <value>FS2 Maiden - </value>
+  </data>
+  <data name="ANewVersion0IsAvailable" xml:space="preserve">
+    <value>有新版本 ({0}) 可用！要下載嗎？</value>
+  </data>
+  <data name="UpdateAvailable" xml:space="preserve">
+    <value>有可用更新</value>
+  </data>
+  <data name="ToContinueARequiredToolMust" xml:space="preserve">
+    <value>要繼續，必須安裝必要工具。這是一次性的設定。要繼續嗎？</value>
+  </data>
+  <data name="TheGameIsRunningClosingPatcher" xml:space="preserve">
+    <value>遊戲正在執行中，關閉修補程式也會一併關閉遊戲。仍要離開嗎？</value>
+  </data>
+  <data name="GameProcessNotDetectedRestoringTo" xml:space="preserve">
+    <value>未偵測到遊戲程序。正在還原為預設狀態...</value>
+  </data>
+  <data name="GameProcessStillNotDetectedIt" xml:space="preserve">
+    <value>仍未偵測到遊戲程序。看起來啟動流程未正常運作。桌面上已建立名為「{0}」的檔案。請將此檔案傳送給開發者以供檢查。您也可以再嘗試啟動一次遊戲，因為已啟用替代啟動方式。此選項為暫時性功能，若方便的話請告知我是否有效。</value>
+  </data>
+  <data name="WellEvenTheAlternativeMethodRefused" xml:space="preserve">
+    <value>嗯……連替代方式也不肯配合。所以這裡有個小驚喜送給你。你正式抵達了一個我原本希望永遠不會有人看到的狀態。感謝你比任何人都更努力地挑戰這個啟動器。請把追蹤檔案傳給我，我會親自查看。</value>
+  </data>
+  <data name="UnknownSize" xml:space="preserve">
+    <value>未知大小</value>
+  </data>
+  <data name="ExtractionComplete" xml:space="preserve">
+    <value>解壓縮完成</value>
+  </data>
+  <data name="DownloadCancelled" xml:space="preserve">
+    <value>下載已取消</value>
+  </data>
+  <data name="FailedToDownload" xml:space="preserve">
+    <value>下載失敗</value>
+  </data>
+  <data name="CopyingFiles" xml:space="preserve">
+    <value>正在複製檔案...</value>
+  </data>
+  <data name="FailedToProcess" xml:space="preserve">
+    <value>處理失敗</value>
+  </data>
+  <data name="ItSYourMaiden" xml:space="preserve">
+    <value>是你的 maiden！</value>
+  </data>
+  <data name="SoSnowyToday" xml:space="preserve">
+    <value>今天雪下得好多！</value>
+  </data>
+  <data name="HappyNewYear" xml:space="preserve">
+    <value>新年快樂！</value>
+  </data>
+  <data name="GongXiGongXi" xml:space="preserve">
+    <value>恭喜恭喜～</value>
+  </data>
+  <data name="LoveIsInAir" xml:space="preserve">
+    <value>空氣中充滿愛意！</value>
+  </data>
+  <data name="WhereSMyEgg" xml:space="preserve">
+    <value>我的蛋呢？</value>
+  </data>
+  <data name="NotABugTrust" xml:space="preserve">
+    <value>不是 Bug，相信我！</value>
+  </data>
+  <data name="StPatrickSDay" xml:space="preserve">
+    <value>聖派翠克節快樂！</value>
+  </data>
+  <data name="UrComputawrHacked" xml:space="preserve">
+    <value>你的電腦被駭啦！</value>
+  </data>
+  <data name="SoHotRightNow" xml:space="preserve">
+    <value>現在超熱的！</value>
+  </data>
+  <data name="KabooScaredYa" xml:space="preserve">
+    <value>砰！嚇到你了吧！</value>
+  </data>
+  <data name="CookSomething" xml:space="preserve">
+    <value>要不要煮點東西？</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>哈囉，</value>
+  </data>
+  <data name="Haiii" xml:space="preserve">
+    <value>嗨呀呀，</value>
+  </data>
+  <data name="Ohaaiyo" xml:space="preserve">
+    <value>早安呀，</value>
+  </data>
+  <data name="Tehee" xml:space="preserve">
+    <value>嘻嘻，</value>
+  </data>
+  <data name="Henllo" xml:space="preserve">
+    <value>哈囉囉，</value>
+  </data>
+  <data name="Hewwo" xml:space="preserve">
+    <value>哈囉呀，</value>
+  </data>
+  <data name="Hiyaa" xml:space="preserve">
+    <value>嗨呀，</value>
+  </data>
+  <data name="Meeow" xml:space="preserve">
+    <value>喵嗚，</value>
+  </data>
+  <data name="UnableToDeleteSong0" xml:space="preserve">
+    <value>無法刪除歌曲：{0}</value>
+  </data>
+  <data name="SomethingSWrong0" xml:space="preserve">
+    <value>發生錯誤：{0}</value>
+  </data>
+  <data name="FileNotFound0" xml:space="preserve">
+    <value>找不到檔案：{0}</value>
+  </data>
+  <data name="ErrorOpeningFile01" xml:space="preserve">
+    <value>開啟檔案時發生錯誤：{0}：{1}</value>
+  </data>
+  <data name="JukeboxFailedToInstall" xml:space="preserve">
+    <value>Jukebox 安裝失敗</value>
+  </data>
+  <data name="JukeboxPatchInstalled" xml:space="preserve">
+    <value>Jukebox 已安裝修補檔</value>
+  </data>
+  <data name="MCVoicePatchFailed" xml:space="preserve">
+    <value>MC 語音修補檔安裝失敗</value>
+  </data>
+  <data name="MCVoicePatchInstalled" xml:space="preserve">
+    <value>MC 語音修補檔已安裝</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>找不到檔案（?）</value>
+  </data>
+  <data name="CouldNotOpenTheFileIn" xml:space="preserve">
+    <value>無法在 Notepad++ 或 Notepad 中開啟檔案。請手動開啟。</value>
+  </data>
+  <data name="TheFileWasModifiedWhileIt" xml:space="preserve">
+    <value>檔案在開啟期間已被修改。要重新載入嗎？</value>
+  </data>
+  <data name="ActionSoundPatchFailed" xml:space="preserve">
+    <value>動作音效修補檔安裝失敗</value>
+  </data>
+  <data name="ActionSoundPatchInstalled" xml:space="preserve">
+    <value>動作音效修補檔已安裝</value>
+  </data>
+  <data name="EnvSoundPatchFailed" xml:space="preserve">
+    <value>環境音效修補檔安裝失敗</value>
+  </data>
+  <data name="EnvSoundPatchInstalled" xml:space="preserve">
+    <value>環境音效修補檔已安裝</value>
+  </data>
+  <data name="CharacterSoundPatchFailed" xml:space="preserve">
+    <value>角色音效修補檔安裝失敗</value>
+  </data>
+  <data name="CharacterSoundPatchInstalled" xml:space="preserve">
+    <value>角色音效修補檔已安裝</value>
+  </data>
+  <data name="CouldNotFindTheFileHigh" xml:space="preserve">
+    <value>找不到檔案，很有可能此語音不適用於您的遊戲客戶端。</value>
+  </data>
+  <data name="AllMapsHaveBeenFetchedSuccessfully" xml:space="preserve">
+    <value>所有地圖均已成功取得。</value>
+  </data>
+  <data name="ErrorFetchingMaps" xml:space="preserve">
+    <value>取得地圖時發生錯誤。</value>
+  </data>
+  <data name="ThereIsNoDefaultMapTo" xml:space="preserve">
+    <value>沒有可開始修補的預設地圖，請先取得地圖。</value>
+  </data>
+  <data name="InvalidStageFolderPath" xml:space="preserve">
+    <value>無效的關卡資料夾路徑</value>
+  </data>
+  <data name="ErrorProcessing01" xml:space="preserve">
+    <value>處理 {0} 時發生錯誤：{1}</value>
+  </data>
+  <data name="TheSelectedMapHasBeenApplied" xml:space="preserve">
+    <value>所選地圖已套用，您可能需要開始新對戰才能看到變更。</value>
+  </data>
+  <data name="ErrorPatchingMaps" xml:space="preserve">
+    <value>修補地圖時發生錯誤</value>
+  </data>
+  <data name="ClickToViewItsFileLocation" xml:space="preserve">
+    <value>點擊以檢視其檔案位置</value>
+  </data>
+  <data name="Version0" xml:space="preserve">
+    <value>版本：{0}</value>
+  </data>
+  <data name="OnlineVersion" xml:space="preserve">
+    <value>線上版本：</value>
+  </data>
+  <data name="LocalMod" xml:space="preserve">
+    <value>本機模組</value>
+  </data>
+  <data name="AllModsAreUpToDate" xml:space="preserve">
+    <value>所有模組皆為最新版本。</value>
+  </data>
+  <data name="YouDonTHaveAnyMod" xml:space="preserve">
+    <value>您尚未安裝任何模組。</value>
+  </data>
+  <data name="NoOnlineModsFoundTryGoing" xml:space="preserve">
+    <value>找不到線上模組。請嘗試返回主模組中心並重新整理模組清單。</value>
+  </data>
+  <data name="N0Installed1Available2" xml:space="preserve">
+    <value>{0}（已安裝：{1}，可用：{2}）</value>
+  </data>
+  <data name="Score0" xml:space="preserve">
+    <value>分數：{0}</value>
+  </data>
+  <data name="Error0" xml:space="preserve">
+    <value>錯誤：{0}</value>
+  </data>
+  <data name="ScriptBoxIsEmpty0The" xml:space="preserve">
+    <value>指令碼方塊為空。要將剪貼簿中的文字{0}嗎？</value>
+  </data>
+  <data name="ErrorLoadingImage0" xml:space="preserve">
+    <value>載入圖片時發生錯誤：{0}</value>
+  </data>
+  <data name="ChineseSimplified" xml:space="preserve">
+    <value>中文（簡體）</value>
+  </data>
+  <data name="PortugueseBrazil" xml:space="preserve">
+    <value>葡萄牙文（巴西）</value>
+  </data>
+  <data name="BeRightBack" xml:space="preserve">
+    <value>馬上回來</value>
+  </data>
+  <data name="TalkToULater" xml:space="preserve">
+    <value>晚點聊</value>
+  </data>
+  <data name="GottaGo" xml:space="preserve">
+    <value>得先走了</value>
+  </data>
+  <data name="SmhMyHead" xml:space="preserve">
+    <value>一直搖頭</value>
+  </data>
+  <data name="IfIWantedToCommitSuicide" xml:space="preserve">
+    <value>如果我想自殺，我會從你的自負跳到你的口才</value>
+  </data>
+  <data name="YourMomSoFatThanosHad" xml:space="preserve">
+    <value>你媽胖到連 Thanos 都得打兩次響指</value>
+  </data>
+  <data name="YouHavenTViolatedAnyCommunity" xml:space="preserve">
+    <value>你過去幾週都沒有違反任何社群規範，你還好嗎？</value>
+  </data>
+  <data name="YesterdayIsHistoryTomorrowIsA" xml:space="preserve">
+    <value>昨天已成歷史，明天仍是謎團，但今天是一份禮物，這就是為什麼它被稱為現在。</value>
+  </data>
+  <data name="MadBaldingMalding" xml:space="preserve">
+    <value>生氣 + 禿頭中 = 氣禿了。</value>
+  </data>
+  <data name="KeepCopingKing" xml:space="preserve">
+    <value>繼續自我安慰吧，王者。</value>
+  </data>
+  <data name="CryAboutIt" xml:space="preserve">
+    <value>哭去吧。</value>
+  </data>
+  <data name="TrashAss" xml:space="preserve">
+    <value>垃圾貨色</value>
+  </data>
+  <data name="YouReNotTrashTrashHas" xml:space="preserve">
+    <value>你不是垃圾，垃圾還有價值。</value>
+  </data>
+  <data name="BroTalksLikeHeSStuck" xml:space="preserve">
+    <value>老兄講話像卡在新手教學對話裡一樣。</value>
+  </data>
+  <data name="PleaseDoNotAbuseThisFeature" xml:space="preserve">
+    <value>請勿濫用此功能於遊戲中掛機（AFK），尤其是在新手頻道。本功能僅供緊急情況下防止斷線使用。</value>
+  </data>
+  <data name="FailedToExportCameraSettings" xml:space="preserve">
+    <value>匯出攝影機設定失敗：</value>
+  </data>
+  <data name="FailedToImportCameraSettings" xml:space="preserve">
+    <value>匯入攝影機設定失敗：</value>
+  </data>
+  <data name="TheIPAddressEnteredIsNot" xml:space="preserve">
+    <value>輸入的 IP 位址無效。請輸入有效的 IPv4 位址。</value>
+  </data>
+  <data name="PingSuccessfulTheConnectionIsLive" xml:space="preserve">
+    <value>Ping 成功。連線正常。</value>
+  </data>
+  <data name="PingFailedUnableToReachThe" xml:space="preserve">
+    <value>Ping 失敗。無法連線至該 IP 位址。</value>
+  </data>
+  <data name="AnErrorOccurredWhileTryingTo" xml:space="preserve">
+    <value>嘗試 Ping 該 IP 位址時發生錯誤。</value>
+  </data>
+  <data name="PleaseCloseTheGameFirstBefore_2" xml:space="preserve">
+    <value>變更此設定前，請先關閉遊戲。</value>
+  </data>
+  <data name="XCEmulatorRequiresMicrosoftVisualC2012" xml:space="preserve">
+    <value>XCEmulator 需要安裝 Microsoft Visual C++ 2012 Redistributable (x86)。若未安裝，啟動遊戲時可能會發生錯誤。</value>
+  </data>
+  <data name="XCEmulatorIsNotSupportedForThe" xml:space="preserve">
+    <value>XCEmulator 不支援 Tiancity 用戶端，因其未使用 Xigncode。</value>
+  </data>
+  <data name="DisablingTheXCEmulatorClientWillAlso" xml:space="preserve">
+    <value>停用 XCEmulator 用戶端也會終止主機程式。是否繼續？</value>
+  </data>
+  <data name="XCEmulatorHostRequiresMicrosoftVisualC" xml:space="preserve">
+    <value>XCEmulator 主機程式需要安裝 Microsoft Visual C++ 2015-2022 Redistributable (x86) 或 v14 Redistributable。</value>
+  </data>
+  <data name="ExecuteInGameManagedEventsUsing" xml:space="preserve">
+    <value>使用 Cat 的魔法執行遊戲內託管事件。</value>
+  </data>
+  <data name="MaySummonAccidentalFishStorms" xml:space="preserve">
+    <value>可能會意外召喚魚群風暴。</value>
+  </data>
+  <data name="SideEffectsIncludeSpontaneousMeowingAnd" xml:space="preserve">
+    <value>副作用包括自發性喵叫與閃閃發光。</value>
+  </data>
+  <data name="FurMayFlyResultsNotGuaranteed" xml:space="preserve">
+    <value>可能貓毛滿天飛。在狗狗地盤中效果不保證。</value>
+  </data>
+  <data name="PoweredByCaffeineChaosAndA" xml:space="preserve">
+    <value>由咖啡因、混亂與可疑的貓掌手勢驅動。</value>
+  </data>
+  <data name="NoWizardsWereHarmedButA" xml:space="preserve">
+    <value>沒有巫師受到傷害（但有幾位被抓傷了）。</value>
+  </data>
+  <data name="MayCauseEnemiesToTripOver" xml:space="preserve">
+    <value>可能導致敵人被看不見的毛線絆倒。</value>
+  </data>
+  <data name="AllSpellsTestedOnConsentingMice" xml:space="preserve">
+    <value>所有法術皆已在自願參與的老鼠身上測試。</value>
+  </data>
+  <data name="UseResponsiblyOneMeowTooMany" xml:space="preserve">
+    <value>請負責任地使用。多喵一聲可能會打亂時間線。</value>
+  </data>
+  <data name="N12OutOf10FamiliarsRecommend" xml:space="preserve">
+    <value>12 個熟魔中有 10 個推薦。</value>
+  </data>
+  <data name="VoidApprovedMostly" xml:space="preserve">
+    <value>已獲虛空認可。大致上如此。</value>
+  </data>
+  <data name="LicensedUnderTheMeowgicCouncilOf" xml:space="preserve">
+    <value>經喵法議會長老會授權。</value>
+  </data>
+  <data name="CatSpellsAre80Effective20" xml:space="preserve">
+    <value>貓咪法術有 80% 效果、20% 睡午覺。</value>
+  </data>
+  <data name="PoweredByAncientWhiskersAndQuestionable" xml:space="preserve">
+    <value>由古老鬍鬚與可疑決策提供動力。</value>
+  </data>
+  <data name="CertifiedChaosUseAtYourOwn" xml:space="preserve">
+    <value>混亂認證。使用風險由你自負喵。</value>
+  </data>
+  <data name="MayTurnEnemiesIntoSqueakyToys" xml:space="preserve">
+    <value>可能將敵人變成啾啾叫的玩具。</value>
+  </data>
+  <data name="MagickConjuredWithZeroUserTesting" xml:space="preserve">
+    <value>以零使用者測試召喚而成的魔法。</value>
+  </data>
+  <data name="ResultsMayVaryDependingOnLunar" xml:space="preserve">
+    <value>效果可能因月相鮪魚週期而異。</value>
+  </data>
+  <data name="ThisMagickWasLastApprovedBy" xml:space="preserve">
+    <value>此魔法最後一次核准者是一隻熟睡中的貓。</value>
+  </data>
+  <data name="TapIntoPurrDimensionalEnergyStreams" xml:space="preserve">
+    <value>接取呼嚕次元的能量流。</value>
+  </data>
+  <data name="MayCauseYourScreenToPurr" xml:space="preserve">
+    <value>可能導致你的螢幕在午夜輕聲呼嚕。</value>
+  </data>
+  <data name="KnownToReverseGravityAndCommon" xml:space="preserve">
+    <value>已知會逆轉重力……以及常識。</value>
+  </data>
+  <data name="UnleashesArcaneFluffAcrossAllTimelines" xml:space="preserve">
+    <value>在所有時間線釋放奧術絨毛。</value>
+  </data>
+  <data name="WhiskerTunedForExtraSparkles" xml:space="preserve">
+    <value>經過鬍鬚微調，閃光效果加倍。</value>
+  </data>
+  <data name="SummoningCircleDrawnWithSpilledMilk" xml:space="preserve">
+    <value>召喚法陣是用打翻的牛奶畫成的。</value>
+  </data>
+  <data name="TechnicallyLegalIn7RealmsAnd" xml:space="preserve">
+    <value>在 7 個領域和 3 個地下室裡技術上屬於合法。</value>
+  </data>
+  <data name="RunesTranslatedByASlightlyGrumpy" xml:space="preserve">
+    <value>符文由一隻脾氣有點差的家貓翻譯。</value>
+  </data>
+  <data name="Requires1Mana2NapsAnd" xml:space="preserve">
+    <value>需要 1 點法力、2 次小睡，以及一道審判般的眼神。</value>
+  </data>
+  <data name="SpellStabilityQuestionableVibesImmaculat" xml:space="preserve">
+    <value>法術穩定性：存疑。氛圍感：無可挑剔。</value>
+  </data>
+  <data name="NoClawsWereFiledInThe" xml:space="preserve">
+    <value>製作此法術過程中沒有任何貓爪被修磨。</value>
+  </data>
+  <data name="SometimesJustMeowsAtTheCode" xml:space="preserve">
+    <value>有時候只是對著程式碼喵喵叫，直到它運作。</value>
+  </data>
+  <data name="CalibratedWithYarnBasedAlgorithms" xml:space="preserve">
+    <value>使用毛線演算法校準。</value>
+  </data>
+  <data name="UnlocksTheSacredPowerOfNap" xml:space="preserve">
+    <value>解鎖由小睡驅動的神聖毀滅之力。</value>
+  </data>
+  <data name="TestedByCatQAQualityAssurance" xml:space="preserve">
+    <value>經 Cat QA 測試：是 Quality Assurance 還是 Quantum Anomalies？</value>
+  </data>
+  <data name="ContentsMayHaveSettledDuringTeleportatio" xml:space="preserve">
+    <value>內容物可能在傳送過程中沉澱。</value>
+  </data>
+  <data name="DisclaimerCatNotResponsibleForSummoned" xml:space="preserve">
+    <value>免責聲明：召喚出的混亂概不由貓負責。</value>
+  </data>
+  <data name="InfusedWithTheSpiritOfA" xml:space="preserve">
+    <value>注入了一隻戲很多的虎斑貓之靈。</value>
+  </data>
+  <data name="DoesNotComplyWithISOWhisker" xml:space="preserve">
+    <value>不符合 ISO-whisker 標準。</value>
+  </data>
+  <data name="Guaranteed9LivesOrYourMagic" xml:space="preserve">
+    <value>保證 9 條命，否則退還你的魔法！</value>
+  </data>
+  <data name="JustOnePawTapAwayFrom" xml:space="preserve">
+    <value>距離宇宙級混亂只差一次肉球輕點。</value>
+  </data>
+  <data name="DoNotFeedAfterMidnightOr" xml:space="preserve">
+    <value>請勿在午夜後餵食。午夜前也不行。過程中也不行。</value>
+  </data>
+  <data name="GeneratedWith100EthicallySourcedWhiskers" xml:space="preserve">
+    <value>使用 100% 符合倫理來源的鬍鬚生成。</value>
+  </data>
+  <data name="MagickPrecisionMayVaryBasedOn" xml:space="preserve">
+    <value>魔法精準度可能依小睡時程而有所不同。</value>
+  </data>
+  <data name="OperatesOnSchrDingerSLogic" xml:space="preserve">
+    <value>採用薛丁格邏輯引擎運作。</value>
+  </data>
+  <data name="ThisSpellbookSmellsFaintlyOfSardines" xml:space="preserve">
+    <value>這本法術書隱約散發著沙丁魚的氣味。</value>
+  </data>
+  <data name="MaySummonSnacksInsteadOfSpells" xml:space="preserve">
+    <value>可能召喚出零食而不是法術。</value>
+  </data>
+  <data name="AllEnchantmentsBetaTestedOnCardboard" xml:space="preserve">
+    <value>所有附魔皆在紙箱上進行 Beta 測試。</value>
+  </data>
+  <data name="RecommendedBy4OutOf5" xml:space="preserve">
+    <value>獲得 5 隻跨次元貓科動物中的 4 隻推薦。</value>
+  </data>
+  <data name="ImbuedWithExtraFluffForCritical" xml:space="preserve">
+    <value>注入額外絨毛以提升暴擊率。</value>
+  </data>
+  <data name="BuiltUsingAncientMeowScript10" xml:space="preserve">
+    <value>使用古老的 meowScript 1.0 打造。</value>
+  </data>
+  <data name="CautionMagickMayAttractVoidEntities" xml:space="preserve">
+    <value>注意：魔法可能吸引虛空實體（以及零食）。</value>
+  </data>
+  <data name="SuccessRateIncreasesIfYouPurr" xml:space="preserve">
+    <value>如果你在螢幕旁發出呼嚕聲，成功率會提高。</value>
+  </data>
+  <data name="Includes12MoreSparkleThanLegally" xml:space="preserve">
+    <value>閃光效果比法定上限多出 12%。</value>
+  </data>
+  <data name="SpellLatencyMayIncreaseDuringCuddle" xml:space="preserve">
+    <value>法術延遲可能在抱抱時段增加。</value>
+  </data>
+  <data name="CalibratedForMaximumWhimsyAndMinor" xml:space="preserve">
+    <value>已校準至最大奇想與小規模爆炸。</value>
+  </data>
+  <data name="Only3ChanceOfSummoningA" xml:space="preserve">
+    <value>只有 3% 機率召喚出一隻雞。我們認為啦。</value>
+  </data>
+  <data name="TranslatedFromAncientCatneseScrollsProba" xml:space="preserve">
+    <value>翻譯自古代貓語卷軸（大概吧）。</value>
+  </data>
+  <data name="TheSpellMayVanishIfObserved" xml:space="preserve">
+    <value>若被直接觀察，此法術可能會消失。</value>
+  </data>
+  <data name="OptimizedForChaosNotConsistency" xml:space="preserve">
+    <value>為混亂而最佳化，而非一致性。</value>
+  </data>
+  <data name="PawCraftedUsingDarkLitterRituals" xml:space="preserve">
+    <value>以黑暗貓砂儀式精心爪製。</value>
+  </data>
+  <data name="ContentsMayShiftDueToQuantum" xml:space="preserve">
+    <value>內容物可能因量子絨毛場而位移。</value>
+  </data>
+  <data name="BackupWandIsALaserPointer" xml:space="preserve">
+    <value>備用魔杖是一支用膠帶綁在棍子上的雷射筆。</value>
+  </data>
+  <data name="EndorsedByTheCouncilOfSleepy" xml:space="preserve">
+    <value>由瞌睡巫師議會認證。</value>
+  </data>
+  <data name="CastingTimeOneDramaticTailFlick" xml:space="preserve">
+    <value>施法時間：戲劇性地甩一次尾巴。</value>
+  </data>
+  <data name="SpellMayLoopIfYouSay" xml:space="preserve">
+    <value>如果你快速唸三次 'meow'，咒語可能會進入迴圈。</value>
+  </data>
+  <data name="MysteryBoxIncludedCatSoldSeparately" xml:space="preserve">
+    <value>內含神秘盒。貓咪需另購。</value>
+  </data>
+  <data name="ThisActionHasACooldownOf" xml:space="preserve">
+    <value>此動作冷卻時間為 {0} 秒。要處理嗎？</value>
+  </data>
+  <data name="ConnectingTunnel" xml:space="preserve">
+    <value>正在連線通道...</value>
+  </data>
+  <data name="TunnelUnreachable" xml:space="preserve">
+    <value>無法連線至通道。</value>
+  </data>
+  <data name="TunnelDown" xml:space="preserve">
+    <value>  [通道已中斷]</value>
+  </data>
+  <data name="ViaTun" xml:space="preserve">
+    <value>經由 tun</value>
+  </data>
+  <data name="ReadFailed" xml:space="preserve">
+    <value>（讀取失敗）</value>
+  </data>
+  <data name="StalphRightEre" xml:space="preserve">
+    <value>停下來，就在這裡！</value>
+  </data>
+  <data name="StalphPoliceHere" xml:space="preserve">
+    <value>停下來，警察在這裡！</value>
+  </data>
+  <data name="OiGotALoicense" xml:space="preserve">
+    <value>喂，有執照嗎？</value>
+  </data>
+  <data name="ComeDoACrime" xml:space="preserve">
+    <value>來吧，去犯個罪</value>
+  </data>
+  <data name="NotSoFast" xml:space="preserve">
+    <value>沒那麼快！</value>
+  </data>
+  <data name="HaltKawaiiPatrol" xml:space="preserve">
+    <value>站住！可愛巡邏隊！</value>
+  </data>
+  <data name="EhYouAgain" xml:space="preserve">
+    <value>欸！？又是你？</value>
+  </data>
+  <data name="OiExplainYourself" xml:space="preserve">
+    <value>喂，解釋一下！</value>
+  </data>
+  <data name="MouseDown" xml:space="preserve">
+    <value>滑鼠按下！</value>
+  </data>
+  <data name="MeowsageFromTheCat" xml:space="preserve">
+    <value>來自貓咪的喵息</value>
+  </data>
+  <data name="OiMateYouFoundASecret" xml:space="preserve">
+    <value>喂，老兄，你找到一隻祕密貓咪了！想下載牠嗎？</value>
+  </data>
+  <data name="OiYouCheekyWanker" xml:space="preserve">
+    <value>喂，你這個調皮鬼！</value>
+  </data>
+  <data name="StillCheekyAreWeThatS" xml:space="preserve">
+    <value>還是這麼調皮啊？那不是真正的貓咪，老兄。</value>
+  </data>
+  <data name="AlrightNowThisIsnTSome" xml:space="preserve">
+    <value>好吧，這可不是什麼隱藏貓咪召喚器。還是說其實是呢？</value>
+  </data>
+  <data name="YouReEitherCuriousOrDangerously" xml:space="preserve">
+    <value>你不是太好奇了……就是執著得有點危險。</value>
+  </data>
+  <data name="TryingToBruteForceTheCat" xml:space="preserve">
+    <value>想暴力破解貓咪的祕密？膽子不小。</value>
+  </data>
+  <data name="ThereAreNoMoreCatsHere" xml:space="preserve">
+    <value>這裡已經沒有更多貓咪了。還是其實有呢？ 🐾</value>
+  </data>
+  <data name="YouVeEnteredTheForbiddenZone" xml:space="preserve">
+    <value>你已進入禁忌區域。趁還來得及，回頭吧。</value>
+  </data>
+  <data name="OkayFineThereMightBeSomething" xml:space="preserve">
+    <value>好啦好啦。也許*可能*有點什麼。但不是用這種方式。</value>
+  </data>
+  <data name="AtThisPointIAdmireYour" xml:space="preserve">
+    <value>到了這個地步，我挺佩服你的毅力。貓咪們正在看著你。</value>
+  </data>
+  <data name="SeriouslyWhatAreYouHopingTo" xml:space="preserve">
+    <value>說真的，你到底希望找到什麼？隱藏頭目戰嗎？</value>
+  </data>
+  <data name="YouReEitherTestingThisOr" xml:space="preserve">
+    <value>你不是在測試這個……就是正慢慢變成遊戲的一部分。</value>
+  </data>
+  <data name="SomewhereADeveloperIsLaughingIt" xml:space="preserve">
+    <value>某個地方有位開發者正在大笑。不是我。大概吧。</value>
+  </data>
+  <data name="LegendSaysAfter13TriesThe" xml:space="preserve">
+    <value>傳說嘗試 13 次後，貓咪神諭就會現身。不過終究只是傳說。大概吧。</value>
+  </data>
+  <data name="YouVeCrossedIntoCatDimension" xml:space="preserve">
+    <value>你已跨入第 4 貓咪次元。只剩絨毛存在。</value>
+  </data>
+  <data name="TheSystemIsBeginningToTake" xml:space="preserve">
+    <value>系統開始注意到你了。請謹慎前進。</value>
+  </data>
+  <data name="IsThisACryForHelp" xml:space="preserve">
+    <value>這是在求救，還是單純好奇心爆棚？</value>
+  </data>
+  <data name="EveryTimeYouDoThisA" xml:space="preserve">
+    <value>你每這麼做一次，就有一隻貓在某個地方眨一下眼……</value>
+  </data>
+  <data name="YouAreNow82CommittedTo" xml:space="preserve">
+    <value>你現在已經有 82% 投身於貓咪開悟之道了。</value>
+  </data>
+  <data name="TheSacredPawsAreRestlessThey" xml:space="preserve">
+    <value>神聖的肉球坐立難安。牠們正在看著你……</value>
+  </data>
+  <data name="YouFoundItTheSecretNothing" xml:space="preserve">
+    <value>你找到了。那個秘密的虛無。它既是一切，也是虛無。恭喜？</value>
+  </data>
+  <data name="GoOutsideTouchGrassThereAre" xml:space="preserve">
+    <value>出去走走吧。摸摸草地。這裡已經沒有更多貓了。</value>
+  </data>
+  <data name="N22AttemptsThatSMoreThan" xml:space="preserve">
+    <value>22 次嘗試。比大多數感情維持得還久。</value>
+  </data>
+  <data name="YouReNoLongerTryingTo" xml:space="preserve">
+    <value>你已經不是在找貓了。你是在證明某件事。而我很佩服。</value>
+  </data>
+  <data name="TheMatrixJustTiltedItsHead" xml:space="preserve">
+    <value>The Matrix 剛剛歪了歪頭。連 *它* 都搞不懂了。</value>
+  </data>
+  <data name="YouVeReachedCatAttempt25" xml:space="preserve">
+    <value>你已達成第 25 次找貓嘗試。你的獎勵：這則訊息。請好好珍惜。</value>
+  </data>
+  <data name="OkaySlowTheHeckDown" xml:space="preserve">
+    <value>好啦，慢一點啊！</value>
+  </data>
+  <data name="FiftyAttemptsYouVeReachedThe" xml:space="preserve">
+    <value>五十次嘗試。你已跨過門檻。有些事改變了。</value>
+  </data>
+  <data name="StillHereMostDonTMake" xml:space="preserve">
+    <value>還在這裡？大多數人到不了這麼遠。你和大多數人不一樣。</value>
+  </data>
+  <data name="YouVeEnteredLayer2The" xml:space="preserve">
+    <value>你已進入第 2 層。表面的一切都只是障眼法。</value>
+  </data>
+  <data name="TheBoundariesOfTheProgramGrow" xml:space="preserve">
+    <value>程式的邊界逐漸變得模糊。現實……正在閃爍。</value>
+  </data>
+  <data name="AVariableStirsItRemembersYou" xml:space="preserve">
+    <value>某個變數甦醒了。它記得你。一直都記得。</value>
+  </data>
+  <data name="YouReNotSearchingForA" xml:space="preserve">
+    <value>你不再是在找貓了。你是在尋找意義。</value>
+  </data>
+  <data name="YouFeelWatchedTheWatcherFeels" xml:space="preserve">
+    <value>你感覺被注視著。注視者也感覺被注視著。循環持續下去。</value>
+  </data>
+  <data name="ThereWasNeverACatOnly" xml:space="preserve">
+    <value>從來就沒有貓。只有貓這個概念。而你相信了。</value>
+  </data>
+  <data name="WhatIfThisIsTheSecret" xml:space="preserve">
+    <value>如果這 *就是* 秘密呢？如果根本沒有別的東西呢？</value>
+  </data>
+  <data name="YouVePeeledBackTheLayers" xml:space="preserve">
+    <value>你剝開了一層又一層。在遊戲底下的是……你自己。</value>
+  </data>
+  <data name="CongratulationsYouVeUnlockedTheHidden" xml:space="preserve">
+    <value>恭喜。你已解鎖隱藏領悟：堅持本身就是獎勵。</value>
+  </data>
+  <data name="NoMoreMessagesRemainOrDo" xml:space="preserve">
+    <value>已沒有更多訊息了。還是有呢？有些謎團本就不該被解開。</value>
+  </data>
+  <data name="CongratulationsYouAreNowACertified" xml:space="preserve">
+    <value>恭喜，你現在是認證貓語者了。大概算是吧。</value>
+  </data>
+  <data name="DoYouWantToEnableSafe" xml:space="preserve">
+    <value>要啟用安全模式嗎？</value>
+  </data>
+  <data name="ShamikoHasWrappedYouInHer" xml:space="preserve">
+    <value>Shamiko 用她的暗影斗篷將你包覆。安全模式現已啟用。</value>
+  </data>
+  <data name="AreYouSureYouWantTo_3" xml:space="preserve">
+    <value>確定要停用安全模式嗎？</value>
+  </data>
+  <data name="SafeModeHasBeenDisabledShamiko" xml:space="preserve">
+    <value>安全模式已停用。Shamiko 的祝福消散於虛空之中。</value>
+  </data>
+  <data name="DoYouWantToEnableAsInvoker" xml:space="preserve">
+    <value>要啟用 asInvoker 嗎？</value>
+  </data>
+  <data name="AsInvokerHasBeenEnabled" xml:space="preserve">
+    <value>asInvoker 已啟用。</value>
+  </data>
+  <data name="AreYouSureYouWantTo_4" xml:space="preserve">
+    <value>確定要停用 asInvoker 嗎？</value>
+  </data>
+  <data name="AsInvokerHasBeenDisabled" xml:space="preserve">
+    <value>asInvoker 已停用。</value>
+  </data>
+  <data name="NyaaSupport" xml:space="preserve">
+    <value>要支援 nyaa~ 嗎？</value>
+  </data>
+  <data name="FeedMeCoins" xml:space="preserve">
+    <value>餵我一些金幣嘛~</value>
+  </data>
+  <data name="BuyMeASnack" xml:space="preserve">
+    <value>幫我買個點心？</value>
+  </data>
+  <data name="MeowThanks" xml:space="preserve">
+    <value>喵嗚~ 謝謝！</value>
+  </data>
+  <data name="ClickyClicky" xml:space="preserve">
+    <value>點點點點~</value>
+  </data>
+  <data name="GibTreatsPwease" xml:space="preserve">
+    <value>拜託給我零食嘛！</value>
+  </data>
+  <data name="UwuThankies" xml:space="preserve">
+    <value>uwu 謝謝你呀！</value>
+  </data>
+  <data name="SoShinyCoin" xml:space="preserve">
+    <value>好閃亮的金幣！</value>
+  </data>
+  <data name="ForTheBunFund" xml:space="preserve">
+    <value>給兔兔基金！</value>
+  </data>
+  <data name="NyaIMPoor" xml:space="preserve">
+    <value>喵嗚～我好窮 :&lt;</value>
+  </data>
+  <data name="OpenProcessFailed" xml:space="preserve">
+    <value>OpenProcess 失敗</value>
+  </data>
+  <data name="SupportMyWork" xml:space="preserve"><value>💖 支持我的作品！ 💖
+
+嗨！如果你喜歡我的作品並想支持未來的更新，歡迎請我喝杯咖啡或透過 PayPal 捐款。每一份支持都很有幫助，也能讓這個專案持續發展！
+
+如需其他方式，請聯絡 takatran29@gmail.com。
+</value></data>
+  <data name="HarkTravelerDostThouSeek" xml:space="preserve"><value>聽著，旅人啊！汝是否尋求賜予汝之勇士一分巧智優勢？於此幽暗之境，藏有極其稀有之秘辛，乃能增添力量之贈禮，卻不致打破世間之平衡。微妙的魔法正靜候於此，足以撥動命運之風，使旅途始終無畏而堅定。
+
+若汝之好奇心已被喚起，便來尋我，屆時自有更多祕密向汝揭曉。</value></data>
+</root>

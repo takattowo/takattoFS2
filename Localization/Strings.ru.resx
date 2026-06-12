@@ -1,0 +1,2001 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ConnectingToServer" xml:space="preserve">
+    <value>Подключение к серверу...</value>
+  </data>
+  <data name="Fetching" xml:space="preserve">
+    <value>Получение данных...</value>
+  </data>
+  <data name="YourAccessToTheProgramHas" xml:space="preserve">
+    <value>Ваш доступ к программе ограничен. Если вы считаете, что это ошибка, или хотите подать апелляцию, пожалуйста, свяжитесь с администратором.</value>
+  </data>
+  <data name="Uhm" xml:space="preserve">
+    <value>Эм...</value>
+  </data>
+  <data name="Notice" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="RetrievingConfiguration" xml:space="preserve">
+    <value>Получение конфигурации...</value>
+  </data>
+  <data name="RetrievingAppProfiles" xml:space="preserve">
+    <value>Получение профилей приложения...</value>
+  </data>
+  <data name="FailedToLoadSettings" xml:space="preserve">
+    <value>Не удалось загрузить настройки.</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="ThisApplicationNeedsAdministrativePrivil" xml:space="preserve">
+    <value>Этому приложению требуются права администратора для доступа к Windows Management Instrumentation (WMI) с целью обнаружения процесса игры.
+
+Предоставить доступ?</value>
+  </data>
+  <data name="AdministrativePrivilegesRequired" xml:space="preserve">
+    <value>Требуются права администратора</value>
+  </data>
+  <data name="TheProgramWillNotFunctionProperly" xml:space="preserve">
+    <value>Программа не будет работать должным образом, но вы можете свободно ознакомиться с ней.</value>
+  </data>
+  <data name="KattoIsHidingAwayFromCurious" xml:space="preserve">
+    <value>Katto прячется от любопытных глаз!</value>
+  </data>
+  <data name="ThisUpdateIsEssentialTheProgram" xml:space="preserve">
+    <value>Это обновление является обязательным; программа не будет работать, пока оно не будет установлено.</value>
+  </data>
+  <data name="TheExternalExtractorEngineDownloadURL" xml:space="preserve">
+    <value>URL для загрузки внешнего движка извлечения не настроен. Пожалуйста, свяжитесь с разработчиком.</value>
+  </data>
+  <data name="MicrosoftEdge" xml:space="preserve">
+    <value>Microsoft Edge</value>
+  </data>
+  <data name="ItIsVeryDangerousToClose" xml:space="preserve">
+    <value>Очень опасно закрывать программу во время применения патча, пожалуйста, подождите немного.</value>
+  </data>
+  <data name="ThisIsTheMainPageWhere" xml:space="preserve">
+    <value>Это главная страница, где можно узнать, что нового, и изменить расположение игры.</value>
+  </data>
+  <data name="ThisIsTheModHubYou" xml:space="preserve">
+    <value>Это центр модов, здесь можно управлять модами и загружать новые из интернета.</value>
+  </data>
+  <data name="ThisIsTheSoundHubWhere" xml:space="preserve">
+    <value>Это центр звуков, где можно управлять звуковыми модами, такими как голос главного героя, звуки движения, NPC и многое другое.</value>
+  </data>
+  <data name="ThisIsTheMapHubYou" xml:space="preserve">
+    <value>Это центр карт, здесь можно принудительно использовать одну любимую карту в игре — никакой случайности!</value>
+  </data>
+  <data name="ThisIsTheModHubWhere" xml:space="preserve">
+    <value>Это центр модов, где можно управлять звуковыми модами, такими как голос главного героя, звуки движения, NPC и многое другое.</value>
+  </data>
+  <data name="Main" xml:space="preserve">
+    <value>Главная</value>
+  </data>
+  <data name="Pawtion" xml:space="preserve">
+    <value>Pawtion</value>
+  </data>
+  <data name="Proxy" xml:space="preserve">
+    <value>Прокси</value>
+  </data>
+  <data name="ModHub" xml:space="preserve">
+    <value>Центр модов</value>
+  </data>
+  <data name="Sound" xml:space="preserve">
+    <value>Звук</value>
+  </data>
+  <data name="Map" xml:space="preserve">
+    <value>Карта</value>
+  </data>
+  <data name="Misc" xml:space="preserve">
+    <value>Разное</value>
+  </data>
+  <data name="Toolbox" xml:space="preserve">
+    <value>Инструменты</value>
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="ChangesWillApplyAfterRestartingThe" xml:space="preserve">
+    <value>Изменения вступят в силу после перезапуска игры</value>
+  </data>
+  <data name="ApplicationLogInitialized" xml:space="preserve">
+    <value>Журнал приложения инициализирован.
+- - - - - - - - - - - - - - - - - - - - - -
+</value>
+  </data>
+  <data name="ClickMe" xml:space="preserve">
+    <value>Нажми меня!</value>
+  </data>
+  <data name="Tasking" xml:space="preserve">
+    <value>Выполнение...</value>
+  </data>
+  <data name="DoingOtherStuffs" xml:space="preserve">
+    <value>Выполняются другие задачи...</value>
+  </data>
+  <data name="Done3" xml:space="preserve">
+    <value>Готово! :3</value>
+  </data>
+  <data name="ReleaseRecollection" xml:space="preserve">
+    <value>Показать воспоминания!</value>
+  </data>
+  <data name="Closing3" xml:space="preserve">
+    <value>Закрытие! :3</value>
+  </data>
+  <data name="SafeModeEnabled" xml:space="preserve">
+    <value>Безопасный режим включён!</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Загрузка</value>
+  </data>
+  <data name="Pwatching" xml:space="preserve">
+    <value>Патчинг...
+
+</value>
+  </data>
+  <data name="MightTakeAWhile" xml:space="preserve">
+    <value>Это может занять некоторое время!</value>
+  </data>
+  <data name="SmolForm" xml:space="preserve">
+    <value>SmolForm</value>
+  </data>
+  <data name="HiThereLooksLikeItS" xml:space="preserve">
+    <value>Привет! Похоже, это твой первый запуск этой милой программы. Давай начнём!</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Далее</value>
+  </data>
+  <data name="ToBeginPleaseSelectYourFreeStyle2" xml:space="preserve">
+    <value>Для начала выберите расположение игры FreeStyle2. Здесь программа будет искать файлы игры.</value>
+  </data>
+  <data name="TakeMeThere" xml:space="preserve">
+    <value>Перейти туда</value>
+  </data>
+  <data name="NowThatYouVeSelectedYour" xml:space="preserve">
+    <value>Теперь, когда вы выбрали расположение игры, давайте посмотрим, что умеет эта программа!</value>
+  </data>
+  <data name="ThisIsTheMapHubYou_2" xml:space="preserve">
+    <value>Это раздел карт, здесь можно принудительно выбрать одну любимую карту для игры. Больше никакой случайности!</value>
+  </data>
+  <data name="ThisIsTheMiscHubWhere" xml:space="preserve">
+    <value>Это раздел прочего, где доступны полезные функции вроде макросов чата, настроек камеры и многого другого!</value>
+  </data>
+  <data name="AndThatSItFeelFree" xml:space="preserve">
+    <value>Вот и всё! Не стесняйтесь изучить остальные возможности. Программа очень проста в использовании. Если у вас есть вопросы, присоединяйтесь к нашему Discord-серверу!</value>
+  </data>
+  <data name="OkieDokie" xml:space="preserve">
+    <value>Хорошо</value>
+  </data>
+  <data name="Skip" xml:space="preserve">
+    <value>Пропустить</value>
+  </data>
+  <data name="HelloThere" xml:space="preserve">
+    <value>Привет!</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="PleaseCloseTheGameFirstBefore" xml:space="preserve">
+    <value>Пожалуйста, сначала закройте игру перед изменением папки игры.</value>
+  </data>
+  <data name="PleaseWaitUntilThePatchingProcess" xml:space="preserve">
+    <value>Пожалуйста, дождитесь завершения процесса патчинга перед изменением папки игры.</value>
+  </data>
+  <data name="InvalidGameFolderPleaseSelectThe" xml:space="preserve">
+    <value>Недопустимая папка игры. Пожалуйста, выберите правильную папку.</value>
+  </data>
+  <data name="DisclaimerLicense" xml:space="preserve">
+    <value>Отказ от ответственности и лицензия</value>
+  </data>
+  <data name="WhatSNew" xml:space="preserve">
+    <value>Что нового?</value>
+  </data>
+  <data name="SupportMe" xml:space="preserve">
+    <value>Поддержать меня ♡</value>
+  </data>
+  <data name="SelectGameFolder" xml:space="preserve">
+    <value> Выберите папку игры</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Обзор</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Запустить</value>
+  </data>
+  <data name="Launcher" xml:space="preserve">
+    <value>Launcher</value>
+  </data>
+  <data name="SteamLauncher" xml:space="preserve">
+    <value>Steam launcher</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>[Текст]</value>
+  </data>
+  <data name="Minimize" xml:space="preserve">
+    <value>Свернуть</value>
+  </data>
+  <data name="Kill" xml:space="preserve">
+    <value>Завершить</value>
+  </data>
+  <data name="ClickThisToSelectGameFolder" xml:space="preserve">
+    <value>Нажмите здесь, чтобы выбрать папку игры!</value>
+  </data>
+  <data name="SelectASoundOption" xml:space="preserve">
+    <value>Выберите вариант звука</value>
+  </data>
+  <data name="Jukebox" xml:space="preserve">
+    <value>Музыкальный автомат</value>
+  </data>
+  <data name="ActionSound" xml:space="preserve">
+    <value>Звуки действий</value>
+  </data>
+  <data name="MCVoice" xml:space="preserve">
+    <value>Голос MC</value>
+  </data>
+  <data name="EnvSound" xml:space="preserve">
+    <value>Звуки окружения</value>
+  </data>
+  <data name="CharacterVoice" xml:space="preserve">
+    <value>Голос персонажа</value>
+  </data>
+  <data name="UISound" xml:space="preserve">
+    <value>Звуки интерфейса</value>
+  </data>
+  <data name="Loading_2" xml:space="preserve">
+    <value>Загрузка...</value>
+  </data>
+  <data name="NoSongsToDisplay" xml:space="preserve">
+    <value>Нет песен для отображения</value>
+  </data>
+  <data name="DoYouWantToUninstallThis" xml:space="preserve">
+    <value>Вы хотите удалить этот патч?</value>
+  </data>
+  <data name="JukeboxManager" xml:space="preserve">
+    <value>Менеджер музыкального автомата</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>&lt; Назад </value>
+  </data>
+  <data name="Uninstall" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="EnablePatch" xml:space="preserve">
+    <value>Включить патч</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="BringToTop" xml:space="preserve">
+    <value>Переместить наверх</value>
+  </data>
+  <data name="NothingToSeeHere" xml:space="preserve">
+    <value>Здесь ничего нет</value>
+  </data>
+  <data name="PleaseSelectASoundNameNode" xml:space="preserve">
+    <value>Сначала выберите узел имени звука.</value>
+  </data>
+  <data name="PleaseSelectASoundNameNode_2" xml:space="preserve">
+    <value>Выберите узел имени звука, а не путь к звуку.</value>
+  </data>
+  <data name="AreYouSureYouWantTo" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить этот звук и все связанные пути?</value>
+  </data>
+  <data name="AreYouSureYouWantTo_2" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить этот путь к звуку?</value>
+  </data>
+  <data name="MCVoiceManager" xml:space="preserve">
+    <value>Менеджер голосов MC</value>
+  </data>
+  <data name="CrownTreeView1" xml:space="preserve">
+    <value>crownTreeView1</value>
+  </data>
+  <data name="OpenRaw" xml:space="preserve">
+    <value>Открыть исходный</value>
+  </data>
+  <data name="ActionSoundManager" xml:space="preserve">
+    <value>Менеджер звуков действий</value>
+  </data>
+  <data name="PleaseSelectAnItemToDelete" xml:space="preserve">
+    <value>Выберите элемент для удаления.</value>
+  </data>
+  <data name="EnvelopeSoundManager" xml:space="preserve">
+    <value>Менеджер звуков огибающей</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="CharacterVoiceHasAMassiveList" xml:space="preserve">
+    <value>Список голосов персонажей очень большой. Процесс может занять некоторое время, и программа может не отвечать до его завершения. Продолжить?</value>
+  </data>
+  <data name="PleaseSelectACharacterNameNode" xml:space="preserve">
+    <value>Сначала выберите узел имени персонажа.</value>
+  </data>
+  <data name="PleaseSelectACharacterNameNode_2" xml:space="preserve">
+    <value>Выберите узел имени персонажа, а не путь к звуку.</value>
+  </data>
+  <data name="CharacterVoiceManager" xml:space="preserve">
+    <value>Менеджер голосов персонажей</value>
+  </data>
+  <data name="ItSeemsLikeThereIsMore" xml:space="preserve">
+    <value>Похоже, найдено несколько ресурсов голосов MC. Какой из них вы хотите использовать?</value>
+  </data>
+  <data name="WhichOne" xml:space="preserve">
+    <value>Какой выбрать?</value>
+  </data>
+  <data name="ItSNotRecommendedToFetch" xml:space="preserve">
+    <value>Не рекомендуется загружать карту во время работы игры.</value>
+  </data>
+  <data name="FetchTheAvailableMapsThisWill" xml:space="preserve">
+    <value>Загрузить доступные карты? Это перезапишет все внесённые вами изменения.</value>
+  </data>
+  <data name="NoFilesFoundInTheGame" xml:space="preserve">
+    <value>В папке игры не найдено файлов(?)</value>
+  </data>
+  <data name="CourtManagerBeta" xml:space="preserve">
+    <value>Менеджер суда (бета)</value>
+  </data>
+  <data name="ChooseAMapYouWantTo" xml:space="preserve">
+    <value>Выберите карту для использования:</value>
+  </data>
+  <data name="Fetch" xml:space="preserve">
+    <value>Загрузить</value>
+  </data>
+  <data name="FolderDoesNotExist" xml:space="preserve">
+    <value>Папка не существует.</value>
+  </data>
+  <data name="PleaseRunTheGameFirst" xml:space="preserve">
+    <value>Сначала запустите игру!</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="Stagename" xml:space="preserve">
+    <value>[stagename]</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="PleaseEnterAName" xml:space="preserve">
+    <value>Введите имя.</value>
+  </data>
+  <data name="NameContainsInvalidCharacters" xml:space="preserve">
+    <value>Имя содержит недопустимые символы.</value>
+  </data>
+  <data name="NameIsAReservedNameAnd" xml:space="preserve">
+    <value>Имя является зарезервированным и не может быть использовано.</value>
+  </data>
+  <data name="TheNameAlreadyExistsPleaseChoose" xml:space="preserve">
+    <value>Такое имя уже существует. Выберите уникальное имя.</value>
+  </data>
+  <data name="PleaseSelectAValidModType" xml:space="preserve">
+    <value>Выберите допустимый тип мода.</value>
+  </data>
+  <data name="InvalidDestinationPath" xml:space="preserve">
+    <value>Недопустимый путь назначения!</value>
+  </data>
+  <data name="ForMoreModTypeAndInfomation" xml:space="preserve">
+    <value>Для получения дополнительной информации о типах модов нажмите здесь, чтобы перейти в репозиторий Github.</value>
+  </data>
+  <data name="ModType" xml:space="preserve">
+    <value>Тип мода:</value>
+  </data>
+  <data name="AuthorYourGithubUsername" xml:space="preserve">
+    <value>Автор (ваше имя пользователя github):</value>
+  </data>
+  <data name="ModDescription" xml:space="preserve">
+    <value>Описание мода:</value>
+  </data>
+  <data name="ModName" xml:space="preserve">
+    <value>Название мода:</value>
+  </data>
+  <data name="SelectOne" xml:space="preserve">
+    <value>(Выберите один вариант)</value>
+  </data>
+  <data name="UI" xml:space="preserve">
+    <value>UI</value>
+  </data>
+  <data name="Patch" xml:space="preserve">
+    <value>Патч</value>
+  </data>
+  <data name="Launch" xml:space="preserve">
+    <value>Запуск</value>
+  </data>
+  <data name="Lua" xml:space="preserve">
+    <value>Lua</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="CreateAMod" xml:space="preserve">
+    <value>Создать мод</value>
+  </data>
+  <data name="Install" xml:space="preserve">
+    <value>Установить</value>
+  </data>
+  <data name="NotInstalled" xml:space="preserve">
+    <value>Не установлен</value>
+  </data>
+  <data name="SelectAPatch" xml:space="preserve">
+    <value>Выберите патч</value>
+  </data>
+  <data name="Connecting" xml:space="preserve">
+    <value>Подключение...</value>
+  </data>
+  <data name="Connecting_2" xml:space="preserve">
+    <value> Подключение...</value>
+  </data>
+  <data name="ListFailedToLoad" xml:space="preserve">
+    <value> Не удалось загрузить список</value>
+  </data>
+  <data name="PleaseWaitForTheCurrentOperation" xml:space="preserve">
+    <value>Подождите, пока завершится текущая операция.</value>
+  </data>
+  <data name="PleaseCloseTheGameFirst" xml:space="preserve">
+    <value>Сначала закройте игру.</value>
+  </data>
+  <data name="ThisDownloadableContentCannotBeTracked" xml:space="preserve">
+    <value>Этот загружаемый контент нельзя отслеживать, и он будет помещён непосредственно в папку игры. Продолжить?</value>
+  </data>
+  <data name="CommunityModLibrary" xml:space="preserve">
+    <value>Библиотека модов сообщества</value>
+  </data>
+  <data name="AcrylicListView1" xml:space="preserve">
+    <value>acrylicListView1</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="InstalledMod" xml:space="preserve">
+    <value>Установленный мод</value>
+  </data>
+  <data name="CreateANewMod" xml:space="preserve">
+    <value>Создать новый мод</value>
+  </data>
+  <data name="Fetching_2" xml:space="preserve">
+    <value> Загрузка...</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>Открыть папку</value>
+  </data>
+  <data name="NoPatchInstalled" xml:space="preserve">
+    <value> Патч не установлен</value>
+  </data>
+  <data name="DoYouWantToUninstallThis_2" xml:space="preserve">
+    <value>Вы хотите удалить этот мод?</value>
+  </data>
+  <data name="ThisModTypeDoesNotSupport" xml:space="preserve">
+    <value>Этот тип мода не поддерживает открытие папки.</value>
+  </data>
+  <data name="InstalledModsManager" xml:space="preserve">
+    <value>Менеджер установленных модов</value>
+  </data>
+  <data name="FileVersionNull" xml:space="preserve">
+    <value>Версия файла: null</value>
+  </data>
+  <data name="CheckForUpdates" xml:space="preserve">
+    <value>Проверить обновления</value>
+  </data>
+  <data name="ContinuingYourSession" xml:space="preserve">
+    <value>Продолжение сеанса...</value>
+  </data>
+  <data name="EnterYourGithubToken" xml:space="preserve">
+    <value>Введите свой токен Github</value>
+  </data>
+  <data name="PleaseEnterAGitHubToken" xml:space="preserve">
+    <value>Пожалуйста, введите токен GitHub</value>
+  </data>
+  <data name="BeanMarkup" xml:space="preserve">
+    <value>Разметка Bean</value>
+  </data>
+  <data name="ExtractPak" xml:space="preserve">
+    <value>Извлечь .pak</value>
+  </data>
+  <data name="ImportPak" xml:space="preserve">
+    <value>Импортировать .pak</value>
+  </data>
+  <data name="TokenIsValid" xml:space="preserve">
+    <value>Токен действителен</value>
+  </data>
+  <data name="FileObfuscated" xml:space="preserve">
+    <value>Файл обфусцирован.</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Успешно</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>Не удалось</value>
+  </data>
+  <data name="GenerateUniqueID" xml:space="preserve">
+    <value>Сгенерировать уникальный ID</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="MachineName" xml:space="preserve">
+    <value>Имя компьютера:</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Имя пользователя:</value>
+  </data>
+  <data name="DeveloperToolsSomeRequireToken" xml:space="preserve">
+    <value>Инструменты разработчика (для некоторых требуется токен)</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="Locked" xml:space="preserve">
+    <value>Заблокировано</value>
+  </data>
+  <data name="DDSLoader" xml:space="preserve">
+    <value>Загрузчик DDS</value>
+  </data>
+  <data name="Splitter" xml:space="preserve">
+    <value>Разделитель</value>
+  </data>
+  <data name="Encrypt" xml:space="preserve">
+    <value>Зашифровать</value>
+  </data>
+  <data name="Decrypt" xml:space="preserve">
+    <value>Расшифровать</value>
+  </data>
+  <data name="HashChecker" xml:space="preserve">
+    <value>Проверка хеша</value>
+  </data>
+  <data name="Translator" xml:space="preserve">
+    <value>Переводчик</value>
+  </data>
+  <data name="GetUID" xml:space="preserve">
+    <value>Получить UID</value>
+  </data>
+  <data name="MergeFiles" xml:space="preserve">
+    <value>Объединить файлы</value>
+  </data>
+  <data name="IfGameLauncherFailedToLoad" xml:space="preserve">
+    <value>Если игровой лаунчер не загружается из-за ошибки, это может помочь исправить проблему.</value>
+  </data>
+  <data name="ProcessDonePleaseTryLaunchingThe" xml:space="preserve">
+    <value>Обработка завершена, попробуйте снова запустить лаунчер.</value>
+  </data>
+  <data name="IfTheInGameViewHas" xml:space="preserve">
+    <value>Если изображение в игре стало полностью чёрным, причиной могут быть неверные настройки камеры. Сбросить настройки камеры?</value>
+  </data>
+  <data name="CameraSettingsHaveBeenResetTo" xml:space="preserve">
+    <value>Настройки камеры сброшены к значениям по умолчанию.</value>
+  </data>
+  <data name="EnterYesToPreventTheGame" xml:space="preserve">
+    <value>Введите "Yes", чтобы запретить игре создавать журналы, или "No", чтобы вернуть настройки.</value>
+  </data>
+  <data name="LockedTheGameFromGeneratingDangerous" xml:space="preserve">
+    <value>Создание опасного журнала игрой заблокировано.</value>
+  </data>
+  <data name="YouAlreadyBlockedTheGameFrom" xml:space="preserve">
+    <value>Вы уже заблокировали создание журнала игрой.</value>
+  </data>
+  <data name="ProcessingDone" xml:space="preserve">
+    <value>Обработка завершена.</value>
+  </data>
+  <data name="UsefulTools" xml:space="preserve">
+    <value>Полезные инструменты</value>
+  </data>
+  <data name="MyNote" xml:space="preserve">
+    <value>Моя заметка</value>
+  </data>
+  <data name="BlockGameLogs" xml:space="preserve">
+    <value>Блокировать журналы игры</value>
+  </data>
+  <data name="FixBlackGame" xml:space="preserve">
+    <value>Исправить чёрный экран в игре</value>
+  </data>
+  <data name="FlappyBirb" xml:space="preserve">
+    <value>Flappy birb</value>
+  </data>
+  <data name="FixLauncherError" xml:space="preserve">
+    <value>Исправить ошибку лаунчера</value>
+  </data>
+  <data name="DeveloperTools" xml:space="preserve">
+    <value>Инструменты разработчика</value>
+  </data>
+  <data name="Shamiko" xml:space="preserve">
+    <value>Shamiko</value>
+  </data>
+  <data name="BeanIt" xml:space="preserve">
+    <value>Bean it</value>
+  </data>
+  <data name="ReverseBeanIt" xml:space="preserve">
+    <value>Обратить bean</value>
+  </data>
+  <data name="BeanPlayground" xml:space="preserve">
+    <value>Площадка для bean</value>
+  </data>
+  <data name="Katcrypt" xml:space="preserve">
+    <value>Katcrypt</value>
+  </data>
+  <data name="ReverseKatcrypt" xml:space="preserve">
+    <value>Обратить Katcrypt</value>
+  </data>
+  <data name="KatcryptorTest1" xml:space="preserve">
+    <value>Katcryptor [Test 1]</value>
+  </data>
+  <data name="PleaseEnterValidValue" xml:space="preserve">
+    <value>Пожалуйста, введите допустимое значение.</value>
+  </data>
+  <data name="UnhandledError" xml:space="preserve">
+    <value>Необработанная ошибка</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Тест</value>
+  </data>
+  <data name="NotWorkingYetDueTextboxBeing" xml:space="preserve">
+    <value>(пока не работает, потому что textbox ужасен)</value>
+  </data>
+  <data name="Button2" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="Button3" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="FailedToLoadTheDDSFile" xml:space="preserve">
+    <value>Не удалось загрузить файл DDS.</value>
+  </data>
+  <data name="NoImageLoaded" xml:space="preserve">
+    <value>Изображение не загружено.</value>
+  </data>
+  <data name="ImageSavedAsDDSSuccessfully" xml:space="preserve">
+    <value>Изображение успешно сохранено как DDS.</value>
+  </data>
+  <data name="ImageSavedAsPNGSuccessfully" xml:space="preserve">
+    <value>Изображение успешно сохранено как PNG.</value>
+  </data>
+  <data name="DDSImageLoader" xml:space="preserve">
+    <value>Загрузчик изображений DDS</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="SaveAsPNG" xml:space="preserve">
+    <value>Сохранить как PNG</value>
+  </data>
+  <data name="AutoCopyToClipboard" xml:space="preserve">
+    <value>Автоматически копировать в буфер обмена</value>
+  </data>
+  <data name="SendToGame" xml:space="preserve">
+    <value>Отправить в игру</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="TranslateTo" xml:space="preserve">
+    <value>Перевести на:</value>
+  </data>
+  <data name="AzureKey" xml:space="preserve">
+    <value>Azure_Key:</value>
+  </data>
+  <data name="AntiAFKOn" xml:space="preserve">
+    <value>Anti-AFK: Вкл.</value>
+  </data>
+  <data name="AntiAFKOff" xml:space="preserve">
+    <value>Anti-AFK: Выкл.</value>
+  </data>
+  <data name="Miscellaneous" xml:space="preserve">
+    <value>Разное</value>
+  </data>
+  <data name="GameSettings" xml:space="preserve">
+    <value>Настройки игры</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Камера</value>
+  </data>
+  <data name="Task" xml:space="preserve">
+    <value>Задача</value>
+  </data>
+  <data name="AntiAFK" xml:space="preserve">
+    <value>Anti-AFK</value>
+  </data>
+  <data name="ChatMacro" xml:space="preserve">
+    <value>Макрос чата</value>
+  </data>
+  <data name="MaximumCharacterAllowed15" xml:space="preserve">
+    <value>Максимально допустимое количество символов: 15.</value>
+  </data>
+  <data name="MaximumCharacterAllowed128" xml:space="preserve">
+    <value>Максимально допустимое количество символов: 128.</value>
+  </data>
+  <data name="DoYouWantToResetChat" xml:space="preserve">
+    <value>Сбросить данные макроса чата к значениям по умолчанию?</value>
+  </data>
+  <data name="ReplaceWordsOrPhrasesWithCustom" xml:space="preserve">
+    <value>Заменять слова или фразы пользовательским текстом:</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>Включить</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>Отключить</value>
+  </data>
+  <data name="Restore" xml:space="preserve">
+    <value>Восстановить</value>
+  </data>
+  <data name="CameraSettingsHaveBeenCopiedTo" xml:space="preserve">
+    <value>Настройки камеры скопированы в буфер обмена.</value>
+  </data>
+  <data name="YouMustCopyAValidData" xml:space="preserve">
+    <value>Сначала необходимо скопировать допустимые данные в буфер обмена!</value>
+  </data>
+  <data name="CameraSettingsHaveBeenSuccessfullyImport" xml:space="preserve">
+    <value>Настройки камеры успешно импортированы.</value>
+  </data>
+  <data name="DoYouWantToResetThe" xml:space="preserve">
+    <value>Сбросить настройки до значений по умолчанию?</value>
+  </data>
+  <data name="CameraManager" xml:space="preserve">
+    <value>Менеджер камеры</value>
+  </data>
+  <data name="SelectCameraType" xml:space="preserve">
+    <value>Выберите тип камеры:</value>
+  </data>
+  <data name="AbsolutelyValue" xml:space="preserve">
+    <value>Абсолютное значение</value>
+  </data>
+  <data name="IgnoreBall" xml:space="preserve">
+    <value>Игнорировать мяч</value>
+  </data>
+  <data name="DoNotOverride" xml:space="preserve">
+    <value>Не переопределять</value>
+  </data>
+  <data name="BasicCameraView" xml:space="preserve">
+    <value>Базовый вид камеры</value>
+  </data>
+  <data name="HighAngleView" xml:space="preserve">
+    <value>Вид сверху</value>
+  </data>
+  <data name="FollowingView" xml:space="preserve">
+    <value>Следящий вид</value>
+  </data>
+  <data name="SideView" xml:space="preserve">
+    <value>Вид сбоку</value>
+  </data>
+  <data name="SkyAngleView" xml:space="preserve">
+    <value>Вид с неба</value>
+  </data>
+  <data name="OverrideTo" xml:space="preserve">
+    <value>Переопределить на</value>
+  </data>
+  <data name="LookZ" xml:space="preserve">
+    <value>LookZ</value>
+  </data>
+  <data name="LookY" xml:space="preserve">
+    <value>LookY</value>
+  </data>
+  <data name="LookX" xml:space="preserve">
+    <value>LookX</value>
+  </data>
+  <data name="FOV" xml:space="preserve">
+    <value>FOV</value>
+  </data>
+  <data name="AnAwesomeFeatureClickHereTo" xml:space="preserve">
+    <value>Отличная функция! Нажмите здесь, чтобы посмотреть руководство</value>
+  </data>
+  <data name="ResetValueToDefault" xml:space="preserve">
+    <value>Сбросить значение по умолчанию</value>
+  </data>
+  <data name="ImportSettings" xml:space="preserve">
+    <value>Импортировать настройки</value>
+  </data>
+  <data name="ExportSettings" xml:space="preserve">
+    <value>Экспортировать настройки</value>
+  </data>
+  <data name="ReplayFOV" xml:space="preserve">
+    <value>FOV повтора</value>
+  </data>
+  <data name="LookVelocity" xml:space="preserve">
+    <value>Скорость взгляда</value>
+  </data>
+  <data name="MoveVelocity" xml:space="preserve">
+    <value>Скорость перемещения</value>
+  </data>
+  <data name="DONOTTYPEUnlessYouKnow" xml:space="preserve">
+    <value>НЕ ВВОДИТЕ ничего, если не знаете, что делаете!</value>
+  </data>
+  <data name="Label6" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="GeneralSettings" xml:space="preserve">
+    <value>Общие настройки</value>
+  </data>
+  <data name="Script" xml:space="preserve">
+    <value>Скрипт</value>
+  </data>
+  <data name="CustomGameOptions" xml:space="preserve">
+    <value>Пользовательские параметры игры</value>
+  </data>
+  <data name="CustomResolutionWidthHeightSetTo" xml:space="preserve">
+    <value>Пользовательское разрешение (ширина, высота), установите 0 для отключения:</value>
+  </data>
+  <data name="GraphicLevel" xml:space="preserve">
+    <value>Уровень графики:</value>
+  </data>
+  <data name="WarningSettingItTooHighOr" xml:space="preserve">
+    <value>Предупреждение: слишком высокое или слишком низкое значение может вызвать проблемы. Системы с режимом Optimus могут не поддерживаться (при запуске игра всегда устанавливается на 1024x768).</value>
+  </data>
+  <data name="High" xml:space="preserve">
+    <value>Высокий</value>
+  </data>
+  <data name="Medium" xml:space="preserve">
+    <value>Средний</value>
+  </data>
+  <data name="Low" xml:space="preserve">
+    <value>Низкий</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>По умолчанию</value>
+  </data>
+  <data name="TasksUnfinished" xml:space="preserve">
+    <value>Задачи (не завершено)</value>
+  </data>
+  <data name="LaunchProgramEnterFullPathOne" xml:space="preserve">
+    <value>Запустить программу (введите полный путь, по одному на строку):</value>
+  </data>
+  <data name="ValidIPAddress" xml:space="preserve">
+    <value>Допустимый IP-адрес~</value>
+  </data>
+  <data name="InvalidIPAddress" xml:space="preserve">
+    <value>Недопустимый IP-адрес~</value>
+  </data>
+  <data name="XCEmulatorSettings" xml:space="preserve">
+    <value>Настройки XCEmulator</value>
+  </data>
+  <data name="ShowConsole" xml:space="preserve">
+    <value>Показать консоль:</value>
+  </data>
+  <data name="XCEmulatorIP" xml:space="preserve">
+    <value>IP XCEmulator:</value>
+  </data>
+  <data name="Tyu" xml:space="preserve">
+    <value>tyu</value>
+  </data>
+  <data name="Valid" xml:space="preserve">
+    <value>Допустимо</value>
+  </data>
+  <data name="TestConnection" xml:space="preserve">
+    <value>Проверить подключение</value>
+  </data>
+  <data name="SpoofProcess" xml:space="preserve">
+    <value>Подменять процесс:</value>
+  </data>
+  <data name="SpoofTheGameProcessUsefulWhen" xml:space="preserve">
+    <value>Подменять игровой процесс. Полезно, когда включён self-host. Независимо.</value>
+  </data>
+  <data name="UseLocalIP" xml:space="preserve">
+    <value>Использовать локальный IP</value>
+  </data>
+  <data name="Host" xml:space="preserve">
+    <value>Хост</value>
+  </data>
+  <data name="EnabledByRemoteServer" xml:space="preserve">
+    <value>Включено удалённым сервером</value>
+  </data>
+  <data name="EnabledTemporarilyByClient" xml:space="preserve">
+    <value>Временно включено клиентом</value>
+  </data>
+  <data name="RestrictedByRemoteServer" xml:space="preserve">
+    <value>Ограничено удалённым сервером</value>
+  </data>
+  <data name="PleaseCloseTheGameBeforeImporting" xml:space="preserve">
+    <value>Пожалуйста, закройте игру перед импортом настроек.</value>
+  </data>
+  <data name="LanguageWillChangeTheNextTime" xml:space="preserve">
+    <value>Язык будет изменён при следующем перезапуске приложения.</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="PatchingMethod" xml:space="preserve">
+    <value>Метод патчинга:</value>
+  </data>
+  <data name="RedirectModeFastest" xml:space="preserve">
+    <value>Режим перенаправления (самый быстрый)</value>
+  </data>
+  <data name="ReplaceModeModerate" xml:space="preserve">
+    <value>Режим замены (умеренный)</value>
+  </data>
+  <data name="RepackModeSlowest" xml:space="preserve">
+    <value>Режим перепаковки (самый медленный)</value>
+  </data>
+  <data name="AlwaysOnTop" xml:space="preserve">
+    <value>Поверх всех окон:</value>
+  </data>
+  <data name="ReportABug" xml:space="preserve">
+    <value>Сообщить об ошибке</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Язык:</value>
+  </data>
+  <data name="BypassProtection" xml:space="preserve">
+    <value>Обход защиты:</value>
+  </data>
+  <data name="EnableSupportForGameProcessAccess" xml:space="preserve">
+    <value>Включить поддержку доступа к игровому процессу. Не применяется к клиенту Tiancity.</value>
+  </data>
+  <data name="PartSimulatorSettings" xml:space="preserve">
+    <value>Настройки Part Simulator</value>
+  </data>
+  <data name="PartStats" xml:space="preserve">
+    <value>Статистика деталей:</value>
+  </data>
+  <data name="NoActionsDefinedYet" xml:space="preserve">
+    <value>Действия ещё не определены.</value>
+  </data>
+  <data name="PweaseRunTheGameFirst" xml:space="preserve">
+    <value>Пожаааалуйста, сначала запустите игру~</value>
+  </data>
+  <data name="MyTextmyTextmyTextmyTextmyTextmyTextmyTe" xml:space="preserve">
+    <value>myTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyText</value>
+  </data>
+  <data name="NameRequired" xml:space="preserve">
+    <value>Требуется имя.</value>
+  </data>
+  <data name="ShareLinkRequired" xml:space="preserve">
+    <value>Требуется ссылка для общего доступа.</value>
+  </data>
+  <data name="FailedToParseShareLinkOnly" xml:space="preserve">
+    <value>Не удалось разобрать ссылку общего доступа. Поддерживается только ss://.</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="CountryCode2Letters" xml:space="preserve">
+    <value>Код страны (2 буквы):</value>
+  </data>
+  <data name="ShareLinkSsOrJSONOutbound" xml:space="preserve">
+    <value>Ссылка общего доступа (ss://) или JSON outbound:</value>
+  </data>
+  <data name="SupportedShadowsocksSsURI" xml:space="preserve">
+    <value>Поддерживается: URI shadowsocks ss://.</value>
+  </data>
+  <data name="AddCustomServer" xml:space="preserve">
+    <value>Добавить пользовательский сервер</value>
+  </data>
+  <data name="NotInstalledClickInstallUpdate" xml:space="preserve">
+    <value>Не установлено. Нажмите «Установить / Обновить».</value>
+  </data>
+  <data name="PickAServerToConnect" xml:space="preserve">
+    <value>Выберите сервер для подключения:</value>
+  </data>
+  <data name="ConnectedUnknownServer" xml:space="preserve">
+    <value>Подключено (неизвестный сервер).</value>
+  </data>
+  <data name="ProxyAppDownloadURLNotConfigured" xml:space="preserve">
+    <value>URL для загрузки прокси-приложения не настроен.</value>
+  </data>
+  <data name="PleaseRunTheProgramAsAdministrator" xml:space="preserve">
+    <value>Для включения этой функции запустите программу от имени администратора.</value>
+  </data>
+  <data name="SingBoxNotInstalledClickInstall" xml:space="preserve">
+    <value>sing-box не установлен. Сначала нажмите «Установить».</value>
+  </data>
+  <data name="ServerListNotLoadedYetPlease" xml:space="preserve">
+    <value>Список серверов ещё не загружен. Подождите.</value>
+  </data>
+  <data name="NoServerSelected" xml:space="preserve">
+    <value>Сервер не выбран.</value>
+  </data>
+  <data name="ProxyServerSettings" xml:space="preserve">
+    <value>Настройки прокси-сервера</value>
+  </data>
+  <data name="InstallUpdate" xml:space="preserve">
+    <value>Установить / Обновить</value>
+  </data>
+  <data name="TunnelConnected" xml:space="preserve">
+    <value>Туннель подключён.</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Адрес</value>
+  </data>
+  <data name="CharName" xml:space="preserve">
+    <value>Имя персонажа</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Значение</value>
+  </data>
+  <data name="NoCharacterDataLoadedClickFetch" xml:space="preserve">
+    <value>Данные персонажа не загружены. Сначала нажмите 'Fetch'.</value>
+  </data>
+  <data name="GameNotRunning" xml:space="preserve">
+    <value>Игра не запущена.</value>
+  </data>
+  <data name="Scanning" xml:space="preserve">
+    <value>Сканирование...</value>
+  </data>
+  <data name="NoRowsSelected" xml:space="preserve">
+    <value>Не выбраны строки.</value>
+  </data>
+  <data name="NewValue" xml:space="preserve">
+    <value>Новое значение:</value>
+  </data>
+  <data name="ThisWillFetchTheCurrentCharacter" xml:space="preserve">
+    <value>Будут получены текущие данные персонажа. Это нужно выполнять только один раз при появлении нового персонажа. Продолжить?</value>
+  </data>
+  <data name="ExtractingCharacterPak" xml:space="preserve">
+    <value>Извлечение character.pak...</value>
+  </data>
+  <data name="ExtractionFailedOrExpectedFileMissing" xml:space="preserve">
+    <value>Извлечение не удалось или отсутствует ожидаемый файл. Проверьте журнал.</value>
+  </data>
+  <data name="Parsing" xml:space="preserve">
+    <value>Разбор...</value>
+  </data>
+  <data name="CharAnimationChanger" xml:space="preserve">
+    <value>Изменение анимации персонажа</value>
+  </data>
+  <data name="Return_2" xml:space="preserve">
+    <value>&lt; Назад </value>
+  </data>
+  <data name="Scan" xml:space="preserve">
+    <value>Сканировать</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Статус: -</value>
+  </data>
+  <data name="RefreshValues" xml:space="preserve">
+    <value>Обновить значения</value>
+  </data>
+  <data name="ApplySelected" xml:space="preserve">
+    <value>Применить выбранное</value>
+  </data>
+  <data name="ApplyAll" xml:space="preserve">
+    <value>Применить всё</value>
+  </data>
+  <data name="RestoreOriginals" xml:space="preserve">
+    <value>Восстановить оригиналы</value>
+  </data>
+  <data name="XigncodeBypass" xml:space="preserve">
+    <value>Обход Xigncode</value>
+  </data>
+  <data name="XCEmulator" xml:space="preserve">
+    <value>XCEmulator</value>
+  </data>
+  <data name="AnimChanger" xml:space="preserve">
+    <value>Изменение анимации</value>
+  </data>
+  <data name="PartSimulator" xml:space="preserve">
+    <value>Симулятор частей</value>
+  </data>
+  <data name="YourAvailablePerkS" xml:space="preserve">
+    <value>Доступные бонусы</value>
+  </data>
+  <data name="SafeMode" xml:space="preserve">
+    <value>Безопасный режим</value>
+  </data>
+  <data name="AsInvoker" xml:space="preserve">
+    <value>asInvoker</value>
+  </data>
+  <data name="BuyMeACoffee" xml:space="preserve">
+    <value>Купить мне кофе</value>
+  </data>
+  <data name="Paypal" xml:space="preserve">
+    <value>Paypal</value>
+  </data>
+  <data name="ThankYouForYourConsideration" xml:space="preserve">
+    <value>Спасибо за вашу поддержку!</value>
+  </data>
+  <data name="KoFi" xml:space="preserve">
+    <value>❤ Ko-fi</value>
+  </data>
+  <data name="DownloadableContent" xml:space="preserve">
+    <value>Загружаемый контент</value>
+  </data>
+  <data name="DoYouWantToPlayAgain" xml:space="preserve">
+    <value>Хотите сыграть снова?</value>
+  </data>
+  <data name="ErrorCheckingTheToken" xml:space="preserve">
+    <value>Ошибка при проверке токена</value>
+  </data>
+  <data name="ExtractionCompletedDoYouWantTo" xml:space="preserve">
+    <value>Извлечение завершено. Хотите открыть папку?</value>
+  </data>
+  <data name="FileHasBeenReimportedSuccessfully" xml:space="preserve">
+    <value>Файл успешно импортирован повторно.</value>
+  </data>
+  <data name="AdvancedScriptBodyScript" xml:space="preserve">
+    <value>Расширенный скрипт [Body script]:</value>
+  </data>
+  <data name="ThisActionIsNotValidKindly" xml:space="preserve">
+    <value>Это действие недопустимо. Обратитесь к администратору за помощью.</value>
+  </data>
+  <data name="CannotMove0TheDestinationFolder" xml:space="preserve">
+    <value>Не удалось переместить {0}. Папка назначения совпадает с исходной папкой.</value>
+  </data>
+  <data name="CannotMove0TheDestinationFolder_2" xml:space="preserve">
+    <value>Не удалось переместить {0}. Папка назначения является подпапкой исходной папки.</value>
+  </data>
+  <data name="DoYouWantToRemove0" xml:space="preserve">
+    <value>Удалить {0} из музыкального автомата?</value>
+  </data>
+  <data name="InstalledVersion0" xml:space="preserve">
+    <value>Установленная версия: {0}</value>
+  </data>
+  <data name="GameOverYourScore0" xml:space="preserve">
+    <value>Игра окончена! Ваш счёт: {0}</value>
+  </data>
+  <data name="TokenIsInvalidCode0" xml:space="preserve">
+    <value>Недопустимый токен, код: {0}</value>
+  </data>
+  <data name="N0Failed1" xml:space="preserve">
+    <value>Сбой {0}: {1}</value>
+  </data>
+  <data name="FileHash0DoYouWant" xml:space="preserve">
+    <value>Хеш файла: {0}.
+
+Скопировать в буфер обмена?</value>
+  </data>
+  <data name="YourUniqueIdentifier0DoYou" xml:space="preserve">
+    <value>Ваш уникальный идентификатор: {0}.
+
+Скопировать в буфер обмена?</value>
+  </data>
+  <data name="UnableToProcess0" xml:space="preserve">
+    <value>Не удалось обработать: {0}</value>
+  </data>
+  <data name="AdvancedScriptFor0" xml:space="preserve">
+    <value>Расширенный скрипт для [{0}]:</value>
+  </data>
+  <data name="Connected01234" xml:space="preserve">
+    <value>Подключено: [{0}] {1} - {2}{3} ({4})</value>
+  </data>
+  <data name="GameNotRunningData0" xml:space="preserve">
+    <value>Игра не запущена  |  данные: {0}</value>
+  </data>
+  <data name="Restored0Failed1" xml:space="preserve">
+    <value>Восстановлено: {0}, не удалось: {1}.</value>
+  </data>
+  <data name="UnknownValue0NotSaved" xml:space="preserve">
+    <value>Неизвестное значение '{0}'. Не сохранено.</value>
+  </data>
+  <data name="Wrote0Failed1" xml:space="preserve">
+    <value>Записано: {0}, не удалось: {1}.</value>
+  </data>
+  <data name="Fetched0CharacterEntries" xml:space="preserve">
+    <value>Получено записей персонажей: {0}.</value>
+  </data>
+  <data name="ClickToStartUseArrowsToMove" xml:space="preserve">
+    <value>Нажмите, чтобы начать!
+Используйте [←] и [→] для перемещения</value>
+  </data>
+  <data name="ClickToStartPressSpaceToFly" xml:space="preserve">
+    <value>Нажмите, чтобы начать!
+Нажмите [space], чтобы лететь</value>
+  </data>
+  <data name="HighScore0ClickToStartNewGame" xml:space="preserve">
+    <value>Рекорд: {0}
+Нажмите, чтобы начать новую игру!
+Нажмите [Esc], чтобы вернуться</value>
+  </data>
+  <data name="ResultTooLongCouldNotOpenNotepad" xml:space="preserve">
+    <value>Результат слишком длинный, не удалось открыть Блокнот: </value>
+  </data>
+  <data name="MergedSuccessfully" xml:space="preserve">
+    <value>Успешно объединено: </value>
+  </data>
+  <data name="ErrorMergingFiles" xml:space="preserve">
+    <value>Ошибка объединения файлов: </value>
+  </data>
+  <data name="ConvertedSuccessfullyKeyModifier" xml:space="preserve">
+    <value>Преобразование выполнено успешно. Клавиша-модификатор: {0}.</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>вкл</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>выкл</value>
+  </data>
+  <data name="DoYouWantToRestoreCameraSettings" xml:space="preserve">
+    <value>Хотите восстановить настройки этой камеры до настроек выбранной камеры?</value>
+  </data>
+  <data name="StartFailed" xml:space="preserve">
+    <value>Не удалось запустить: </value>
+  </data>
+  <data name="ScanFailed" xml:space="preserve">
+    <value>Сбой сканирования: </value>
+  </data>
+  <data name="SetValueFor0Rows" xml:space="preserve">
+    <value>Установить значение для {0} строк</value>
+  </data>
+  <data name="SetValue" xml:space="preserve">
+    <value>Установить значение</value>
+  </data>
+  <data name="FetchFailed" xml:space="preserve">
+    <value>Ошибка получения: </value>
+  </data>
+  <data name="FS2Maiden" xml:space="preserve">
+    <value>FS2 Maiden - </value>
+  </data>
+  <data name="ANewVersion0IsAvailable" xml:space="preserve">
+    <value>Доступна новая версия ({0})! Скачать?</value>
+  </data>
+  <data name="UpdateAvailable" xml:space="preserve">
+    <value>Доступно обновление</value>
+  </data>
+  <data name="ToContinueARequiredToolMust" xml:space="preserve">
+    <value>Для продолжения необходимо установить обязательный инструмент. Это выполняется только один раз. Продолжить?</value>
+  </data>
+  <data name="TheGameIsRunningClosingPatcher" xml:space="preserve">
+    <value>Игра запущена, при закрытии патчера игра тоже будет остановлена. Всё равно выйти?</value>
+  </data>
+  <data name="GameProcessNotDetectedRestoringTo" xml:space="preserve">
+    <value>Процесс игры не обнаружен. Восстановление состояния по умолчанию...</value>
+  </data>
+  <data name="GameProcessStillNotDetectedIt" xml:space="preserve">
+    <value>Процесс игры по-прежнему не обнаружен. Похоже, последовательность запуска работает некорректно. На вашем рабочем столе был создан файл с именем '{0}'. Пожалуйста, отправьте этот файл разработчику для проверки. Вы можете попробовать запустить игру ещё раз, так как был включён альтернативный метод. Эта возможность временная, поэтому сообщите, сработает ли она.</value>
+  </data>
+  <data name="WellEvenTheAlternativeMethodRefused" xml:space="preserve">
+    <value>Что ж... даже альтернативный метод отказался работать. Поэтому вот вам небольшой сюрприз от меня. Вы официально добрались до места, которое, как я надеялся, никто никогда не увидит. Спасибо, что испытали лаунчер сильнее, чем кто-либо прежде. Пожалуйста, отправьте мне файл трассировки, и я лично его изучу.</value>
+  </data>
+  <data name="UnknownSize" xml:space="preserve">
+    <value>Неизвестный размер</value>
+  </data>
+  <data name="ExtractionComplete" xml:space="preserve">
+    <value>Извлечение завершено</value>
+  </data>
+  <data name="DownloadCancelled" xml:space="preserve">
+    <value>Загрузка отменена</value>
+  </data>
+  <data name="FailedToDownload" xml:space="preserve">
+    <value>Не удалось загрузить</value>
+  </data>
+  <data name="CopyingFiles" xml:space="preserve">
+    <value>Копирование файлов...</value>
+  </data>
+  <data name="FailedToProcess" xml:space="preserve">
+    <value>Не удалось обработать</value>
+  </data>
+  <data name="ItSYourMaiden" xml:space="preserve">
+    <value>это твоя maiden!</value>
+  </data>
+  <data name="SoSnowyToday" xml:space="preserve">
+    <value>сегодня так снежно!</value>
+  </data>
+  <data name="HappyNewYear" xml:space="preserve">
+    <value>с новым годом!</value>
+  </data>
+  <data name="GongXiGongXi" xml:space="preserve">
+    <value>гун си гун си~</value>
+  </data>
+  <data name="LoveIsInAir" xml:space="preserve">
+    <value>любовь витает в воздухе!</value>
+  </data>
+  <data name="WhereSMyEgg" xml:space="preserve">
+    <value>где моё яйцо?</value>
+  </data>
+  <data name="NotABugTrust" xml:space="preserve">
+    <value>это не баг, честно!</value>
+  </data>
+  <data name="StPatrickSDay" xml:space="preserve">
+    <value>день святого Патрика!</value>
+  </data>
+  <data name="UrComputawrHacked" xml:space="preserve">
+    <value>твой компутер взломан!</value>
+  </data>
+  <data name="SoHotRightNow" xml:space="preserve">
+    <value>сейчас так жарко!</value>
+  </data>
+  <data name="KabooScaredYa" xml:space="preserve">
+    <value>буум! напугала?</value>
+  </data>
+  <data name="CookSomething" xml:space="preserve">
+    <value>что-нибудь приготовить?</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>Привет,</value>
+  </data>
+  <data name="Haiii" xml:space="preserve">
+    <value>Хааай,</value>
+  </data>
+  <data name="Ohaaiyo" xml:space="preserve">
+    <value>Охаайо,</value>
+  </data>
+  <data name="Tehee" xml:space="preserve">
+    <value>Хи-хи,</value>
+  </data>
+  <data name="Henllo" xml:space="preserve">
+    <value>Хеллло,</value>
+  </data>
+  <data name="Hewwo" xml:space="preserve">
+    <value>Хевво,</value>
+  </data>
+  <data name="Hiyaa" xml:space="preserve">
+    <value>Привееет,</value>
+  </data>
+  <data name="Meeow" xml:space="preserve">
+    <value>Мяу,</value>
+  </data>
+  <data name="UnableToDeleteSong0" xml:space="preserve">
+    <value>Не удалось удалить песню: {0}</value>
+  </data>
+  <data name="SomethingSWrong0" xml:space="preserve">
+    <value>Что-то пошло не так: {0}</value>
+  </data>
+  <data name="FileNotFound0" xml:space="preserve">
+    <value>Файл не найден: {0}</value>
+  </data>
+  <data name="ErrorOpeningFile01" xml:space="preserve">
+    <value>Ошибка при открытии файла: {0}: {1}</value>
+  </data>
+  <data name="JukeboxFailedToInstall" xml:space="preserve">
+    <value>Не удалось установить Jukebox</value>
+  </data>
+  <data name="JukeboxPatchInstalled" xml:space="preserve">
+    <value>Патч Jukebox установлен</value>
+  </data>
+  <data name="MCVoicePatchFailed" xml:space="preserve">
+    <value>Не удалось установить голосовой патч MC</value>
+  </data>
+  <data name="MCVoicePatchInstalled" xml:space="preserve">
+    <value>Голосовой патч MC установлен</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>Файл не найден (?)</value>
+  </data>
+  <data name="CouldNotOpenTheFileIn" xml:space="preserve">
+    <value>Не удалось открыть файл в Notepad++ или Notepad. Откройте его вручную.</value>
+  </data>
+  <data name="TheFileWasModifiedWhileIt" xml:space="preserve">
+    <value>Файл был изменён, пока был открыт. Перезагрузить его?</value>
+  </data>
+  <data name="ActionSoundPatchFailed" xml:space="preserve">
+    <value>Не удалось установить патч звуков действий</value>
+  </data>
+  <data name="ActionSoundPatchInstalled" xml:space="preserve">
+    <value>Патч звуков действий установлен</value>
+  </data>
+  <data name="EnvSoundPatchFailed" xml:space="preserve">
+    <value>Не удалось установить патч звуков окружения</value>
+  </data>
+  <data name="EnvSoundPatchInstalled" xml:space="preserve">
+    <value>Патч звуков окружения установлен</value>
+  </data>
+  <data name="CharacterSoundPatchFailed" xml:space="preserve">
+    <value>Не удалось установить патч звуков персонажа</value>
+  </data>
+  <data name="CharacterSoundPatchInstalled" xml:space="preserve">
+    <value>Патч звуков персонажа установлен</value>
+  </data>
+  <data name="CouldNotFindTheFileHigh" xml:space="preserve">
+    <value>Не удалось найти файл, велика вероятность, что этот голос не предназначен для вашего игрового клиента.</value>
+  </data>
+  <data name="AllMapsHaveBeenFetchedSuccessfully" xml:space="preserve">
+    <value>Все карты успешно загружены.</value>
+  </data>
+  <data name="ErrorFetchingMaps" xml:space="preserve">
+    <value>Ошибка при загрузке карт.</value>
+  </data>
+  <data name="ThereIsNoDefaultMapTo" xml:space="preserve">
+    <value>Нет карты по умолчанию для начала патчинга, сначала загрузите их.</value>
+  </data>
+  <data name="InvalidStageFolderPath" xml:space="preserve">
+    <value>Недопустимый путь к папке этапа</value>
+  </data>
+  <data name="ErrorProcessing01" xml:space="preserve">
+    <value>Ошибка при обработке {0}: {1}</value>
+  </data>
+  <data name="TheSelectedMapHasBeenApplied" xml:space="preserve">
+    <value>Выбранная карта применена. Возможно, потребуется начать новый матч, чтобы увидеть изменения.</value>
+  </data>
+  <data name="ErrorPatchingMaps" xml:space="preserve">
+    <value>Ошибка при патчинге карт</value>
+  </data>
+  <data name="ClickToViewItsFileLocation" xml:space="preserve">
+    <value>Нажмите, чтобы открыть расположение файла</value>
+  </data>
+  <data name="Version0" xml:space="preserve">
+    <value>Версия: {0}</value>
+  </data>
+  <data name="OnlineVersion" xml:space="preserve">
+    <value>Онлайн-версия: </value>
+  </data>
+  <data name="LocalMod" xml:space="preserve">
+    <value>Локальный мод</value>
+  </data>
+  <data name="AllModsAreUpToDate" xml:space="preserve">
+    <value>Все моды обновлены до последней версии.</value>
+  </data>
+  <data name="YouDonTHaveAnyMod" xml:space="preserve">
+    <value>У вас нет установленных модов.</value>
+  </data>
+  <data name="NoOnlineModsFoundTryGoing" xml:space="preserve">
+    <value>Онлайн-моды не найдены. Попробуйте вернуться в основной центр модов и обновить список модов.</value>
+  </data>
+  <data name="N0Installed1Available2" xml:space="preserve">
+    <value>{0} (Установлено: {1}, Доступно: {2})</value>
+  </data>
+  <data name="Score0" xml:space="preserve">
+    <value>Оценка: {0}</value>
+  </data>
+  <data name="Error0" xml:space="preserve">
+    <value>Ошибка: {0}</value>
+  </data>
+  <data name="ScriptBoxIsEmpty0The" xml:space="preserve">
+    <value>Поле скрипта пусто. {0} текст из буфера обмена?</value>
+  </data>
+  <data name="ErrorLoadingImage0" xml:space="preserve">
+    <value>Ошибка загрузки изображения: {0}</value>
+  </data>
+  <data name="ChineseSimplified" xml:space="preserve">
+    <value>Китайский (упрощённый)</value>
+  </data>
+  <data name="PortugueseBrazil" xml:space="preserve">
+    <value>Португальский (Бразилия)</value>
+  </data>
+  <data name="BeRightBack" xml:space="preserve">
+    <value>скоро вернусь</value>
+  </data>
+  <data name="TalkToULater" xml:space="preserve">
+    <value>поговорим позже</value>
+  </data>
+  <data name="GottaGo" xml:space="preserve">
+    <value>мне пора</value>
+  </data>
+  <data name="SmhMyHead" xml:space="preserve">
+    <value>мда</value>
+  </data>
+  <data name="IfIWantedToCommitSuicide" xml:space="preserve">
+    <value>Если бы я хотел покончить с собой, я бы спрыгнул с твоего эго до твоего elo</value>
+  </data>
+  <data name="YourMomSoFatThanosHad" xml:space="preserve">
+    <value>Твоя мама настолько толстая, что Таносу пришлось щёлкнуть дважды</value>
+  </data>
+  <data name="YouHavenTViolatedAnyCommunity" xml:space="preserve">
+    <value>За последние несколько недель вы не нарушили ни одного правила сообщества. С вами всё в порядке?</value>
+  </data>
+  <data name="YesterdayIsHistoryTomorrowIsA" xml:space="preserve">
+    <value>Вчера — это история, завтра — загадка, а сегодня — подарок, поэтому оно и называется настоящим.</value>
+  </data>
+  <data name="MadBaldingMalding" xml:space="preserve">
+    <value>Mad + Balding = Malding.</value>
+  </data>
+  <data name="KeepCopingKing" xml:space="preserve">
+    <value>Продолжай копить, король.</value>
+  </data>
+  <data name="CryAboutIt" xml:space="preserve">
+    <value>Поплачь об этом.</value>
+  </data>
+  <data name="TrashAss" xml:space="preserve">
+    <value>полный мусор</value>
+  </data>
+  <data name="YouReNotTrashTrashHas" xml:space="preserve">
+    <value>Ты не мусор, у мусора есть ценность.</value>
+  </data>
+  <data name="BroTalksLikeHeSStuck" xml:space="preserve">
+    <value>Чувак говорит так, будто застрял в диалогах обучения.</value>
+  </data>
+  <data name="PleaseDoNotAbuseThisFeature" xml:space="preserve">
+    <value>Пожалуйста, не злоупотребляйте этой функцией, оставаясь AFK во время игры, особенно в канале для новичков. Эта функция предназначена только для предотвращения отключения в экстренных ситуациях.</value>
+  </data>
+  <data name="FailedToExportCameraSettings" xml:space="preserve">
+    <value>Не удалось экспортировать настройки камеры: </value>
+  </data>
+  <data name="FailedToImportCameraSettings" xml:space="preserve">
+    <value>Не удалось импортировать настройки камеры: </value>
+  </data>
+  <data name="TheIPAddressEnteredIsNot" xml:space="preserve">
+    <value>Введён недопустимый IP-адрес. Пожалуйста, введите корректный IPv4-адрес.</value>
+  </data>
+  <data name="PingSuccessfulTheConnectionIsLive" xml:space="preserve">
+    <value>Пинг выполнен успешно. Соединение активно.</value>
+  </data>
+  <data name="PingFailedUnableToReachThe" xml:space="preserve">
+    <value>Пинг не удался. Не удалось связаться с IP-адресом.</value>
+  </data>
+  <data name="AnErrorOccurredWhileTryingTo" xml:space="preserve">
+    <value>Произошла ошибка при попытке выполнить пинг IP-адреса.</value>
+  </data>
+  <data name="PleaseCloseTheGameFirstBefore_2" xml:space="preserve">
+    <value>Пожалуйста, сначала закройте игру, прежде чем изменять этот параметр.</value>
+  </data>
+  <data name="XCEmulatorRequiresMicrosoftVisualC2012" xml:space="preserve">
+    <value>Для XCEmulator требуется установленный Microsoft Visual C++ 2012 Redistributable (x86). Без него при запуске игры могут возникать ошибки.</value>
+  </data>
+  <data name="XCEmulatorIsNotSupportedForThe" xml:space="preserve">
+    <value>XCEmulator не поддерживается для клиента Tiancity, так как он не использует Xigncode.</value>
+  </data>
+  <data name="DisablingTheXCEmulatorClientWillAlso" xml:space="preserve">
+    <value>Отключение клиента XCEmulator также завершит работу хоста. Продолжить?</value>
+  </data>
+  <data name="XCEmulatorHostRequiresMicrosoftVisualC" xml:space="preserve">
+    <value>Для хоста XCEmulator требуется установленный Microsoft Visual C++ 2015-2022 Redistributable (x86) или v14 Redistributable.</value>
+  </data>
+  <data name="ExecuteInGameManagedEventsUsing" xml:space="preserve">
+    <value>Выполняйте внутриигровые управляемые события с помощью кошачьей магии.</value>
+  </data>
+  <data name="MaySummonAccidentalFishStorms" xml:space="preserve">
+    <value>Может случайно вызвать рыбный шторм.</value>
+  </data>
+  <data name="SideEffectsIncludeSpontaneousMeowingAnd" xml:space="preserve">
+    <value>Побочные эффекты включают спонтанное мяуканье и блёстки.</value>
+  </data>
+  <data name="FurMayFlyResultsNotGuaranteed" xml:space="preserve">
+    <value>Шерсть может полететь. Результат не гарантирован в собачьих зонах.</value>
+  </data>
+  <data name="PoweredByCaffeineChaosAndA" xml:space="preserve">
+    <value>Работает на кофеине, хаосе и подозрительном движении лапой.</value>
+  </data>
+  <data name="NoWizardsWereHarmedButA" xml:space="preserve">
+    <value>Ни один волшебник не пострадал (но несколько были поцарапаны).</value>
+  </data>
+  <data name="MayCauseEnemiesToTripOver" xml:space="preserve">
+    <value>Может заставить врагов спотыкаться о невидимый клубок пряжи.</value>
+  </data>
+  <data name="AllSpellsTestedOnConsentingMice" xml:space="preserve">
+    <value>Все заклинания протестированы на мышах-добровольцах.</value>
+  </data>
+  <data name="UseResponsiblyOneMeowTooMany" xml:space="preserve">
+    <value>Используйте ответственно. Одно лишнее «мяу» может сломать временную линию.</value>
+  </data>
+  <data name="N12OutOf10FamiliarsRecommend" xml:space="preserve">
+    <value>12 из 10 фамильяров рекомендуют.</value>
+  </data>
+  <data name="VoidApprovedMostly" xml:space="preserve">
+    <value>Одобрено Бездной. В основном.</value>
+  </data>
+  <data name="LicensedUnderTheMeowgicCouncilOf" xml:space="preserve">
+    <value>Лицензировано Советом Старейшин Мяугии.</value>
+  </data>
+  <data name="CatSpellsAre80Effective20" xml:space="preserve">
+    <value>Кошачьи заклинания эффективны на 80%, а на 20% — сон.</value>
+  </data>
+  <data name="PoweredByAncientWhiskersAndQuestionable" xml:space="preserve">
+    <value>Работает на древних усах и сомнительных решениях.</value>
+  </data>
+  <data name="CertifiedChaosUseAtYourOwn" xml:space="preserve">
+    <value>Сертифицированный хаос. Используйте на свой мур-риск.</value>
+  </data>
+  <data name="MayTurnEnemiesIntoSqueakyToys" xml:space="preserve">
+    <value>Может превратить врагов в пищащие игрушки.</value>
+  </data>
+  <data name="MagickConjuredWithZeroUserTesting" xml:space="preserve">
+    <value>Магия сотворена без какого-либо пользовательского тестирования.</value>
+  </data>
+  <data name="ResultsMayVaryDependingOnLunar" xml:space="preserve">
+    <value>Результаты могут различаться в зависимости от лунных циклов тунца.</value>
+  </data>
+  <data name="ThisMagickWasLastApprovedBy" xml:space="preserve">
+    <value>Это волшебство в последний раз было одобрено спящей кошкой.</value>
+  </data>
+  <data name="TapIntoPurrDimensionalEnergyStreams" xml:space="preserve">
+    <value>Подключитесь к мурр-измеренческим потокам энергии.</value>
+  </data>
+  <data name="MayCauseYourScreenToPurr" xml:space="preserve">
+    <value>Может привести к тому, что ваш экран будет тихонько мурлыкать в полночь.</value>
+  </data>
+  <data name="KnownToReverseGravityAndCommon" xml:space="preserve">
+    <value>Известно тем, что обращает вспять гравитацию... и здравый смысл.</value>
+  </data>
+  <data name="UnleashesArcaneFluffAcrossAllTimelines" xml:space="preserve">
+    <value>Высвобождает мистический пух во всех временных линиях.</value>
+  </data>
+  <data name="WhiskerTunedForExtraSparkles" xml:space="preserve">
+    <value>Настроено по усам для дополнительного блеска.</value>
+  </data>
+  <data name="SummoningCircleDrawnWithSpilledMilk" xml:space="preserve">
+    <value>Круг призыва нарисован пролитым молоком.</value>
+  </data>
+  <data name="TechnicallyLegalIn7RealmsAnd" xml:space="preserve">
+    <value>Технически законно в 7 мирах и 3 подвалах.</value>
+  </data>
+  <data name="RunesTranslatedByASlightlyGrumpy" xml:space="preserve">
+    <value>Руны переведены слегка ворчливым домашним котом.</value>
+  </data>
+  <data name="Requires1Mana2NapsAnd" xml:space="preserve">
+    <value>Требуется 1 мана, 2 сна и осуждающий взгляд.</value>
+  </data>
+  <data name="SpellStabilityQuestionableVibesImmaculat" xml:space="preserve">
+    <value>Стабильность заклинания: сомнительная. Атмосфера: безупречная.</value>
+  </data>
+  <data name="NoClawsWereFiledInThe" xml:space="preserve">
+    <value>При создании этого заклинания ни один коготь не был подпилен.</value>
+  </data>
+  <data name="SometimesJustMeowsAtTheCode" xml:space="preserve">
+    <value>Иногда просто мяукает на код, пока тот не заработает.</value>
+  </data>
+  <data name="CalibratedWithYarnBasedAlgorithms" xml:space="preserve">
+    <value>Откалибровано алгоритмами на основе клубков пряжи.</value>
+  </data>
+  <data name="UnlocksTheSacredPowerOfNap" xml:space="preserve">
+    <value>Открывает священную силу разрушения, подпитываемого сном.</value>
+  </data>
+  <data name="TestedByCatQAQualityAssurance" xml:space="preserve">
+    <value>Проверено Cat QA: Quality Assurance или Quantum Anomalies?</value>
+  </data>
+  <data name="ContentsMayHaveSettledDuringTeleportatio" xml:space="preserve">
+    <value>Содержимое могло осесть во время телепортации.</value>
+  </data>
+  <data name="DisclaimerCatNotResponsibleForSummoned" xml:space="preserve">
+    <value>Отказ от ответственности: кот не несёт ответственности за вызванный хаос.</value>
+  </data>
+  <data name="InfusedWithTheSpiritOfA" xml:space="preserve">
+    <value>Наполнено духом очень драматичного полосатого кота.</value>
+  </data>
+  <data name="DoesNotComplyWithISOWhisker" xml:space="preserve">
+    <value>Не соответствует стандартам ISO-whisker.</value>
+  </data>
+  <data name="Guaranteed9LivesOrYourMagic" xml:space="preserve">
+    <value>Гарантированно 9 жизней или вернём вашу магию!</value>
+  </data>
+  <data name="JustOnePawTapAwayFrom" xml:space="preserve">
+    <value>Всего одно касание лапой до космического хаоса.</value>
+  </data>
+  <data name="DoNotFeedAfterMidnightOr" xml:space="preserve">
+    <value>Не кормить после полуночи. И до неё тоже. И во время неё.</value>
+  </data>
+  <data name="GeneratedWith100EthicallySourcedWhiskers" xml:space="preserve">
+    <value>Создано из усов, полученных на 100% этичным способом.</value>
+  </data>
+  <data name="MagickPrecisionMayVaryBasedOn" xml:space="preserve">
+    <value>Точность волшебства может зависеть от графика сна.</value>
+  </data>
+  <data name="OperatesOnSchrDingerSLogic" xml:space="preserve">
+    <value>Работает на логическом движке Шрёдингера.</value>
+  </data>
+  <data name="ThisSpellbookSmellsFaintlyOfSardines" xml:space="preserve">
+    <value>От этой книги заклинаний слегка пахнет сардинами.</value>
+  </data>
+  <data name="MaySummonSnacksInsteadOfSpells" xml:space="preserve">
+    <value>Может призвать закуски вместо заклинаний.</value>
+  </data>
+  <data name="AllEnchantmentsBetaTestedOnCardboard" xml:space="preserve">
+    <value>Все чары прошли бета-тестирование на картонных коробках.</value>
+  </data>
+  <data name="RecommendedBy4OutOf5" xml:space="preserve">
+    <value>Рекомендовано 4 из 5 межпространственных кошачьих.</value>
+  </data>
+  <data name="ImbuedWithExtraFluffForCritical" xml:space="preserve">
+    <value>Наделено дополнительным пухом для критических ударов.</value>
+  </data>
+  <data name="BuiltUsingAncientMeowScript10" xml:space="preserve">
+    <value>Создано с использованием древнего meowScript 1.0.</value>
+  </data>
+  <data name="CautionMagickMayAttractVoidEntities" xml:space="preserve">
+    <value>Осторожно: волшебство может привлечь сущностей пустоты (и закуски).</value>
+  </data>
+  <data name="SuccessRateIncreasesIfYouPurr" xml:space="preserve">
+    <value>Вероятность успеха повышается, если мурлыкать рядом с экраном.</value>
+  </data>
+  <data name="Includes12MoreSparkleThanLegally" xml:space="preserve">
+    <value>Содержит на 12% больше блеска, чем разрешено законом.</value>
+  </data>
+  <data name="SpellLatencyMayIncreaseDuringCuddle" xml:space="preserve">
+    <value>Задержка заклинания может увеличиваться в часы объятий.</value>
+  </data>
+  <data name="CalibratedForMaximumWhimsyAndMinor" xml:space="preserve">
+    <value>Откалибровано для максимальной причудливости и небольших взрывов.</value>
+  </data>
+  <data name="Only3ChanceOfSummoningA" xml:space="preserve">
+    <value>Лишь 3% шанс призвать курицу. Как нам кажется.</value>
+  </data>
+  <data name="TranslatedFromAncientCatneseScrollsProba" xml:space="preserve">
+    <value>Переведено с древних свитков на кошачьем языке (вероятно).</value>
+  </data>
+  <data name="TheSpellMayVanishIfObserved" xml:space="preserve">
+    <value>Заклинание может исчезнуть при прямом наблюдении.</value>
+  </data>
+  <data name="OptimizedForChaosNotConsistency" xml:space="preserve">
+    <value>Оптимизировано для хаоса, а не для стабильности.</value>
+  </data>
+  <data name="PawCraftedUsingDarkLitterRituals" xml:space="preserve">
+    <value>Лапно изготовлено с помощью тёмных ритуалов кошачьего лотка.</value>
+  </data>
+  <data name="ContentsMayShiftDueToQuantum" xml:space="preserve">
+    <value>Содержимое может смещаться из-за квантовых полей пуха.</value>
+  </data>
+  <data name="BackupWandIsALaserPointer" xml:space="preserve">
+    <value>Запасная волшебная палочка — это лазерная указка, примотанная к палке.</value>
+  </data>
+  <data name="EndorsedByTheCouncilOfSleepy" xml:space="preserve">
+    <value>Одобрено Советом Сонных Волшебников.</value>
+  </data>
+  <data name="CastingTimeOneDramaticTailFlick" xml:space="preserve">
+    <value>Время сотворения: один драматичный взмах хвостом.</value>
+  </data>
+  <data name="SpellMayLoopIfYouSay" xml:space="preserve">
+    <value>Заклинание может зациклиться, если быстро сказать 'мяу' три раза.</value>
+  </data>
+  <data name="MysteryBoxIncludedCatSoldSeparately" xml:space="preserve">
+    <value>Таинственная коробка включена. Кот продаётся отдельно.</value>
+  </data>
+  <data name="ThisActionHasACooldownOf" xml:space="preserve">
+    <value>У этого действия время восстановления {0} сек. Выполнить?</value>
+  </data>
+  <data name="ConnectingTunnel" xml:space="preserve">
+    <value>Подключение туннеля...</value>
+  </data>
+  <data name="TunnelUnreachable" xml:space="preserve">
+    <value>Туннель недоступен.</value>
+  </data>
+  <data name="TunnelDown" xml:space="preserve">
+    <value>  [туннель недоступен]</value>
+  </data>
+  <data name="ViaTun" xml:space="preserve">
+    <value>через tun</value>
+  </data>
+  <data name="ReadFailed" xml:space="preserve">
+    <value>(ошибка чтения)</value>
+  </data>
+  <data name="StalphRightEre" xml:space="preserve">
+    <value>стой прямо тут!</value>
+  </data>
+  <data name="StalphPoliceHere" xml:space="preserve">
+    <value>стой, полиция!</value>
+  </data>
+  <data name="OiGotALoicense" xml:space="preserve">
+    <value>эй, лицензия есть?</value>
+  </data>
+  <data name="ComeDoACrime" xml:space="preserve">
+    <value>давай, соверши преступление</value>
+  </data>
+  <data name="NotSoFast" xml:space="preserve">
+    <value>не так быстро!</value>
+  </data>
+  <data name="HaltKawaiiPatrol" xml:space="preserve">
+    <value>стоять! патруль кавайности!</value>
+  </data>
+  <data name="EhYouAgain" xml:space="preserve">
+    <value>а!? опять ты?</value>
+  </data>
+  <data name="OiExplainYourself" xml:space="preserve">
+    <value>эй, объяснись!</value>
+  </data>
+  <data name="MouseDown" xml:space="preserve">
+    <value>мышь вниз!</value>
+  </data>
+  <data name="MeowsageFromTheCat" xml:space="preserve">
+    <value>Мяусообщение от кота</value>
+  </data>
+  <data name="OiMateYouFoundASecret" xml:space="preserve">
+    <value>Эй, приятель, ты нашёл секретного кота! Хочешь скачать его?</value>
+  </data>
+  <data name="OiYouCheekyWanker" xml:space="preserve">
+    <value>Эй, ты, наглец!</value>
+  </data>
+  <data name="StillCheekyAreWeThatS" xml:space="preserve">
+    <value>Всё ещё дерзишь? Это не настоящий кот, приятель.</value>
+  </data>
+  <data name="AlrightNowThisIsnTSome" xml:space="preserve">
+    <value>Ладно уж, это не какой-то скрытый призыватель котов. Или всё-таки?</value>
+  </data>
+  <data name="YouReEitherCuriousOrDangerously" xml:space="preserve">
+    <value>Ты либо любопытен... либо опасно настойчив.</value>
+  </data>
+  <data name="TryingToBruteForceTheCat" xml:space="preserve">
+    <value>Пытаешься перебором раскрыть кошачьи секреты? Смелый ход.</value>
+  </data>
+  <data name="ThereAreNoMoreCatsHere" xml:space="preserve">
+    <value>Здесь больше нет котов. Или есть? 🐾</value>
+  </data>
+  <data name="YouVeEnteredTheForbiddenZone" xml:space="preserve">
+    <value>Ты вошёл в Запретную Зону. Возвращайся, пока ещё можешь.</value>
+  </data>
+  <data name="OkayFineThereMightBeSomething" xml:space="preserve">
+    <value>Ладно, хорошо. Тут *может* быть кое-что. Но не таким способом.</value>
+  </data>
+  <data name="AtThisPointIAdmireYour" xml:space="preserve">
+    <value>На этом этапе я уже восхищаюсь твоей настойчивостью. Коты наблюдают.</value>
+  </data>
+  <data name="SeriouslyWhatAreYouHopingTo" xml:space="preserve">
+    <value>Серьёзно, что ты надеешься найти? Секретную битву с боссом?</value>
+  </data>
+  <data name="YouReEitherTestingThisOr" xml:space="preserve">
+    <value>Ты либо тестируешь это... либо постепенно становишься частью игры.</value>
+  </data>
+  <data name="SomewhereADeveloperIsLaughingIt" xml:space="preserve">
+    <value>Где-то сейчас смеётся разработчик. И это не я. Наверное.</value>
+  </data>
+  <data name="LegendSaysAfter13TriesThe" xml:space="preserve">
+    <value>Легенда гласит, что после 13 попыток появляется Кошачий Оракул. Но это всего лишь легенда. Наверное.</value>
+  </data>
+  <data name="YouVeCrossedIntoCatDimension" xml:space="preserve">
+    <value>Ты пересёк границу кошачьего измерения 4. Остался только пух.</value>
+  </data>
+  <data name="TheSystemIsBeginningToTake" xml:space="preserve">
+    <value>Система начинает обращать на тебя внимание. Действуй осторожно.</value>
+  </data>
+  <data name="IsThisACryForHelp" xml:space="preserve">
+    <value>Это крик о помощи или просто сильное любопытство?</value>
+  </data>
+  <data name="EveryTimeYouDoThisA" xml:space="preserve">
+    <value>Каждый раз, когда ты это делаешь, где-то моргает кот...</value>
+  </data>
+  <data name="YouAreNow82CommittedTo" xml:space="preserve">
+    <value>Теперь ты на 82% предан пути кошачьего просветления.</value>
+  </data>
+  <data name="TheSacredPawsAreRestlessThey" xml:space="preserve">
+    <value>Священные лапки не знают покоя. Они наблюдают...</value>
+  </data>
+  <data name="YouFoundItTheSecretNothing" xml:space="preserve">
+    <value>Ты нашёл это. Секретное ничто. Это всё и ничто одновременно. Поздравляю?</value>
+  </data>
+  <data name="GoOutsideTouchGrassThereAre" xml:space="preserve">
+    <value>Выйди на улицу. Потрогай траву. Здесь больше нет котов.</value>
+  </data>
+  <data name="N22AttemptsThatSMoreThan" xml:space="preserve">
+    <value>22 попытки. Это дольше, чем длятся большинство отношений.</value>
+  </data>
+  <data name="YouReNoLongerTryingTo" xml:space="preserve">
+    <value>Ты больше не пытаешься найти котов. Ты доказываешь свою правоту. И я это уважаю.</value>
+  </data>
+  <data name="TheMatrixJustTiltedItsHead" xml:space="preserve">
+    <value>Matrix только что наклонила голову. Даже *она* в замешательстве.</value>
+  </data>
+  <data name="YouVeReachedCatAttempt25" xml:space="preserve">
+    <value>Ты достиг 25-й попытки поиска кота. Твоя награда: это сообщение. Береги его.</value>
+  </data>
+  <data name="OkaySlowTheHeckDown" xml:space="preserve">
+    <value>Так, притормози-ка!</value>
+  </data>
+  <data name="FiftyAttemptsYouVeReachedThe" xml:space="preserve">
+    <value>Пятьдесят попыток. Ты достиг порога. Что-то изменилось.</value>
+  </data>
+  <data name="StillHereMostDonTMake" xml:space="preserve">
+    <value>Всё ещё здесь? Большинство не заходит так далеко. Ты не как большинство.</value>
+  </data>
+  <data name="YouVeEnteredLayer2The" xml:space="preserve">
+    <value>Ты вошёл на Уровень 2. Поверхность была лишь отвлекающим манёвром.</value>
+  </data>
+  <data name="TheBoundariesOfTheProgramGrow" xml:space="preserve">
+    <value>Границы программы истончаются. Реальность... мерцает.</value>
+  </data>
+  <data name="AVariableStirsItRemembersYou" xml:space="preserve">
+    <value>Переменная пробуждается. Она помнит тебя. Всегда помнила.</value>
+  </data>
+  <data name="YouReNotSearchingForA" xml:space="preserve">
+    <value>Ты больше не ищешь кота. Ты ищешь смысл.</value>
+  </data>
+  <data name="YouFeelWatchedTheWatcherFeels" xml:space="preserve">
+    <value>Ты чувствуешь, что за тобой наблюдают. Наблюдателю тоже кажется, что за ним наблюдают. Цикл продолжается.</value>
+  </data>
+  <data name="ThereWasNeverACatOnly" xml:space="preserve">
+    <value>Кота никогда не было. Была лишь идея кота. И ты на это купился.</value>
+  </data>
+  <data name="WhatIfThisIsTheSecret" xml:space="preserve">
+    <value>А что, если это *и есть* секрет? Что, если больше ничего нет?</value>
+  </data>
+  <data name="YouVePeeledBackTheLayers" xml:space="preserve">
+    <value>Ты снял все слои. Под игрой скрываешься... ты.</value>
+  </data>
+  <data name="CongratulationsYouVeUnlockedTheHidden" xml:space="preserve">
+    <value>Поздравляем. Ты открыл скрытое осознание: настойчивость сама по себе является наградой.</value>
+  </data>
+  <data name="NoMoreMessagesRemainOrDo" xml:space="preserve">
+    <value>Сообщений больше не осталось. Или всё-таки остались? Некоторые загадки не предназначены для разгадки.</value>
+  </data>
+  <data name="CongratulationsYouAreNowACertified" xml:space="preserve">
+    <value>Поздравляем, теперь ты сертифицированный заклинатель котов. Или что-то вроде того.</value>
+  </data>
+  <data name="DoYouWantToEnableSafe" xml:space="preserve">
+    <value>Включить безопасный режим?</value>
+  </data>
+  <data name="ShamikoHasWrappedYouInHer" xml:space="preserve">
+    <value>Shamiko укутала тебя своим плащом теней. Безопасный режим теперь активен.</value>
+  </data>
+  <data name="AreYouSureYouWantTo_3" xml:space="preserve">
+    <value>Вы уверены, что хотите отключить безопасный режим?</value>
+  </data>
+  <data name="SafeModeHasBeenDisabledShamiko" xml:space="preserve">
+    <value>Безопасный режим отключён. Благословение Shamiko растворяется в пустоте.</value>
+  </data>
+  <data name="DoYouWantToEnableAsInvoker" xml:space="preserve">
+    <value>Включить asInvoker?</value>
+  </data>
+  <data name="AsInvokerHasBeenEnabled" xml:space="preserve">
+    <value>asInvoker включён.</value>
+  </data>
+  <data name="AreYouSureYouWantTo_4" xml:space="preserve">
+    <value>Вы уверены, что хотите отключить asInvoker?</value>
+  </data>
+  <data name="AsInvokerHasBeenDisabled" xml:space="preserve">
+    <value>asInvoker отключён.</value>
+  </data>
+  <data name="NyaaSupport" xml:space="preserve">
+    <value>поддержка nyaa~?</value>
+  </data>
+  <data name="FeedMeCoins" xml:space="preserve">
+    <value>покорми меня монетками~</value>
+  </data>
+  <data name="BuyMeASnack" xml:space="preserve">
+    <value>купишь мне вкусняшку?</value>
+  </data>
+  <data name="MeowThanks" xml:space="preserve">
+    <value>мяу~ спасибо!</value>
+  </data>
+  <data name="ClickyClicky" xml:space="preserve">
+    <value>клик-клик~</value>
+  </data>
+  <data name="GibTreatsPwease" xml:space="preserve">
+    <value>дай вкусняшек пжлст!</value>
+  </data>
+  <data name="UwuThankies" xml:space="preserve">
+    <value>uwu спасибки!</value>
+  </data>
+  <data name="SoShinyCoin" xml:space="preserve">
+    <value>такая блестящая монетка!</value>
+  </data>
+  <data name="ForTheBunFund" xml:space="preserve">
+    <value>на булочки!</value>
+  </data>
+  <data name="NyaIMPoor" xml:space="preserve">
+    <value>ня~ я бедный :&lt;</value>
+  </data>
+  <data name="OpenProcessFailed" xml:space="preserve">
+    <value>Не удалось выполнить OpenProcess</value>
+  </data>
+  <data name="SupportMyWork" xml:space="preserve"><value>💖 Поддержите мою работу! 💖
+
+Привет! Если вам нравится то, что я делаю, и вы хотите поддержать будущие обновления, угостите меня чашечкой кофе или отправьте пожертвование через PayPal. Любая помощь важна и помогает проекту жить дальше!
+
+По другим вариантам поддержки свяжитесь со мной: takatran29@gmail.com.
+</value></data>
+  <data name="HarkTravelerDostThouSeek" xml:space="preserve"><value>Внемли, странник! Не ищешь ли ты способ даровать своему герою хитрое преимущество? В этом сумрачном царстве сокрыты редчайшие тайны, дары, что придают силу, но не нарушают равновесия мира. Тонкие чары ждут тебя — достаточно, чтобы всколыхнуть ветры судьбы и сделать путь ещё более смелым и славным.
+
+Если любопытство твоё пробудилось, отыщи меня, и тебе откроется большее.</value></data>
+</root>

@@ -1,0 +1,2001 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ConnectingToServer" xml:space="preserve">
+    <value>Connecting to server...</value>
+  </data>
+  <data name="Fetching" xml:space="preserve">
+    <value>Fetching...</value>
+  </data>
+  <data name="YourAccessToTheProgramHas" xml:space="preserve">
+    <value>Your access to the program has been restricted. If you think it is a mistake or want to appeal, please contact the admin.</value>
+  </data>
+  <data name="Uhm" xml:space="preserve">
+    <value>Uhm...</value>
+  </data>
+  <data name="Notice" xml:space="preserve">
+    <value>Notice!</value>
+  </data>
+  <data name="RetrievingConfiguration" xml:space="preserve">
+    <value>Retrieving configuration...</value>
+  </data>
+  <data name="RetrievingAppProfiles" xml:space="preserve">
+    <value>Retrieving app profiles...</value>
+  </data>
+  <data name="FailedToLoadSettings" xml:space="preserve">
+    <value>Failed to load settings.</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="ThisApplicationNeedsAdministrativePrivil" xml:space="preserve">
+    <value>This application needs administrative privileges to access Windows Management Instrumentation (WMI) for detecting the game process.
+
+Do you want to grant access?</value>
+  </data>
+  <data name="AdministrativePrivilegesRequired" xml:space="preserve">
+    <value>Administrative privileges required</value>
+  </data>
+  <data name="TheProgramWillNotFunctionProperly" xml:space="preserve">
+    <value>The program will not function properly but feel free to explore the program.</value>
+  </data>
+  <data name="KattoIsHidingAwayFromCurious" xml:space="preserve">
+    <value>Katto is hiding away from curious eyes!</value>
+  </data>
+  <data name="ThisUpdateIsEssentialTheProgram" xml:space="preserve">
+    <value>This update is essential; the program will not function until it is installed.</value>
+  </data>
+  <data name="TheExternalExtractorEngineDownloadURL" xml:space="preserve">
+    <value>The external extractor engine download URL is not configured. Please contact developer.</value>
+  </data>
+  <data name="MicrosoftEdge" xml:space="preserve">
+    <value>Microsoft Edge</value>
+  </data>
+  <data name="ItIsVeryDangerousToClose" xml:space="preserve">
+    <value>It is very dangerous to close the program while patching, please wait a moment.</value>
+  </data>
+  <data name="ThisIsTheMainPageWhere" xml:space="preserve">
+    <value>This is the main page, where you can check out what's new and change your game location.</value>
+  </data>
+  <data name="ThisIsTheModHubYou" xml:space="preserve">
+    <value>This is the mod hub, you can manage your mods here and download new ones from the internet.</value>
+  </data>
+  <data name="ThisIsTheSoundHubWhere" xml:space="preserve">
+    <value>This is the sound hub, where you can manage sound mods like the MC's voice, movement sounds, NPCs, and more.</value>
+  </data>
+  <data name="ThisIsTheMapHubYou" xml:space="preserve">
+    <value>This is the map hub, you can force the game to use a single map you love — no more randomness!</value>
+  </data>
+  <data name="ThisIsTheModHubWhere" xml:space="preserve">
+    <value>This is the mod hub, where you can manage sound mods like the MC's voice, movement sounds, NPCs, and more.</value>
+  </data>
+  <data name="Main" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="Pawtion" xml:space="preserve">
+    <value>Pawtion</value>
+  </data>
+  <data name="Proxy" xml:space="preserve">
+    <value>Proxy</value>
+  </data>
+  <data name="ModHub" xml:space="preserve">
+    <value>Mod hub</value>
+  </data>
+  <data name="Sound" xml:space="preserve">
+    <value>Sound</value>
+  </data>
+  <data name="Map" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="Misc" xml:space="preserve">
+    <value>Misc</value>
+  </data>
+  <data name="Toolbox" xml:space="preserve">
+    <value>Toolbox</value>
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="ChangesWillApplyAfterRestartingThe" xml:space="preserve">
+    <value>Changes will apply after restarting the game</value>
+  </data>
+  <data name="ApplicationLogInitialized" xml:space="preserve">
+    <value>Application log initialized.
+- - - - - - - - - - - - - - - - - - - - - -
+</value>
+  </data>
+  <data name="ClickMe" xml:space="preserve">
+    <value>Click me!</value>
+  </data>
+  <data name="Tasking" xml:space="preserve">
+    <value>Tasking...</value>
+  </data>
+  <data name="DoingOtherStuffs" xml:space="preserve">
+    <value>Doing other stuffs...</value>
+  </data>
+  <data name="Done3" xml:space="preserve">
+    <value>Done! :3</value>
+  </data>
+  <data name="ReleaseRecollection" xml:space="preserve">
+    <value>Release recollection!</value>
+  </data>
+  <data name="Closing3" xml:space="preserve">
+    <value>Closing! :3</value>
+  </data>
+  <data name="SafeModeEnabled" xml:space="preserve">
+    <value>Safe mode enabled!</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Loading</value>
+  </data>
+  <data name="Pwatching" xml:space="preserve">
+    <value>Pwatching...
+
+</value>
+  </data>
+  <data name="MightTakeAWhile" xml:space="preserve">
+    <value>Might take a while!</value>
+  </data>
+  <data name="SmolForm" xml:space="preserve">
+    <value>SmolForm</value>
+  </data>
+  <data name="HiThereLooksLikeItS" xml:space="preserve">
+    <value>Hi there! Looks like it's your first time booting up this cutie program. Let's get started!</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="ToBeginPleaseSelectYourFreeStyle2" xml:space="preserve">
+    <value>To begin, please select your FreeStyle2 game location. This is where the program will look for your game files.</value>
+  </data>
+  <data name="TakeMeThere" xml:space="preserve">
+    <value>Take me there</value>
+  </data>
+  <data name="NowThatYouVeSelectedYour" xml:space="preserve">
+    <value>Now that you've selected your game location, let's explore what this program can do!</value>
+  </data>
+  <data name="ThisIsTheMapHubYou_2" xml:space="preserve">
+    <value>This is the map hub, you can force the game to use a single map you love. No more randomness!</value>
+  </data>
+  <data name="ThisIsTheMiscHubWhere" xml:space="preserve">
+    <value>This is the misc hub, where you can access cool features like chat macros, camera tweaks, and more!</value>
+  </data>
+  <data name="AndThatSItFeelFree" xml:space="preserve">
+    <value>And that's it! Feel free to explore more. The program is super simple to use. If you have questions, join our Discord server!</value>
+  </data>
+  <data name="OkieDokie" xml:space="preserve">
+    <value>Okie dokie</value>
+  </data>
+  <data name="Skip" xml:space="preserve">
+    <value>Skip</value>
+  </data>
+  <data name="HelloThere" xml:space="preserve">
+    <value>Hello there!</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="PleaseCloseTheGameFirstBefore" xml:space="preserve">
+    <value>Please close the game first before changing the game folder.</value>
+  </data>
+  <data name="PleaseWaitUntilThePatchingProcess" xml:space="preserve">
+    <value>Please wait until the patching process is complete before changing the game folder.</value>
+  </data>
+  <data name="InvalidGameFolderPleaseSelectThe" xml:space="preserve">
+    <value>Invalid game folder. Please select the correct folder.</value>
+  </data>
+  <data name="DisclaimerLicense" xml:space="preserve">
+    <value>Disclaimer &amp; License</value>
+  </data>
+  <data name="WhatSNew" xml:space="preserve">
+    <value>What's new?</value>
+  </data>
+  <data name="SupportMe" xml:space="preserve">
+    <value>Support me ♡</value>
+  </data>
+  <data name="SelectGameFolder" xml:space="preserve">
+    <value> Select game folder</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Launcher" xml:space="preserve">
+    <value>Launcher</value>
+  </data>
+  <data name="SteamLauncher" xml:space="preserve">
+    <value>Steam launcher</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>[Text]</value>
+  </data>
+  <data name="Minimize" xml:space="preserve">
+    <value>Minimize</value>
+  </data>
+  <data name="Kill" xml:space="preserve">
+    <value>Kill</value>
+  </data>
+  <data name="ClickThisToSelectGameFolder" xml:space="preserve">
+    <value>Click this to select game folder!</value>
+  </data>
+  <data name="SelectASoundOption" xml:space="preserve">
+    <value>Select a sound option</value>
+  </data>
+  <data name="Jukebox" xml:space="preserve">
+    <value>Jukebox</value>
+  </data>
+  <data name="ActionSound" xml:space="preserve">
+    <value>Action sound</value>
+  </data>
+  <data name="MCVoice" xml:space="preserve">
+    <value>MC voice</value>
+  </data>
+  <data name="EnvSound" xml:space="preserve">
+    <value>Env sound</value>
+  </data>
+  <data name="CharacterVoice" xml:space="preserve">
+    <value>Character voice</value>
+  </data>
+  <data name="UISound" xml:space="preserve">
+    <value>UI sound</value>
+  </data>
+  <data name="Loading_2" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="NoSongsToDisplay" xml:space="preserve">
+    <value>No songs to display</value>
+  </data>
+  <data name="DoYouWantToUninstallThis" xml:space="preserve">
+    <value>Do you want to uninstall this patch?</value>
+  </data>
+  <data name="JukeboxManager" xml:space="preserve">
+    <value>Jukebox manager</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>&lt; Return </value>
+  </data>
+  <data name="Uninstall" xml:space="preserve">
+    <value>Uninstall</value>
+  </data>
+  <data name="EnablePatch" xml:space="preserve">
+    <value>Enable patch</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="BringToTop" xml:space="preserve">
+    <value>Bring to top</value>
+  </data>
+  <data name="NothingToSeeHere" xml:space="preserve">
+    <value>Nothing to see here</value>
+  </data>
+  <data name="PleaseSelectASoundNameNode" xml:space="preserve">
+    <value>Please select a sound name node first.</value>
+  </data>
+  <data name="PleaseSelectASoundNameNode_2" xml:space="preserve">
+    <value>Please select a sound name node, not a sound path.</value>
+  </data>
+  <data name="AreYouSureYouWantTo" xml:space="preserve">
+    <value>Are you sure you want to delete this sound and all associated paths?</value>
+  </data>
+  <data name="AreYouSureYouWantTo_2" xml:space="preserve">
+    <value>Are you sure you want to remove this sound path?</value>
+  </data>
+  <data name="MCVoiceManager" xml:space="preserve">
+    <value>MC voice manager</value>
+  </data>
+  <data name="CrownTreeView1" xml:space="preserve">
+    <value>crownTreeView1</value>
+  </data>
+  <data name="OpenRaw" xml:space="preserve">
+    <value>Open raw</value>
+  </data>
+  <data name="ActionSoundManager" xml:space="preserve">
+    <value>Action sound manager</value>
+  </data>
+  <data name="PleaseSelectAnItemToDelete" xml:space="preserve">
+    <value>Please select an item to delete.</value>
+  </data>
+  <data name="EnvelopeSoundManager" xml:space="preserve">
+    <value>Envelope sound manager</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="CharacterVoiceHasAMassiveList" xml:space="preserve">
+    <value>Character voice has a massive list. The process may take some time, and the program might become unresponsive until it completes. Do you want to continue?</value>
+  </data>
+  <data name="PleaseSelectACharacterNameNode" xml:space="preserve">
+    <value>Please select a character name node first.</value>
+  </data>
+  <data name="PleaseSelectACharacterNameNode_2" xml:space="preserve">
+    <value>Please select a character name node, not a sound path.</value>
+  </data>
+  <data name="CharacterVoiceManager" xml:space="preserve">
+    <value>Character voice manager</value>
+  </data>
+  <data name="ItSeemsLikeThereIsMore" xml:space="preserve">
+    <value>It seems like there is more than one MC voice resource. Which one do you want to use?</value>
+  </data>
+  <data name="WhichOne" xml:space="preserve">
+    <value>Which one?</value>
+  </data>
+  <data name="ItSNotRecommendedToFetch" xml:space="preserve">
+    <value>It's not recommended to fetch the map while game is running.</value>
+  </data>
+  <data name="FetchTheAvailableMapsThisWill" xml:space="preserve">
+    <value>Fetch the available maps? This will override any changes you made.</value>
+  </data>
+  <data name="NoFilesFoundInTheGame" xml:space="preserve">
+    <value>No files found in the game folder(?)</value>
+  </data>
+  <data name="CourtManagerBeta" xml:space="preserve">
+    <value>Court manager (beta)</value>
+  </data>
+  <data name="ChooseAMapYouWantTo" xml:space="preserve">
+    <value>Choose a map you want to use:</value>
+  </data>
+  <data name="Fetch" xml:space="preserve">
+    <value>Fetch</value>
+  </data>
+  <data name="FolderDoesNotExist" xml:space="preserve">
+    <value>Folder does not exist.</value>
+  </data>
+  <data name="PleaseRunTheGameFirst" xml:space="preserve">
+    <value>Please run the game first!</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="Stagename" xml:space="preserve">
+    <value>[stagename]</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="PleaseEnterAName" xml:space="preserve">
+    <value>Please enter a name.</value>
+  </data>
+  <data name="NameContainsInvalidCharacters" xml:space="preserve">
+    <value>Name contains invalid characters.</value>
+  </data>
+  <data name="NameIsAReservedNameAnd" xml:space="preserve">
+    <value>Name is a reserved name and cannot be used.</value>
+  </data>
+  <data name="TheNameAlreadyExistsPleaseChoose" xml:space="preserve">
+    <value>The name already exists. Please choose a unique name.</value>
+  </data>
+  <data name="PleaseSelectAValidModType" xml:space="preserve">
+    <value>Please select a valid mod type.</value>
+  </data>
+  <data name="InvalidDestinationPath" xml:space="preserve">
+    <value>Invalid destination path!</value>
+  </data>
+  <data name="ForMoreModTypeAndInfomation" xml:space="preserve">
+    <value>For more mod type and infomation, click here to visit the Github repo.</value>
+  </data>
+  <data name="ModType" xml:space="preserve">
+    <value>Mod type:</value>
+  </data>
+  <data name="AuthorYourGithubUsername" xml:space="preserve">
+    <value>Author (your github username):</value>
+  </data>
+  <data name="ModDescription" xml:space="preserve">
+    <value>Mod description:</value>
+  </data>
+  <data name="ModName" xml:space="preserve">
+    <value>Mod name:</value>
+  </data>
+  <data name="SelectOne" xml:space="preserve">
+    <value>(Select one)</value>
+  </data>
+  <data name="UI" xml:space="preserve">
+    <value>UI</value>
+  </data>
+  <data name="Patch" xml:space="preserve">
+    <value>Patch</value>
+  </data>
+  <data name="Launch" xml:space="preserve">
+    <value>Launch</value>
+  </data>
+  <data name="Lua" xml:space="preserve">
+    <value>Lua</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="CreateAMod" xml:space="preserve">
+    <value>Create a mod</value>
+  </data>
+  <data name="Install" xml:space="preserve">
+    <value>Install</value>
+  </data>
+  <data name="NotInstalled" xml:space="preserve">
+    <value>Not installed</value>
+  </data>
+  <data name="SelectAPatch" xml:space="preserve">
+    <value>Select a patch</value>
+  </data>
+  <data name="Connecting" xml:space="preserve">
+    <value>Connecting...</value>
+  </data>
+  <data name="Connecting_2" xml:space="preserve">
+    <value> Connecting...</value>
+  </data>
+  <data name="ListFailedToLoad" xml:space="preserve">
+    <value> List failed to load</value>
+  </data>
+  <data name="PleaseWaitForTheCurrentOperation" xml:space="preserve">
+    <value>Please wait for the current operation to finish.</value>
+  </data>
+  <data name="PleaseCloseTheGameFirst" xml:space="preserve">
+    <value>Please close the game first.</value>
+  </data>
+  <data name="ThisDownloadableContentCannotBeTracked" xml:space="preserve">
+    <value>This downloadable content cannot be tracked and will be placed directly into your game folder. Continue?</value>
+  </data>
+  <data name="CommunityModLibrary" xml:space="preserve">
+    <value>Community mod library</value>
+  </data>
+  <data name="AcrylicListView1" xml:space="preserve">
+    <value>acrylicListView1</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="InstalledMod" xml:space="preserve">
+    <value>Installed mod</value>
+  </data>
+  <data name="CreateANewMod" xml:space="preserve">
+    <value>Create a new mod</value>
+  </data>
+  <data name="Fetching_2" xml:space="preserve">
+    <value> Fetching...</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>Open folder</value>
+  </data>
+  <data name="NoPatchInstalled" xml:space="preserve">
+    <value> No patch installed</value>
+  </data>
+  <data name="DoYouWantToUninstallThis_2" xml:space="preserve">
+    <value>Do you want to uninstall this mod?</value>
+  </data>
+  <data name="ThisModTypeDoesNotSupport" xml:space="preserve">
+    <value>This mod type does not support openning folder.</value>
+  </data>
+  <data name="InstalledModsManager" xml:space="preserve">
+    <value>Installed mods manager</value>
+  </data>
+  <data name="FileVersionNull" xml:space="preserve">
+    <value>File version: null</value>
+  </data>
+  <data name="CheckForUpdates" xml:space="preserve">
+    <value>Check for updates</value>
+  </data>
+  <data name="ContinuingYourSession" xml:space="preserve">
+    <value>Continuing your session...</value>
+  </data>
+  <data name="EnterYourGithubToken" xml:space="preserve">
+    <value>Enter your Github token</value>
+  </data>
+  <data name="PleaseEnterAGitHubToken" xml:space="preserve">
+    <value>Please enter a GitHub token</value>
+  </data>
+  <data name="BeanMarkup" xml:space="preserve">
+    <value>Bean markup</value>
+  </data>
+  <data name="ExtractPak" xml:space="preserve">
+    <value>Extract .pak</value>
+  </data>
+  <data name="ImportPak" xml:space="preserve">
+    <value>Import .pak</value>
+  </data>
+  <data name="TokenIsValid" xml:space="preserve">
+    <value>Token is valid</value>
+  </data>
+  <data name="FileObfuscated" xml:space="preserve">
+    <value>File obfuscated.</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="GenerateUniqueID" xml:space="preserve">
+    <value>Generate Unique ID</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="MachineName" xml:space="preserve">
+    <value>Machine name:</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>User name:</value>
+  </data>
+  <data name="DeveloperToolsSomeRequireToken" xml:space="preserve">
+    <value>Developer tools (some require token)</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Locked" xml:space="preserve">
+    <value>Locked</value>
+  </data>
+  <data name="DDSLoader" xml:space="preserve">
+    <value>DDS loader</value>
+  </data>
+  <data name="Splitter" xml:space="preserve">
+    <value>Splitter</value>
+  </data>
+  <data name="Encrypt" xml:space="preserve">
+    <value>Encrypt</value>
+  </data>
+  <data name="Decrypt" xml:space="preserve">
+    <value>Decrypt</value>
+  </data>
+  <data name="HashChecker" xml:space="preserve">
+    <value>Hash checker</value>
+  </data>
+  <data name="Translator" xml:space="preserve">
+    <value>Translator</value>
+  </data>
+  <data name="GetUID" xml:space="preserve">
+    <value>Get UID</value>
+  </data>
+  <data name="MergeFiles" xml:space="preserve">
+    <value>Merge files</value>
+  </data>
+  <data name="IfGameLauncherFailedToLoad" xml:space="preserve">
+    <value>If game launcher failed to load with an error, this may help to fix it.</value>
+  </data>
+  <data name="ProcessDonePleaseTryLaunchingThe" xml:space="preserve">
+    <value>Process done, please try launching the launcher again.</value>
+  </data>
+  <data name="IfTheInGameViewHas" xml:space="preserve">
+    <value>If the in-game view has become pitch black, it may be due to incorrect camera settings. Reset the camera settings?</value>
+  </data>
+  <data name="CameraSettingsHaveBeenResetTo" xml:space="preserve">
+    <value>Camera settings have been reset to default.</value>
+  </data>
+  <data name="EnterYesToPreventTheGame" xml:space="preserve">
+    <value>Enter "Yes" to prevent the game from generating logs, "No" to revert.</value>
+  </data>
+  <data name="LockedTheGameFromGeneratingDangerous" xml:space="preserve">
+    <value>Locked the game from generating dangerous log.</value>
+  </data>
+  <data name="YouAlreadyBlockedTheGameFrom" xml:space="preserve">
+    <value>You already blocked the game from generating log.</value>
+  </data>
+  <data name="ProcessingDone" xml:space="preserve">
+    <value>Processing done.</value>
+  </data>
+  <data name="UsefulTools" xml:space="preserve">
+    <value>Useful tools</value>
+  </data>
+  <data name="MyNote" xml:space="preserve">
+    <value>My note</value>
+  </data>
+  <data name="BlockGameLogs" xml:space="preserve">
+    <value>Block game logs</value>
+  </data>
+  <data name="FixBlackGame" xml:space="preserve">
+    <value>Fix black game</value>
+  </data>
+  <data name="FlappyBirb" xml:space="preserve">
+    <value>Flappy birb</value>
+  </data>
+  <data name="FixLauncherError" xml:space="preserve">
+    <value>Fix launcher error</value>
+  </data>
+  <data name="DeveloperTools" xml:space="preserve">
+    <value>Developer tools</value>
+  </data>
+  <data name="Shamiko" xml:space="preserve">
+    <value>Shamiko</value>
+  </data>
+  <data name="BeanIt" xml:space="preserve">
+    <value>Bean it</value>
+  </data>
+  <data name="ReverseBeanIt" xml:space="preserve">
+    <value>Reverse bean it</value>
+  </data>
+  <data name="BeanPlayground" xml:space="preserve">
+    <value>Bean playground</value>
+  </data>
+  <data name="Katcrypt" xml:space="preserve">
+    <value>Katcrypt</value>
+  </data>
+  <data name="ReverseKatcrypt" xml:space="preserve">
+    <value>Reverse katcrypt</value>
+  </data>
+  <data name="KatcryptorTest1" xml:space="preserve">
+    <value>Katcryptor [Test 1]</value>
+  </data>
+  <data name="PleaseEnterValidValue" xml:space="preserve">
+    <value>Please enter valid value.</value>
+  </data>
+  <data name="UnhandledError" xml:space="preserve">
+    <value>Unhandled Error</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="NotWorkingYetDueTextboxBeing" xml:space="preserve">
+    <value>(not working yet due textbox being ass)</value>
+  </data>
+  <data name="Button2" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="Button3" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="FailedToLoadTheDDSFile" xml:space="preserve">
+    <value>Failed to load the DDS file.</value>
+  </data>
+  <data name="NoImageLoaded" xml:space="preserve">
+    <value>No image loaded.</value>
+  </data>
+  <data name="ImageSavedAsDDSSuccessfully" xml:space="preserve">
+    <value>Image saved as DDS successfully.</value>
+  </data>
+  <data name="ImageSavedAsPNGSuccessfully" xml:space="preserve">
+    <value>Image saved as PNG successfully.</value>
+  </data>
+  <data name="DDSImageLoader" xml:space="preserve">
+    <value>DDS image loader</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="SaveAsPNG" xml:space="preserve">
+    <value>Save as PNG</value>
+  </data>
+  <data name="AutoCopyToClipboard" xml:space="preserve">
+    <value>Auto copy to clipboard</value>
+  </data>
+  <data name="SendToGame" xml:space="preserve">
+    <value>Send to game</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="TranslateTo" xml:space="preserve">
+    <value>Translate to:</value>
+  </data>
+  <data name="AzureKey" xml:space="preserve">
+    <value>Azure_Key:</value>
+  </data>
+  <data name="AntiAFKOn" xml:space="preserve">
+    <value>Anti-AFK: On</value>
+  </data>
+  <data name="AntiAFKOff" xml:space="preserve">
+    <value>Anti-AFK: Off</value>
+  </data>
+  <data name="Miscellaneous" xml:space="preserve">
+    <value>Miscellaneous</value>
+  </data>
+  <data name="GameSettings" xml:space="preserve">
+    <value>Game settings</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="Task" xml:space="preserve">
+    <value>Task</value>
+  </data>
+  <data name="AntiAFK" xml:space="preserve">
+    <value>Anti-AFK</value>
+  </data>
+  <data name="ChatMacro" xml:space="preserve">
+    <value>Chat macro</value>
+  </data>
+  <data name="MaximumCharacterAllowed15" xml:space="preserve">
+    <value>Maximum character allowed: 15.</value>
+  </data>
+  <data name="MaximumCharacterAllowed128" xml:space="preserve">
+    <value>Maximum character allowed: 128.</value>
+  </data>
+  <data name="DoYouWantToResetChat" xml:space="preserve">
+    <value>Do you want to reset chat macro data to default?</value>
+  </data>
+  <data name="ReplaceWordsOrPhrasesWithCustom" xml:space="preserve">
+    <value>Replace words or phrases with custom text:</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>Disable</value>
+  </data>
+  <data name="Restore" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="CameraSettingsHaveBeenCopiedTo" xml:space="preserve">
+    <value>Camera settings have been copied to your clipboard.</value>
+  </data>
+  <data name="YouMustCopyAValidData" xml:space="preserve">
+    <value>You must copy a valid data to your clipboard first!</value>
+  </data>
+  <data name="CameraSettingsHaveBeenSuccessfullyImport" xml:space="preserve">
+    <value>Camera settings have been successfully imported.</value>
+  </data>
+  <data name="DoYouWantToResetThe" xml:space="preserve">
+    <value>Do you want to reset the settings to default?</value>
+  </data>
+  <data name="CameraManager" xml:space="preserve">
+    <value>Camera manager</value>
+  </data>
+  <data name="SelectCameraType" xml:space="preserve">
+    <value>Select camera type:</value>
+  </data>
+  <data name="AbsolutelyValue" xml:space="preserve">
+    <value>Absolutely value</value>
+  </data>
+  <data name="IgnoreBall" xml:space="preserve">
+    <value>Ignore ball</value>
+  </data>
+  <data name="DoNotOverride" xml:space="preserve">
+    <value>Do not override</value>
+  </data>
+  <data name="BasicCameraView" xml:space="preserve">
+    <value>Basic camera view</value>
+  </data>
+  <data name="HighAngleView" xml:space="preserve">
+    <value>High angle view</value>
+  </data>
+  <data name="FollowingView" xml:space="preserve">
+    <value>Following view</value>
+  </data>
+  <data name="SideView" xml:space="preserve">
+    <value>Side view</value>
+  </data>
+  <data name="SkyAngleView" xml:space="preserve">
+    <value>Sky angle view</value>
+  </data>
+  <data name="OverrideTo" xml:space="preserve">
+    <value>Override to</value>
+  </data>
+  <data name="LookZ" xml:space="preserve">
+    <value>LookZ</value>
+  </data>
+  <data name="LookY" xml:space="preserve">
+    <value>LookY</value>
+  </data>
+  <data name="LookX" xml:space="preserve">
+    <value>LookX</value>
+  </data>
+  <data name="FOV" xml:space="preserve">
+    <value>FOV</value>
+  </data>
+  <data name="AnAwesomeFeatureClickHereTo" xml:space="preserve">
+    <value>An awesome feature! Click here to view the tutorial</value>
+  </data>
+  <data name="ResetValueToDefault" xml:space="preserve">
+    <value>Reset value to default</value>
+  </data>
+  <data name="ImportSettings" xml:space="preserve">
+    <value>Import settings</value>
+  </data>
+  <data name="ExportSettings" xml:space="preserve">
+    <value>Export settings</value>
+  </data>
+  <data name="ReplayFOV" xml:space="preserve">
+    <value>Replay FOV</value>
+  </data>
+  <data name="LookVelocity" xml:space="preserve">
+    <value>Look velocity</value>
+  </data>
+  <data name="MoveVelocity" xml:space="preserve">
+    <value>Move velocity</value>
+  </data>
+  <data name="DONOTTYPEUnlessYouKnow" xml:space="preserve">
+    <value>DO NOT TYPE unless you know what to do!</value>
+  </data>
+  <data name="Label6" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="GeneralSettings" xml:space="preserve">
+    <value>General settings</value>
+  </data>
+  <data name="Script" xml:space="preserve">
+    <value>Script</value>
+  </data>
+  <data name="CustomGameOptions" xml:space="preserve">
+    <value>Custom game options</value>
+  </data>
+  <data name="CustomResolutionWidthHeightSetTo" xml:space="preserve">
+    <value>Custom resolution (width, height), set to 0 to disable:</value>
+  </data>
+  <data name="GraphicLevel" xml:space="preserve">
+    <value>Graphic level:</value>
+  </data>
+  <data name="WarningSettingItTooHighOr" xml:space="preserve">
+    <value>Warning: Setting it too high or too low may cause issues. Machines with Optimus mode may not be supported (game always set as 1024x768 on launch).</value>
+  </data>
+  <data name="High" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="Medium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="Low" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="TasksUnfinished" xml:space="preserve">
+    <value>Tasks (unfinished)</value>
+  </data>
+  <data name="LaunchProgramEnterFullPathOne" xml:space="preserve">
+    <value>Launch program (enter full path, one per line):</value>
+  </data>
+  <data name="ValidIPAddress" xml:space="preserve">
+    <value>Valid IP address~</value>
+  </data>
+  <data name="InvalidIPAddress" xml:space="preserve">
+    <value>Invalid IP address~</value>
+  </data>
+  <data name="XCEmulatorSettings" xml:space="preserve">
+    <value>XCEmulator settings</value>
+  </data>
+  <data name="ShowConsole" xml:space="preserve">
+    <value>Show console:</value>
+  </data>
+  <data name="XCEmulatorIP" xml:space="preserve">
+    <value>XCEmulator IP:</value>
+  </data>
+  <data name="Tyu" xml:space="preserve">
+    <value>tyu</value>
+  </data>
+  <data name="Valid" xml:space="preserve">
+    <value>Valid</value>
+  </data>
+  <data name="TestConnection" xml:space="preserve">
+    <value>Test connection</value>
+  </data>
+  <data name="SpoofProcess" xml:space="preserve">
+    <value>Spoof process:</value>
+  </data>
+  <data name="SpoofTheGameProcessUsefulWhen" xml:space="preserve">
+    <value>Spoof the game process. Useful when self-host is enabled. Independent.</value>
+  </data>
+  <data name="UseLocalIP" xml:space="preserve">
+    <value>Use local IP</value>
+  </data>
+  <data name="Host" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="EnabledByRemoteServer" xml:space="preserve">
+    <value>Enabled by remote server</value>
+  </data>
+  <data name="EnabledTemporarilyByClient" xml:space="preserve">
+    <value>Enabled temporarily by client</value>
+  </data>
+  <data name="RestrictedByRemoteServer" xml:space="preserve">
+    <value>Restricted by remote server</value>
+  </data>
+  <data name="PleaseCloseTheGameBeforeImporting" xml:space="preserve">
+    <value>Please close the game before importing settings.</value>
+  </data>
+  <data name="LanguageWillChangeTheNextTime" xml:space="preserve">
+    <value>Language will change the next time you restart the app.</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="PatchingMethod" xml:space="preserve">
+    <value>Patching method:</value>
+  </data>
+  <data name="RedirectModeFastest" xml:space="preserve">
+    <value>Redirect mode (fastest)</value>
+  </data>
+  <data name="ReplaceModeModerate" xml:space="preserve">
+    <value>Replace mode (moderate)</value>
+  </data>
+  <data name="RepackModeSlowest" xml:space="preserve">
+    <value>Repack mode (slowest)</value>
+  </data>
+  <data name="AlwaysOnTop" xml:space="preserve">
+    <value>Always on top:</value>
+  </data>
+  <data name="ReportABug" xml:space="preserve">
+    <value>Report a bug</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="BypassProtection" xml:space="preserve">
+    <value>Bypass protection:</value>
+  </data>
+  <data name="EnableSupportForGameProcessAccess" xml:space="preserve">
+    <value>Enable support for game process access. Not applicable to the Tiancity client.</value>
+  </data>
+  <data name="PartSimulatorSettings" xml:space="preserve">
+    <value>Part Simulator settings</value>
+  </data>
+  <data name="PartStats" xml:space="preserve">
+    <value>Part stats:</value>
+  </data>
+  <data name="NoActionsDefinedYet" xml:space="preserve">
+    <value>No actions defined yet.</value>
+  </data>
+  <data name="PweaseRunTheGameFirst" xml:space="preserve">
+    <value>Pwease run the game first~</value>
+  </data>
+  <data name="MyTextmyTextmyTextmyTextmyTextmyTextmyTe" xml:space="preserve">
+    <value>myTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyTextmyText</value>
+  </data>
+  <data name="NameRequired" xml:space="preserve">
+    <value>Name required.</value>
+  </data>
+  <data name="ShareLinkRequired" xml:space="preserve">
+    <value>Share link required.</value>
+  </data>
+  <data name="FailedToParseShareLinkOnly" xml:space="preserve">
+    <value>Failed to parse share link. Only ss:// is supported.</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="CountryCode2Letters" xml:space="preserve">
+    <value>Country code (2 letters):</value>
+  </data>
+  <data name="ShareLinkSsOrJSONOutbound" xml:space="preserve">
+    <value>Share link (ss://) or JSON outbound:</value>
+  </data>
+  <data name="SupportedShadowsocksSsURI" xml:space="preserve">
+    <value>Supported: shadowsocks ss:// URI.</value>
+  </data>
+  <data name="AddCustomServer" xml:space="preserve">
+    <value>Add custom server</value>
+  </data>
+  <data name="NotInstalledClickInstallUpdate" xml:space="preserve">
+    <value>Not installed. Click Install / Update.</value>
+  </data>
+  <data name="PickAServerToConnect" xml:space="preserve">
+    <value>Pick a server to connect:</value>
+  </data>
+  <data name="ConnectedUnknownServer" xml:space="preserve">
+    <value>Connected (unknown server).</value>
+  </data>
+  <data name="ProxyAppDownloadURLNotConfigured" xml:space="preserve">
+    <value>Proxy app download URL not configured.</value>
+  </data>
+  <data name="PleaseRunTheProgramAsAdministrator" xml:space="preserve">
+    <value>Please run the program as administrator to enable this feature.</value>
+  </data>
+  <data name="SingBoxNotInstalledClickInstall" xml:space="preserve">
+    <value>sing-box not installed. Click Install first.</value>
+  </data>
+  <data name="ServerListNotLoadedYetPlease" xml:space="preserve">
+    <value>Server list not loaded yet. Please wait.</value>
+  </data>
+  <data name="NoServerSelected" xml:space="preserve">
+    <value>No server selected.</value>
+  </data>
+  <data name="ProxyServerSettings" xml:space="preserve">
+    <value>Proxy server settings</value>
+  </data>
+  <data name="InstallUpdate" xml:space="preserve">
+    <value>Install / Update</value>
+  </data>
+  <data name="TunnelConnected" xml:space="preserve">
+    <value>Tunnel connected.</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="CharName" xml:space="preserve">
+    <value>CharName</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="NoCharacterDataLoadedClickFetch" xml:space="preserve">
+    <value>No character data loaded. Click 'Fetch' first.</value>
+  </data>
+  <data name="GameNotRunning" xml:space="preserve">
+    <value>Game not running.</value>
+  </data>
+  <data name="Scanning" xml:space="preserve">
+    <value>Scanning...</value>
+  </data>
+  <data name="NoRowsSelected" xml:space="preserve">
+    <value>No rows selected.</value>
+  </data>
+  <data name="NewValue" xml:space="preserve">
+    <value>New value:</value>
+  </data>
+  <data name="ThisWillFetchTheCurrentCharacter" xml:space="preserve">
+    <value>This will fetch the current character data, you only need to run once everytime there is new character. Continue?</value>
+  </data>
+  <data name="ExtractingCharacterPak" xml:space="preserve">
+    <value>Extracting character.pak...</value>
+  </data>
+  <data name="ExtractionFailedOrExpectedFileMissing" xml:space="preserve">
+    <value>Extraction failed or expected file missing. Check log.</value>
+  </data>
+  <data name="Parsing" xml:space="preserve">
+    <value>Parsing...</value>
+  </data>
+  <data name="CharAnimationChanger" xml:space="preserve">
+    <value>Char animation changer</value>
+  </data>
+  <data name="Return_2" xml:space="preserve">
+    <value>&lt; Return </value>
+  </data>
+  <data name="Scan" xml:space="preserve">
+    <value>Scan</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status: -</value>
+  </data>
+  <data name="RefreshValues" xml:space="preserve">
+    <value>Refresh values</value>
+  </data>
+  <data name="ApplySelected" xml:space="preserve">
+    <value>Apply selected</value>
+  </data>
+  <data name="ApplyAll" xml:space="preserve">
+    <value>Apply all</value>
+  </data>
+  <data name="RestoreOriginals" xml:space="preserve">
+    <value>Restore originals</value>
+  </data>
+  <data name="XigncodeBypass" xml:space="preserve">
+    <value>Xigncode bypass</value>
+  </data>
+  <data name="XCEmulator" xml:space="preserve">
+    <value>XCEmulator</value>
+  </data>
+  <data name="AnimChanger" xml:space="preserve">
+    <value>Anim changer</value>
+  </data>
+  <data name="PartSimulator" xml:space="preserve">
+    <value>Part Simulator</value>
+  </data>
+  <data name="YourAvailablePerkS" xml:space="preserve">
+    <value>Your available perk(s)</value>
+  </data>
+  <data name="SafeMode" xml:space="preserve">
+    <value>Safe mode</value>
+  </data>
+  <data name="AsInvoker" xml:space="preserve">
+    <value>asInvoker</value>
+  </data>
+  <data name="BuyMeACoffee" xml:space="preserve">
+    <value>Buy me a coffee</value>
+  </data>
+  <data name="Paypal" xml:space="preserve">
+    <value>Paypal</value>
+  </data>
+  <data name="ThankYouForYourConsideration" xml:space="preserve">
+    <value>Thank you for your consideration!</value>
+  </data>
+  <data name="KoFi" xml:space="preserve">
+    <value>❤ Ko-fi</value>
+  </data>
+  <data name="DownloadableContent" xml:space="preserve">
+    <value>Downloadable content</value>
+  </data>
+  <data name="DoYouWantToPlayAgain" xml:space="preserve">
+    <value>Do you want to play again?</value>
+  </data>
+  <data name="ErrorCheckingTheToken" xml:space="preserve">
+    <value>Error checking the token</value>
+  </data>
+  <data name="ExtractionCompletedDoYouWantTo" xml:space="preserve">
+    <value>Extraction completed. Do you want to pen the folder?</value>
+  </data>
+  <data name="FileHasBeenReimportedSuccessfully" xml:space="preserve">
+    <value>File has been reimported successfully.</value>
+  </data>
+  <data name="AdvancedScriptBodyScript" xml:space="preserve">
+    <value>Advanced script [Body script]:</value>
+  </data>
+  <data name="ThisActionIsNotValidKindly" xml:space="preserve">
+    <value>This action is not valid, kindly contact the administrator for help.</value>
+  </data>
+  <data name="CannotMove0TheDestinationFolder" xml:space="preserve">
+    <value>Cannot move {0}. The destination folder is the same as the source folder.</value>
+  </data>
+  <data name="CannotMove0TheDestinationFolder_2" xml:space="preserve">
+    <value>Cannot move {0}. The destination folder is a subfolder of the source folder.</value>
+  </data>
+  <data name="DoYouWantToRemove0" xml:space="preserve">
+    <value>Do you want to remove {0} from jukebox?</value>
+  </data>
+  <data name="InstalledVersion0" xml:space="preserve">
+    <value>Installed version: {0}</value>
+  </data>
+  <data name="GameOverYourScore0" xml:space="preserve">
+    <value>Game Over! Your score: {0}</value>
+  </data>
+  <data name="TokenIsInvalidCode0" xml:space="preserve">
+    <value>Token is invalid, code: {0}</value>
+  </data>
+  <data name="N0Failed1" xml:space="preserve">
+    <value>{0} failed: {1}</value>
+  </data>
+  <data name="FileHash0DoYouWant" xml:space="preserve">
+    <value>File hash: {0}.
+
+Do you want to copy to clipboard?</value>
+  </data>
+  <data name="YourUniqueIdentifier0DoYou" xml:space="preserve">
+    <value>Your unique identifier: {0}.
+
+Do you want to copy to clipboard?</value>
+  </data>
+  <data name="UnableToProcess0" xml:space="preserve">
+    <value>Unable to process: {0}</value>
+  </data>
+  <data name="AdvancedScriptFor0" xml:space="preserve">
+    <value>Advanced script for [{0}]:</value>
+  </data>
+  <data name="Connected01234" xml:space="preserve">
+    <value>Connected: [{0}] {1} - {2}{3} ({4})</value>
+  </data>
+  <data name="GameNotRunningData0" xml:space="preserve">
+    <value>Game not running  |  data: {0}</value>
+  </data>
+  <data name="Restored0Failed1" xml:space="preserve">
+    <value>Restored {0}, failed {1}.</value>
+  </data>
+  <data name="UnknownValue0NotSaved" xml:space="preserve">
+    <value>Unknown value '{0}'. Not saved.</value>
+  </data>
+  <data name="Wrote0Failed1" xml:space="preserve">
+    <value>Wrote {0}, failed {1}.</value>
+  </data>
+  <data name="Fetched0CharacterEntries" xml:space="preserve">
+    <value>Fetched {0} character entries.</value>
+  </data>
+  <data name="ClickToStartUseArrowsToMove" xml:space="preserve">
+    <value>Click to start!
+Use [←] and [→] to move</value>
+  </data>
+  <data name="ClickToStartPressSpaceToFly" xml:space="preserve">
+    <value>Click to start!
+Press [space] to fly</value>
+  </data>
+  <data name="HighScore0ClickToStartNewGame" xml:space="preserve">
+    <value>High score: {0}
+Click to start a new game!
+Press [Esc] to go back</value>
+  </data>
+  <data name="ResultTooLongCouldNotOpenNotepad" xml:space="preserve">
+    <value>Result too long and could not open Notepad: </value>
+  </data>
+  <data name="MergedSuccessfully" xml:space="preserve">
+    <value>Merged successfully: </value>
+  </data>
+  <data name="ErrorMergingFiles" xml:space="preserve">
+    <value>Error merging files: </value>
+  </data>
+  <data name="ConvertedSuccessfullyKeyModifier" xml:space="preserve">
+    <value>Converted successfully. Key modifier is {0}.</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>on</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>off</value>
+  </data>
+  <data name="DoYouWantToRestoreCameraSettings" xml:space="preserve">
+    <value>Do you want to restore the settings of this camera to the settings of the selected camera?</value>
+  </data>
+  <data name="StartFailed" xml:space="preserve">
+    <value>Start failed: </value>
+  </data>
+  <data name="ScanFailed" xml:space="preserve">
+    <value>Scan failed: </value>
+  </data>
+  <data name="SetValueFor0Rows" xml:space="preserve">
+    <value>Set value for {0} rows</value>
+  </data>
+  <data name="SetValue" xml:space="preserve">
+    <value>Set value</value>
+  </data>
+  <data name="FetchFailed" xml:space="preserve">
+    <value>Fetch failed: </value>
+  </data>
+  <data name="FS2Maiden" xml:space="preserve">
+    <value>FS2 Maiden - </value>
+  </data>
+  <data name="ANewVersion0IsAvailable" xml:space="preserve">
+    <value>A new version ({0}) is available! Download?</value>
+  </data>
+  <data name="UpdateAvailable" xml:space="preserve">
+    <value>Update Available</value>
+  </data>
+  <data name="ToContinueARequiredToolMust" xml:space="preserve">
+    <value>To continue, a required tool must be installed. This is a one-time setup. Would you like to proceed?</value>
+  </data>
+  <data name="TheGameIsRunningClosingPatcher" xml:space="preserve">
+    <value>The game is running, closing patcher will stop the game too. Exit anyway?</value>
+  </data>
+  <data name="GameProcessNotDetectedRestoringTo" xml:space="preserve">
+    <value>Game process not detected. Restoring to default state...</value>
+  </data>
+  <data name="GameProcessStillNotDetectedIt" xml:space="preserve">
+    <value>Game process still not detected. It looks like the launch sequence isn't working correctly. A file named '{0}' has been created on your desktop. Please send this file to the developer for review. You can try launching the game once more, as an alternative method has been enabled. This option is temporary, so feel free to let me know whether it works.</value>
+  </data>
+  <data name="WellEvenTheAlternativeMethodRefused" xml:space="preserve">
+    <value>Well... even the alternative method refused to cooperate. So here is a little surprise from me. You officially reached a point I hoped no one would ever see. Thank you for pushing the launcher harder than anyone else ever has. Please send the trace file to me and I will take a personal look at it.</value>
+  </data>
+  <data name="UnknownSize" xml:space="preserve">
+    <value>Unknown Size</value>
+  </data>
+  <data name="ExtractionComplete" xml:space="preserve">
+    <value>Extraction complete</value>
+  </data>
+  <data name="DownloadCancelled" xml:space="preserve">
+    <value>Download cancelled</value>
+  </data>
+  <data name="FailedToDownload" xml:space="preserve">
+    <value>Failed to download</value>
+  </data>
+  <data name="CopyingFiles" xml:space="preserve">
+    <value>Copying files...</value>
+  </data>
+  <data name="FailedToProcess" xml:space="preserve">
+    <value>Failed to process</value>
+  </data>
+  <data name="ItSYourMaiden" xml:space="preserve">
+    <value>it's your maiden!</value>
+  </data>
+  <data name="SoSnowyToday" xml:space="preserve">
+    <value>so snowy today!</value>
+  </data>
+  <data name="HappyNewYear" xml:space="preserve">
+    <value>happy new year!</value>
+  </data>
+  <data name="GongXiGongXi" xml:space="preserve">
+    <value>gong xi gong xi~</value>
+  </data>
+  <data name="LoveIsInAir" xml:space="preserve">
+    <value>love is in air!</value>
+  </data>
+  <data name="WhereSMyEgg" xml:space="preserve">
+    <value>where's my egg?</value>
+  </data>
+  <data name="NotABugTrust" xml:space="preserve">
+    <value>not a bug, trust!</value>
+  </data>
+  <data name="StPatrickSDay" xml:space="preserve">
+    <value>st. Patrick's day!</value>
+  </data>
+  <data name="UrComputawrHacked" xml:space="preserve">
+    <value>ur computawr hacked!</value>
+  </data>
+  <data name="SoHotRightNow" xml:space="preserve">
+    <value>so hot right now!</value>
+  </data>
+  <data name="KabooScaredYa" xml:space="preserve">
+    <value>kaboo! scared ya!</value>
+  </data>
+  <data name="CookSomething" xml:space="preserve">
+    <value>cook something?</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>Hello,</value>
+  </data>
+  <data name="Haiii" xml:space="preserve">
+    <value>Haiii,</value>
+  </data>
+  <data name="Ohaaiyo" xml:space="preserve">
+    <value>Ohaaiyo,</value>
+  </data>
+  <data name="Tehee" xml:space="preserve">
+    <value>Tehee,</value>
+  </data>
+  <data name="Henllo" xml:space="preserve">
+    <value>Henllo,</value>
+  </data>
+  <data name="Hewwo" xml:space="preserve">
+    <value>Hewwo,</value>
+  </data>
+  <data name="Hiyaa" xml:space="preserve">
+    <value>Hiyaa,</value>
+  </data>
+  <data name="Meeow" xml:space="preserve">
+    <value>Meeow,</value>
+  </data>
+  <data name="UnableToDeleteSong0" xml:space="preserve">
+    <value>Unable to delete song: {0}</value>
+  </data>
+  <data name="SomethingSWrong0" xml:space="preserve">
+    <value>Something's wrong: {0}</value>
+  </data>
+  <data name="FileNotFound0" xml:space="preserve">
+    <value>File not found: {0}</value>
+  </data>
+  <data name="ErrorOpeningFile01" xml:space="preserve">
+    <value>Error opening file: {0}: {1}</value>
+  </data>
+  <data name="JukeboxFailedToInstall" xml:space="preserve">
+    <value>Jukebox failed to install</value>
+  </data>
+  <data name="JukeboxPatchInstalled" xml:space="preserve">
+    <value>Jukebox patch installed</value>
+  </data>
+  <data name="MCVoicePatchFailed" xml:space="preserve">
+    <value>MC voice patch failed</value>
+  </data>
+  <data name="MCVoicePatchInstalled" xml:space="preserve">
+    <value>MC voice patch installed</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>File not found (?)</value>
+  </data>
+  <data name="CouldNotOpenTheFileIn" xml:space="preserve">
+    <value>Could not open the file in Notepad++ or Notepad. Please open it manually.</value>
+  </data>
+  <data name="TheFileWasModifiedWhileIt" xml:space="preserve">
+    <value>The file was modified while it was open. Do you want to reload it?</value>
+  </data>
+  <data name="ActionSoundPatchFailed" xml:space="preserve">
+    <value>Action sound patch failed</value>
+  </data>
+  <data name="ActionSoundPatchInstalled" xml:space="preserve">
+    <value>Action sound patch installed</value>
+  </data>
+  <data name="EnvSoundPatchFailed" xml:space="preserve">
+    <value>Env sound patch failed</value>
+  </data>
+  <data name="EnvSoundPatchInstalled" xml:space="preserve">
+    <value>Env sound patch installed</value>
+  </data>
+  <data name="CharacterSoundPatchFailed" xml:space="preserve">
+    <value>Character sound patch failed</value>
+  </data>
+  <data name="CharacterSoundPatchInstalled" xml:space="preserve">
+    <value>Character sound patch installed</value>
+  </data>
+  <data name="CouldNotFindTheFileHigh" xml:space="preserve">
+    <value>Could not find the file, high chance this voice is not for your game client.</value>
+  </data>
+  <data name="AllMapsHaveBeenFetchedSuccessfully" xml:space="preserve">
+    <value>All maps have been fetched successfully.</value>
+  </data>
+  <data name="ErrorFetchingMaps" xml:space="preserve">
+    <value>Error fetching maps.</value>
+  </data>
+  <data name="ThereIsNoDefaultMapTo" xml:space="preserve">
+    <value>There is no default map to start patching, please fetch them.</value>
+  </data>
+  <data name="InvalidStageFolderPath" xml:space="preserve">
+    <value>Invalid stage folder path</value>
+  </data>
+  <data name="ErrorProcessing01" xml:space="preserve">
+    <value>Error processing {0}: {1}</value>
+  </data>
+  <data name="TheSelectedMapHasBeenApplied" xml:space="preserve">
+    <value>The selected map has been applied, you may need to start a new match to see changes.</value>
+  </data>
+  <data name="ErrorPatchingMaps" xml:space="preserve">
+    <value>Error patching maps</value>
+  </data>
+  <data name="ClickToViewItsFileLocation" xml:space="preserve">
+    <value>Click to view its file location</value>
+  </data>
+  <data name="Version0" xml:space="preserve">
+    <value>Version: {0}</value>
+  </data>
+  <data name="OnlineVersion" xml:space="preserve">
+    <value>Online version: </value>
+  </data>
+  <data name="LocalMod" xml:space="preserve">
+    <value>Local mod</value>
+  </data>
+  <data name="AllModsAreUpToDate" xml:space="preserve">
+    <value>All mods are up to date.</value>
+  </data>
+  <data name="YouDonTHaveAnyMod" xml:space="preserve">
+    <value>You don't have any mod installed.</value>
+  </data>
+  <data name="NoOnlineModsFoundTryGoing" xml:space="preserve">
+    <value>No online mods found. Try going back to the main mod hub and refreshing the mod list.</value>
+  </data>
+  <data name="N0Installed1Available2" xml:space="preserve">
+    <value>{0} (Installed: {1}, Available: {2})</value>
+  </data>
+  <data name="Score0" xml:space="preserve">
+    <value>Score: {0}</value>
+  </data>
+  <data name="Error0" xml:space="preserve">
+    <value>Error: {0}</value>
+  </data>
+  <data name="ScriptBoxIsEmpty0The" xml:space="preserve">
+    <value>Script box is empty. {0} the text from clipboard?</value>
+  </data>
+  <data name="ErrorLoadingImage0" xml:space="preserve">
+    <value>Error loading image: {0}</value>
+  </data>
+  <data name="ChineseSimplified" xml:space="preserve">
+    <value>Chinese (Simplified)</value>
+  </data>
+  <data name="PortugueseBrazil" xml:space="preserve">
+    <value>Portuguese (Brazil)</value>
+  </data>
+  <data name="BeRightBack" xml:space="preserve">
+    <value>be right back</value>
+  </data>
+  <data name="TalkToULater" xml:space="preserve">
+    <value>talk to u later</value>
+  </data>
+  <data name="GottaGo" xml:space="preserve">
+    <value>gotta go</value>
+  </data>
+  <data name="SmhMyHead" xml:space="preserve">
+    <value>smh my head</value>
+  </data>
+  <data name="IfIWantedToCommitSuicide" xml:space="preserve">
+    <value>If I wanted to commit suicide, I'd jump from your ego to your elo</value>
+  </data>
+  <data name="YourMomSoFatThanosHad" xml:space="preserve">
+    <value>Your mom so fat Thanos had to snap twice</value>
+  </data>
+  <data name="YouHavenTViolatedAnyCommunity" xml:space="preserve">
+    <value>You haven't violated any community standards in last few weeks, are you ok?</value>
+  </data>
+  <data name="YesterdayIsHistoryTomorrowIsA" xml:space="preserve">
+    <value>Yesterday is history, tomorrow is a mystery, but today is a gift, that’s why it's called the present.</value>
+  </data>
+  <data name="MadBaldingMalding" xml:space="preserve">
+    <value>Mad + Balding = Malding.</value>
+  </data>
+  <data name="KeepCopingKing" xml:space="preserve">
+    <value>Keep coping, king.</value>
+  </data>
+  <data name="CryAboutIt" xml:space="preserve">
+    <value>Cry about it.</value>
+  </data>
+  <data name="TrashAss" xml:space="preserve">
+    <value>trash ass</value>
+  </data>
+  <data name="YouReNotTrashTrashHas" xml:space="preserve">
+    <value>You're not trash, trash has value.</value>
+  </data>
+  <data name="BroTalksLikeHeSStuck" xml:space="preserve">
+    <value>Bro talks like he’s stuck in tutorial dialogue.</value>
+  </data>
+  <data name="PleaseDoNotAbuseThisFeature" xml:space="preserve">
+    <value>Please do not abuse this feature by afking during the game, especially in newbie channel. This feature is intended to prevent disconnection only for emergency situations.</value>
+  </data>
+  <data name="FailedToExportCameraSettings" xml:space="preserve">
+    <value>Failed to export camera settings: </value>
+  </data>
+  <data name="FailedToImportCameraSettings" xml:space="preserve">
+    <value>Failed to import camera settings: </value>
+  </data>
+  <data name="TheIPAddressEnteredIsNot" xml:space="preserve">
+    <value>The IP address entered is not valid. Please enter a valid IPv4 address.</value>
+  </data>
+  <data name="PingSuccessfulTheConnectionIsLive" xml:space="preserve">
+    <value>Ping successful. The connection is live.</value>
+  </data>
+  <data name="PingFailedUnableToReachThe" xml:space="preserve">
+    <value>Ping failed. Unable to reach the IP address.</value>
+  </data>
+  <data name="AnErrorOccurredWhileTryingTo" xml:space="preserve">
+    <value>An error occurred while trying to ping the IP address.</value>
+  </data>
+  <data name="PleaseCloseTheGameFirstBefore_2" xml:space="preserve">
+    <value>Please close the game first before changing this setting.</value>
+  </data>
+  <data name="XCEmulatorRequiresMicrosoftVisualC2012" xml:space="preserve">
+    <value>XCEmulator requires Microsoft Visual C++ 2012 Redistributable (x86) to be installed. Without it, you may encounter errors when launching the game.</value>
+  </data>
+  <data name="XCEmulatorIsNotSupportedForThe" xml:space="preserve">
+    <value>XCEmulator is not supported for the Tiancity client as it does not use Xigncode.</value>
+  </data>
+  <data name="DisablingTheXCEmulatorClientWillAlso" xml:space="preserve">
+    <value>Disabling the XCEmulator client will also terminate the host. Continue?</value>
+  </data>
+  <data name="XCEmulatorHostRequiresMicrosoftVisualC" xml:space="preserve">
+    <value>XCEmulator host requires Microsoft Visual C++ 2015-2022 Redistributable (x86) or v14 Redistributable to be installed.</value>
+  </data>
+  <data name="ExecuteInGameManagedEventsUsing" xml:space="preserve">
+    <value>Execute in-game managed events using Cat's magick.</value>
+  </data>
+  <data name="MaySummonAccidentalFishStorms" xml:space="preserve">
+    <value>May summon accidental fish storms.</value>
+  </data>
+  <data name="SideEffectsIncludeSpontaneousMeowingAnd" xml:space="preserve">
+    <value>Side effects include spontaneous meowing and sparkles.</value>
+  </data>
+  <data name="FurMayFlyResultsNotGuaranteed" xml:space="preserve">
+    <value>Fur may fly. Results not guaranteed in dog zones.</value>
+  </data>
+  <data name="PoweredByCaffeineChaosAndA" xml:space="preserve">
+    <value>Powered by caffeine, chaos, and a suspicious paw gesture.</value>
+  </data>
+  <data name="NoWizardsWereHarmedButA" xml:space="preserve">
+    <value>No wizards were harmed (but a few were scratched).</value>
+  </data>
+  <data name="MayCauseEnemiesToTripOver" xml:space="preserve">
+    <value>May cause enemies to trip over invisible yarn.</value>
+  </data>
+  <data name="AllSpellsTestedOnConsentingMice" xml:space="preserve">
+    <value>All spells tested on consenting mice.</value>
+  </data>
+  <data name="UseResponsiblyOneMeowTooMany" xml:space="preserve">
+    <value>Use responsibly. One meow too many can break the timeline.</value>
+  </data>
+  <data name="N12OutOf10FamiliarsRecommend" xml:space="preserve">
+    <value>12 out of 10 familiars recommend it.</value>
+  </data>
+  <data name="VoidApprovedMostly" xml:space="preserve">
+    <value>Void approved. Mostly.</value>
+  </data>
+  <data name="LicensedUnderTheMeowgicCouncilOf" xml:space="preserve">
+    <value>Licensed under the Meowgic Council of Elders.</value>
+  </data>
+  <data name="CatSpellsAre80Effective20" xml:space="preserve">
+    <value>Cat spells are 80% effective, 20% nap.</value>
+  </data>
+  <data name="PoweredByAncientWhiskersAndQuestionable" xml:space="preserve">
+    <value>Powered by ancient whiskers and questionable decisions.</value>
+  </data>
+  <data name="CertifiedChaosUseAtYourOwn" xml:space="preserve">
+    <value>Certified chaos. Use at your own purrril.</value>
+  </data>
+  <data name="MayTurnEnemiesIntoSqueakyToys" xml:space="preserve">
+    <value>May turn enemies into squeaky toys.</value>
+  </data>
+  <data name="MagickConjuredWithZeroUserTesting" xml:space="preserve">
+    <value>Magick conjured with zero user testing.</value>
+  </data>
+  <data name="ResultsMayVaryDependingOnLunar" xml:space="preserve">
+    <value>Results may vary depending on lunar tuna cycles.</value>
+  </data>
+  <data name="ThisMagickWasLastApprovedBy" xml:space="preserve">
+    <value>This magick was last approved by a sleeping cat.</value>
+  </data>
+  <data name="TapIntoPurrDimensionalEnergyStreams" xml:space="preserve">
+    <value>Tap into purr-dimensional energy streams.</value>
+  </data>
+  <data name="MayCauseYourScreenToPurr" xml:space="preserve">
+    <value>May cause your screen to purr softly at midnight.</value>
+  </data>
+  <data name="KnownToReverseGravityAndCommon" xml:space="preserve">
+    <value>Known to reverse gravity... and common sense.</value>
+  </data>
+  <data name="UnleashesArcaneFluffAcrossAllTimelines" xml:space="preserve">
+    <value>Unleashes arcane fluff across all timelines.</value>
+  </data>
+  <data name="WhiskerTunedForExtraSparkles" xml:space="preserve">
+    <value>Whisker-tuned for extra sparkles.</value>
+  </data>
+  <data name="SummoningCircleDrawnWithSpilledMilk" xml:space="preserve">
+    <value>Summoning circle drawn with spilled milk.</value>
+  </data>
+  <data name="TechnicallyLegalIn7RealmsAnd" xml:space="preserve">
+    <value>Technically legal in 7 realms and 3 basements.</value>
+  </data>
+  <data name="RunesTranslatedByASlightlyGrumpy" xml:space="preserve">
+    <value>Runes translated by a slightly grumpy housecat.</value>
+  </data>
+  <data name="Requires1Mana2NapsAnd" xml:space="preserve">
+    <value>Requires 1 mana, 2 naps, and a judgmental stare.</value>
+  </data>
+  <data name="SpellStabilityQuestionableVibesImmaculat" xml:space="preserve">
+    <value>Spell stability: questionable. Vibes: immaculate.</value>
+  </data>
+  <data name="NoClawsWereFiledInThe" xml:space="preserve">
+    <value>No claws were filed in the making of this spell.</value>
+  </data>
+  <data name="SometimesJustMeowsAtTheCode" xml:space="preserve">
+    <value>Sometimes just meows at the code until it works.</value>
+  </data>
+  <data name="CalibratedWithYarnBasedAlgorithms" xml:space="preserve">
+    <value>Calibrated with yarn-based algorithms.</value>
+  </data>
+  <data name="UnlocksTheSacredPowerOfNap" xml:space="preserve">
+    <value>Unlocks the sacred power of nap-fueled destruction.</value>
+  </data>
+  <data name="TestedByCatQAQualityAssurance" xml:space="preserve">
+    <value>Tested by Cat QA: Quality Assurance or Quantum Anomalies?</value>
+  </data>
+  <data name="ContentsMayHaveSettledDuringTeleportatio" xml:space="preserve">
+    <value>Contents may have settled during teleportation.</value>
+  </data>
+  <data name="DisclaimerCatNotResponsibleForSummoned" xml:space="preserve">
+    <value>Disclaimer: Cat not responsible for summoned chaos.</value>
+  </data>
+  <data name="InfusedWithTheSpiritOfA" xml:space="preserve">
+    <value>Infused with the spirit of a very dramatic tabby.</value>
+  </data>
+  <data name="DoesNotComplyWithISOWhisker" xml:space="preserve">
+    <value>Does not comply with ISO-whisker standards.</value>
+  </data>
+  <data name="Guaranteed9LivesOrYourMagic" xml:space="preserve">
+    <value>Guaranteed 9 lives or your magic back!</value>
+  </data>
+  <data name="JustOnePawTapAwayFrom" xml:space="preserve">
+    <value>Just one paw tap away from cosmic disruption.</value>
+  </data>
+  <data name="DoNotFeedAfterMidnightOr" xml:space="preserve">
+    <value>Do not feed after midnight. Or before. Or during.</value>
+  </data>
+  <data name="GeneratedWith100EthicallySourcedWhiskers" xml:space="preserve">
+    <value>Generated with 100% ethically-sourced whiskers.</value>
+  </data>
+  <data name="MagickPrecisionMayVaryBasedOn" xml:space="preserve">
+    <value>Magick precision may vary based on nap schedule.</value>
+  </data>
+  <data name="OperatesOnSchrDingerSLogic" xml:space="preserve">
+    <value>Operates on Schrödinger's logic engine.</value>
+  </data>
+  <data name="ThisSpellbookSmellsFaintlyOfSardines" xml:space="preserve">
+    <value>This spellbook smells faintly of sardines.</value>
+  </data>
+  <data name="MaySummonSnacksInsteadOfSpells" xml:space="preserve">
+    <value>May summon snacks instead of spells.</value>
+  </data>
+  <data name="AllEnchantmentsBetaTestedOnCardboard" xml:space="preserve">
+    <value>All enchantments beta-tested on cardboard boxes.</value>
+  </data>
+  <data name="RecommendedBy4OutOf5" xml:space="preserve">
+    <value>Recommended by 4 out of 5 interdimensional felines.</value>
+  </data>
+  <data name="ImbuedWithExtraFluffForCritical" xml:space="preserve">
+    <value>Imbued with extra fluff for critical hits.</value>
+  </data>
+  <data name="BuiltUsingAncientMeowScript10" xml:space="preserve">
+    <value>Built using ancient meowScript 1.0.</value>
+  </data>
+  <data name="CautionMagickMayAttractVoidEntities" xml:space="preserve">
+    <value>Caution: Magick may attract void entities (and snacks).</value>
+  </data>
+  <data name="SuccessRateIncreasesIfYouPurr" xml:space="preserve">
+    <value>Success rate increases if you purr near the screen.</value>
+  </data>
+  <data name="Includes12MoreSparkleThanLegally" xml:space="preserve">
+    <value>Includes 12% more sparkle than legally allowed.</value>
+  </data>
+  <data name="SpellLatencyMayIncreaseDuringCuddle" xml:space="preserve">
+    <value>Spell latency may increase during cuddle hours.</value>
+  </data>
+  <data name="CalibratedForMaximumWhimsyAndMinor" xml:space="preserve">
+    <value>Calibrated for maximum whimsy and minor explosions.</value>
+  </data>
+  <data name="Only3ChanceOfSummoningA" xml:space="preserve">
+    <value>Only 3% chance of summoning a chicken. We think.</value>
+  </data>
+  <data name="TranslatedFromAncientCatneseScrollsProba" xml:space="preserve">
+    <value>Translated from Ancient Catnese scrolls (probably).</value>
+  </data>
+  <data name="TheSpellMayVanishIfObserved" xml:space="preserve">
+    <value>The spell may vanish if observed directly.</value>
+  </data>
+  <data name="OptimizedForChaosNotConsistency" xml:space="preserve">
+    <value>Optimized for chaos, not consistency.</value>
+  </data>
+  <data name="PawCraftedUsingDarkLitterRituals" xml:space="preserve">
+    <value>Paw-crafted using dark litter rituals.</value>
+  </data>
+  <data name="ContentsMayShiftDueToQuantum" xml:space="preserve">
+    <value>Contents may shift due to quantum fluff fields.</value>
+  </data>
+  <data name="BackupWandIsALaserPointer" xml:space="preserve">
+    <value>Backup wand is a laser pointer taped to a stick.</value>
+  </data>
+  <data name="EndorsedByTheCouncilOfSleepy" xml:space="preserve">
+    <value>Endorsed by The Council of Sleepy Wizards.</value>
+  </data>
+  <data name="CastingTimeOneDramaticTailFlick" xml:space="preserve">
+    <value>Casting time: one dramatic tail flick.</value>
+  </data>
+  <data name="SpellMayLoopIfYouSay" xml:space="preserve">
+    <value>Spell may loop if you say 'meow' three times fast.</value>
+  </data>
+  <data name="MysteryBoxIncludedCatSoldSeparately" xml:space="preserve">
+    <value>Mystery box included. Cat sold separately.</value>
+  </data>
+  <data name="ThisActionHasACooldownOf" xml:space="preserve">
+    <value>This action has a cooldown of {0} seconds. Process?</value>
+  </data>
+  <data name="ConnectingTunnel" xml:space="preserve">
+    <value>Connecting tunnel...</value>
+  </data>
+  <data name="TunnelUnreachable" xml:space="preserve">
+    <value>Tunnel unreachable.</value>
+  </data>
+  <data name="TunnelDown" xml:space="preserve">
+    <value>  [tunnel down]</value>
+  </data>
+  <data name="ViaTun" xml:space="preserve">
+    <value>via tun</value>
+  </data>
+  <data name="ReadFailed" xml:space="preserve">
+    <value>(read failed)</value>
+  </data>
+  <data name="StalphRightEre" xml:space="preserve">
+    <value>stalph right 'ere!</value>
+  </data>
+  <data name="StalphPoliceHere" xml:space="preserve">
+    <value>stalph, police here!</value>
+  </data>
+  <data name="OiGotALoicense" xml:space="preserve">
+    <value>oi, got a loicense?</value>
+  </data>
+  <data name="ComeDoACrime" xml:space="preserve">
+    <value>come, do a crime</value>
+  </data>
+  <data name="NotSoFast" xml:space="preserve">
+    <value>not so fast!</value>
+  </data>
+  <data name="HaltKawaiiPatrol" xml:space="preserve">
+    <value>halt! kawaii patrol!</value>
+  </data>
+  <data name="EhYouAgain" xml:space="preserve">
+    <value>eh!? you again?</value>
+  </data>
+  <data name="OiExplainYourself" xml:space="preserve">
+    <value>oi, explain yourself!</value>
+  </data>
+  <data name="MouseDown" xml:space="preserve">
+    <value>mouse down!</value>
+  </data>
+  <data name="MeowsageFromTheCat" xml:space="preserve">
+    <value>Meowsage from the cat</value>
+  </data>
+  <data name="OiMateYouFoundASecret" xml:space="preserve">
+    <value>Oi mate, you found a secret cat! Do you want to download it?</value>
+  </data>
+  <data name="OiYouCheekyWanker" xml:space="preserve">
+    <value>Oi you cheeky wanker!</value>
+  </data>
+  <data name="StillCheekyAreWeThatS" xml:space="preserve">
+    <value>Still cheeky, are we? That's not a real cat, mate.</value>
+  </data>
+  <data name="AlrightNowThisIsnTSome" xml:space="preserve">
+    <value>Alright now, this isn't some kind of hidden cat summoner. Or is it?</value>
+  </data>
+  <data name="YouReEitherCuriousOrDangerously" xml:space="preserve">
+    <value>You're either curious... or dangerously persistent.</value>
+  </data>
+  <data name="TryingToBruteForceTheCat" xml:space="preserve">
+    <value>Trying to brute force the cat secrets? Bold move.</value>
+  </data>
+  <data name="ThereAreNoMoreCatsHere" xml:space="preserve">
+    <value>There are no more cats here. Or are there? 🐾</value>
+  </data>
+  <data name="YouVeEnteredTheForbiddenZone" xml:space="preserve">
+    <value>You've entered The Forbidden Zone. Turn back while you still can.</value>
+  </data>
+  <data name="OkayFineThereMightBeSomething" xml:space="preserve">
+    <value>Okay, fine. There *might* be something. But not this way.</value>
+  </data>
+  <data name="AtThisPointIAdmireYour" xml:space="preserve">
+    <value>At this point, I admire your dedication. The cats are watching.</value>
+  </data>
+  <data name="SeriouslyWhatAreYouHopingTo" xml:space="preserve">
+    <value>Seriously, what are you hoping to find? A secret boss fight?</value>
+  </data>
+  <data name="YouReEitherTestingThisOr" xml:space="preserve">
+    <value>You're either testing this... or slowly becoming part of the game.</value>
+  </data>
+  <data name="SomewhereADeveloperIsLaughingIt" xml:space="preserve">
+    <value>Somewhere, a developer is laughing. It's not me. Probably.</value>
+  </data>
+  <data name="LegendSaysAfter13TriesThe" xml:space="preserve">
+    <value>Legend says after 13 tries, the Cat Oracle appears. Just a legend though. Probably.</value>
+  </data>
+  <data name="YouVeCrossedIntoCatDimension" xml:space="preserve">
+    <value>You've crossed into cat dimension 4. Only fluff remains.</value>
+  </data>
+  <data name="TheSystemIsBeginningToTake" xml:space="preserve">
+    <value>The system is beginning to take notice. Proceed with caution.</value>
+  </data>
+  <data name="IsThisACryForHelp" xml:space="preserve">
+    <value>Is this a cry for help, or just intense curiosity?</value>
+  </data>
+  <data name="EveryTimeYouDoThisA" xml:space="preserve">
+    <value>Every time you do this, a cat blinks... somewhere.</value>
+  </data>
+  <data name="YouAreNow82CommittedTo" xml:space="preserve">
+    <value>You are now 82% committed to the path of feline enlightenment.</value>
+  </data>
+  <data name="TheSacredPawsAreRestlessThey" xml:space="preserve">
+    <value>The sacred paws are restless. They're watching...</value>
+  </data>
+  <data name="YouFoundItTheSecretNothing" xml:space="preserve">
+    <value>You found it. The secret nothing. It's everything and nothing. Congrats?</value>
+  </data>
+  <data name="GoOutsideTouchGrassThereAre" xml:space="preserve">
+    <value>Go outside. Touch grass. There are no more cats here.</value>
+  </data>
+  <data name="N22AttemptsThatSMoreThan" xml:space="preserve">
+    <value>22 attempts. That's more than most relationships last.</value>
+  </data>
+  <data name="YouReNoLongerTryingTo" xml:space="preserve">
+    <value>You're no longer trying to find cats. You're proving a point. And I respect it.</value>
+  </data>
+  <data name="TheMatrixJustTiltedItsHead" xml:space="preserve">
+    <value>The Matrix just tilted its head. Even *it* is confused.</value>
+  </data>
+  <data name="YouVeReachedCatAttempt25" xml:space="preserve">
+    <value>You've reached cat attempt 25. Your reward: This message. Cherish it.</value>
+  </data>
+  <data name="OkaySlowTheHeckDown" xml:space="preserve">
+    <value>Okay, slow the heck down!</value>
+  </data>
+  <data name="FiftyAttemptsYouVeReachedThe" xml:space="preserve">
+    <value>Fifty attempts. You've reached the threshold. Something has changed.</value>
+  </data>
+  <data name="StillHereMostDonTMake" xml:space="preserve">
+    <value>Still here? Most don't make it this far. You're not like most.</value>
+  </data>
+  <data name="YouVeEnteredLayer2The" xml:space="preserve">
+    <value>You've entered Layer 2. The surface was merely a distraction.</value>
+  </data>
+  <data name="TheBoundariesOfTheProgramGrow" xml:space="preserve">
+    <value>The boundaries of the program grow thin. Reality... flickers.</value>
+  </data>
+  <data name="AVariableStirsItRemembersYou" xml:space="preserve">
+    <value>A variable stirs. It remembers you. It always has.</value>
+  </data>
+  <data name="YouReNotSearchingForA" xml:space="preserve">
+    <value>You're not searching for a cat anymore. You're searching for meaning.</value>
+  </data>
+  <data name="YouFeelWatchedTheWatcherFeels" xml:space="preserve">
+    <value>You feel watched. The watcher feels watched. The loop continues.</value>
+  </data>
+  <data name="ThereWasNeverACatOnly" xml:space="preserve">
+    <value>There was never a cat. Only the idea of a cat. And you bought it.</value>
+  </data>
+  <data name="WhatIfThisIsTheSecret" xml:space="preserve">
+    <value>What if this *is* the secret? What if there's nothing else?</value>
+  </data>
+  <data name="YouVePeeledBackTheLayers" xml:space="preserve">
+    <value>You've peeled back the layers. Underneath the game is... you.</value>
+  </data>
+  <data name="CongratulationsYouVeUnlockedTheHidden" xml:space="preserve">
+    <value>Congratulations. You've unlocked the hidden realization: persistence is its own reward.</value>
+  </data>
+  <data name="NoMoreMessagesRemainOrDo" xml:space="preserve">
+    <value>No more messages remain. Or do they? Some mysteries aren't meant to be solved.</value>
+  </data>
+  <data name="CongratulationsYouAreNowACertified" xml:space="preserve">
+    <value>Congratulations, you are now a certified cat whisperer. Or something like that.</value>
+  </data>
+  <data name="DoYouWantToEnableSafe" xml:space="preserve">
+    <value>Do you want to enable safe mode?</value>
+  </data>
+  <data name="ShamikoHasWrappedYouInHer" xml:space="preserve">
+    <value>Shamiko has wrapped you in her cloak of shadows. Safe mode is now active.</value>
+  </data>
+  <data name="AreYouSureYouWantTo_3" xml:space="preserve">
+    <value>Are you sure you want to disable safe mode?</value>
+  </data>
+  <data name="SafeModeHasBeenDisabledShamiko" xml:space="preserve">
+    <value>Safe mode has been disabled. Shamiko's blessing fades into the void.</value>
+  </data>
+  <data name="DoYouWantToEnableAsInvoker" xml:space="preserve">
+    <value>Do you want to enable asInvoker?</value>
+  </data>
+  <data name="AsInvokerHasBeenEnabled" xml:space="preserve">
+    <value>asInvoker has been enabled.</value>
+  </data>
+  <data name="AreYouSureYouWantTo_4" xml:space="preserve">
+    <value>Are you sure you want to disable asInvoker?</value>
+  </data>
+  <data name="AsInvokerHasBeenDisabled" xml:space="preserve">
+    <value>asInvoker has been disabled.</value>
+  </data>
+  <data name="NyaaSupport" xml:space="preserve">
+    <value>nyaa~ support?</value>
+  </data>
+  <data name="FeedMeCoins" xml:space="preserve">
+    <value>feed me coins~</value>
+  </data>
+  <data name="BuyMeASnack" xml:space="preserve">
+    <value>buy me a snack?</value>
+  </data>
+  <data name="MeowThanks" xml:space="preserve">
+    <value>meow~ thanks!</value>
+  </data>
+  <data name="ClickyClicky" xml:space="preserve">
+    <value>clicky clicky~</value>
+  </data>
+  <data name="GibTreatsPwease" xml:space="preserve">
+    <value>gib treats pwease!</value>
+  </data>
+  <data name="UwuThankies" xml:space="preserve">
+    <value>uwu thankies!</value>
+  </data>
+  <data name="SoShinyCoin" xml:space="preserve">
+    <value>so shiny coin!</value>
+  </data>
+  <data name="ForTheBunFund" xml:space="preserve">
+    <value>for the bun fund!</value>
+  </data>
+  <data name="NyaIMPoor" xml:space="preserve">
+    <value>nya~ I'm poor :&lt;</value>
+  </data>
+  <data name="OpenProcessFailed" xml:space="preserve">
+    <value>OpenProcess failed</value>
+  </data>
+  <data name="SupportMyWork" xml:space="preserve"><value>💖 Support my work! 💖
+
+Hey there! If you enjoy my work and want to support future updates, consider buying me a coffee or sending a PayPal donation. Every bit helps and keeps the project alive!
+
+For other options, contact me at takatran29@gmail.com.
+</value></data>
+  <data name="HarkTravelerDostThouSeek" xml:space="preserve"><value>Hark, traveler! Dost thou seek to grant thy champion a cunning edge? Within this shadowed realm lie secrets most rare, gifts that lend strength yet keep the balance of the world unbroken. Subtle enchantments await, enough to stir the winds of fate and keep the journey ever bold and true.
+
+If thy curiosity be stirred, seek me, and more shall be revealed.</value></data>
+</root>

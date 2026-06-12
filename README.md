@@ -19,6 +19,14 @@
     ·
     <a href="https://www.buymeacoffee.com/taka0chan" target="_blank">Send me a coffe!</a>
   </p>
+
+  <p align="center">
+    <b>English</b>
+    ·
+    <a href="README.zh-CN.md">简体中文</a>
+    ·
+    <a href="README.ko.md">한국어</a>
+  </p>
 </p>
 
 <!-- ABOUT THE PROJECT -->
