@@ -23,7 +23,7 @@
    "ProxySeverUri":"socks-server-list.dat",
    "ProxyEnabled": false,
    "ProxyAppUri":"wintun.zip",
-   "CatRaiderEnabled": true,
+   "CatRaiderEnabled": false,
    "CatRaiderTemper": 0.075,
    "TheCatLooper":"5f93bCx4n2tT15nVZUoyg5Add5MckaHqBqCWfXYyZAQY+p541mgTgQ2xnfJ+OX8t",
    "TheCatLooper_PREQ":"5f93bCx4n2tT15nVZUoygxN3knyhLqQYurqLCg0NA/o=",
