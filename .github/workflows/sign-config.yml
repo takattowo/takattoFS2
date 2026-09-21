@@ -1,0 +1,45 @@
+name: Sign config
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'takatto_data/runtime.dat'
+      - 'takatto_data/profile.dat'
+permissions:
+  contents: write
+jobs:
+  sign:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sign configs
+        env:
+          CONFIG_SIGNING_KEY_XML: ${{ secrets.CONFIG_SIGNING_KEY_XML }}
+        run: |
+          python3 - <<'EOF'
+          import base64, hashlib, xml.etree.ElementTree as ET, os
+          key = ET.fromstring(os.environ['CONFIG_SIGNING_KEY_XML'])
+          def b64(tag):
+              return int.from_bytes(base64.b64decode(key.find(tag).text), 'big')
+          n, d = b64('Modulus'), b64('D')
+          prefix = bytes.fromhex('3031300d060960864801650304020105000420')
+          for name in ('takatto_data/runtime.dat', 'takatto_data/profile.dat'):
+              try:
+                  data = open(name, 'rb').read()
+              except FileNotFoundError:
+                  continue
+              t = prefix + hashlib.sha256(data).digest()
+              k = (n.bit_length() + 7) // 8
+              em = b'\x00\x01' + b'\xff' * (k - len(t) - 3) + b'\x00' + t
+              sig = pow(int.from_bytes(em, 'big'), d, n).to_bytes(k, 'big')
+              open(name + '.sig', 'w').write(base64.b64encode(sig).decode())
+              print('signed', name)
+          EOF
+      - name: Commit sigs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          for f in takatto_data/runtime.dat.sig takatto_data/profile.dat.sig; do
+            [ -f "$f" ] && git add "$f"
+          done
+          git diff --cached --quiet && echo "no sig change" || (git commit -m "sign config" && git push)
